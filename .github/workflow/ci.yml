@@ -1,4 +1,3 @@
-
 name: CI
 
 on:
@@ -7,32 +6,26 @@ on:
       - master
 
 jobs:
-  
   build:
-    
     runs-on: ubuntu-latest
 
-    
     steps:
-      
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      
-      - name: Setup 
+
+      - name: Setup
         run: script/setup
 
-      - name: Build Application 
+      - name: Build Application
         run: script/build_frontend
 
       - name: Run Test
         run: yarn test
 
-      - name: Zip static files 
+      - name: Zip static files
         run: zip -r frontend-develop.zip hass_frontend
 
       - name: Sending static files
         run: curl -s -u unisec -X POST https://api.bitbucket.org/2.0/repositories/unisec/frontend/downloads -F files=@frontend-develop.zip
-
-

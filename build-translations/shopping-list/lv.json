@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Pievienot vienumu",
+        "clear_completed": "Noņemt izpildītos",
+        "microphone_tip": "Pieskarieties mikrofonam augšējā labajā stūrī un sakiet vai rakstiet \"Pievienot konfektes manam iepirkumu sarakstam\""
+      }
+    }
+  }
+}

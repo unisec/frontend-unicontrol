@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Haut",
+          "yesterday": "Gëschter",
+          "this_week": "Dës Woch",
+          "last_week": "Läscht Woch"
+        },
+        "entries_not_found": "Keng Logbicher Entrée fonnt",
+        "period": "Zäitraum",
+        "showing_entries": "Weist Beiträg fir"
+      }
+    }
+  }
+}

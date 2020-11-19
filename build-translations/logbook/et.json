@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Täna",
+          "yesterday": "Eile",
+          "this_week": "See nädal",
+          "last_week": "Eelmine nädal"
+        },
+        "entries_not_found": "Logiraamatu kandeid ei leitud.",
+        "period": "Periood",
+        "showing_entries": "Näitan kuupäeva"
+      }
+    }
+  }
+}

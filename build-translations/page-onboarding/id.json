@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Siap untuk membuat rumah Anda lebih hidup, merebut kembali privasi Anda, dan bergabung dengan komunitas pemikir dunia?",
+        "user": {
+          "intro": "Mari kita mulai dengan membuat akun pengguna.",
+          "required_field": "Wajib",
+          "data": {
+            "name": "Nama",
+            "username": "Nama Pengguna",
+            "password": "Kata Sandi",
+            "password_confirm": "Confirm Password"
+          },
+          "create_account": "Buat Akun",
+          "error": {
+            "required_fields": "Isi semua bidang yang wajib diisi",
+            "password_not_match": "Passwords don't match"
+          }
+        },
+        "core-config": {
+          "intro": "Halo {name}, selamat datang di Home Assistant. Nama apa yang ingin diberikan untuk rumah Anda?",
+          "intro_location": "We would like to know where you live. This information will help with displaying information and setting up sun-based automations. This data is never shared outside of your network.",
+          "intro_location_detect": "Kami dapat membantu Anda mengisi informasi ini dengan membuat permintaan satu kali ke layanan eksternal.",
+          "location_name": "Name of your Home Assistant installation",
+          "location_name_default": "Rumah",
+          "button_detect": "Deteksi",
+          "finish": "Berikutnya"
+        },
+        "integration": {
+          "intro": "Devices and services are represented in Home Assistant as integrations. You can set them up now, or do it later from the configuration screen.",
+          "more_integrations": "More",
+          "finish": "Selesai"
+        },
+        "restore": {
+          "description": "Alternatively you can restore from a previous snapshot.",
+          "in_progress": "Restore in progress",
+          "show_log": "Show full log",
+          "hide_log": "Hide full log"
+        }
+      }
+    }
+  }
+}

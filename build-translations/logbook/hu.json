@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Ma",
+          "yesterday": "Tegnap",
+          "this_week": "Aktuális hét",
+          "last_week": "Múlt hét"
+        },
+        "entries_not_found": "Nincsenek naplóbejegyzések.",
+        "period": "Időszak",
+        "showing_entries": "Bejegyzések megjelenítése"
+      }
+    }
+  }
+}

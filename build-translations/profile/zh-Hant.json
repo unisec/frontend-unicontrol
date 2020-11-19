@@ -1,0 +1,120 @@
+{
+  "ui": {
+    "panel": {
+      "profile": {
+        "current_user": "目前登入身份：{fullName}。",
+        "is_owner": "你為擁有者。",
+        "logout": "登出",
+        "logout_title": "登出？",
+        "logout_text": "確定要登出？",
+        "force_narrow": {
+          "header": "總是隱藏側邊列",
+          "description": "將預設隱藏側邊列，類似於手機 App 使用方式。"
+        },
+        "customize_sidebar": {
+          "header": "自側邊列中變更順序或隱藏項目",
+          "description": "同時也能長按側邊列的標題以啟動編輯模式。",
+          "button": "編輯"
+        },
+        "vibrate": {
+          "header": "震動",
+          "description": "當控制裝置時、開啟或關閉此裝置震動。"
+        },
+        "enable_shortcuts": {
+          "header": "鍵盤捷徑",
+          "description": "開啟或關閉鍵盤捷徑以於 UI 執行各種操作。"
+        },
+        "suspend": {
+          "header": "自動關閉連線",
+          "description": "於隱藏五分鐘後關閉連線？"
+        },
+        "push_notifications": {
+          "header": "通知推送",
+          "description": "傳送通知推送至此設備。",
+          "error_load_platform": "設定 notify.html5。",
+          "error_use_https": "需要啟用前端 SSL 加密。",
+          "push_notifications": "通知推送",
+          "link_promo": "了解更多",
+          "add_device_prompt": {
+            "title": "為該設備命名？",
+            "input_label": "設備名稱"
+          }
+        },
+        "language": {
+          "header": "語言",
+          "link_promo": "協助翻譯",
+          "dropdown_label": "語言"
+        },
+        "themes": {
+          "header": "主題",
+          "error_no_theme": "無主題可使用。",
+          "link_promo": "關於此主題",
+          "dropdown_label": "主題",
+          "dark_mode": { "auto": "自動", "light": "淡色", "dark": "深色" },
+          "primary_color": "主色彩",
+          "accent_color": "加重顏色",
+          "reset": "重置"
+        },
+        "dashboard": {
+          "header": "主面板",
+          "description": "選擇此設備的預設主面板。",
+          "dropdown_label": "主面板"
+        },
+        "change_password": {
+          "header": "變更密碼",
+          "current_password": "目前密碼",
+          "new_password": "新密碼",
+          "confirm_new_password": "確認密碼",
+          "error_required": "必填",
+          "submit": "傳送"
+        },
+        "mfa": {
+          "header": "多步驟驗證模組",
+          "disable": "關閉",
+          "enable": "開啟",
+          "confirm_disable": "確定要關閉{name}？"
+        },
+        "mfa_setup": {
+          "title_aborted": "已中止",
+          "title_success": "成功！",
+          "step_done": "{step}已設定完成",
+          "close": "關閉",
+          "submit": "傳送"
+        },
+        "advanced_mode": {
+          "title": "進階模式",
+          "description": "解除隱藏進階功能。",
+          "link_promo": "了解更多"
+        },
+        "refresh_tokens": {
+          "header": "更新密鑰",
+          "description": "每一個更新密鑰標示為一次登錄活動。當點選登出時，更新密鑰將會自動移除。目前你的帳號已啟用之更新密鑰如下。",
+          "token_title": "{clientId}更新密鑰",
+          "created_at": "於{date}創建",
+          "last_used": "上次使用：於{date}、位置{location}",
+          "not_used": "從未使用過",
+          "confirm_delete": "確定要刪除{name}更新密鑰嗎？",
+          "delete_failed": "刪除更新密鑰失敗。",
+          "current_token_tooltip": "無法刪除目前更新密鑰"
+        },
+        "long_lived_access_tokens": {
+          "header": "永久有效存取密鑰",
+          "description": "創建長效存取密鑰，可供運用腳本與 Home Assistant 實體進行互動。每個密鑰於創建後，有效期為十年。目前已啟用之永久有效密鑰如下。",
+          "learn_auth_requests": "學習如何進行驗證請求。",
+          "created": "新增日期：{date}",
+          "confirm_delete": "確定要刪除{name}存取密鑰嗎？",
+          "delete_failed": "刪除存取密鑰失敗。",
+          "create": "創建密鑰",
+          "create_failed": "創建存取密鑰失敗。",
+          "name": "名稱",
+          "prompt_name": "為密鑰命名",
+          "prompt_copy_token": "複製存取密鑰，將不會再次顯示。",
+          "empty_state": "尚未創建永久有效存取密鑰。",
+          "created_at": "於{date}創建",
+          "last_used": "上次使用：於{date}、位置{location}",
+          "not_used": "從未使用過"
+        }
+      }
+    }
+  }
+}

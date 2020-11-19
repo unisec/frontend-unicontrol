@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Today",
+          "yesterday": "Yesterday",
+          "this_week": "This week",
+          "last_week": "Last week"
+        },
+        "period": "ช่วงเวลา",
+        "showing_entries": "วันที่ต้องการแสดง"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "క్రొత్తది జోడించు",
+        "clear_completed": "పూర్తయినవి తొలిగించు",
+        "microphone_tip": "కుడి వైపున మైక్రోఫోన్ను నొక్కి, “Add candy to my shopping list”"
+      }
+    }
+  }
+}

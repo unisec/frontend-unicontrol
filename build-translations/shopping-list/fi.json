@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Lisää tavara",
+        "clear_completed": "Poista valmiit",
+        "microphone_tip": "Paina mikrofonia oikeassa yläkulmassa ja sano \"Lisää karkkipussi ostoslistalleni\""
+      }
+    }
+  }
+}

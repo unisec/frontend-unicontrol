@@ -1,0 +1,1302 @@
+{
+  "panel": {
+    "calendar": "カレンダー",
+    "config": "設定",
+    "states": "状態",
+    "map": "地図",
+    "logbook": "ログブック",
+    "history": "履歴",
+    "mailbox": "メールボックス",
+    "shopping_list": "買い物リスト",
+    "developer_tools": "開発者ツール",
+    "media_browser": "メディアブラウザ",
+    "profile": "プロファイル"
+  },
+  "state": {
+    "default": {
+      "on": "オン",
+      "off": "オフ",
+      "unknown": "不明",
+      "unavailable": "利用不可"
+    },
+    "alarm_control_panel": {
+      "disarmed": "解除",
+      "disarming": "解除",
+      "pending": "保留中",
+      "triggered": "トリガー"
+    },
+    "automation": { "off": "オフ", "on": "オン" },
+    "binary_sensor": {
+      "battery": { "off": "通常", "on": "低" },
+      "cold": { "off": "通常", "on": "低温" },
+      "connectivity": { "off": "切断", "on": "接続済" },
+      "default": { "off": "オフ", "on": "オン" },
+      "door": { "off": "閉鎖", "on": "開放" },
+      "garage_door": { "off": "閉鎖", "on": "開放" },
+      "gas": { "off": "未検出", "on": "検出" },
+      "heat": { "off": "正常", "on": "高温" },
+      "lock": { "off": "ロックされました", "on": "ロックされていません" },
+      "moisture": { "off": "ドライ", "on": "ウェット" },
+      "motion": { "off": "未検出", "on": "検出" },
+      "occupancy": { "off": "未検出", "on": "検出" },
+      "opening": { "off": "閉鎖", "on": "開放" },
+      "presence": { "off": "外出", "on": "在宅" },
+      "problem": { "off": "OK", "on": "問題" },
+      "safety": { "off": "安全", "on": "危険" },
+      "smoke": { "off": "未検出", "on": "検出" },
+      "sound": { "off": "未検出", "on": "検出" },
+      "vibration": { "off": "未検出", "on": "検出" },
+      "window": { "off": "閉鎖", "on": "開放" }
+    },
+    "calendar": { "off": "オフ", "on": "オン" },
+    "camera": {
+      "idle": "アイドル",
+      "recording": "録音",
+      "streaming": "ストリーミング"
+    },
+    "climate": {
+      "cool": "冷房",
+      "dry": "ドライ",
+      "fan_only": "ファンのみ",
+      "heat": "暖房",
+      "heat_cool": "暖/冷",
+      "off": "オフ"
+    },
+    "configurator": { "configure": "設定", "configured": "設定済み" },
+    "cover": {
+      "closed": "閉鎖",
+      "closing": "終了",
+      "open": "開く",
+      "opening": "扉",
+      "stopped": "停止"
+    },
+    "device_tracker": { "not_home": "外出" },
+    "fan": { "off": "オフ", "on": "オン" },
+    "group": {
+      "closed": "閉鎖",
+      "closing": "終了",
+      "home": "在宅",
+      "locked": "ロックされました",
+      "not_home": "外出",
+      "off": "オフ",
+      "ok": "OK",
+      "on": "オン",
+      "open": "開く",
+      "opening": "扉",
+      "problem": "問題",
+      "stopped": "停止",
+      "unlocked": "ロック 解除"
+    },
+    "input_boolean": { "off": "オフ", "on": "オン" },
+    "light": { "off": "オフ", "on": "オン" },
+    "lock": { "locked": "ロック", "unlocked": "ロック 解除" },
+    "media_player": {
+      "idle": "アイドル",
+      "off": "オフ",
+      "on": "オン",
+      "paused": "一時停止",
+      "playing": "再生中",
+      "standby": "スタンバイ"
+    },
+    "person": { "home": "在宅" },
+    "plant": { "ok": "OK", "problem": "問題" },
+    "remote": { "off": "オフ", "on": "オン" },
+    "scene": { "scening": "硬化" },
+    "script": { "off": "オフ", "on": "オン" },
+    "sensor": { "off": "オフ", "on": "オン" },
+    "sun": { "above_horizon": "地平線の上", "below_horizon": "地平線より下" },
+    "switch": { "off": "オフ", "on": "オン" },
+    "timer": {
+      "active": "アクティブ",
+      "idle": "アイドル",
+      "paused": "一時停止"
+    },
+    "vacuum": {
+      "cleaning": "クリーニング",
+      "docked": "ドッキング",
+      "error": "エラー",
+      "idle": "アイドル",
+      "off": "オフ",
+      "on": "オン",
+      "paused": "一時停止",
+      "returning": "ドックに戻る"
+    },
+    "weather": {
+      "clear-night": "晴れた夜",
+      "cloudy": "曇り",
+      "exceptional": "半端じゃない",
+      "fog": "霧",
+      "hail": "雹",
+      "lightning": "雷",
+      "lightning-rainy": "雷雨",
+      "partlycloudy": "晴れ時々曇り",
+      "pouring": "大雨",
+      "rainy": "雨",
+      "snowy": "雪",
+      "snowy-rainy": "みぞれ",
+      "sunny": "晴れ",
+      "windy": "強風",
+      "windy-variant": "風が強い"
+    },
+    "zwave": {
+      "default": {
+        "dead": "死んで",
+        "initializing": "初期化中",
+        "ready": "準備完了",
+        "sleeping": "スリープ"
+      },
+      "query_stage": {
+        "dead": "死んで ({query_stage})",
+        "initializing": "初期化中 ( {query_stage} )"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "オフ", "on": "オン", "auto": "オート" },
+      "preset_mode": {
+        "none": "なし",
+        "eco": "エコ",
+        "away": "外出",
+        "boost": "ブースト",
+        "comfort": "快適さ",
+        "home": "在宅",
+        "sleep": "スリープ",
+        "activity": "アクティビティ"
+      },
+      "hvac_action": {
+        "off": "オフ",
+        "heating": "暖房",
+        "cooling": "冷房",
+        "drying": "乾燥",
+        "idle": "アイドル",
+        "fan": "ファン"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "通常",
+        "eco": "エコ",
+        "away": "外出",
+        "boost": "ブースト",
+        "comfort": "快適さ",
+        "home": "ホーム",
+        "sleep": "睡眠",
+        "auto": "自動",
+        "baby": "赤ちゃん"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "不明",
+      "unavailable": "Unavai",
+      "error": "エラー",
+      "entity_not_found": "エンティティが見つかりません"
+    },
+    "alarm_control_panel": {
+      "armed": "Armed",
+      "disarmed": "解除",
+      "armed_home": "アームしました",
+      "armed_away": "Armed",
+      "armed_night": "Armed",
+      "armed_custom_bypass": "Armed",
+      "pending": "保留",
+      "arming": "Arming",
+      "disarming": "解除",
+      "triggered": "トリガー"
+    },
+    "device_tracker": { "home": "在宅", "not_home": "外出" },
+    "person": { "home": "在宅", "not_home": "外出" }
+  },
+  "groups": {
+    "system-admin": "管理者",
+    "system-users": "ユーザー",
+    "system-read-only": "読み取り専用ユーザー"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "ユーザー",
+      "integration": "インテグレーション",
+      "config_entry": "構成エントリ"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "このログインの保存をよろしいですか？",
+      "decline": "結構です",
+      "confirm": "ログインを保存"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "パスワード",
+        "clear_code": "削除",
+        "disarm": "解除",
+        "arm_home": "Arm home",
+        "arm_away": "Arm away",
+        "arm_night": "夜",
+        "arm_custom_bypass": "カスタム バイパス"
+      },
+      "automation": {
+        "last_triggered": "最後にトリガーされたのは",
+        "trigger": "トリガー"
+      },
+      "camera": { "not_available": "画像がありません。" },
+      "climate": {
+        "currently": "現在",
+        "on_off": "オン／オフ",
+        "target_temperature": "目標温度",
+        "target_temperature_entity": "{name}目標温度",
+        "target_temperature_mode": "{name}目標温度{mode}",
+        "current_temperature": "{name}現在の温度",
+        "heating": "{name}暖房",
+        "cooling": "{name} 冷房",
+        "high": "高",
+        "low": "低",
+        "target_humidity": "目標湿度",
+        "operation": "運転切替",
+        "fan_mode": "ファンモード",
+        "swing_mode": "スイングモード",
+        "preset_mode": "プリセット",
+        "away_mode": "外出モード",
+        "aux_heat": "暖める"
+      },
+      "counter": {
+        "actions": {
+          "increment": "インクリメント",
+          "decrement": "デクリメント",
+          "reset": "リセット"
+        }
+      },
+      "cover": { "position": "位置", "tilt_position": "傾斜位置" },
+      "fan": {
+        "speed": "風速",
+        "oscillate": "振動",
+        "direction": "方向",
+        "forward": "進む",
+        "reverse": "戻す"
+      },
+      "humidifier": {
+        "humidity": "目標湿度",
+        "mode": "モード",
+        "target_humidity_entity": "目標湿度",
+        "on_entity": "{name} オン"
+      },
+      "light": {
+        "brightness": "明るさ",
+        "color_temperature": "色温度",
+        "white_value": "白さの値",
+        "effect": "効果"
+      },
+      "lock": { "code": "コード", "lock": "ロック", "unlock": "ロック解除" },
+      "media_player": {
+        "source": "ソース：",
+        "sound_mode": "サウンドモード",
+        "browse_media": "メディアを参照する",
+        "turn_on": "オンにする",
+        "turn_off": "終了する",
+        "media_play": "再生",
+        "media_play_pause": "再生/一時停止",
+        "media_next_track": "次",
+        "media_previous_track": "前",
+        "text_to_speak": "音声合成"
+      },
+      "persistent_notification": { "dismiss": "消去" },
+      "scene": { "activate": "有効化" },
+      "script": {
+        "execute": "実行",
+        "cancel": "キャンセル",
+        "cancel_multiple": "キャンセル"
+      },
+      "service": { "run": "実行" },
+      "timer": {
+        "actions": {
+          "start": "開始",
+          "pause": "一時停止",
+          "cancel": "キャンセル",
+          "finish": "完了"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "クリーニングを再開する",
+          "return_to_base": "ドックに戻る",
+          "start_cleaning": "クリーニングを開始",
+          "turn_on": "終了する",
+          "turn_off": "終了する"
+        }
+      },
+      "water_heater": {
+        "currently": "現在",
+        "on_off": "オン／オフ",
+        "target_temperature": "目標温度",
+        "operation": "操作",
+        "away_mode": "外出モード"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "気圧",
+          "humidity": "湿度",
+          "temperature": "温度",
+          "visibility": "可視性",
+          "wind_speed": "風速",
+          "precipitation": "降水量"
+        },
+        "cardinal_direction": {
+          "e": "東",
+          "ene": "東北東",
+          "ese": "東南東",
+          "n": "北",
+          "ne": "北東",
+          "nne": "北北東",
+          "nw": "北西",
+          "nnw": "北北西",
+          "s": "南",
+          "se": "南東",
+          "sse": "南南東",
+          "ssw": "南南西",
+          "sw": "南西",
+          "w": "西",
+          "wnw": "西北西",
+          "wsw": "西南西"
+        },
+        "day": "日",
+        "night": "夜",
+        "forecast": "天気予報",
+        "high": "高",
+        "low": "低"
+      }
+    },
+    "common": {
+      "and": "そして",
+      "continue": "続行",
+      "previous": "前",
+      "loading": "読込中",
+      "refresh": "更新",
+      "cancel": "キャンセル",
+      "delete": "削除",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "閉じる",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "次",
+      "back": "戻る",
+      "undo": "元に戻す",
+      "save": "保存",
+      "rename": "Rename",
+      "yes": "はい",
+      "no": "いいえ",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "メニュー",
+      "overflow_menu": "オーバーフローメニュー",
+      "successfully_saved": "正常に保存されました",
+      "successfully_deleted": "正常に削除されました",
+      "error_required": "必須",
+      "copied": "コピー"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "ログブックのエントリが見つかりません。",
+        "by": "by",
+        "by_service": "サービス別",
+        "messages": {
+          "was_away": "離れていた",
+          "was_at_state": "{state}でした",
+          "rose": "ローズ",
+          "set": "セット",
+          "was_low": "低かった",
+          "was_normal": "正常でした",
+          "was_connected": "接続されました",
+          "was_disconnected": "切断されました",
+          "was_opened": "開かれました",
+          "was_closed": "閉鎖されました",
+          "was_unlocked": "ロックが解除されました",
+          "was_locked": "ロックされました",
+          "was_plugged_in": "接続されました",
+          "was_unplugged": "プラグが抜かれました",
+          "was_at_home": "家にいた",
+          "was_unsafe": "安全ではなかった",
+          "was_safe": "安全でした",
+          "detected_device_class": "{device_class} が検出されました",
+          "cleared_device_class": "クリアされました（ {device_class}検出されませんでした）",
+          "turned_off": "終了しました",
+          "turned_on": "オンになりました",
+          "changed_to_state": "{state}に変更されました",
+          "became_unavailable": "利用できなくなりました"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "エンティティ",
+          "clear": "消去",
+          "show_entities": "エンティティを表示"
+        },
+        "entity-attribute-picker": {
+          "attribute": "属性",
+          "show_attributes": "属性を表示"
+        }
+      },
+      "user-picker": {
+        "no_user": "ユーザーなし",
+        "add_user": "ユーザーを追加",
+        "remove_user": "ユーザーを削除する"
+      },
+      "device-picker": {
+        "clear": "削除",
+        "toggle": "切り替え",
+        "show_devices": "デバイスを表示",
+        "device": "デバイス",
+        "no_area": "エリアなし"
+      },
+      "area-picker": {
+        "clear": "消去",
+        "show_areas": "エリアを表示",
+        "area": "エリア",
+        "add_new": "新しいエリアを追加…",
+        "add_dialog": {
+          "title": "新しいエリアを追加",
+          "text": "新しいエリアの名前を入力してください。",
+          "name": "名前",
+          "add": "追加",
+          "failed_create_area": "エリアを作成できませんでした。"
+        }
+      },
+      "picture-upload": {
+        "label": "画像",
+        "unsupported_format": "サポートされていない形式です。JPEG、PNG、またはGIF画像を選択してください。"
+      },
+      "date-range-picker": {
+        "start_date": "開始日",
+        "end_date": "終了日",
+        "select": "選択"
+      },
+      "relative_time": {
+        "never": "未実行",
+        "just_now": "ちょうど今",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}",
+          "minute": "{count} {count, plural,\n  one {分}\n  other {分}\n}",
+          "hour": "{count} {count, plural,\n  one {時間}\n  other {時間}\n}",
+          "day": "{count} {count, plural,\n  one {日}\n  other {日間}\n}",
+          "week": "{count} {count, plural,\n  one {週間}\n  other {週間}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}前",
+          "minute": "{count} {count, plural,\n  one {分}\n  other {分}\n}前",
+          "hour": "{count} {count, plural,\n  one {時間}\n  other {時間}\n}前",
+          "day": "{count} {count, plural,\n  one {日}\n  other {日}\n}前",
+          "week": "{count} {count, plural,\n  one {週}\n  other {週}前\n}"
+        },
+        "future_duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}",
+          "minute": "{count} {count, plural,\n  one {分}\n  other {分}\n}",
+          "hour": "{count} {count, plural,\n  one {時間}\n  other {時間}\n}",
+          "day": "{count} {count, plural,\n  one {日}\n  other {日}\n}",
+          "week": "{count} {count, plural,\n  one {週}\n  other {週}\n}"
+        },
+        "future": "{time}以内",
+        "past": "{time}前"
+      },
+      "history_charts": {
+        "loading_history": "状態履歴を読込中...",
+        "no_history_found": "状態履歴がありません。"
+      },
+      "service-picker": { "service": "サービス" },
+      "related-items": {
+        "no_related_found": "関連するアイテムが見つかりませんでした。",
+        "integration": "インテグレーション",
+        "device": "デバイス",
+        "area": "エリア",
+        "entity": "関連エンティティ",
+        "group": "次のグループの一部",
+        "scene": "次のシーンの一部",
+        "script": "次のスクリプトの一部",
+        "automation": "次の自動化の一部"
+      },
+      "data-table": { "search": "検索", "no-data": "データなし" },
+      "media-browser": {
+        "pick": "選択",
+        "play": "再生",
+        "play-media": "メディアを再生",
+        "pick-media": "メディアを選択",
+        "no_items": "アイテムなし",
+        "choose_player": "プレーヤーを選択",
+        "media-player-browser": "メディアプレーヤーブラウザ",
+        "web-browser": "Webブラウザ",
+        "media_player": "メディアプレーヤー",
+        "audio_not_supported": "お使いのブラウザはオーディオをサポートしていません。",
+        "video_not_supported": "お使いのブラウザはビデオをサポートしていません。",
+        "media_not_supported": "ブラウザ メディア プレーヤーはこの種類のメディアをサポートしていません",
+        "media_browsing_error": "メディア参照エラー",
+        "learn_adding_local_media": "メディアの追加の詳細については、{ドキュメント}を参照してください。",
+        "local_media_files": "ビデオ、オーディオ、画像ファイルをメディアディレクトリに配置して、ブラウザやサポートされているメディアプレーヤーで参照して再生できるようにします。",
+        "documentation": "ドキュメント",
+        "no_local_media_found": "ローカルメディアが見つかりません",
+        "no_media_folder": "メディアディレクトリをまだ作成していないようです。",
+        "setup_local_help": "ローカルメディアの設定方法については、 {documentation}を確認してください。",
+        "class": {
+          "album": "アルバム",
+          "app": "アプリ",
+          "artist": "アーティスト",
+          "channel": "チャネル",
+          "composer": "作曲者",
+          "contributing_artist": "アーティスト",
+          "directory": "ライブラリ",
+          "episode": "エピソード",
+          "game": "ゲーム",
+          "genre": "ジャンル",
+          "image": "画像",
+          "movie": "Movie",
+          "music": "Music",
+          "playlist": "プレイリスト",
+          "podcast": "ポッドキャスト",
+          "season": "シーズン",
+          "track": "トラック",
+          "tv_show": "テレビ番組",
+          "url": "URL",
+          "video": "ビデオ"
+        },
+        "choose-source": "ソースを選択",
+        "content-type": {
+          "album": "アルバム",
+          "artist": "アーティスト",
+          "library": "ライブラリ",
+          "playlist": "プレイリスト",
+          "server": "サーバー"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "{domain}をリロードします",
+            "core": "場所とカスタマイズをリロード",
+            "group": "グループの再読込",
+            "automation": "オートメーションの再読込",
+            "script": "スクリプトの再読込",
+            "scene": "シーンの再読込",
+            "person": "人の再読込",
+            "zone": "ゾーンの再読込",
+            "input_boolean": "入力ブール値を再読み込み",
+            "input_text": "入力テキストを再読み込み",
+            "input_number": "入力番号を再読み込み",
+            "input_datetime": "入力日時を再読み込み",
+            "input_select": "入力選択をリロード",
+            "template": "テンプレートエンティティをリロードします",
+            "universal": "ユニバーサルメディアプレーヤーエンティティをリロードします",
+            "rest": "残りのエンティティをリロードし通知します",
+            "command_line": "コマンドラインエンティティをリロードする",
+            "filter": "フィルタエンティティをリロードします",
+            "statistics": "統計エンティティをリロードします",
+            "generic": "IPカメラエンティティをリロードします",
+            "generic_thermostat": "サーモスタットエンティティをリロードします",
+            "homekit": "HomeKitをリロード",
+            "min_max": "最小/最大エンティティをリロードします",
+            "history_stats": "履歴エンティティをリロードします",
+            "trend": "トレンドエンティティをリロードします",
+            "ping": "pingバイナリセンサーエンティティをリロードします",
+            "filesize": "ファイルサイズエンティティをリロードします",
+            "telegram": "テレグラム通知サービスをリロードします",
+            "smtp": "SMTP通知サービスをリロードします",
+            "mqtt": "mqttエンティティをリロードします",
+            "rpi_gpio": "Raspberry Pi GPIOエンティティをリロードします"
+          },
+          "server_control": {
+            "perform_action": "{action}サーバー",
+            "restart": "再起動",
+            "stop": "停止"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "エンティティフィルター"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant は何も聞きませんでした",
+        "found": "以下の結果は見つけました：",
+        "error": "エラーが発生しました",
+        "how_can_i_help": "どうなご用でしょう？",
+        "label": "質問を入力して「Enter」を押してください。",
+        "label_voice": "入力して「enter」を押すか、マイクをタップして話します"
+      },
+      "generic": {
+        "cancel": "キャンセル",
+        "ok": "OK",
+        "default_confirmation_title": "本当ですか？",
+        "close": "閉じる"
+      },
+      "image_cropper": { "crop": "収納" },
+      "more_info_control": {
+        "dismiss": "ダイアログを閉じる",
+        "settings": "エンティティ設定",
+        "edit": "エンティティを編集",
+        "details": "詳細",
+        "history": "履歴",
+        "last_changed": "最終変更日",
+        "last_updated": "最終更新",
+        "script": {
+          "last_action": "最後のアクション",
+          "last_triggered": "最後にトリガーされたのは"
+        },
+        "sun": {
+          "elevation": "高度",
+          "rising": "日の出ます",
+          "setting": "日の入っています"
+        },
+        "updater": { "title": "更新手順" },
+        "restored": {
+          "not_provided": "このエンティティは現在利用できず、削除、変更ができなく孤立したデバイスです。",
+          "remove_intro": "エンティティが使用されなくなった場合は、削除することでクリーンアップできます。",
+          "remove_action": "エンティティの削除",
+          "confirm_remove_title": "エンティティを削除しますか?",
+          "confirm_remove_text": "このエンティティを削除しますか?"
+        },
+        "vacuum": {
+          "status": "状態",
+          "commands": "掃除機コマンド：",
+          "fan_speed": "ファン回転速度",
+          "start": "開始",
+          "pause": "一時停止",
+          "stop": "停止",
+          "clean_spot": "クリーンスポット",
+          "locate": "見つける",
+          "return_home": "ホームに戻戻る",
+          "start_pause": "開始/一時停止"
+        },
+        "person": { "create_zone": "現在地からゾーンを作成" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "コントロール"
+      },
+      "entity_registry": {
+        "settings": "設定",
+        "control": "コントロール",
+        "related": "関連",
+        "dismiss": "消去",
+        "no_unique_id": "このエンティティには一意のIDがないため、その設定はUIから管理できません。",
+        "faq": "ドキュメント",
+        "editor": {
+          "name": "名前の上書き",
+          "icon": "アイコンの上書き",
+          "icon_error": "アイコンは「prefix：iconname」の形式にする必要があります（例：「mdi：home」）。",
+          "entity_id": "エンティティ ID",
+          "unavailable": "このエンティティは現在利用できません。",
+          "enabled_label": "エンティティを有効化",
+          "enabled_cause": "{cause} によって無効にされました。",
+          "enabled_description": "無効化されたエンティティは Home Assistant に追加されません。",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "削除",
+          "confirm_delete": "このエントリを削除してもよろしいですか？",
+          "update": "更新",
+          "note": "注: これは、まだすべてのインテグレーションで動作しない場合があります。"
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "{platform}統合がロードされていません。 'default_config：'または '' {platform} ： ''を追加して、構成に追加してください。",
+        "yaml_not_editable": "このエンティティの設定は UI から編集できません。UI から設定されたエンティティのみが UI から構成できます。",
+        "required_error_msg": "この項目は必須です",
+        "generic": { "name": "名前", "icon": "アイコン" },
+        "input_datetime": {
+          "date": "日付",
+          "time": "時刻",
+          "datetime": "日時",
+          "mode": "何を入力しますか"
+        },
+        "input_text": {
+          "min": "最小の長さ",
+          "max": "最大の長さ",
+          "mode": "表示モード",
+          "text": "テキスト",
+          "password": "パスワード",
+          "pattern": "クライアント側検証の正規表現パターン"
+        },
+        "input_number": {
+          "min": "最小値",
+          "max": "最大値",
+          "mode": "表示モード",
+          "box": "入力フィールド",
+          "slider": "スライダー",
+          "step": "ステップサイズ",
+          "unit_of_measurement": "測定単位"
+        },
+        "input_select": {
+          "options": "オプション",
+          "add_option": "オプションを追加",
+          "no_options": "オプションはまだありません。",
+          "add": "追加"
+        },
+        "counter": {
+          "minimum": "最小値",
+          "maximum": "最大値",
+          "initial": "初期値",
+          "restore": "ホーム アシスタントの起動時に、最後の値を復元します",
+          "step": "ステップサイズ"
+        },
+        "timer": { "duration": "期間" }
+      },
+      "options_flow": {
+        "form": { "header": "オプション" },
+        "success": { "description": "オプションを保存しました。" }
+      },
+      "config_entry_system_options": {
+        "title": "{integration} のシステムオプション",
+        "enable_new_entities_label": "新しく追加されたエンティティを有効にします。",
+        "enable_new_entities_description": "無効にするには、 {integration} から検出された新しいエンティティは Home Assistant に自動的に追加されません。",
+        "update": "更新"
+      },
+      "zha_device_info": {
+        "manuf": "{manufacturer}",
+        "no_area": "エリアなし",
+        "device_signature": "Zigbee デバイス署名",
+        "buttons": {
+          "add": "このデバイス経由でデバイスを追加",
+          "remove": "デバイスを削除",
+          "clusters": "クラスタの管理",
+          "reconfigure": "デバイスを再設定",
+          "zigbee_information": "Zigbee 情報"
+        },
+        "services": {
+          "reconfigure": "ZHAデバイスを再構成します（デバイスの修復）。デバイスに問題がある場合に使用します。問題のデバイスがバッテリー駆動のデバイスである場合は、このサービスを使用するときに、デバイスが起動し、コマンドを受け入れていることを確認してください。",
+          "updateDeviceName": "デバイス レジストリでこのデバイスのカスタム名を設定します。",
+          "remove": "Zigbee ネットワークからデバイスを削除します。",
+          "zigbee_information": "デバイスのZigbee情報を表示します。"
+        },
+        "confirmations": { "remove": "デバイスを削除してもよろしいですか？" },
+        "quirk": "癖",
+        "last_seen": "最後に見た",
+        "power_source": "電源",
+        "unknown": "不明",
+        "zha_device_card": {
+          "device_name_placeholder": "デバイス名の変更",
+          "area_picker_label": "エリア",
+          "update_name_button": "名前の更新"
+        }
+      },
+      "domain_toggler": {
+        "title": "ドメインを切り替え",
+        "reset_entities": "エンティティをリセット"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device}デバッグ情報",
+        "deserialize": "MQTTメッセージをJSONとして解析する",
+        "entities": "エンティティ",
+        "no_entities": "エンティティなし",
+        "no_triggers": "トリガーなし",
+        "payload_display": "ペイロード表示",
+        "recent_messages": "{n}最近受信したメッセージ",
+        "show_as_yaml": "YAML として表示",
+        "triggers": "トリガー"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}",
+      "minute": "{count} {count, plural,\n  one {分}\n  other {分}\n}",
+      "hour": "{count} {count, plural,\n  one {時間}\n  other {時間}\n}",
+      "day": "{count} {count, plural,\n  one {日}\n  other {日間}\n}",
+      "week": "{count} {count, plural,\n  one {週間}\n  other {週間}\n}"
+    },
+    "login-form": {
+      "password": "パスワード",
+      "remember": "覚えて",
+      "log_in": "ログイン"
+    },
+    "notification_drawer": {
+      "click_to_configure": "ボタンをクリックして{entity}を設定します",
+      "empty": "通知はありません",
+      "title": "通知",
+      "close": "閉じる",
+      "dismiss_all": "すべて却下する"
+    },
+    "notification_toast": {
+      "service_call_failed": "サービス{service}の呼び出しに失敗しました。",
+      "connection_lost": "切断されました。再接続中...",
+      "started": "ホームアシスタントが開始されました！",
+      "starting": "Home Assistantが起動中です。終了するまですべてが利用できるわけではありません。",
+      "triggered": "トリガーしました {name}",
+      "dismiss": "退出"
+    },
+    "sidebar": {
+      "external_app_configuration": "アプリの構成",
+      "sidebar_toggle": "サイドバーの切り替え",
+      "done": "完了"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "マイカレンダー", "today": "今日" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "このカードを削除しますか?",
+          "empty_state": {
+            "title": "お帰りなさい",
+            "no_devices": "このページではデバイスを制御できますが、デバイスがまだ設定されていないように見えます。開始するには、インテグレーションページに移動します。",
+            "go_to_integrations_page": "インテグレーションページに移動します。"
+          },
+          "entities": { "never_triggered": "トリガーされたことがない" },
+          "shopping-list": {
+            "checked_items": "チェックアイテム",
+            "clear_items": "チェックされたアイテムを削除",
+            "add_item": "アイテムを追加"
+          },
+          "picture-elements": {
+            "hold": "保持：",
+            "tap": "タップ：",
+            "navigate_to": "{location}に移動",
+            "url": "{url_path}へのウィンドウを開く",
+            "toggle": "{name}切り替え",
+            "call_service": "サービス{name}の呼び出し",
+            "more_info": "詳細を表示： {name}"
+          },
+          "safe-mode": {
+            "header": "セーフモードがアクティブになりました",
+            "description": "Home Assistant は、構成の読み込み中に問題が発生し、セーフモードで実行されています。エラーログを見て、何が問題だったかを確認してください。"
+          },
+          "starting": {
+            "description": "ホームアシスタントを開始しています。お待ちください...",
+            "header": "ホームアシスタントを開始しています..."
+          }
+        },
+        "unused_entities": {
+          "title": "未使用のエンティティ",
+          "available_entities": "これらは Lovelace UI にまだありませんの使用可能なエンティティです。",
+          "select_to_add": "カードに追加するエンティティを選択し、[カードの追加] ボタンをクリックします。",
+          "entity": "エンティティ",
+          "entity_id": "エンティティ ID",
+          "domain": "ドメイン",
+          "last_changed": "最終変更",
+          "search": "エンティティを検索",
+          "no_data": "未使用のエンティティが見つかりません"
+        },
+        "add_entities": {
+          "yaml_unsupported": "YAMLモードでLovelace UIを使用している場合、この関数は使用できません。",
+          "generated_unsupported": "この機能は、Lovelace UIを制御している場合にのみ使用できます。",
+          "saving_failed": "Lovelace UI構成の保存に失敗しました。"
+        },
+        "views": {
+          "confirm_delete": "ビューを削除しますか？",
+          "confirm_delete_text": "'' {name} ''ビューを削除してもよろしいですか？",
+          "confirm_delete_existing_cards": "このビューを削除すると、カードも削除されます",
+          "confirm_delete_existing_cards_text": "'' {name} ''ビューを削除してもよろしいですか？ビューには、削除される{number}枚のカードが含まれています。この操作は元に戻せません。"
+        },
+        "menu": {
+          "configure_ui": "ダッシュボードを編集",
+          "help": "ヘルプ",
+          "start_conversation": "会話を開始する",
+          "reload_resources": "リソースの再読込",
+          "exit_edit_mode": "UI 編集モードを終了",
+          "close": "閉じる",
+          "refresh": "更新"
+        },
+        "reload_resources": {
+          "refresh_header": "更新しますか？",
+          "refresh_body": "再読み込みを完了するには、ページを更新する必要があります。"
+        },
+        "editor": {
+          "header": "UIを編集",
+          "menu": {
+            "open": "Lovelace メニューを開く",
+            "raw_editor": "詳細設定エディター"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "設定を編集",
+            "save": "保存",
+            "unsaved_changes": "保存されていない変更",
+            "saved": "保存しました",
+            "confirm_remove_config_title": "Lovelace UI構成を削除してもよろしいですか？エリアとデバイスを使用してLovelace UIビューを自動的に生成します。",
+            "confirm_remove_config_text": "Lovelace UI構成を削除すると、エリアとデバイスを含むLovelace UIビューが自動的に生成されます。",
+            "confirm_unsaved_changes": "未保存の変更があります、終了してもよろしいですか？",
+            "confirm_unsaved_comments": "コンフィグレーションはコメントが含まれています、これらは保存されません。本当に続けますか？",
+            "error_parse_yaml": "YAMLを解析できません: {error}",
+            "error_invalid_config": "設定が無効です: {error}",
+            "error_save_yaml": "YAMLを保存できません: {error}",
+            "error_remove": "構成を削除できません： {error}",
+            "resources_moved": "リソースはLovelace構成に追加されなくなりましたが、Lovelace構成パネルで追加できます。"
+          },
+          "edit_lovelace": {
+            "header": "Lovelace UIのタイトル",
+            "explanation": "このタイトルは、Lovelace UIのすべてのビューの上に表示されます。",
+            "edit_title": "タイトルを編集",
+            "title": "タイトル"
+          },
+          "edit_view": {
+            "header": "構成を表示",
+            "header_name": "{name}構成の表示",
+            "add": "ビューの追加",
+            "edit": "ビューの編集",
+            "delete": "ビューの削除",
+            "move_left": "ビューを左に移動",
+            "move_right": "ビューを右に移動",
+            "tab_settings": "設定",
+            "tab_badges": "バッジ",
+            "tab_visibility": "可視性",
+            "visibility": {
+              "select_users": "ナビゲーションでこのビューを表示するユーザーを選択します。"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "このビューは「パネルモード」になっているため、これらのバッジは表示されません。"
+          },
+          "edit_card": {
+            "header": "カード設定",
+            "typed_header": "{type}カードの構成",
+            "pick_card": "どのカードを追加しますか？",
+            "pick_card_view_title": "{name}ビューにどのカードを追加しますか？",
+            "toggle_editor": "エディターの切り替え",
+            "unsaved_changes": "変更が保存されていません",
+            "confirm_cancel": "キャンセルしてもよいですか?",
+            "show_visual_editor": "ビジュアルエディターを表示",
+            "show_code_editor": "コードエディタを表示",
+            "add": "カードを追加",
+            "edit": "編集",
+            "clear": "Clear",
+            "delete": "カードを削除",
+            "duplicate": "重複するカード",
+            "move": "ビューに移動",
+            "move_before": "前にカードを移動",
+            "move_after": "後にカードを移動",
+            "options": "その他のオプション",
+            "search_cards": "カードを検索"
+          },
+          "move_card": { "header": "カードを移動するビューを選択してください" },
+          "select_view": {
+            "header": "ビューに移動",
+            "dashboard_label": "ダッシュボード"
+          },
+          "suggest_card": {
+            "header": "私たちはあなたのために提案を作成しました",
+            "create_own": "別のカードを選択する",
+            "add": "Lovelace UIに追加"
+          },
+          "save_config": {
+            "header": "Lovelace UIを制御する",
+            "para": "このダッシュボードは現在、Home Assistantによって管理されています。新しいエンティティまたはLovelace UIコンポーネントが利用可能になると、自動的に更新されます。制御すると、このダッシュボードは自動的に更新されなくなります。いつでも構成で新しいダッシュボードを作成して、変更することができます。",
+            "para_sure": "ユーザー インターフェイスを制御しますか?",
+            "yaml_mode": "このダッシュボードで YAML モードを使用している場合は、UI から Lovelace 設定を変更することはできません。UI からこのダッシュボードを管理する場合は、'configuration.yaml' の Lovelace 設定から 'mode: yaml' を削除します。",
+            "yaml_control": "YAML モードで制御するには、このダッシュボードの構成で指定した名前、またはデフォルトの 'ui-lovelace.yaml' を使用して YAML ファイルを作成します。",
+            "yaml_config": "ここで開始するには、このダッシュボードの現在の構成です。",
+            "empty_config": "新しいダッシュボードから開始する",
+            "cancel": "気にしないで",
+            "close": "閉じる",
+            "save": "制御する"
+          },
+          "migrate": {
+            "header": "設定に互換性がありません",
+            "para_no_id": "この要素には ID がありません。'ui-lovelace.yaml' のこの要素に ID を追加してください。",
+            "para_migrate": "Home Assistantは、「設定の移行」ボタンを押すことで、すべてのカードとビューにIDを自動的に追加できます。",
+            "migrate": "構成を移行する"
+          },
+          "action-editor": {
+            "navigation_path": "ナビゲーションパス",
+            "url_path": "URLパス",
+            "editor_service_data": "サービス データはコード エディターでのみ入力できます。",
+            "actions": {
+              "default_action": "デフォルトアクション",
+              "call-service": "サービスの呼び出し",
+              "more-info": "詳細",
+              "toggle": "トグル",
+              "navigate": "ナビゲート",
+              "url": "URL",
+              "none": "アクションなし"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "アラームパネル",
+              "available_states": "利用可能な状態",
+              "description": "アラームパネルカードを使用すると、アラームコントロールパネルの統合を強制解除することができます。"
+            },
+            "calendar": {
+              "name": "カレンダー",
+              "description": "カレンダーカードには、日、週、リストビューを含むカレンダーが表示されます",
+              "inital_view": "初期ビュー",
+              "calendar_entities": "カレンダーエンティティ",
+              "views": {
+                "dayGridMonth": "月",
+                "dayGridDay": "日",
+                "listWeek": "リスト"
+              }
+            },
+            "conditional": {
+              "name": "条件付き",
+              "description": "条件付きカードには、エンティティの状態に基づいて別のカードが表示されます。",
+              "conditions": "条件",
+              "card": "カード",
+              "state_equal": "状態は等しい",
+              "state_not_equal": "状態が等しくない",
+              "current_state": "現在",
+              "condition_explanation": "カードは、以下の条件がすべて満たされたときに表示されます。",
+              "change_type": "タイプの変更"
+            },
+            "config": { "required": "必須", "optional": "オプション" },
+            "entities": {
+              "name": "エンティティ",
+              "show_header_toggle": "ヘッダー切り替えを表示しますか？",
+              "toggle": "エンティテを切り替え",
+              "description": "エンティティ カードは、最も一般的な種類のカードです。アイテムをリストにまとめます。",
+              "special_row": "特別",
+              "edit_special_row": "コードエディタを使用して編集する",
+              "entity_row_editor": "エンティティエディタ",
+              "secondary_info_values": {
+                "none": "セカンダリ情報なし",
+                "entity-id": "エンティティ ID",
+                "last-changed": "最終変更",
+                "last-triggered": "最後にトリガーされた",
+                "position": "ポジション",
+                "tilt-position": "チルト位置",
+                "brightness": "明るさ",
+                "last-updated": "最終更新日"
+              },
+              "entity_row": {
+                "divider": "仕切り",
+                "call-service": "サービスの呼び出し",
+                "section": "セクション",
+                "weblink": "ウェブリンク",
+                "attribute": "属性",
+                "buttons": "ボタン",
+                "conditional": "条件付き",
+                "cast": "キャスト",
+                "button": "ボタン"
+              }
+            },
+            "entity": {
+              "name": "エンティティ",
+              "description": "エンティティ カードは、エンティティの状態の概要を簡単に示します。"
+            },
+            "button": {
+              "name": "ボタン",
+              "description": "ボタン カードを使用すると、タスクを実行するためのボタンを追加できます。",
+              "default_action_help": "既定のアクションは、エンティティの機能に依存し、切り替えるか、より多くの情報が表示されます。"
+            },
+            "entity-filter": {
+              "name": "エンティティフィルター",
+              "description": "エンティティフィルタカードを使用すると、特定の状態にある場合にのみ追跡するエンティティのリストを定義できます。"
+            },
+            "gauge": {
+              "name": "ゲージ",
+              "severity": {
+                "define": "重大度を定義しますか?",
+                "green": "緑",
+                "red": "赤",
+                "yellow": "黄色"
+              },
+              "description": "ゲージカードは、センサーデータを視覚的に見ることができる基本カードです。"
+            },
+            "glance": {
+              "name": "一覧",
+              "columns": "カラム",
+              "description": "Glance カードは、複数のセンサーをコンパクトな概要でグループ化するのに便利です。"
+            },
+            "grid": {
+              "name": "Grid",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "履歴グラフ",
+              "description": "履歴グラフ カードを使用すると、一覧表示された各エンティティのグラフを表示できます。"
+            },
+            "horizontal-stack": {
+              "name": "水平スタック",
+              "description": "水平スタックカードを使用すると、複数のカードを一緒に積み重ねることができます。そのため、これらのカードは常に1つの列のスペースで隣り合って配置されます。"
+            },
+            "humidifier": {
+              "name": "加湿器",
+              "description": "加湿器カードは、加湿器エンティティを制御します。エンティティの湿度とモードを変更できます。"
+            },
+            "iframe": {
+              "name": "ウェブページ",
+              "description": "Web ページ カードを使用すると、お気に入りの Web ページをホーム アシスタントに埋め込むことができます。"
+            },
+            "light": {
+              "name": "照明",
+              "description": "ライトカードを使用すると、ライトの明るさを変更できます。"
+            },
+            "generic": {
+              "aspect_ratio": "アスペクト比",
+              "attribute": "属性",
+              "camera_image": "カメラエンティティ",
+              "camera_view": "カメラビュー",
+              "double_tap_action": "ダブルタップアクション",
+              "entities": "エンティティ",
+              "entity": "エンティティ",
+              "hold_action": "ホールドアクション",
+              "hours_to_show": "表示する時間",
+              "icon": "アイコン",
+              "icon_height": "アイコンの高さ",
+              "image": "画像パス",
+              "maximum": "最大",
+              "manual": "マニュアル",
+              "manual_description": "カスタムカードを追加する必要があるか、手動でyamlを記述したいだけですか？",
+              "minimum": "最小",
+              "name": "名前",
+              "refresh_interval": "更新間隔",
+              "show_icon": "アイコンを表示しますか？",
+              "show_name": "名前を表示しますか？",
+              "show_state": "状態を表示しますか?",
+              "tap_action": "アクションをタップ",
+              "title": "タイトル",
+              "theme": "テーマ",
+              "no_theme": "テーマなし",
+              "unit": "ユニット",
+              "url": "Url",
+              "state": "状態",
+              "secondary_info_attribute": "セカンダリ情報属性",
+              "search": "検索",
+              "state_color": "状態に基づいたカラーアイコン？"
+            },
+            "map": {
+              "name": "地図",
+              "geo_location_sources": "位置情報ソース",
+              "dark_mode": "ダークモード？",
+              "default_zoom": "デフォルトのズーム",
+              "hours_to_show": "表示する時間",
+              "source": "ソース：",
+              "description": "マップ上にエンティティを表示できるマップカード。"
+            },
+            "markdown": {
+              "name": "マークダウン",
+              "content": "コンテンツ",
+              "description": "マークダウン カードは、マークダウンのレンダリングに使用されます。"
+            },
+            "media-control": {
+              "name": "メディアコントロール",
+              "description": "メディアコントロールカードは、使いやすいコントロールを備えたインターフェイスにメディアプレーヤーエンティティを表示するために使用されます。"
+            },
+            "picture": {
+              "name": "画像",
+              "description": "ピクチャーカードを使用すると、インターフェイスのさまざまなパスへのナビゲーションに使用する画像を設定したり、サービスを呼び出したりできます。"
+            },
+            "picture-elements": {
+              "name": "ピクチャーエレメント",
+              "description": "ピクチャー・エレメント・カードは、最も汎用性の高いタイプのカードの1つです。カードは、アイコンやテキスト、さらにはサービスを配置することができます!座標に基づくイメージ上。"
+            },
+            "picture-entity": {
+              "name": "画像エンティティ",
+              "description": "ピクチャー エンティティ カードには、イメージの形式でエンティティが表示されます。URL からの画像の代わりに、カメラエンティティの画像を表示することもできます。"
+            },
+            "picture-glance": {
+              "name": "画像一覧",
+              "description": "画像の一覧カードは、イメージと対応するエンティティの状態をアイコンで示します。右側のエンティティは切り替えアクションを許可し、他のエンティティは詳細ダイアログを表示します。"
+            },
+            "plant-status": {
+              "name": "プラントステータス",
+              "description": "植物ステータスカードは、そこにすべての素敵な植物学者のためのものです。"
+            },
+            "sensor": {
+              "name": "センサー",
+              "show_more_detail": "詳細を表示",
+              "graph_type": "グラフの種類",
+              "description": "センサーカードは、時間の経過に伴う変化を視覚化するオプションのグラフを使用して、センサーの状態をすばやく提供します。",
+              "graph_detail": "グラフの詳細"
+            },
+            "shopping-list": {
+              "name": "買い物リスト",
+              "description": "ショッピングリストカードを使用すると、ショッピングリストのアイテムを追加、編集、チェックオフ、およびクリアができます。",
+              "integration_not_loaded": "このカードを設定するには、「shopping_list」インテグレーションが必要です。"
+            },
+            "thermostat": {
+              "name": "サーモスタット",
+              "description": "サーモスタットカードは、気候エンティティを制御します。エンティティの温度とモードを変更できます。"
+            },
+            "vertical-stack": {
+              "name": "垂直スタック",
+              "description": "垂直スタックカードを使用すると、複数のカードをグループ化して、常に同じ列に配置することができます。"
+            },
+            "weather-forecast": {
+              "name": "天気予報",
+              "description": "天気予報カードは天気を表示します。表示するインターフェースに含めると非常に便利です。",
+              "show_forecast": "予測を表示"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "パネルモード？",
+              "description": "これにより、最初のカードが全幅でレンダリングされます。このビューの他のカードはレンダリングされません。",
+              "warning_multiple_cards": "このビューには複数のカードが含まれていますが、パネルビューでは 1 枚のカードしか表示できません。"
+            }
+          },
+          "cardpicker": {
+            "no_description": "説明がありません。",
+            "custom_card": "カスタム",
+            "domain": "ドメイン",
+            "entity": "エンティティ",
+            "by_entity": "エンティティ別",
+            "by_card": "カード別"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "属性{attribute}は次の場所では使用できません： {entity}",
+          "entity_not_found": "エンティティが使用できません： {entity}",
+          "entity_non_numeric": "エンティティが数値ではありません： {entity}",
+          "entity_unavailable": "{entity}は現在利用できません",
+          "starting": "ホームアシスタントが起動していますが、まだすべてが利用可能なわけではありません"
+        },
+        "changed_toast": {
+          "message": "このダッシュボードのLovelace UI設定が更新されました。更新して変更を確認しますか？",
+          "refresh": "更新"
+        },
+        "reload_lovelace": "Lovelace の再読込"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "{link} から外部パネル {name} を信頼していますか？",
+          "complete_access": "Home Assistant のすべてのデータにアクセスできます。",
+          "hide_message": "このメッセージを非表示にするには、ドキュメントから panel_custom コンポーネントを確認してください"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Í dag",
+          "yesterday": "Í gær",
+          "this_week": "Í þessari viku",
+          "last_week": "Í síðustu viku"
+        },
+        "period": "Tímabil",
+        "showing_entries": "Sýni færslur fyrir"
+      }
+    }
+  }
+}

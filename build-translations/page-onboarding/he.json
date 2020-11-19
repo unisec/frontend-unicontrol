@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "האם אתה רוצה לקחת שליטה על הבית שלך ולהצטרף לקהילה הגדולה שלנו?",
+        "user": {
+          "intro": "בואו נתחיל על ידי יצירת חשבון משתמש.",
+          "required_field": "נדרש",
+          "data": {
+            "name": "שם",
+            "username": "שם משתמש",
+            "password": "סיסמה",
+            "password_confirm": "אשר סיסמה"
+          },
+          "create_account": "צור חשבון",
+          "error": {
+            "required_fields": "מלא את כל השדות הדרושים",
+            "password_not_match": "הסיסמאות אינן תואמות"
+          }
+        },
+        "core-config": {
+          "intro": "שלום {name} , ברוך הבא ל- Home Assistant. איך היית רוצה את שם הבית שלך?",
+          "intro_location": "אנחנו רוצים לדעת איפה אתה גר. מידע זה יעזור עם הצגת מידע והגדרת אוטומציה מבוססת שמש. נתונים אלה לעולם אינם משותפים מחוץ לרשת שלך.",
+          "intro_location_detect": "אנו יכולים לעזור לך למלא מידע זה על ידי ביצוע בקשה חד פעמית לשירות חיצוני.",
+          "location_name": "Name of your Home Assistant installation",
+          "location_name_default": "בית",
+          "button_detect": "לזהות",
+          "finish": "הבא"
+        },
+        "integration": {
+          "intro": "התקנים ושירותים מיוצגים ב- Home Assistant כאינטגרציות. באפשרותך להגדיר אותם כעת, או לעשות זאת מאוחר יותר ממסך התצורה.",
+          "more_integrations": "עוד",
+          "finish": "סיום"
+        },
+        "restore": {
+          "description": "לחלופין, באפשרותך לשחזר מגיבוי קודם.",
+          "in_progress": "שחזור מתבצע",
+          "show_log": "הצג יומן מלא",
+          "hide_log": "הסתר יומן מלא"
+        }
+      }
+    }
+  }
+}

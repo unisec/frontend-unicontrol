@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Está pronto para despertar a sua casa, reclamar a sua privacidade e juntar-se a uma comunidade mundial de tecnólogos?",
+        "user": {
+          "intro": "Vamos começar por criar um utilizador.",
+          "required_field": "Obrigatório",
+          "data": {
+            "name": "Nome",
+            "username": "Utilizador",
+            "password": "Palavra-passe",
+            "password_confirm": "Confirme a palavra-passe"
+          },
+          "create_account": "Criar conta",
+          "error": {
+            "required_fields": "Preencha todos os campos obrigatórios",
+            "password_not_match": "As palavras-passe não coincidem"
+          }
+        },
+        "core-config": {
+          "intro": "Olá {name}, bem-vindo ao Home Assistant. Que nome quer dar à sua casa?",
+          "intro_location": "Gostaríamos de saber onde vive. Esta informação ajudará a exibir informações e a configurar automações baseadas no sol. Os dados nunca são partilhados fora da sua rede.",
+          "intro_location_detect": "Podemos ajudá-lo a preencher esta informação fazendo um pedido único a um serviço externo.",
+          "location_name": "Nome da instalação do Home Assistant",
+          "location_name_default": "Início",
+          "button_detect": "Detetar",
+          "finish": "Próxima"
+        },
+        "integration": {
+          "intro": "Dispositivos e serviços são representados no Home Assistant como integrações. Pode configurá-los agora ou fazê-lo mais tarde no ecrã de configuração.",
+          "more_integrations": "Mais",
+          "finish": "Terminar"
+        },
+        "restore": {
+          "description": "Em alternativa, pode restaurar a partir de um snapshot anterior.",
+          "in_progress": "Restauração em curso",
+          "show_log": "Mostrar log completo",
+          "hide_log": "Ocultar log completo"
+        }
+      }
+    }
+  }
+}

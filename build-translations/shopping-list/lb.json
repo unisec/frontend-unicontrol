@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Objet dobäisetze",
+        "clear_completed": "Fäerdeg Elementer ewechhuelen",
+        "microphone_tip": "Tipp uewe riets op de Mikro a so “Add candy to my shopping list”"
+      }
+    }
+  }
+}

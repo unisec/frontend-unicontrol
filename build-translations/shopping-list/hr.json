@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Dodaj stavku",
+        "clear_completed": "Očisti završeno",
+        "microphone_tip": "Dodirnite mikrofon u gornjem desnom kutu i recite “Add candy to my shopping list”"
+      }
+    }
+  }
+}

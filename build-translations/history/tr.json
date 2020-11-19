@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Bugün",
+          "yesterday": "Dün",
+          "this_week": "Bu hafta",
+          "last_week": "Geçen hafta"
+        },
+        "period": "Dönem",
+        "showing_entries": "Gösterilen girişler"
+      }
+    }
+  }
+}

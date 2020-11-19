@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Idag",
+          "yesterday": "Igår",
+          "this_week": "Denna vecka",
+          "last_week": "Föregående vecka"
+        },
+        "period": "Period",
+        "showing_entries": "Visar poster för"
+      }
+    }
+  }
+}

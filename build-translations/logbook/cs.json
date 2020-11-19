@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Dnes",
+          "yesterday": "Včera",
+          "this_week": "Tento týden",
+          "last_week": "Minulý týden"
+        },
+        "entries_not_found": "Nebyly nalezeny žádné záznamy v deníku.",
+        "period": "Období",
+        "showing_entries": "Zobrazeny údaje pro"
+      }
+    }
+  }
+}

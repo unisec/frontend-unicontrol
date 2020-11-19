@@ -1,0 +1,47 @@
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+image:
+  name: unisec/unishell
+  username: $DOCKER_HUB_USERNAME
+  password: $DOCKER_HUB_PASSWORD
+  email: $DOCKER_HUB_EMAIL
+
+# enable Docker for your repository
+options:
+  docker: true
+
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: Run Setup
+          image: disciplina/node:12-alpine
+          script:
+            - cd ${BITBUCKET_CLONE_DIR}
+            - docker login -u ${DOCKER_HUB_USERNAME} -p ${DOCKER_HUB_PASSWORD}
+            - script/setup
+      - step:
+          name: Build Application
+          image: disciplina/node:12-alpine
+          script:
+            - script/build_frontend
+
+      - step:
+          name: Run Test
+          image: disciplina/node:12-alpine
+          script:
+            - yarn test
+      - step:
+          name: Zip static files
+          image: disciplina/node:12-alpine
+          script:
+            - zip -r frontend-develop.zip hass_frontend
+      - step:
+          name: Sending static files
+          image: disciplina/node:12-alpine
+          script:
+            - curl -s -u unisec -X POST https://api.bitbucket.org/2.0/repositories/unisec/frontend/downloads -F files=@frontend-develop.zip
+definitions:
+  services:
+    docker:
+      memory: 3072

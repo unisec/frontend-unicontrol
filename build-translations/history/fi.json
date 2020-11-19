@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Tänään",
+          "yesterday": "Eilen",
+          "this_week": "Tällä viikolla",
+          "last_week": "Viime viikolla"
+        },
+        "period": "aikajakso",
+        "showing_entries": "Näytetään tapahtumat alkaen"
+      }
+    }
+  }
+}

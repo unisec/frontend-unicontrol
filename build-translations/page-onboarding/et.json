@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Kas oled valmis oma kodu ellu äratama, oma privaatsust tagasi võitma ja ühinema ülemaailmse nokitsejate kogukonnaga?",
+        "user": {
+          "intro": "Alustame kasutajakonto loomisega.",
+          "required_field": "Nõutud",
+          "data": {
+            "name": "Nimi",
+            "username": "Kasutajanimi",
+            "password": "Salasõna",
+            "password_confirm": "Kinnita salasõna"
+          },
+          "create_account": "Loo konto",
+          "error": {
+            "required_fields": "Täida kõik nõutud väljad",
+            "password_not_match": "Salasõnad ei ühti"
+          }
+        },
+        "core-config": {
+          "intro": "Tere tulemast Home Assistant'i kasutama, {name}. Kuidas sa soovid oma kodu nimetada?",
+          "intro_location": "Soovime teada, kus sa elad. See teave aitab informatsiooni kuvamisel ja päikesepõhiste automatiseeringute loomisel. Neid andmeid ei jagata kunagi väljaspool teie võrku.",
+          "intro_location_detect": "Me saame aidata sul seda teavet leida, tehes ühekordse päringu välisele teenusele.",
+          "location_name": "Sinu Home Assistant paigalduse nimi",
+          "location_name_default": "Kodu",
+          "button_detect": "Tuvasta",
+          "finish": "Edasi"
+        },
+        "integration": {
+          "intro": "Seadmed ja teenused on Home Assistant'is esitatud sidumistena. Võid neid seadistada kohe või teha seda hiljem konfiguratsioonilehelt.",
+          "more_integrations": "Rohkem",
+          "finish": "Lõpeta"
+        },
+        "restore": {
+          "description": "Teise võimalusena saad taastada eelmise hetktõmmise.",
+          "in_progress": "Toimub taastamine",
+          "show_log": "Kuva täielik logi",
+          "hide_log": "Peida täielik logi"
+        }
+      }
+    }
+  }
+}

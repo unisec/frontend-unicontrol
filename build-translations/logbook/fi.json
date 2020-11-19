@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Tänään",
+          "yesterday": "Eilen",
+          "this_week": "Tällä viikolla",
+          "last_week": "Viime viikolla"
+        },
+        "entries_not_found": "Lokikirjauksia ei löytynyt.",
+        "period": "aikajakso",
+        "showing_entries": "Näytetään kirjaukset ajalta"
+      }
+    }
+  }
+}

@@ -1,0 +1,1299 @@
+{
+  "panel": {
+    "calendar": "Календар",
+    "config": "Конфигурация",
+    "states": "Състояние",
+    "map": "Карта",
+    "logbook": "Дневник",
+    "history": "История",
+    "mailbox": "Пощенска кутия",
+    "shopping_list": "Списък за пазаруване",
+    "developer_tools": "Инструменти за разработчици",
+    "media_browser": "Медиен браузър",
+    "profile": "Профил"
+  },
+  "state": {
+    "default": {
+      "on": "Включен",
+      "off": "Изключен",
+      "unknown": "Неизвестно",
+      "unavailable": "Недостъпен"
+    },
+    "alarm_control_panel": {
+      "armed": "Под охрана",
+      "armed_away": "Под охрана",
+      "armed_custom_bypass": "Под охрана",
+      "armed_home": "Под охрана - вкъщи",
+      "armed_night": "Под охрана - нощ",
+      "arming": "Активиране",
+      "disarmed": "Деактивирана",
+      "disarming": "Деактивиране",
+      "pending": "В очакване",
+      "triggered": "Задействан"
+    },
+    "automation": { "off": "Изключен", "on": "Включен" },
+    "binary_sensor": {
+      "battery": { "off": "Нормална", "on": "Изтощена" },
+      "cold": { "off": "Нормално", "on": "Студено" },
+      "connectivity": { "off": "Изключен", "on": "Свързан" },
+      "default": { "off": "Изключен", "on": "Включен" },
+      "door": { "off": "Затворена", "on": "Отворена" },
+      "garage_door": { "off": "Затворена", "on": "Отворена" },
+      "gas": { "off": "Чисто", "on": "Регистриран" },
+      "heat": { "off": "Нормално", "on": "Горещо" },
+      "lock": { "off": "Заключено", "on": "Отключено" },
+      "moisture": { "off": "Сух", "on": "Мокър" },
+      "motion": { "off": "Без движение", "on": "Движение" },
+      "occupancy": { "off": "Чисто", "on": "Регистриран" },
+      "opening": { "off": "Затворен", "on": "Отворен" },
+      "presence": { "off": "Отсъства", "on": "Вкъщи" },
+      "problem": { "off": "ОК", "on": "Проблем" },
+      "safety": { "off": "Безопасен", "on": "Опасност" },
+      "smoke": { "off": "Чисто", "on": "Регистриран" },
+      "sound": { "off": "Чисто", "on": "Регистриран" },
+      "vibration": { "off": "Чисто", "on": "Регистрирана" },
+      "window": { "off": "Затворен", "on": "Отворен" }
+    },
+    "calendar": { "off": "Изключен", "on": "Включен" },
+    "camera": {
+      "idle": "Не записва",
+      "recording": "Записване",
+      "streaming": "Предава"
+    },
+    "climate": {
+      "cool": "Охлаждане",
+      "dry": "Сух",
+      "fan_only": "Само вентилатор",
+      "heat": "Отопление",
+      "heat_cool": "Отопление/Охлаждане",
+      "off": "Изключен"
+    },
+    "configurator": { "configure": "Настройване", "configured": "Настроен" },
+    "cover": {
+      "closed": "Затворена",
+      "closing": "Затваряне",
+      "open": "Отворена",
+      "opening": "Отваряне",
+      "stopped": "Спряна"
+    },
+    "device_tracker": { "not_home": "Отсъства" },
+    "fan": { "off": "Изключен", "on": "Включен" },
+    "group": {
+      "closed": "Затворена",
+      "closing": "Затваряне",
+      "home": "Вкъщи",
+      "locked": "Заключена",
+      "not_home": "Отсъства",
+      "off": "Изключен",
+      "ok": "ОК",
+      "on": "Включен",
+      "open": "Отворена",
+      "opening": "Отваряне",
+      "problem": "Проблем",
+      "stopped": "Спряна",
+      "unlocked": "Отключена"
+    },
+    "input_boolean": { "off": "Изключен", "on": "Включен" },
+    "light": { "off": "Изключен", "on": "Включен" },
+    "lock": { "locked": "Заключен", "unlocked": "Отключен" },
+    "media_player": {
+      "idle": "Неработещ",
+      "off": "Изключен",
+      "on": "Включен",
+      "paused": "В пауза",
+      "playing": "Възпроизвеждане",
+      "standby": "Режим на готовност"
+    },
+    "person": { "home": "Вкъщи" },
+    "plant": { "ok": "ОК", "problem": "Проблем" },
+    "remote": { "off": "Изключен", "on": "Включен" },
+    "scene": { "scening": "Промяна на сцена" },
+    "script": { "off": "Изключен", "on": "Включен" },
+    "sensor": { "off": "Изключен", "on": "Включен" },
+    "sun": {
+      "above_horizon": "Над хоризонта",
+      "below_horizon": "Под хоризонта"
+    },
+    "switch": { "off": "Изключен", "on": "Включен" },
+    "timer": { "active": "активен", "idle": "неработещ", "paused": "в пауза" },
+    "vacuum": {
+      "cleaning": "Почистване",
+      "docked": "В базова станция",
+      "error": "Грешка",
+      "idle": "Неработещ",
+      "off": "Изключен",
+      "on": "Включен",
+      "paused": "Пауза",
+      "returning": "Връщане в базовата станция"
+    },
+    "weather": {
+      "clear-night": "Ясно, нощ",
+      "cloudy": "Облачно",
+      "exceptional": "Изключително",
+      "fog": "Мъгла",
+      "hail": "Градушка",
+      "lightning": "Светкавица",
+      "lightning-rainy": "Светкавица, дъждовно",
+      "partlycloudy": "Частична облачност",
+      "pouring": "Обилен дъжд",
+      "rainy": "Дъждовно",
+      "snowy": "Снежно",
+      "snowy-rainy": "Снежно, дъждовно",
+      "sunny": "Слънчево",
+      "windy": "Ветровито",
+      "windy-variant": "Ветровито"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Мъртъв",
+        "initializing": "Инициализация",
+        "ready": "Готов",
+        "sleeping": "Спящ"
+      },
+      "query_stage": {
+        "dead": "Мъртъв ({query_stage})",
+        "initializing": "Инициализация ( {query_stage} )"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "Изключен", "on": "Включен", "auto": "Автоматичен" },
+      "preset_mode": {
+        "none": "Без",
+        "eco": "Еко",
+        "away": "Отсъства",
+        "boost": "Ускорен",
+        "comfort": "Комфорт",
+        "home": "Вкъщи",
+        "sleep": "Сън",
+        "activity": "Дейност"
+      },
+      "hvac_action": {
+        "off": "Изключен",
+        "heating": "Отопление",
+        "cooling": "Охлаждане",
+        "drying": "Изсушаване",
+        "idle": "Неработещ",
+        "fan": "Вентилатор"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normal",
+        "eco": "Eco",
+        "away": "Away",
+        "boost": "Boost",
+        "comfort": "Comfort",
+        "home": "Home",
+        "sleep": "Sleep",
+        "auto": "Auto",
+        "baby": "Baby"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Неизвестно",
+      "unavailable": "Недост",
+      "error": "Грешка",
+      "entity_not_found": "Обектът не е намерен"
+    },
+    "alarm_control_panel": {
+      "armed": "Под охрана",
+      "disarmed": "Деактивирана",
+      "armed_home": "Под охрана",
+      "armed_away": "Под охрана",
+      "armed_night": "Под охрана",
+      "armed_custom_bypass": "Под охрана",
+      "pending": "Изчаква",
+      "arming": "Активиране",
+      "disarming": "Деактивирaне",
+      "triggered": "Задействана"
+    },
+    "device_tracker": { "home": "Вкъщи", "not_home": "Отсъства" },
+    "person": { "home": "Вкъщи", "not_home": "Отсъства" }
+  },
+  "groups": {
+    "system-admin": "Администратори",
+    "system-users": "Потребители",
+    "system-read-only": "Потребители с достъп само за четене"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Потребител",
+      "integration": "Интеграция",
+      "config_entry": "Конфигурационен запис"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Искате ли да запазите този логин?",
+      "decline": "Не, благодаря",
+      "confirm": "Запази логин"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Код",
+        "clear_code": "Изчистване",
+        "disarm": "Деактивирaне",
+        "arm_home": "Под охрана - вкъщи",
+        "arm_away": "Под охрана",
+        "arm_night": "Под охрана - нощ",
+        "arm_custom_bypass": "Потребителски байпас"
+      },
+      "automation": {
+        "last_triggered": "Последно задействане",
+        "trigger": "Тригер"
+      },
+      "camera": { "not_available": "Няма налично изображение" },
+      "climate": {
+        "currently": "В момента",
+        "on_off": "Вкл. / Изкл",
+        "target_temperature": "Желана температура",
+        "target_temperature_entity": "{name} target temperature",
+        "target_temperature_mode": "{name} target temperature {mode}",
+        "current_temperature": "{name} current temperature",
+        "heating": "{name} heating",
+        "cooling": "{name} cooling",
+        "high": "high",
+        "low": "low",
+        "target_humidity": "Желана влажност",
+        "operation": "Режим",
+        "fan_mode": "Режим на вентилатора",
+        "swing_mode": "Режим на люлеене",
+        "preset_mode": "Предварително зададени настройки",
+        "away_mode": "Режим на отсъствие",
+        "aux_heat": "Помощен нагревател"
+      },
+      "counter": {
+        "actions": {
+          "increment": "increment",
+          "decrement": "decrement",
+          "reset": "reset"
+        }
+      },
+      "cover": { "position": "Позиция", "tilt_position": "Наклон" },
+      "fan": {
+        "speed": "Скорост",
+        "oscillate": "Въртене",
+        "direction": "Посока",
+        "forward": "Напред",
+        "reverse": "Назад"
+      },
+      "humidifier": {
+        "humidity": "Target humidity",
+        "mode": "Mode",
+        "target_humidity_entity": "{name} target humidity",
+        "on_entity": "{name} on"
+      },
+      "light": {
+        "brightness": "Яркост",
+        "color_temperature": "Цветова температура",
+        "white_value": "Стойност на бялото",
+        "effect": "Ефект"
+      },
+      "lock": { "code": "Код", "lock": "Заключване", "unlock": "Отключване" },
+      "media_player": {
+        "source": "Източник",
+        "sound_mode": "Режим на звука",
+        "browse_media": "Browse media",
+        "turn_on": "Turn on",
+        "turn_off": "Turn off",
+        "media_play": "Play",
+        "media_play_pause": "Play/pause",
+        "media_next_track": "Next",
+        "media_previous_track": "Previous",
+        "text_to_speak": "Текст за произнасяне"
+      },
+      "persistent_notification": { "dismiss": "Отхвърли" },
+      "scene": { "activate": "Активирай" },
+      "script": {
+        "execute": "Изпълни",
+        "cancel": "Cancel",
+        "cancel_multiple": "Cancel {number}"
+      },
+      "service": { "run": "Run" },
+      "timer": {
+        "actions": {
+          "start": "старт",
+          "pause": "пауза",
+          "cancel": "прекратяване",
+          "finish": "финал"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Продължете почистването",
+          "return_to_base": "Върни се в базовата станция",
+          "start_cleaning": "Започнете почистването",
+          "turn_on": "Включи",
+          "turn_off": "Изключи"
+        }
+      },
+      "water_heater": {
+        "currently": "В момента",
+        "on_off": "Вкл. / Изкл.",
+        "target_temperature": "Желана температура",
+        "operation": "Режим",
+        "away_mode": "Режим на отсъствие"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Въздушно налягане",
+          "humidity": "Влажност",
+          "temperature": "Температура",
+          "visibility": "Видимост",
+          "wind_speed": "Скорост на вятъра",
+          "precipitation": "Валежи"
+        },
+        "cardinal_direction": {
+          "e": "И",
+          "ene": "ИСИ",
+          "ese": "ИЮИ",
+          "n": "С",
+          "ne": "СИ",
+          "nne": "ССИ",
+          "nw": "СЗ",
+          "nnw": "ССЗ",
+          "s": "Ю",
+          "se": "ЮИ",
+          "sse": "ЮЮИ",
+          "ssw": "ЮЮЗ",
+          "sw": "ЮЗ",
+          "w": "З",
+          "wnw": "ЗСЗ",
+          "wsw": "ЗЮЗ"
+        },
+        "day": "Day",
+        "night": "Night",
+        "forecast": "Прогноза",
+        "high": "High",
+        "low": "Low"
+      }
+    },
+    "common": {
+      "and": "and",
+      "continue": "Продължи",
+      "previous": "Previous",
+      "loading": "Зареждане",
+      "refresh": "Refresh",
+      "cancel": "Отмени",
+      "delete": "Изтриване",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Close",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Next",
+      "back": "Back",
+      "undo": "Undo",
+      "save": "Запазване",
+      "rename": "Rename",
+      "yes": "Yes",
+      "no": "No",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "Menu",
+      "overflow_menu": "Overflow menu",
+      "successfully_saved": "Успешно запазено",
+      "successfully_deleted": "Успешно изтриване",
+      "error_required": "Required",
+      "copied": "Copied"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "Липсват логове в дневника",
+        "by": "by",
+        "by_service": "by service",
+        "messages": {
+          "was_away": "was away",
+          "was_at_state": "was at {state}",
+          "rose": "rose",
+          "set": "set",
+          "was_low": "was low",
+          "was_normal": "was normal",
+          "was_connected": "was connected",
+          "was_disconnected": "was disconnected",
+          "was_opened": "was opened",
+          "was_closed": "was closed",
+          "was_unlocked": "was unlocked",
+          "was_locked": "was locked",
+          "was_plugged_in": "was plugged in",
+          "was_unplugged": "was unplugged",
+          "was_at_home": "was at home",
+          "was_unsafe": "was unsafe",
+          "was_safe": "was safe",
+          "detected_device_class": "detected {device_class}",
+          "cleared_device_class": "cleared (no {device_class} detected)",
+          "turned_off": "Изключи",
+          "turned_on": "Включи",
+          "changed_to_state": "променен на {състояние}",
+          "became_unavailable": "стана недостъпен"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Обект",
+          "clear": "Clear",
+          "show_entities": "Show entities"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Атрибут",
+          "show_attributes": "Показване на атрибутите"
+        }
+      },
+      "user-picker": {
+        "no_user": "No user",
+        "add_user": "Add user",
+        "remove_user": "Remove user"
+      },
+      "device-picker": {
+        "clear": "Clear",
+        "toggle": "Toggle",
+        "show_devices": "Показване на устройства",
+        "device": "Устройство",
+        "no_area": "No area"
+      },
+      "area-picker": {
+        "clear": "Clear",
+        "show_areas": "Show areas",
+        "area": "Area",
+        "add_new": "Add new area…",
+        "add_dialog": {
+          "title": "Add new area",
+          "text": "Enter the name of the new area.",
+          "name": "Name",
+          "add": "Add",
+          "failed_create_area": "Failed to create area."
+        }
+      },
+      "picture-upload": {
+        "label": "Picture",
+        "unsupported_format": "Unsupported format, please choose a JPEG, PNG or GIF image."
+      },
+      "date-range-picker": {
+        "start_date": "Start date",
+        "end_date": "End date",
+        "select": "Select"
+      },
+      "relative_time": {
+        "never": "Никога",
+        "just_now": "Just now",
+        "duration": {
+          "second": "{count}{count, plural,\n  one {секунда}\n  other {секунди}\n}",
+          "minute": "{count} {count, plural,\n  one {минута}\n  other {минути}\n}",
+          "hour": "{count} {count, plural,\n  one {час}\n  other {часа}\n}",
+          "day": "{count}{count, plural,\n  one {ден}\n  other {дни}\n}",
+          "week": "{count}{count, plural,\n  one {седмица}\n  other {седмици}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n} ago",
+          "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n} ago",
+          "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n} ago",
+          "day": "{count} {count, plural,\n  one {day}\n  other {days}\n} ago",
+          "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n} ago"
+        },
+        "future_duration": {
+          "second": "In {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "In {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "In {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "In {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "In {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future": "След {time}",
+        "past": "Преди {time}"
+      },
+      "history_charts": {
+        "loading_history": "Зареждане на история за състоянието...",
+        "no_history_found": "Не е намерена история за състоянието"
+      },
+      "service-picker": { "service": "Услуга" },
+      "related-items": {
+        "no_related_found": "No related items found.",
+        "integration": "Integration",
+        "device": "Device",
+        "area": "Area",
+        "entity": "Related entities",
+        "group": "Part of the following groups",
+        "scene": "Part of the following scenes",
+        "script": "Part of the following scripts",
+        "automation": "Part of the following automations"
+      },
+      "data-table": { "search": "Search", "no-data": "No data" },
+      "media-browser": {
+        "pick": "Pick",
+        "play": "Play",
+        "play-media": "Play Media",
+        "pick-media": "Pick Media",
+        "no_items": "No items",
+        "choose_player": "Изберете плейър",
+        "media-player-browser": "Media Player Browser",
+        "web-browser": "Уеб браузър",
+        "media_player": "Медиен плейър",
+        "audio_not_supported": "Браузърът не поддържа този аудио елемент.",
+        "video_not_supported": "Браузърът не поддържа този видео елемент.",
+        "media_not_supported": "Плейърът на медийния браузър не поддържа този тип медия",
+        "media_browsing_error": "Грешка в медийния браузър",
+        "learn_adding_local_media": "Learn more about adding media in the {documentation}.",
+        "local_media_files": "Place your video, audio and image files in the media directory to be able to browse and play them in the browser or on supported media players.",
+        "documentation": "documentation",
+        "no_local_media_found": "No local media found",
+        "no_media_folder": "It looks like you have not yet created a media directory.",
+        "setup_local_help": "Check the {documentation} on how to setup local media.",
+        "class": {
+          "album": "Album",
+          "app": "App",
+          "artist": "Artist",
+          "channel": "Channel",
+          "composer": "Composer",
+          "contributing_artist": "Contributing Artist",
+          "directory": "Library",
+          "episode": "Episode",
+          "game": "Game",
+          "genre": "Genre",
+          "image": "Image",
+          "movie": "Movie",
+          "music": "Music",
+          "playlist": "Playlist",
+          "podcast": "Podcast",
+          "season": "Season",
+          "track": "Track",
+          "tv_show": "TV Show",
+          "url": "URL",
+          "video": "Video"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Reload {domain}",
+            "core": "Reload location & customizations",
+            "group": "Reload groups, group entities, and notify services",
+            "automation": "Reload automations",
+            "script": "Reload scripts",
+            "scene": "Reload scenes",
+            "person": "Reload people",
+            "zone": "Reload zones",
+            "input_boolean": "Reload input booleans",
+            "input_text": "Reload input texts",
+            "input_number": "Reload input numbers",
+            "input_datetime": "Reload input date times",
+            "input_select": "Reload input selects",
+            "template": "Reload template entities",
+            "universal": "Reload universal media player entities",
+            "rest": "Reload rest entities and notify services",
+            "command_line": "Reload command line entities",
+            "filter": "Reload filter entities",
+            "statistics": "Reload statistics entities",
+            "generic": "Reload generic IP camera entities",
+            "generic_thermostat": "Reload generic thermostat entities",
+            "homekit": "Reload HomeKit",
+            "min_max": "Reload min/max entities",
+            "history_stats": "Reload history stats entities",
+            "trend": "Reload trend entities",
+            "ping": "Reload ping binary sensor entities",
+            "filesize": "Reload file size entities",
+            "telegram": "Reload telegram notify services",
+            "smtp": "Reload SMTP notify services",
+            "mqtt": "Reload manually configured MQTT entities",
+            "rpi_gpio": "Reload Raspberry Pi GPIO entities"
+          },
+          "server_control": {
+            "perform_action": "{action} Server",
+            "restart": "Restart",
+            "stop": "Stop"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Entity Filter"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant did not hear anything",
+        "found": "I found the following for you:",
+        "error": "Oops, an error has occurred",
+        "how_can_i_help": "How can I help?",
+        "label": "Въведете въпрос и натиснете „Enter“",
+        "label_voice": "Въведете и натиснете „Enter“ или докоснете микрофона, за да говорите"
+      },
+      "generic": {
+        "cancel": "Cancel",
+        "ok": "OK",
+        "default_confirmation_title": "Are you sure?",
+        "close": "close"
+      },
+      "image_cropper": { "crop": "Crop" },
+      "more_info_control": {
+        "dismiss": "Dismiss dialog",
+        "settings": "Entity settings",
+        "edit": "Edit entity",
+        "details": "Детайли",
+        "history": "История",
+        "last_changed": "Last changed",
+        "last_updated": "Last updated",
+        "script": {
+          "last_action": "Последно задействане",
+          "last_triggered": "Last Triggered"
+        },
+        "sun": {
+          "elevation": "Височина",
+          "rising": "Изгрев",
+          "setting": "Залез"
+        },
+        "updater": { "title": "Инструкции за актуализиране" },
+        "restored": {
+          "not_provided": "This entity is currently unavailable and is an orphan to a removed, changed or dysfunctional integration or device.",
+          "remove_intro": "If the entity is no longer in use, you can clean it up by removing it.",
+          "remove_action": "Remove entity",
+          "confirm_remove_title": "Remove entity?",
+          "confirm_remove_text": "Are you sure you want to remove this entity?"
+        },
+        "vacuum": {
+          "status": "Status",
+          "commands": "Vacuum cleaner commands:",
+          "fan_speed": "Fan speed",
+          "start": "Start",
+          "pause": "Pause",
+          "stop": "Stop",
+          "clean_spot": "Clean spot",
+          "locate": "Locate",
+          "return_home": "Return home",
+          "start_pause": "Start/Pause"
+        },
+        "person": { "create_zone": "Create zone from current location" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "Контроли"
+      },
+      "entity_registry": {
+        "settings": "Settings",
+        "control": "Control",
+        "related": "Related",
+        "dismiss": "Dismiss",
+        "no_unique_id": "Този обект няма уникален идентификатор, затова неговите настройки не могат да бъдат управлявани от потребителския интерфейс.",
+        "faq": "документация",
+        "editor": {
+          "name": "Name",
+          "icon": "Icon",
+          "icon_error": "Icons should be in the format 'prefix:iconname', e.g. 'mdi:home'",
+          "entity_id": "Entity ID",
+          "unavailable": "This entity is not currently available.",
+          "enabled_label": "Enable entity",
+          "enabled_cause": "Disabled by {cause}.",
+          "enabled_description": "Disabled entities will not be added to Home Assistant.",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "Изтриване",
+          "confirm_delete": "Are you sure you want to delete this entry?",
+          "update": "Актуализация",
+          "note": "Note: This might not work yet with all integrations."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "{platform} интеграцията не е заредена. Моля, добавете я във вашата конфигурация като добавите 'default_config:' или ''{platform}:''.",
+        "yaml_not_editable": "Настройките на този обект не могат да бъдат редактирани. Могат да се конфигурират само обектите, създадени от потребителския интерфейс.",
+        "required_error_msg": "This field is required",
+        "generic": { "name": "Име", "icon": "Icon" },
+        "input_datetime": {
+          "date": "Date",
+          "time": "Time",
+          "datetime": "Date and time",
+          "mode": "What do you want to input"
+        },
+        "input_text": {
+          "min": "Минимална дължина",
+          "max": "Максимална дължина",
+          "mode": "Display mode",
+          "text": "Текст",
+          "password": "Парола",
+          "pattern": "Regex pattern for client-side validation"
+        },
+        "input_number": {
+          "min": "Минимална стойност",
+          "max": "Максимална стойност",
+          "mode": "Display mode",
+          "box": "Input field",
+          "slider": "Slider",
+          "step": "Размер на стъпката",
+          "unit_of_measurement": "Unit of measurement"
+        },
+        "input_select": {
+          "options": "Options",
+          "add_option": "Add option",
+          "no_options": "There are no options yet.",
+          "add": "Add"
+        },
+        "counter": {
+          "minimum": "Minimum value",
+          "maximum": "Maximum value",
+          "initial": "Initial value",
+          "restore": "Restore the last known value when Home Assistant starts",
+          "step": "Step size"
+        },
+        "timer": { "duration": "Duration" }
+      },
+      "options_flow": {
+        "form": { "header": "Опции" },
+        "success": { "description": "Опциите бяха запазени успешно." }
+      },
+      "config_entry_system_options": {
+        "title": "Системни опции за {integration}",
+        "enable_new_entities_label": "Активирай новодобавените устройства.",
+        "enable_new_entities_description": "Ако е изключено, новооткритите устройства за {integration} няма да бъдат автоматично добавяни в Home Assistant",
+        "update": "Update"
+      },
+      "zha_device_info": {
+        "manuf": "от {manufacturer}",
+        "no_area": "Без област",
+        "device_signature": "Zigbee device signature",
+        "buttons": {
+          "add": "Add Devices via this device",
+          "remove": "Remove Device",
+          "clusters": "Manage Clusters",
+          "reconfigure": "Reconfigure Device",
+          "zigbee_information": "Zigbee информация"
+        },
+        "services": {
+          "reconfigure": "Преконфигурирайте ZHA устройство (оздравяване на устройство). Използвайте това, ако имате проблеми с устройството. Ако въпросното устройство е захранвано с батерии, моля, уверете се, че е будно и приема команди, когато използвате тази услуга.",
+          "updateDeviceName": "Задайте персонализирано име за това устройство в регистъра на устройствата.",
+          "remove": "Премахване на устройство от Zigbee мрежата.",
+          "zigbee_information": "View the Zigbee information for the device."
+        },
+        "confirmations": {
+          "remove": "Are you sure that you want to remove the device?"
+        },
+        "quirk": "Quirk",
+        "last_seen": "Last Seen",
+        "power_source": "Power Source",
+        "unknown": "Unknown",
+        "zha_device_card": {
+          "device_name_placeholder": "Име, зададено от потребителя",
+          "area_picker_label": "Област",
+          "update_name_button": "Актуализиране на името"
+        }
+      },
+      "domain_toggler": {
+        "title": "Toggle Domains",
+        "reset_entities": "Нулиране на обекти"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} debug info",
+        "deserialize": "Attempt to parse MQTT messages as JSON",
+        "entities": "Обекти",
+        "no_entities": "Няма обекти",
+        "no_triggers": "No triggers",
+        "payload_display": "Payload display",
+        "recent_messages": "{n} последно получено(и) съобщение(я)",
+        "show_as_yaml": "Покажи като YAML",
+        "triggers": "Triggers"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\n  one {секунда}\n  other {секунди}\n}",
+      "minute": "{count} {count, plural,\n  one {минута}\n  other {минути}\n}",
+      "hour": "{count} {count, plural,\n  one {час}\n  other {часа}\n}",
+      "day": "{count} {count, plural,\n  one {ден}\n  other {дни}\n}",
+      "week": "{count} {count, plural,\n  one {седмица}\n  other {седмици}\n}"
+    },
+    "login-form": {
+      "password": "Парола",
+      "remember": "Запомни",
+      "log_in": "Вход"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Щракнете върху бутона, за да конфигурирате {entity}",
+      "empty": "Няма известия",
+      "title": "Известия",
+      "close": "Close",
+      "dismiss_all": "Dismiss all"
+    },
+    "notification_toast": {
+      "service_call_failed": "Неуспешно повикване на услуга {service}.",
+      "connection_lost": "Връзката е прекъсната. Повторно свързване...",
+      "started": "Home Assistant has started!",
+      "starting": "Home Assistant is starting, not everything will be available until it is finished.",
+      "triggered": "Triggered {name}",
+      "dismiss": "Dismiss"
+    },
+    "sidebar": {
+      "external_app_configuration": "Конфигурация на приложение",
+      "sidebar_toggle": "Sidebar Toggle",
+      "done": "Готово"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "My Calendars", "today": "Today" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Are you sure you want to delete this card?",
+          "empty_state": {
+            "title": "Добре дошли у дома",
+            "no_devices": "Тази страница ви позволява да контролирате устройствата си, но изглежда, че все още нямате настроени устройства. Отидете на страницата за интеграции, за да започнете.",
+            "go_to_integrations_page": "Отидете на страницата за интеграции."
+          },
+          "entities": { "never_triggered": "Never triggered" },
+          "shopping-list": {
+            "checked_items": "Отметнати артикули",
+            "clear_items": "Изчистване на отметнатите артикули",
+            "add_item": "Добави артикул"
+          },
+          "picture-elements": {
+            "hold": "Задръжте:",
+            "tap": "Натиснете:",
+            "navigate_to": "Придвижете се до {location}",
+            "url": "Open window to {url_path}",
+            "toggle": "Превключване на {name}",
+            "call_service": "Извикай услуга {name}",
+            "more_info": "Показване на повече информация: {name}"
+          },
+          "safe-mode": {
+            "header": "Safe Mode Activated",
+            "description": "Home Assistant ran into trouble while loading your configuration and is now running in safe mode. Take a look at the error log to see what went wrong."
+          },
+          "starting": {
+            "description": "Home Assistant is starting, please wait..."
+          }
+        },
+        "unused_entities": {
+          "title": "Unused entities",
+          "available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+          "select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+          "entity": "Entity",
+          "entity_id": "Entity ID",
+          "domain": "Domain",
+          "last_changed": "Last Changed",
+          "search": "Search entities",
+          "no_data": "No unused entities found"
+        },
+        "add_entities": {
+          "yaml_unsupported": "You cannot use this function when using Lovelace UI in YAML mode.",
+          "generated_unsupported": "You can only use this function when you have taken control of the Lovelace UI.",
+          "saving_failed": "Saving Lovelace UI configuration failed."
+        },
+        "views": {
+          "confirm_delete": "Изтриване на изгледа?",
+          "confirm_delete_text": "Are you sure you want to delete your ''{name}'' view?",
+          "confirm_delete_existing_cards": "Deleting this view will also remove the cards",
+          "confirm_delete_existing_cards_text": "Are you sure you want to delete your ''{name}'' view? The view contains {number} cards that will be deleted. This action cannot be undone."
+        },
+        "menu": {
+          "configure_ui": "Конфигуриране на потребителския интерфейс",
+          "help": "Помощ",
+          "start_conversation": "Start conversation",
+          "reload_resources": "Reload resources",
+          "exit_edit_mode": "Exit UI edit mode",
+          "close": "Close",
+          "refresh": "Обновяване"
+        },
+        "reload_resources": {
+          "refresh_header": "Do you want to refresh?",
+          "refresh_body": "You have to refresh the page to complete the reload. Do you want to refresh now?"
+        },
+        "editor": {
+          "header": "Редактиране на потребителския интерфейс",
+          "menu": {
+            "open": "Отваряне на Lovelace меню",
+            "raw_editor": "Текстов редактор на конфурацията"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "Редактиране на конфигурацията",
+            "save": "Запазване",
+            "unsaved_changes": "Незапазени промени",
+            "saved": "Запазено",
+            "confirm_remove_config_title": "Are you sure you want to remove your Lovelace UI configuration?",
+            "confirm_remove_config_text": "We will automatically generate your Lovelace UI views with your areas and devices if you remove your Lovelace UI configuration.",
+            "confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+            "confirm_unsaved_comments": "Your configuration contains comment(s), these will not be saved. Do you want to continue?",
+            "error_parse_yaml": "Unable to parse YAML: {error}",
+            "error_invalid_config": "Your configuration is not valid: {error}",
+            "error_save_yaml": "Unable to save YAML: {error}",
+            "error_remove": "Конфигурацията не може да бъде премахната: {error}",
+            "resources_moved": "Resources should no longer be added to the Lovelace configuration but can be added in the Lovelace config panel."
+          },
+          "edit_lovelace": {
+            "header": "Заглавие на вашия Lovelace потребителски интерфейс",
+            "explanation": "Това заглавие се показва над всичките ви изгледи в Lovelace",
+            "edit_title": "Edit title",
+            "title": "Title"
+          },
+          "edit_view": {
+            "header": "Конфигурация на изглед",
+            "header_name": "{name} View Configuration",
+            "add": "Добавяне на изглед",
+            "edit": "Редактиране на изгледа",
+            "delete": "Изтриване на изгледа",
+            "move_left": "Move view left",
+            "move_right": "Move view right",
+            "tab_settings": "Настройки",
+            "tab_badges": "Badges",
+            "tab_visibility": "Visibility",
+            "visibility": {
+              "select_users": "Изберете кои потребители да виждат този изглед в навигацията"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "These badges will not be displayed because this view is in \"Panel Mode\"."
+          },
+          "edit_card": {
+            "header": "Конфигуриране на Карта",
+            "typed_header": "{type} Card Configuration",
+            "pick_card": "Изберете картата, която искате да добавите.",
+            "pick_card_view_title": "Which card would you like to add to your {name} view?",
+            "toggle_editor": "Превключете редактора",
+            "unsaved_changes": "You have unsaved changes",
+            "confirm_cancel": "Сигурни ли сте, че искате да отмените?",
+            "show_visual_editor": "Show Visual Editor",
+            "show_code_editor": "Show Code Editor",
+            "add": "Добавяне на карта",
+            "edit": "Редактиране",
+            "clear": "Clear",
+            "delete": "Изтриване на карта",
+            "duplicate": "Duplicate card",
+            "move": "Преместване",
+            "move_before": "Move card before",
+            "move_after": "Move card after",
+            "options": "Още опции",
+            "search_cards": "Търсене на карти"
+          },
+          "move_card": { "header": "Choose a view to move the card to" },
+          "select_view": {
+            "header": "Choose a view",
+            "dashboard_label": "Dashboard"
+          },
+          "suggest_card": {
+            "header": "We created a suggestion for you",
+            "create_own": "Pick different card",
+            "add": "Add to Lovelace UI"
+          },
+          "save_config": {
+            "header": "Поемете контрол над потребителския интерфейс на Lovelace",
+            "para": "По подразбиране Home Assistant поддържа потребителския интерфейс, като го актуализира, когато нови обекти или компоненти на Lovelace станат достъпни. Ако поемете контрол, ние вече няма да правим автоматично промени вместо вас.",
+            "para_sure": "Наистина ли искате да поемете управлението на потребителския интерфейс?",
+            "yaml_mode": "Използвате YAML режим за това табло, което означава, че не можете да промените вашата Lovelace конфигурация от потребителския интерфейс. Ако искате да управлявате това табло от потребителския интерфейс, премахнете „mode: yaml“ от вашата Lovelace конфигурация в „configuration.yaml.“.",
+            "yaml_control": "To take control in YAML mode, create a YAML file with the name you specified in your config for this dashboard, or the default 'ui-lovelace.yaml'.",
+            "yaml_config": "To help you start here is the current config of this dashboard:",
+            "empty_config": "Start with an empty dashboard",
+            "cancel": "Няма значение",
+            "close": "Close",
+            "save": "Поемете контрола"
+          },
+          "migrate": {
+            "header": "Несъвместима конфигурация",
+            "para_no_id": "Този елемент няма идентификатор. Моля, добавете идентификатор към този елемент в \"ui-lovelace.yaml\".",
+            "para_migrate": "Home Assistant може автоматично да добави идентификатори към всичките ви карти и изгледи, като натиска бутона \"Мигриране на конфигурация\".",
+            "migrate": "Мигриране на конфигурация"
+          },
+          "action-editor": {
+            "navigation_path": "Navigation Path",
+            "url_path": "URL Path",
+            "editor_service_data": "Service data can only be entered in the code editor",
+            "actions": {
+              "default_action": "Default Action",
+              "call-service": "Call Service",
+              "more-info": "More Info",
+              "toggle": "Toggle",
+              "navigate": "Navigate",
+              "url": "URL",
+              "none": "No Action"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Alarm Panel",
+              "available_states": "Available States",
+              "description": "The Alarm Panel card allows you to Arm and Disarm your alarm control panel integrations."
+            },
+            "calendar": {
+              "name": "Calendar",
+              "description": "The Calendar card displays a calendar including day, week and list views",
+              "inital_view": "Initial View",
+              "calendar_entities": "Calendar Entities",
+              "views": {
+                "dayGridMonth": "Month",
+                "dayGridDay": "Day",
+                "listWeek": "List"
+              }
+            },
+            "conditional": {
+              "name": "Conditional",
+              "description": "The Conditional card displays another card based on entity states.",
+              "conditions": "Conditions",
+              "card": "Card",
+              "state_equal": "State is equal to",
+              "state_not_equal": "State is not equal to",
+              "current_state": "current",
+              "condition_explanation": "The card will be shown when ALL conditions below are fulfilled.",
+              "change_type": "Change type"
+            },
+            "config": { "required": "Required", "optional": "Optional" },
+            "entities": {
+              "name": "Entities",
+              "show_header_toggle": "Show Header Toggle?",
+              "toggle": "Превключване на обекти.",
+              "description": "The Entities card is the most common type of card. It groups items together into lists.",
+              "special_row": "special row",
+              "edit_special_row": "View the details of this row by clicking the edit button",
+              "entity_row_editor": "Редактор на обекти",
+              "secondary_info_values": {
+                "none": "No Secondary Info",
+                "entity-id": "Идентификация на обект",
+                "last-changed": "Последна промяна",
+                "last-triggered": "Последно задействане",
+                "position": "Позиция",
+                "tilt-position": "Наклон",
+                "brightness": "Яркост",
+                "last-updated": "Last Updated"
+              },
+              "entity_row": {
+                "divider": "Divider",
+                "call-service": "Call Service",
+                "section": "Section",
+                "weblink": "Web Link",
+                "attribute": "Attribute",
+                "buttons": "Buttons",
+                "conditional": "Conditional",
+                "cast": "Cast",
+                "button": "Button"
+              }
+            },
+            "entity": {
+              "name": "Entity",
+              "description": "The Entity card gives you a quick overview of your entity’s state."
+            },
+            "button": {
+              "name": "Button",
+              "description": "The Button card allows you to add buttons to perform tasks.",
+              "default_action_help": "The default action depends on the entity's capabilities, it will either be toggled or the more info will be shown."
+            },
+            "entity-filter": {
+              "name": "Entity Filter",
+              "description": "The Entity Filter card allows you to define a list of entities that you want to track only when in a certain state."
+            },
+            "gauge": {
+              "name": "Gauge",
+              "severity": {
+                "define": "Define Severity?",
+                "green": "Green",
+                "red": "Red",
+                "yellow": "Yellow"
+              },
+              "description": "The Gauge card is a basic card that allows visually seeing sensor data."
+            },
+            "glance": {
+              "name": "Glance",
+              "columns": "Columns",
+              "description": "The Glance card is useful to group multiple sensors in a compact overview."
+            },
+            "grid": {
+              "name": "Grid",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "History Graph",
+              "description": "The History Graph card allows you to display a graph for each of the entities listed."
+            },
+            "horizontal-stack": {
+              "name": "Horizontal Stack",
+              "description": "The Horizontal Stack card allows you to stack together multiple cards, so they always sit next to each other in the space of one column."
+            },
+            "humidifier": {
+              "name": "Humidifier",
+              "description": "The Humidifier card gives control of your humidifier entity. Allowing you to change the humidity and mode of the entity."
+            },
+            "iframe": {
+              "name": "Уеб страница",
+              "description": "The Webpage card allows you to embed your favorite webpage right into Home Assistant."
+            },
+            "light": {
+              "name": "Light",
+              "description": "The Light card allows you to change the brightness of the light."
+            },
+            "generic": {
+              "aspect_ratio": "Aspect Ratio",
+              "attribute": "Attribute",
+              "camera_image": "Camera Entity",
+              "camera_view": "Camera View",
+              "double_tap_action": "Double Tap Action",
+              "entities": "Entities",
+              "entity": "Entity",
+              "hold_action": "Hold Action",
+              "hours_to_show": "Hours to Show",
+              "icon": "Icon",
+              "icon_height": "Icon Height",
+              "image": "Image Path",
+              "maximum": "Maximum",
+              "manual": "Manual",
+              "manual_description": "Need to add a custom card or just want to manually write the yaml?",
+              "minimum": "Minimum",
+              "name": "Name",
+              "refresh_interval": "Refresh Interval",
+              "show_icon": "Show Icon?",
+              "show_name": "Show Name?",
+              "show_state": "Show State?",
+              "tap_action": "Tap Action",
+              "title": "Title",
+              "theme": "Тема",
+              "no_theme": "No theme",
+              "unit": "Unit",
+              "url": "URL",
+              "state": "State",
+              "secondary_info_attribute": "Secondary Info Attribute",
+              "search": "Search",
+              "state_color": "Да се оцветят ли иконите спрямо състоянието?"
+            },
+            "map": {
+              "name": "Map",
+              "geo_location_sources": "Geolocation Sources",
+              "dark_mode": "Dark Mode?",
+              "default_zoom": "Default Zoom",
+              "hours_to_show": "Hours to Show",
+              "source": "Source",
+              "description": "The Map card that allows you to display entities on a map."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Content",
+              "description": "The Markdown card is used to render Markdown."
+            },
+            "media-control": {
+              "name": "Media Control",
+              "description": "The Media Control card is used to display media player entities on an interface with easy to use controls."
+            },
+            "picture": {
+              "name": "Picture",
+              "description": "The Picture card allows you to set an image to use for navigation to various paths in your interface or to call a service."
+            },
+            "picture-elements": {
+              "name": "Picture Elements",
+              "description": "The Picture Elements card is one of the most versatile types of cards. The cards allow you to position icons or text and even services! On an image based on coordinates."
+            },
+            "picture-entity": {
+              "name": "Picture Entity",
+              "description": "The Picture Entity card displays an entity in the form of an image. Instead of images from URL, it can also show the picture of camera entities."
+            },
+            "picture-glance": {
+              "name": "Picture Glance",
+              "description": "The Picture Glance card shows an image and corresponding entity states as an icon. The entities on the right side allow toggle actions, others show the more information dialog."
+            },
+            "plant-status": {
+              "name": "Plant Status",
+              "description": "The Plant Status card is for all the lovely botanists out there."
+            },
+            "sensor": {
+              "name": "Sensor",
+              "show_more_detail": "Show more detail",
+              "graph_type": "Graph Type",
+              "description": "The Sensor card gives you a quick overview of your sensors state with an optional graph to visualize change over time."
+            },
+            "shopping-list": {
+              "name": "Shopping List",
+              "description": "The Shopping List card allows you to add, edit, check-off, and clear items from your shopping list.",
+              "integration_not_loaded": "This card requires the `shopping_list` integration to be set up."
+            },
+            "thermostat": {
+              "name": "Thermostat",
+              "description": "The Thermostat card gives control of your climate entity. Allowing you to change the temperature and mode of the entity."
+            },
+            "vertical-stack": {
+              "name": "Вертикална колона",
+              "description": "The Vertical Stack card allows you to group multiple cards so they always sit in the same column."
+            },
+            "weather-forecast": {
+              "name": "Прогноза за времето",
+              "description": "The Weather Forecast card displays the weather. Very useful to include on interfaces that people display on the wall.",
+              "show_forecast": "Show Forecast"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Panel Mode?",
+              "description": "This renders the first card at full width. Other cards in this view as well as badges will not be rendered.",
+              "warning_multiple_cards": "Този изглед съдържа повече от една карта, но изгледът на панел може да показва само 1 карта."
+            }
+          },
+          "cardpicker": {
+            "no_description": "Няма налично описание.",
+            "custom_card": "Custom",
+            "domain": "Домейн",
+            "entity": "Обект",
+            "by_entity": "По обект",
+            "by_card": "По карта"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Атрибут {attribute} не е наличен в: {entity}",
+          "entity_not_found": "Обектът е недостъпен: {entity}",
+          "entity_non_numeric": "Обектът не е числов: {entity}",
+          "entity_unavailable": "{entity} в момента не е наличен",
+          "starting": "Home Assistant is starting, not everything may be available yet"
+        },
+        "changed_toast": {
+          "message": "Конфигурацията на Lovelace бе актуализирана, искате ли да опресните?",
+          "refresh": "Обновяване"
+        },
+        "reload_lovelace": "Презареждане на Lovelace"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Do you trust the external panel {name} at {link}?",
+          "complete_access": "It will have access to all data in Home Assistant.",
+          "hide_message": "Check docs for the panel_custom component to hide this message"
+        }
+      }
+    }
+  }
+}

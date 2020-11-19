@@ -1,0 +1,77 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Hendelser",
+            "description": "Send ut en hendelse på hendelsesbussen",
+            "documentation": "Hendelsedokumentasjon.",
+            "type": "Hendelse type",
+            "data": "Hendelsedata (YAML, valgfritt)",
+            "fire_event": "Utfør hendelse",
+            "event_fired": "Hendelse {name} utført",
+            "available_events": "Tilgjengelige hendelser",
+            "count_listeners": " ({count} lyttere)",
+            "listen_to_events": "Lytt til hendelser",
+            "listening_to": "Lytte til",
+            "subscribe_to": "Hendelse for å abonnere på",
+            "start_listening": "Begynn å lytte",
+            "stop_listening": "Stopp lytting",
+            "alert_event_type": "Hendelsetype er et obligatorisk felt",
+            "notification_event_fired": "Hendelse {type} vellykket utløst!"
+          },
+          "services": {
+            "title": "Tjenester",
+            "description": "Service utviklingsverktøyet lar deg tilkalle alle tilgjengelige tjenester i Home Assistant.",
+            "data": "Tjenestedata (YAML, valgfritt)",
+            "call_service": "Tilkall tjeneste",
+            "select_service": "Velg en tjeneste for å se beskrivelsen",
+            "no_description": "Ingen beskrivelse er tilgjengelig",
+            "no_parameters": "Denne tjenesten tar ingen parametere.",
+            "column_parameter": "Parameter",
+            "column_description": "Beskrivelse",
+            "column_example": "Eksempel",
+            "fill_example_data": "Fyll ut eksempeldata",
+            "alert_parsing_yaml": "Feil ved parsing av YAML: {data}"
+          },
+          "states": {
+            "title": "Tilstander",
+            "description1": "Angi representasjonen av en enhet i Home Assistant.",
+            "description2": "Dette vil ikke kommunisere med den faktiske enheten.",
+            "entity": "Entitet",
+            "state": "Tilstand",
+            "attributes": "Attributter",
+            "state_attributes": "Tilstandsattributter (YAML, valgfritt)",
+            "set_state": "Sett tilstand",
+            "current_entities": "Gjeldende entiteter",
+            "filter_entities": "Filtrere entiteter",
+            "filter_states": "Filtrere tilstander",
+            "filter_attributes": "Filtrere attributter",
+            "no_entities": "Ingen entiteter",
+            "more_info": "Mer info",
+            "alert_entity_field": "Entitet er et obligatorisk felt",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "Mal",
+            "description": "Maler blir rendret ved hjelp av Jinja2-malmotoren med noen spesifikke utvidelser for Home Assistant.",
+            "editor": "Maleditor",
+            "reset": "Tilbakestill til demomal",
+            "result_type": "Resultat type",
+            "jinja_documentation": "Jinja2 mal dokumentasjon",
+            "template_extensions": "Mal utvidelser for Home Assistant",
+            "unknown_error_template": "Ukjent feil ved rendring av mal",
+            "time": "Denne malen oppdateres i begynnelsen av hvert minutt",
+            "all_listeners": "Denne malen lytter etter alle tilstand endret hendelser.",
+            "no_listeners": "Denne malen lytter ikke etter noen hendelser og oppdateres ikke automatisk.",
+            "listeners": "Denne malen lytter etter følgende tilstand endret hendelser:",
+            "entity": "Entitet",
+            "domain": "Domene"
+          }
+        }
+      }
+    }
+  }
+}

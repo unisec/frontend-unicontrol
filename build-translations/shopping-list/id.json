@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Tambah item",
+        "clear_completed": "Hapus yang selesai",
+        "microphone_tip": "Sentuh mikrofon di kanan atas dan ucapkan \"Tambahkan permen ke daftar belanja\""
+      }
+    }
+  }
+}

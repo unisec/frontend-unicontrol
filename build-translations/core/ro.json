@@ -1,0 +1,1302 @@
+{
+  "panel": {
+    "calendar": "Calendar",
+    "config": "Configurare",
+    "states": "Interfață principală",
+    "map": "Hartă",
+    "logbook": "Jurnal",
+    "history": "Istoric",
+    "mailbox": "Cutie poștală",
+    "shopping_list": "Listă de cumpărături",
+    "developer_tools": "Instrumente pentru dezvoltatori",
+    "media_browser": "Media Browser",
+    "profile": "Profil"
+  },
+  "state": {
+    "default": {
+      "on": "Pornit",
+      "off": "Oprit",
+      "unknown": "Necunoscut",
+      "unavailable": "Indisponibil"
+    },
+    "alarm_control_panel": {
+      "armed": "Armat",
+      "armed_away": "Armat plecat",
+      "armed_custom_bypass": "Armare personalizată",
+      "armed_home": "Armat acasă",
+      "armed_night": "Armat noaptea",
+      "arming": "Armare",
+      "disarmed": "Dezarmat",
+      "disarming": "Dezarmare",
+      "pending": "În așteptare",
+      "triggered": "Declanșat"
+    },
+    "automation": { "off": "Oprit", "on": "Pornit" },
+    "binary_sensor": {
+      "battery": { "off": "Normal", "on": "Scăzuta" },
+      "cold": { "off": "Normal", "on": "Rece" },
+      "connectivity": { "off": "Deconectat", "on": "Conectat" },
+      "default": { "off": "Oprit", "on": "Pornit" },
+      "door": { "off": "Închis", "on": "Deschis" },
+      "garage_door": { "off": "Închis", "on": "Deschis" },
+      "gas": { "off": "Liber", "on": "Detecție" },
+      "heat": { "off": "Normal", "on": "Fierbinte" },
+      "lock": { "off": "Blocat", "on": "Deblocat" },
+      "moisture": { "off": "Uscat", "on": "Umed" },
+      "motion": { "off": "Liber", "on": "Detecție" },
+      "occupancy": { "off": "Liber", "on": "Detecție" },
+      "opening": { "off": "Închis", "on": "Deschis" },
+      "presence": { "off": "Plecat", "on": "Acasă" },
+      "problem": { "off": "OK", "on": "Problemă" },
+      "safety": { "off": "Sigur", "on": "Nesigur" },
+      "smoke": { "off": "Liber", "on": "Detecție" },
+      "sound": { "off": "Liber", "on": "Detecție" },
+      "vibration": { "off": "Liber", "on": "Detecție" },
+      "window": { "off": "Închis", "on": "Deschis" }
+    },
+    "calendar": { "off": "Oprit", "on": "Pornit" },
+    "camera": {
+      "idle": "Inactiv",
+      "recording": "Înregistrare",
+      "streaming": "Streaming"
+    },
+    "climate": {
+      "cool": "Rece",
+      "dry": "Uscat",
+      "fan_only": "Numai ventilator",
+      "heat": "Căldură",
+      "heat_cool": "Încălzire / Răcire",
+      "off": "Oprit"
+    },
+    "configurator": { "configure": "Configurează", "configured": "Configurat" },
+    "cover": {
+      "closed": "Închis",
+      "closing": "Închidere",
+      "open": "Deschis",
+      "opening": "Deschidere",
+      "stopped": "Oprit"
+    },
+    "device_tracker": { "not_home": "Plecat" },
+    "fan": { "off": "Oprit", "on": "Pornit" },
+    "group": {
+      "closed": "Închis",
+      "closing": "Închidere",
+      "home": "Acasă",
+      "locked": "Blocat",
+      "not_home": "Plecat",
+      "off": "Oprit",
+      "ok": "OK",
+      "on": "Pornit",
+      "open": "Deschis",
+      "opening": "Deschidere",
+      "problem": "Problemă",
+      "stopped": "Oprit",
+      "unlocked": "Deblocat"
+    },
+    "input_boolean": { "off": "Oprit", "on": "Pornit" },
+    "light": { "off": "Oprit", "on": "Pornit" },
+    "lock": { "locked": "Blocat", "unlocked": "Deblocat" },
+    "media_player": {
+      "idle": "Inactiv",
+      "off": "Oprit",
+      "on": "Pornit",
+      "paused": "În pauză",
+      "playing": "Rulează",
+      "standby": "În așteptare"
+    },
+    "person": { "home": "Acasă" },
+    "plant": { "ok": "OK", "problem": "Problemă" },
+    "remote": { "off": "Oprit", "on": "Pornit" },
+    "scene": { "scening": "Scenă" },
+    "script": { "off": "Oprit", "on": "Pornit" },
+    "sensor": { "off": "Oprit", "on": "Pornit" },
+    "sun": {
+      "above_horizon": "Deasupra orizontului",
+      "below_horizon": "Sub orizont"
+    },
+    "switch": { "off": "Oprit", "on": "Pornit" },
+    "timer": { "active": "activ", "idle": "inactiv", "paused": "În pauză" },
+    "vacuum": {
+      "cleaning": "Curățare",
+      "docked": "Andocat",
+      "error": "Eroare",
+      "idle": "Inactiv",
+      "off": "Oprit",
+      "on": "Pornit",
+      "paused": "Întrerupt",
+      "returning": "În curs de întoarcere la doc"
+    },
+    "weather": {
+      "clear-night": "Noapte senină",
+      "cloudy": "Noros",
+      "exceptional": "Excepţional",
+      "fog": "Ceaţă",
+      "hail": "Grindină",
+      "lightning": "Desărcări electrice",
+      "lightning-rainy": "Ploaie cu descărcări electrice",
+      "partlycloudy": "Parțial noros",
+      "pouring": "Aversă",
+      "rainy": "Ploios",
+      "snowy": "Zăpadă",
+      "snowy-rainy": "Lapoviță și ninsoare",
+      "sunny": "însorit",
+      "windy": "Vant",
+      "windy-variant": "Vant"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Inactiv",
+        "initializing": "Se inițializează",
+        "ready": "Disponibil",
+        "sleeping": "Adormit"
+      },
+      "query_stage": {
+        "dead": "Inactiv ({query_stage})",
+        "initializing": "Se inițializează ({query_stage})"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "Oprit", "on": "Pornit", "auto": "Auto" },
+      "preset_mode": {
+        "none": "Nici unul",
+        "eco": "Eco",
+        "away": "Plecat",
+        "boost": "Boost",
+        "comfort": "Confort",
+        "home": "Acasă",
+        "sleep": "Adormit",
+        "activity": "Activitate"
+      },
+      "hvac_action": {
+        "off": "Oprit",
+        "heating": "Încălzire",
+        "cooling": "Răcire",
+        "drying": "Uscare",
+        "idle": "Inactiv",
+        "fan": "Ventilator"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normal",
+        "eco": "Eco",
+        "away": "Plecat",
+        "boost": "Boost",
+        "comfort": "Confort",
+        "home": "Acasa",
+        "sleep": "Somn",
+        "auto": "Auto",
+        "baby": "Bebelus"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Nec",
+      "unavailable": "Indisp",
+      "error": "Eroare",
+      "entity_not_found": "Entitatea nu a fost găsită"
+    },
+    "alarm_control_panel": {
+      "armed": "Armat",
+      "disarmed": "Dezar",
+      "armed_home": "Armat",
+      "armed_away": "Armat",
+      "armed_night": "Armat",
+      "armed_custom_bypass": "Armat",
+      "pending": "În curs",
+      "arming": "Armare",
+      "disarming": "Dezar",
+      "triggered": "Decl"
+    },
+    "device_tracker": { "home": "Acasă", "not_home": "Plecat" },
+    "person": { "home": "Acasă", "not_home": "Plecat" }
+  },
+  "groups": {
+    "system-admin": "Administratori",
+    "system-users": "Utilizatori",
+    "system-read-only": "Utilizatori cu drepturi de citire"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Utilizator",
+      "integration": "Integrare",
+      "config_entry": "Intrare config"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Vrei să rămâi autentificat?",
+      "decline": "Nu",
+      "confirm": "Da"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Cod Alarmă",
+        "clear_code": "Şterge",
+        "disarm": "Dezarmat",
+        "arm_home": "Armat acasă",
+        "arm_away": "Armat plecat",
+        "arm_night": "Armat noaptea",
+        "arm_custom_bypass": "Bypass personalizat"
+      },
+      "automation": {
+        "last_triggered": "Ultima declanșare",
+        "trigger": "Declanşare"
+      },
+      "camera": { "not_available": "Imaginea nu este disponibila" },
+      "climate": {
+        "currently": "În prezent",
+        "on_off": "Pornit / Oprit",
+        "target_temperature": "Temperatura țintă",
+        "target_temperature_entity": "{name} target temperature",
+        "target_temperature_mode": "{name} target temperature {mode}",
+        "current_temperature": "{name} current temperature",
+        "heating": "{name} heating",
+        "cooling": "{name} cooling",
+        "high": "high",
+        "low": "low",
+        "target_humidity": "Țintă umiditate",
+        "operation": "Operație",
+        "fan_mode": "Mod ventilator",
+        "swing_mode": "Mod baleare",
+        "preset_mode": "Presetare",
+        "away_mode": "Plecat",
+        "aux_heat": "Încălzire auxiliară"
+      },
+      "counter": {
+        "actions": {
+          "increment": "incrementare",
+          "decrement": "decrementare",
+          "reset": "reset"
+        }
+      },
+      "cover": {
+        "position": "Poziţie",
+        "tilt_position": "Poziție de înclinare"
+      },
+      "fan": {
+        "speed": "Viteză",
+        "oscillate": "Oscilare",
+        "direction": "Direcţie",
+        "forward": "Înainte",
+        "reverse": "Invers"
+      },
+      "humidifier": {
+        "humidity": "Umiditatea țintă",
+        "mode": "mod",
+        "target_humidity_entity": "{name} target humidity",
+        "on_entity": "{nume} activat"
+      },
+      "light": {
+        "brightness": "Luminozitate",
+        "color_temperature": "Temperatura de culoare",
+        "white_value": "Valoare albă",
+        "effect": "Efect"
+      },
+      "lock": { "code": "Cod", "lock": "Blocat", "unlock": "Deblocare" },
+      "media_player": {
+        "source": "Sursă",
+        "sound_mode": "Mod sunet",
+        "browse_media": "Browse media",
+        "turn_on": "Turn on",
+        "turn_off": "Turn off",
+        "media_play": "Play",
+        "media_play_pause": "Play/pause",
+        "media_next_track": "Next",
+        "media_previous_track": "Previous",
+        "text_to_speak": "Text pentru a vorbi"
+      },
+      "persistent_notification": { "dismiss": "Ascunde" },
+      "scene": { "activate": "Activati" },
+      "script": {
+        "execute": "Executa",
+        "cancel": "Anulare",
+        "cancel_multiple": "Revocare {număr}"
+      },
+      "service": { "run": "Rulează" },
+      "timer": {
+        "actions": {
+          "start": "Începe",
+          "pause": "Pauză",
+          "cancel": "Revocare",
+          "finish": "Termina"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Reluați curățarea",
+          "return_to_base": "Întoarcere la doc",
+          "start_cleaning": "Începeți curățarea",
+          "turn_on": "Porniți",
+          "turn_off": "Opriți"
+        }
+      },
+      "water_heater": {
+        "currently": "În prezent",
+        "on_off": "Pornit / Oprit",
+        "target_temperature": "Temperatura țintă",
+        "operation": "Operație",
+        "away_mode": "Plecat"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Presiunea aerului",
+          "humidity": "Umiditate",
+          "temperature": "Temperatura",
+          "visibility": "Vizibilitate",
+          "wind_speed": "Viteza vântului",
+          "precipitation": "Precipitaţii"
+        },
+        "cardinal_direction": {
+          "e": "Est",
+          "ene": "EstNordEst",
+          "ese": "EstSudEst",
+          "n": "Nord",
+          "ne": "NordEst",
+          "nne": "NordNordEst",
+          "nw": "NW",
+          "nnw": "NordNordVest",
+          "s": "Sud",
+          "se": "SudEst",
+          "sse": "SudSudEst",
+          "ssw": "SudSudVest",
+          "sw": "SudVest",
+          "w": "Vest",
+          "wnw": "VestNordVest",
+          "wsw": "VestSudVest"
+        },
+        "day": "Day",
+        "night": "Night",
+        "forecast": "Prognoză",
+        "high": "Înalt",
+        "low": "Scăzut"
+      }
+    },
+    "common": {
+      "and": "Și",
+      "continue": "Continue",
+      "previous": "Anterior",
+      "loading": "Se încarcă",
+      "refresh": "Reîmprospătare",
+      "cancel": "Revocare",
+      "delete": "Șterge",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Închide",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Următorul",
+      "back": "Înapoi",
+      "undo": "Undo",
+      "save": "Salvați",
+      "rename": "Rename",
+      "yes": "Da",
+      "no": "Nu",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "Meniu",
+      "overflow_menu": "Overflow menu",
+      "successfully_saved": "Opțiunile salvate cu succes.",
+      "successfully_deleted": "Șters cu succes",
+      "error_required": "Necesar",
+      "copied": "Copiat"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "Nu s-au găsit intrări în jurnal.",
+        "by": "by",
+        "by_service": "by service",
+        "messages": {
+          "was_away": "a fost plecat",
+          "was_at_state": "a fost în {state}",
+          "rose": "Trandafir",
+          "set": "setaţi",
+          "was_low": "was low",
+          "was_normal": "was normal",
+          "was_connected": "was connected",
+          "was_disconnected": "a fost deconectat",
+          "was_opened": "was opened",
+          "was_closed": "a fost închis",
+          "was_unlocked": "a fost deblocat",
+          "was_locked": "a fost încuiat",
+          "was_plugged_in": "was plugged in",
+          "was_unplugged": "was unplugged",
+          "was_at_home": "era acasă",
+          "was_unsafe": "was unsafe",
+          "was_safe": "was safe",
+          "detected_device_class": "detected {device_class}",
+          "cleared_device_class": "cleared (no {device_class} detected)",
+          "turned_off": "oprit",
+          "turned_on": "pornit",
+          "changed_to_state": "changed to {state}",
+          "became_unavailable": "became unavailable"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Entitate",
+          "clear": "Şterge",
+          "show_entities": "Arata entitatile"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Attribute",
+          "show_attributes": "Show attributes"
+        }
+      },
+      "user-picker": {
+        "no_user": "Niciun utilizator",
+        "add_user": "Adăugați utilizator",
+        "remove_user": "Remove user"
+      },
+      "device-picker": {
+        "clear": "Şterge",
+        "toggle": "Comută",
+        "show_devices": "Arata dispozitivele",
+        "device": "Dispozitiv",
+        "no_area": "Nicio zonă"
+      },
+      "area-picker": {
+        "clear": "Şterge",
+        "show_areas": "Arată zonele",
+        "area": "Zonă",
+        "add_new": "Adaugă o zonă nouă",
+        "add_dialog": {
+          "title": "Adaugă o zonă nouă",
+          "text": "Introdu numele noii zone.",
+          "name": "Nume",
+          "add": "Adaugă",
+          "failed_create_area": "Nu s-a reușit crearea zonei."
+        }
+      },
+      "picture-upload": {
+        "label": "Picture",
+        "unsupported_format": "Unsupported format, please choose a JPEG, PNG or GIF image."
+      },
+      "date-range-picker": {
+        "start_date": "Data de început",
+        "end_date": "Data de încheiere",
+        "select": "Selectați"
+      },
+      "relative_time": {
+        "never": "Niciodată",
+        "just_now": "Just now",
+        "duration": {
+          "second": "{count} {count, plural,\none {secunda}\nother {secunde}\n}",
+          "minute": "{count} {count, plural,\n  one { minut }\n  other { minute }\n}",
+          "hour": "{count}{count, plural,\n  one { ora }\n  other { ore }\n}",
+          "day": "{count}{count, plural,\n  one { zi }\n  other { zile }\n}",
+          "week": "{count}{count, plural,\n  one { săptămână }\n  other { săptămâni }\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n} ago",
+          "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n} ago",
+          "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n} ago",
+          "day": "{count} {count, plural,\n  one {day}\n  other {days}\n} ago",
+          "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n} ago"
+        },
+        "future_duration": {
+          "second": "In {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "In {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "In {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "In {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "În {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future": "În {time}",
+        "past": "{time} în urmă"
+      },
+      "history_charts": {
+        "loading_history": "Încărcarea istoricului de stare ...",
+        "no_history_found": "Nici un istoric de stare nu a fost găsit."
+      },
+      "service-picker": { "service": "Serviciu" },
+      "related-items": {
+        "no_related_found": "Nu s-au găsit elemente corelate.",
+        "integration": "Integrare",
+        "device": "Dispozitiv",
+        "area": "Zonă",
+        "entity": "Entități conexe",
+        "group": "Parte din următoarele grupuri",
+        "scene": "Parte din următoarele scenarii",
+        "script": "Parte din următoarele scripturi",
+        "automation": "Parte din următoarele automatizări"
+      },
+      "data-table": { "search": "Căutare", "no-data": "Fără date" },
+      "media-browser": {
+        "pick": "Pick",
+        "play": "Play",
+        "play-media": "Play Media",
+        "pick-media": "Pick Media",
+        "no_items": "No items",
+        "choose_player": "Choose Player",
+        "media-player-browser": "Media Player Browser",
+        "web-browser": "Web Browser",
+        "media_player": "Media Player",
+        "audio_not_supported": "Your browser does not support the audio element.",
+        "video_not_supported": "Your browser does not support the video element.",
+        "media_not_supported": "The Browser Media Player does not support this type of media",
+        "media_browsing_error": "Media Browsing Error",
+        "learn_adding_local_media": "Learn more about adding media in the {documentation}.",
+        "local_media_files": "Place your video, audio and image files in the media directory to be able to browse and play them in the browser or on supported media players.",
+        "documentation": "documentation",
+        "no_local_media_found": "No local media found",
+        "no_media_folder": "It looks like you have not yet created a media directory.",
+        "setup_local_help": "Check the {documentation} on how to setup local media.",
+        "class": {
+          "album": "Album",
+          "app": "Aplicație",
+          "artist": "Artist",
+          "channel": "Canal",
+          "composer": "Compozitor",
+          "contributing_artist": "Artist contribuitor",
+          "directory": "Bibliotecă",
+          "episode": "Episod",
+          "game": "Joc",
+          "genre": "Gen",
+          "image": "Imagine",
+          "movie": "Film",
+          "music": "Muzică",
+          "playlist": "Playlist",
+          "podcast": "Podcast",
+          "season": "Sezon",
+          "track": "Track",
+          "tv_show": "Emisiune TV",
+          "url": "Url",
+          "video": "Video"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Reload {domain}",
+            "core": "Reload location & customizations",
+            "group": "Reload groups, group entities, and notify services",
+            "automation": "Reload automations",
+            "script": "Reload scripts",
+            "scene": "Reload scenes",
+            "person": "Reload people",
+            "zone": "Reload zones",
+            "input_boolean": "Reload input booleans",
+            "input_text": "Reload input texts",
+            "input_number": "Reload input numbers",
+            "input_datetime": "Reload input date times",
+            "input_select": "Reload input selects",
+            "template": "Reload template entities",
+            "universal": "Reload universal media player entities",
+            "rest": "Reload rest entities and notify services",
+            "command_line": "Reload command line entities",
+            "filter": "Reload filter entities",
+            "statistics": "Reload statistics entities",
+            "generic": "Reload generic IP camera entities",
+            "generic_thermostat": "Reload generic thermostat entities",
+            "homekit": "Reload HomeKit",
+            "min_max": "Reload min/max entities",
+            "history_stats": "Reload history stats entities",
+            "trend": "Reload trend entities",
+            "ping": "Reload ping binary sensor entities",
+            "filesize": "Reload file size entities",
+            "telegram": "Reload telegram notify services",
+            "smtp": "Reload SMTP notify services",
+            "mqtt": "Reload manually configured MQTT entities",
+            "rpi_gpio": "Reload Raspberry Pi GPIO entities"
+          },
+          "server_control": {
+            "perform_action": "{action} Server",
+            "restart": "Restart",
+            "stop": "Stop"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Entity Filter"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant nu a auzit nimic",
+        "found": "Am găsit următoarele pentru tine:",
+        "error": "Oops, a apărut o eroare",
+        "how_can_i_help": "Cu ce vă pot ajuta?",
+        "label": "Scrieți o întrebare și apăsați „Enter”",
+        "label_voice": "Tastați și apăsați „Enter” sau atingeți microfonul pentru a vorbi"
+      },
+      "generic": {
+        "cancel": "Revocare",
+        "ok": "OK",
+        "default_confirmation_title": "Ești sigur?",
+        "close": "Închide"
+      },
+      "image_cropper": { "crop": "Crop" },
+      "more_info_control": {
+        "dismiss": "Se respinge dialogul",
+        "settings": "Setări ale entității",
+        "edit": "Editează entitatea",
+        "details": "Detalii",
+        "history": "History",
+        "last_changed": "Last changed",
+        "last_updated": "Last updated",
+        "script": {
+          "last_action": "Ultima acțiune",
+          "last_triggered": "Ultima declanșare"
+        },
+        "sun": {
+          "elevation": "Altitudine",
+          "rising": "Rasare",
+          "setting": "Setare"
+        },
+        "updater": { "title": "Actualizați instrucțiunile" },
+        "restored": {
+          "not_provided": "Această entitate este momentan indisponibilă și este orfană pentru o integrare sau dispozitiv eliminat, modificat sau disfuncțional.",
+          "remove_intro": "Dacă entitatea nu mai este utilizată, aveți posibilitatea să o curățați eliminând-o.",
+          "remove_action": "Eliminați entitatea",
+          "confirm_remove_title": "Ștergeți entitatea?",
+          "confirm_remove_text": "Sigur doriți să eliminați această entitate?"
+        },
+        "vacuum": {
+          "status": "Stare",
+          "commands": "Comenzi aspirator:",
+          "fan_speed": "Viteza ventilatorului",
+          "start": "Štart",
+          "pause": "Pauza",
+          "stop": "Stop",
+          "clean_spot": "Loc curat",
+          "locate": "Localizaţi",
+          "return_home": "Návrat domov",
+          "start_pause": "Štart/Pouza"
+        },
+        "person": { "create_zone": "Creare zonă din locația curentă" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        }
+      },
+      "entity_registry": {
+        "settings": "Setări",
+        "control": "Control",
+        "related": "În legătură cu",
+        "dismiss": "Ascunde",
+        "no_unique_id": "Această entitate nu are un ID unic, prin urmare, setările sale nu pot fi gestionate de la interfața cu utilizatorul.",
+        "faq": "documentation",
+        "editor": {
+          "name": "Suprascriere nume",
+          "icon": "Înlocuire pictogramă",
+          "icon_error": "Pictogramele trebuie să fie în formatul \"prefix:iconname\", de ex. \"mdi:home\"",
+          "entity_id": "ID-ul entității",
+          "unavailable": "Această entitate nu este disponibilă momentan.",
+          "enabled_label": "Activează entitatea",
+          "enabled_cause": "Dezactivat de către {cause}.",
+          "enabled_description": "Entitățile dezactivate nu vof fi adăugate in Home Assistant",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "Șterge",
+          "confirm_delete": "Sigur dorești să ștergi această intrare?",
+          "update": "Actualizare",
+          "note": "Notă: este posibil să nu funcționeze încă cu toate integrările."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "Integrarea {platform} nu este încărcată. Vă rugăm să-i adăugați configurația dvs. fie adăugând 'default_config:' sau ''{platform}:''.",
+        "yaml_not_editable": "Setările acestei entități nu se pot edita din interfața grafica. Numai entitățile configurate in interfața grafica sunt configurabile din interfața grafica.",
+        "required_error_msg": "Acest câmp este obligatoriu",
+        "generic": { "name": "Nume", "icon": "Pictograma" },
+        "input_datetime": {
+          "date": "Data",
+          "time": "Timp",
+          "datetime": "Data si ora",
+          "mode": "Ce doriți să introduceți"
+        },
+        "input_text": {
+          "min": "Lungime minimă",
+          "max": "Lungime maxima",
+          "mode": "Mod de afișare",
+          "text": "Text",
+          "password": "Parola",
+          "pattern": "Modelul Regex pentru validarea de partea clientului"
+        },
+        "input_number": {
+          "min": "Valoare minimă",
+          "max": "Valoare maximă",
+          "mode": "Mod de afișare",
+          "box": "Introdu textul",
+          "slider": "Glisor",
+          "step": "Dimensiunea pasului",
+          "unit_of_measurement": "Unitate de măsură"
+        },
+        "input_select": {
+          "options": "Opțiuni",
+          "add_option": "Adăugați o opțiune",
+          "no_options": "Nu există încă opțiuni",
+          "add": "Adaugă"
+        },
+        "counter": {
+          "minimum": "Minimum value",
+          "maximum": "Maximum value",
+          "initial": "Initial value",
+          "restore": "Restore the last known value when Home Assistant starts",
+          "step": "Step size"
+        },
+        "timer": { "duration": "Durată" }
+      },
+      "options_flow": {
+        "form": { "header": "Opțiuni" },
+        "success": { "description": "Opțiunile salvate cu succes." }
+      },
+      "config_entry_system_options": {
+        "title": "Opțiuni de sistem pentru {integration}",
+        "enable_new_entities_label": "Activează entitățile nou adăugate",
+        "enable_new_entities_description": "Dacă sunt dezactivate, entitățile recent descoperite pentru {integration} nu vor fi adăugate automat la Home Assistant.",
+        "update": "Actualizare"
+      },
+      "zha_device_info": {
+        "manuf": "de {manufacturer}",
+        "no_area": "Nici o zonă",
+        "device_signature": "Semnătura dispozitivului Zigbee",
+        "buttons": {
+          "add": "Add Devices via this device",
+          "remove": "Eliminare dispozitiv",
+          "clusters": "Manage Clusters",
+          "reconfigure": "Reconfigurare dispozitiv",
+          "zigbee_information": "Informații Zigbee"
+        },
+        "services": {
+          "reconfigure": "Reconfigurați dispozitivul ZHA (dispozitiv de vindecare). Utilizați acest lucru dacă aveți probleme cu dispozitivul. Dacă dispozitivul în cauză este un dispozitiv alimentat cu baterii, asigurați-vă că este treaz și accepta comenzi atunci când utilizați acest serviciu.",
+          "updateDeviceName": "Setați un nume personalizat pentru acest dispozitiv în registrul de dispozitive.",
+          "remove": "Eliminați un dispozitiv din rețeaua Zigbee.",
+          "zigbee_information": "Vizualizați informațiile Zigbee pentru dispozitiv."
+        },
+        "confirmations": {
+          "remove": "Ești sigur că vrei să înlături dispozitivul?"
+        },
+        "quirk": "Quirk",
+        "last_seen": "Ultima dată văzut",
+        "power_source": "Sursă de alimentare",
+        "unknown": "Necunoscut",
+        "zha_device_card": {
+          "device_name_placeholder": "Nume dat de utilizator",
+          "area_picker_label": "Zonă",
+          "update_name_button": "Actualizați numele"
+        }
+      },
+      "domain_toggler": {
+        "title": "Comutare domenii",
+        "reset_entities": "Reset Entities"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} debug info",
+        "deserialize": "Încercați să analizați mesajele MQTT ca JSON",
+        "entities": "Entități",
+        "no_entities": "Nu sunt entități",
+        "no_triggers": "Nu exista declansatori",
+        "payload_display": "Afișare sarcină utilă",
+        "recent_messages": "{n} most recently received message(s)",
+        "show_as_yaml": "Afișați ca YAML",
+        "triggers": "Declanșatoare"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\none {secunda}\nother {secunde}\n}",
+      "minute": "{count} {count, plural,\n  one { minut }\n  other { minute }\n}",
+      "hour": "{count}{count, plural,\n  one { ora }\n  other { ore }\n}",
+      "day": "{count}{count, plural,\n  one { zi }\n  other { zile }\n}",
+      "week": "{count}{count, plural,\n  one { săptămână }\n  other { săptămâni }\n}"
+    },
+    "login-form": {
+      "password": "Parola",
+      "remember": "Reține",
+      "log_in": "Conectare"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Faceți clic pe buton pentru a configura {entity}",
+      "empty": "Nicio notificare",
+      "title": "Notificări",
+      "close": "Închide",
+      "dismiss_all": "Dismiss all"
+    },
+    "notification_toast": {
+      "service_call_failed": "Nu s-a putut apela serviciul {service}.",
+      "connection_lost": "Conexiunea a fost pierdută. Se reconectează ...",
+      "started": "Home Assistant has started!",
+      "starting": "Home Assistant is starting, not everything will be available until it is finished.",
+      "triggered": "Declanșat {name}",
+      "dismiss": "Dismiss"
+    },
+    "sidebar": {
+      "external_app_configuration": "Configurație aplicație",
+      "sidebar_toggle": "Schimbati bara laterală",
+      "done": "Terminat"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "Calendarele mele", "today": "Astăzi" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Are you sure you want to delete this card?",
+          "empty_state": {
+            "title": "Bun venit acasă",
+            "no_devices": "Această pagină vă permite să controlați dispozitivele dvs., cu toate acestea se pare că nu aveți dispozitive configurate încă. Du-te la pagina integrări pentru a începe.",
+            "go_to_integrations_page": "Du-te la pagina integrări."
+          },
+          "entities": { "never_triggered": "Nu s-a declanșat niciodată" },
+          "shopping-list": {
+            "checked_items": "Elementele selectate",
+            "clear_items": "Ștergeți elementele selectate",
+            "add_item": "Adaugare element"
+          },
+          "picture-elements": {
+            "hold": "Țineți apăsat:",
+            "tap": "Atingeți:",
+            "navigate_to": "Navigați la {location}",
+            "url": "Open window to {url_path}",
+            "toggle": "Comutați {name}",
+            "call_service": "Apeleaza servicul {name}",
+            "more_info": "Afișați mai multe informații: {name}"
+          },
+          "safe-mode": {
+            "header": "Mod de siguranță activat",
+            "description": "Home Assistant a avut probleme în timpul încărcării configurației și rulează acum în modul de siguranță. Aruncati o privire la jurnalul de erori pentru a vedea ce a mers prost."
+          },
+          "starting": {
+            "description": "Home Assistant pornește, vă rugăm să așteptați...",
+            "header": "Home Assistant pornește..."
+          }
+        },
+        "unused_entities": {
+          "title": "Entități neutilizate",
+          "available_entities": "Acestea sunt entitățile pe care le aveți disponibile, dar nu sunt încă în UI dvs. Lovelace.",
+          "select_to_add": "Selectați entitățile pe care doriți să le adăugați pe un card, apoi faceți clic pe butonul Adăugare card.",
+          "entity": "Entitate",
+          "entity_id": "ID-ul entității",
+          "domain": "Domeniu",
+          "last_changed": "Ultima modificare",
+          "search": "Căutare entități",
+          "no_data": "Nu s-au găsit entități neutilizate"
+        },
+        "add_entities": {
+          "yaml_unsupported": "Nu se poate utiliza această funcție atunci când utilizați Lovelace UI în modul YAML.",
+          "generated_unsupported": "Puteți utiliza această funcție numai atunci când ați preluat controlul asupra UI Lovelace.",
+          "saving_failed": "Salvarea configurației UI Lovelace a eșuat."
+        },
+        "views": {
+          "confirm_delete": "Ștergeți vizualizarea?",
+          "confirm_delete_text": "Sigur doriți să ștergeți vizualizarea „{name}”?",
+          "confirm_delete_existing_cards": "Ștergerea acestei vizualizări va elimina și cardurile",
+          "confirm_delete_existing_cards_text": "Sigur doriți să ștergeți vizualizarea '' {name} ''? Vizualizarea conține {number} carduri care vor fi șterse. Această acțiune nu poate fi anulată."
+        },
+        "menu": {
+          "configure_ui": "Configurați interfața utilizator",
+          "help": "Ajutor",
+          "start_conversation": "Start conversation",
+          "reload_resources": "Reîncărcare resurse",
+          "exit_edit_mode": "Ieșiți din modul de modificare a interfeței de utilizator",
+          "close": "Închide",
+          "refresh": "Reîmprospătare"
+        },
+        "reload_resources": {
+          "refresh_header": "Vrei să reîmprospătezi?",
+          "refresh_body": "Trebuie să reîmprospătați pagina pentru a finaliza reîncărcarea, doriți să reîmprospătați acum?"
+        },
+        "editor": {
+          "header": "Editați interfața utilizator",
+          "menu": {
+            "open": "Deschideți meniul Lovelace UI",
+            "raw_editor": "Editor de configurare brut"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "Editați configurația",
+            "save": "Salvați",
+            "unsaved_changes": "Modificări nesalvate",
+            "saved": "Salvat",
+            "confirm_remove_config_title": "Sigur eliminați configurația Ui Lovelace? Vom genera automat vizualizările UI Lovelace cu zonele și dispozitivele dvs.",
+            "confirm_remove_config_text": "Vom genera automat vizualizările UI Lovelace cu zonele și dispozitivele dvs., dacă eliminați configurația UI Lovelace.",
+            "confirm_unsaved_changes": "Aveți modificări nesalvate, sunteți sigur că doriți să ieșiți?",
+            "confirm_unsaved_comments": "Configurația dvs. conține comentarii, acestea nu vor fi salvate. Doriți să continuați?",
+            "error_parse_yaml": "Eroare de parsare YAML: {error}",
+            "error_invalid_config": "Configurația dvs. nu este validă: {error}",
+            "error_save_yaml": "Imposibil de salvat YAML: {error}",
+            "error_remove": "Imposibil de eliminat configurația: {error}",
+            "resources_moved": "Resursele nu ar trebui să mai fie adăugate la configurația Lovelace, dar pot fi adăugate în panoul de configurare Lovelace."
+          },
+          "edit_lovelace": {
+            "header": "Titlul interfeței dvs. Lovelace",
+            "explanation": "Acest titlu este arătat mai sus de toate punctele de vedere în Lovelace.",
+            "edit_title": "Editează titlul",
+            "title": "Titlu"
+          },
+          "edit_view": {
+            "header": "Vizualizați configurația",
+            "header_name": "{name} View Configuration",
+            "add": "Adăugați vizualizare",
+            "edit": "Editați vizualizarea",
+            "delete": "Ștergeți vizualizarea",
+            "move_left": "Mutare vizualizare la stânga",
+            "move_right": "Mutare vizualizare dreapta",
+            "tab_settings": "Setări",
+            "tab_badges": "Insigne",
+            "tab_visibility": "Vizibilitate",
+            "visibility": {
+              "select_users": "Selectați care utilizatori ar trebui să vadă această vedere în navigare"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "These badges will not be displayed because this view is in \"Panel Mode\"."
+          },
+          "edit_card": {
+            "header": "Configurare card",
+            "typed_header": "{tip} Configurare card",
+            "pick_card": "Ce card doriți să adăugați?",
+            "pick_card_view_title": "Which card would you like to add to your {name} view?",
+            "toggle_editor": "Activeaza editor",
+            "unsaved_changes": "Aveți modificări nesalvate",
+            "confirm_cancel": "Ești sigur că vrei să anulezi?",
+            "show_visual_editor": "Show Visual Editor",
+            "show_code_editor": "Show Code Editor",
+            "add": "Adăugare card",
+            "edit": "Editeaza",
+            "clear": "Clear",
+            "delete": "Ștergeți cardul",
+            "duplicate": "Duplicare card",
+            "move": "Mutați la Vizualizare",
+            "move_before": "Move card before",
+            "move_after": "Move card after",
+            "options": "Mai multe optiuni",
+            "search_cards": "Search cards"
+          },
+          "move_card": { "header": "Alegeți o vedere pentru a muta cardul în" },
+          "select_view": {
+            "header": "Alegeți o vizualizare",
+            "dashboard_label": "Tablou de bord"
+          },
+          "suggest_card": {
+            "header": "Am creat o sugestie pentru dumneavoastră",
+            "create_own": "Alege alt card",
+            "add": "Adăugați la Lovelace UI"
+          },
+          "save_config": {
+            "header": "Preia controlul asupra interfața dvs. Lovelace",
+            "para": "În mod implicit, Home Assistant va menține interfața dvs. de utilizator, actualizând-o atunci când entitățile noi sau componente Lovelace devin disponibile. Dacă preluați controlul, nu vom mai face automat modificări pentru dvs.",
+            "para_sure": "Sigur doriți să preluați controlul asupra interfeței dvs. de utilizator?",
+            "yaml_mode": "Utilizați modul YAML, ceea ce înseamnă că nu puteți modifica configurația Lovelace din UI. Dacă doriți să schimbați Lovelace din interfața de utilizator, eliminați „modul: yaml” din configurația dvs. Lovelace din „configuration.yaml”.",
+            "yaml_control": "Pentru a prelua controlul în modul YAML, creați un fișier YAML cu numele pe care l-ați specificat în configurația dvs. pentru acest tablou de bord sau implicit „ui-lovelace.yaml”.",
+            "yaml_config": "Pentru a vă ajuta să începeți aici este configurarea curentă a acestui tablou de bord:",
+            "empty_config": "Începeți cu un tablou de bord gol",
+            "cancel": "Nu contează",
+            "close": "Închide",
+            "save": "Preia controlul"
+          },
+          "migrate": {
+            "header": "Configurație Incompatibilă",
+            "para_no_id": "Acest element nu are un ID. Adăugați un ID la acest element în \"ui-lovelace.yaml\".",
+            "para_migrate": "Home Assistant poate adăuga ID-ul la toate cărțile și vizualizările în mod automat pentru tine apăsând butonul \"Migrează configurația\".",
+            "migrate": "Migrează configurația"
+          },
+          "action-editor": {
+            "navigation_path": "Navigation Path",
+            "url_path": "URL Path",
+            "editor_service_data": "Service data can only be entered in the code editor",
+            "actions": {
+              "default_action": "Default Action",
+              "call-service": "Call Service",
+              "more-info": "More Info",
+              "toggle": "Toggle",
+              "navigate": "Navigate",
+              "url": "URL",
+              "none": "No Action"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Alarm Panel",
+              "available_states": "Available States",
+              "description": "The Alarm Panel card allows you to Arm and Disarm your alarm control panel integrations."
+            },
+            "calendar": {
+              "name": "Calendar",
+              "description": "The Calendar card displays a calendar including day, week and list views",
+              "inital_view": "Initial View",
+              "calendar_entities": "Calendar Entities",
+              "views": {
+                "dayGridMonth": "Month",
+                "dayGridDay": "Day",
+                "listWeek": "List"
+              }
+            },
+            "conditional": {
+              "name": "Conditional",
+              "description": "Cardul condițional afișează un alt card bazat pe stări de entitate.",
+              "conditions": "Condiții",
+              "card": "Card",
+              "state_equal": "Starea este egala cu",
+              "state_not_equal": "Starea nu este egala cu",
+              "current_state": "actual",
+              "condition_explanation": "Cardul va fi afișat atunci când TOATE condițiile de mai jos sunt îndeplinite.",
+              "change_type": "Modifică tipul"
+            },
+            "config": { "required": "Required", "optional": "Optional" },
+            "entities": {
+              "name": "Entități",
+              "show_header_toggle": "Show Header Toggle?",
+              "toggle": "Schimbati entitatile",
+              "description": "Cardul Entities este cel mai comun tip de card. Acesta grupează elementele împreună în liste.",
+              "special_row": "special row",
+              "edit_special_row": "Vizualizați detaliile acestui rând făcând clic pe butonul de editare",
+              "entity_row_editor": "Editează rândul entității",
+              "secondary_info_values": {
+                "none": "NU există informații suplimentare",
+                "entity-id": "ID-ul entității",
+                "last-changed": "Schimbat Ultima Dată",
+                "last-triggered": "Accesat Ultima Dată",
+                "position": "Poziție",
+                "tilt-position": "Înclinare",
+                "brightness": "Luminozitate",
+                "last-updated": "Last Updated"
+              },
+              "entity_row": {
+                "divider": "Divider",
+                "call-service": "Call Service",
+                "section": "Section",
+                "weblink": "Web Link",
+                "attribute": "Attribute",
+                "buttons": "Buttons",
+                "conditional": "Conditional",
+                "cast": "Cast",
+                "button": "Button"
+              }
+            },
+            "entity": {
+              "name": "Entitate",
+              "description": "Cardul Entity vă oferă o imagine de ansamblu rapidă asupra stării entității"
+            },
+            "button": {
+              "name": "Buton",
+              "description": "Cardul Button vă permite să adăugați butoane pentru a efectua sarcini.",
+              "default_action_help": "The default action depends on the entity's capabilities, it will either be toggled or the more info will be shown."
+            },
+            "entity-filter": {
+              "name": "Filtru entitate",
+              "description": "The Entity Filter card allows you to define a list of entities that you want to track only when in a certain state."
+            },
+            "gauge": {
+              "name": "Gauge",
+              "severity": {
+                "define": "Define Severity?",
+                "green": "Green",
+                "red": "Red",
+                "yellow": "Yellow"
+              },
+              "description": "Cardul Gauge este un card de bază care permite vizualizarea vizuală a datelor senzorilor."
+            },
+            "glance": {
+              "name": "Privire rapida",
+              "columns": "Columns",
+              "description": "Cardul Glance este util pentru a grupa mai mulți senzori într-o imagine de ansamblu compactă."
+            },
+            "grid": {
+              "name": "Grid",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "Grafic istoric",
+              "description": "Fișa History Graph vă permite să afișați un grafic pentru fiecare dintre entitățile listate."
+            },
+            "horizontal-stack": {
+              "name": "Stivă orizontală",
+              "description": "The Horizontal Stack card allows you to stack together multiple cards, so they always sit next to each other in the space of one column."
+            },
+            "humidifier": {
+              "name": "Umidificator",
+              "description": "The Humidifier card gives control of your humidifier entity. Allowing you to change the humidity and mode of the entity."
+            },
+            "iframe": {
+              "name": "Pagină web",
+              "description": "The Webpage card allows you to embed your favorite webpage right into Home Assistant."
+            },
+            "light": {
+              "name": "Lumina",
+              "description": "Cardul Light vă permite să schimbați luminozitatea luminii."
+            },
+            "generic": {
+              "aspect_ratio": "Aspect Ratio",
+              "attribute": "Atribut",
+              "camera_image": "Camera Entity",
+              "camera_view": "Camera View",
+              "double_tap_action": "Acțiune atingere dublă",
+              "entities": "Entities",
+              "entity": "Entitate",
+              "hold_action": "Suspendare acțiunii",
+              "hours_to_show": "Ore de afișat",
+              "icon": "Pictogramă",
+              "icon_height": "Înălțimea pictogramei",
+              "image": "Calea imaginii",
+              "maximum": "Maximă",
+              "manual": "Manual",
+              "manual_description": "Trebuie să adăugați un card personalizat sau doriți doar să scrieți manual yaml?",
+              "minimum": "Minimum",
+              "name": "Name",
+              "refresh_interval": "Refresh Interval",
+              "show_icon": "Show Icon?",
+              "show_name": "Show Name?",
+              "show_state": "Show State?",
+              "tap_action": "Tap Action",
+              "title": "Title",
+              "theme": "Theme",
+              "no_theme": "Nicio temă",
+              "unit": "Unitate",
+              "url": "Url",
+              "state": "Stare",
+              "secondary_info_attribute": "Atribut informații secundare",
+              "search": "Căutare",
+              "state_color": "Color icons based on state?"
+            },
+            "map": {
+              "name": "Hartă",
+              "geo_location_sources": "Surse de geolocalizare",
+              "dark_mode": "Modul întunecat?",
+              "default_zoom": "Default Zoom",
+              "hours_to_show": "Ore de afisat",
+              "source": "Source",
+              "description": "Cardul Map care vă permite să afișați entități pe o hartă."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Content",
+              "description": "Cardul Markdown este utilizat pentru a reda Markdown."
+            },
+            "media-control": {
+              "name": "Control media",
+              "description": "The Media Control card is used to display media player entities on an interface with easy to use controls."
+            },
+            "picture": {
+              "name": "Imagine",
+              "description": "The Picture card allows you to set an image to use for navigation to various paths in your interface or to call a service."
+            },
+            "picture-elements": {
+              "name": "Elemente de imagine",
+              "description": "The Picture Elements card is one of the most versatile types of cards. The cards allow you to position icons or text and even services! On an image based on coordinates."
+            },
+            "picture-entity": {
+              "name": "Entitate imagine",
+              "description": "The Picture Entity card displays an entity in the form of an image. Instead of images from URL, it can also show the picture of camera entities."
+            },
+            "picture-glance": {
+              "name": "Privire imagine",
+              "description": "The Picture Glance card shows an image and corresponding entity states as an icon. The entities on the right side allow toggle actions, others show the more information dialog."
+            },
+            "plant-status": {
+              "name": "Starea plantei",
+              "description": "Cardul de Stare al Plantelor este destinat tuturor botanistilor"
+            },
+            "sensor": {
+              "name": "Senzor",
+              "show_more_detail": "Afișați mai multe detalii",
+              "graph_type": "Graph Type",
+              "description": "Cardul Senzor vă oferă o imagine de ansamblu rapidă a stării senzorilor cu un grafic opțional pentru a vizualiza schimbarea în timp."
+            },
+            "shopping-list": {
+              "name": "Shopping List",
+              "description": "Cardul Listă cumpărături vă permite să adăugați, să editați, să verificați și să ștergeți elemente din lista de cumpărături.",
+              "integration_not_loaded": "Acest card necesită integrarea \"shopping_list\" pentru a fi configurat."
+            },
+            "thermostat": {
+              "name": "Thermostat",
+              "description": "Cardul Termostat oferă controlul entității climatice. Permițându-vă să modificați temperatura și modul entității."
+            },
+            "vertical-stack": {
+              "name": "Vertical Stack",
+              "description": "Cardul Vertical Stack vă permite să grupați mai multe carduri, astfel încât acestea să stea întotdeauna în aceeași coloană."
+            },
+            "weather-forecast": {
+              "name": "Weather Forecast",
+              "description": "Cardul Prognoza meteo afișează vremea. Foarte util pentru a include pe interfețele pe care oamenii le afișează pe perete.",
+              "show_forecast": "Afișați prognoza"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Mod Panou?",
+              "description": "Aceasta redă primul card la lățime completă; alte carduri din această vizualizare nu vor fi redate.",
+              "warning_multiple_cards": "Această vizualizare conține mai multe carduri, dar un panel view poate afișa doar 1 card"
+            }
+          },
+          "cardpicker": {
+            "no_description": "Nicio descriere disponibilă.",
+            "custom_card": "Personalizare",
+            "domain": "Domain",
+            "entity": "Entity",
+            "by_entity": "By Entity",
+            "by_card": "By Card"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Attribute {attribute} not available in: {entity}",
+          "entity_not_found": "Entitatea nu este disponibilă: {entity}",
+          "entity_non_numeric": "Entitatea este non-numerică: {entity}",
+          "entity_unavailable": "{entity} este momentan indisponibilă",
+          "starting": "Home Assistant pornește, nu totul poate fi disponibil încă"
+        },
+        "changed_toast": {
+          "message": "Configurația Lovelace UI a fost actualizată, reîmprospătați pentru a vedea modificările?",
+          "refresh": "Reîmprospătare"
+        },
+        "reload_lovelace": "Reîncarcă Lovelace UI"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Aveți încredere în panoul extern {name} la {link}?",
+          "complete_access": "Va avea acces la toate datele din asistentul principal.",
+          "hide_message": "Verificați Docs pentru componenta panel_custom pentru a ascunde acest mesaj"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Legg til",
+        "clear_completed": "Fjern fullførte",
+        "microphone_tip": "Aktivér mikrofonen øverst til høyre og si “Add candy to my shopping list”"
+      }
+    }
+  }
+}

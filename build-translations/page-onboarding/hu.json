@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Készen állsz arra, hogy felébreszd az otthonod, visszaszerezd a magánéleted és csatlakozz egy világhálós közösséghez?",
+        "user": {
+          "intro": "Kezdjük a felhasználói fiók létrehozásával.",
+          "required_field": "Szükséges",
+          "data": {
+            "name": "Név",
+            "username": "Felhasználónév",
+            "password": "Jelszó",
+            "password_confirm": "Jelszó megerősítése"
+          },
+          "create_account": "Fiók Létrehozása",
+          "error": {
+            "required_fields": "Töltsd ki az összes szükséges mezőt",
+            "password_not_match": "A jelszavak nem egyeznek"
+          }
+        },
+        "core-config": {
+          "intro": "Hello {name}, üdvözöl a Home Assistant. Hogyan szeretnéd elnevezni az otthonodat?",
+          "intro_location": "Szeretnénk tudni, hogy hol élsz. Ez segít az információk megjelenítésében és a nap alapú automatizálások beállításában. Ez az adat soha nem lesz megosztva a hálózatodon kívül.",
+          "intro_location_detect": "Segíthetünk neked kitölteni ezt az információt egy külső szolgáltatás egyszeri lekérdezésével.",
+          "location_name": "A Home Assistant rendszered neve",
+          "location_name_default": "Otthon",
+          "button_detect": "Észlelés",
+          "finish": "Tovább"
+        },
+        "integration": {
+          "intro": "Az eszközöket és szolgáltatásokat a Home Assistant integrációként kezeli. Beállíthatod őket most, vagy később a konfigurációs képernyőn.",
+          "more_integrations": "Több",
+          "finish": "Befejezés"
+        },
+        "restore": {
+          "description": "Alternatív megoldásként visszaállíthatsz egy korábbi pillanatképet.",
+          "in_progress": "Visszaállítás folyamatban",
+          "show_log": "Teljes napló megjelenítése",
+          "hide_log": "Teljes napló elrejtése"
+        }
+      }
+    }
+  }
+}

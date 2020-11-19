@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Сегодня",
+          "yesterday": "Вчера",
+          "this_week": "Эта неделя",
+          "last_week": "Прошедшая неделя"
+        },
+        "period": "Период",
+        "showing_entries": "Отображение записей за"
+      }
+    }
+  }
+}

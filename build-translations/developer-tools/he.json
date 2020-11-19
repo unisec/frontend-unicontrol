@@ -1,0 +1,77 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "אירועים",
+            "description": "יריית אירוע במערכת",
+            "documentation": "תיעוד אירועים.",
+            "type": "סוג אירוע",
+            "data": "נתוני אירוע (YAML, אופציונלי)",
+            "fire_event": "שגר אירוע",
+            "event_fired": "אירוע {name} נורה",
+            "available_events": "אירועים זמינים",
+            "count_listeners": "({count} מאזינים)",
+            "listen_to_events": "האזן לאירועים",
+            "listening_to": "מאזין ל",
+            "subscribe_to": "אירוע להירשם אליו",
+            "start_listening": "התחל להאזין",
+            "stop_listening": "עצור האזנה",
+            "alert_event_type": "סוג האירוע הוא שדה חובה",
+            "notification_event_fired": "אירוע {type} נורה בהצלחה!"
+          },
+          "services": {
+            "title": "שירותים",
+            "description": "כלי הפיתוח של השירותים מאפשר לך לקרוא לכל שירות ב Home Assistant.",
+            "data": "נתוני שירות (YAML, לא חובה)",
+            "call_service": "קריאה לשירות",
+            "select_service": "בחר שירות כדי לראות את התיאור",
+            "no_description": "אין תיאור זמין",
+            "no_parameters": "שירות זה אינו מקבל פרמטרים.",
+            "column_parameter": "פרמטר",
+            "column_description": "תיאור",
+            "column_example": "דוגמא",
+            "fill_example_data": "מלא נתונים לדוגמה",
+            "alert_parsing_yaml": "שגיאה בניתוח YAML: {data}"
+          },
+          "states": {
+            "title": "מצבים",
+            "description1": "הגדר את הייצוג של המכשיר בתוך Home Assistant.",
+            "description2": "זה לא יתקשר עם המכשיר עצמו.",
+            "entity": "ישות",
+            "state": "מצב",
+            "attributes": "תכונות",
+            "state_attributes": "תכונות מצב (YAML, אופציונלי)",
+            "set_state": "קבע מצב",
+            "current_entities": "ישויות נוכחיות",
+            "filter_entities": "סנן ישויות",
+            "filter_states": "סנן מצבים",
+            "filter_attributes": "סנן תכונות",
+            "no_entities": "אין ישויות",
+            "more_info": "מידע נוסף",
+            "alert_entity_field": "ישות היא שדה חובה",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "תבניות",
+            "description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+            "editor": "Template editor",
+            "reset": "Reset to demo template",
+            "result_type": "Result type",
+            "jinja_documentation": "Jinja2 template documentation",
+            "template_extensions": "Home Assistant template extensions",
+            "unknown_error_template": "Unknown error rendering template",
+            "time": "This template updates at the start of each minute.",
+            "all_listeners": "This template listens for all state changed events.",
+            "no_listeners": "This template does not listen for any events and will not update automatically.",
+            "listeners": "This template listens for the following state changed events:",
+            "entity": "Entity",
+            "domain": "Domain"
+          }
+        }
+      }
+    }
+  }
+}

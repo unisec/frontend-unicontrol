@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Astăzi",
+          "yesterday": "Ieri",
+          "this_week": "Săptămâna aceasta",
+          "last_week": "Săptămâna trecută"
+        },
+        "entries_not_found": "Nu s-au găsit intrări în jurnal.",
+        "period": "Perioadă",
+        "showing_entries": "Arată intrări pentru"
+      }
+    }
+  }
+}

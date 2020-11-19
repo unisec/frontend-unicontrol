@@ -1,0 +1,10 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "اضافه کردن آیتم",
+        "clear_completed": "کامل شده ها را پاک کن"
+      }
+    }
+  }
+}

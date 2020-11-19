@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Avui",
+          "yesterday": "Ahir",
+          "this_week": "Aquesta setmana",
+          "last_week": "La setmana passada"
+        },
+        "period": "Període",
+        "showing_entries": "Mostrant entrades de"
+      }
+    }
+  }
+}

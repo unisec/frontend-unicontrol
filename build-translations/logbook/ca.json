@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Avui",
+          "yesterday": "Ahir",
+          "this_week": "Aquesta setmana",
+          "last_week": "La setmana passada"
+        },
+        "entries_not_found": "No s'han trobat entrades al registre.",
+        "period": "Període",
+        "showing_entries": "Mostrant entrades de"
+      }
+    }
+  }
+}

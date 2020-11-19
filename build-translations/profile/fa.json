@@ -1,0 +1,120 @@
+{
+  "ui": {
+    "panel": {
+      "profile": {
+        "current_user": "شما در حال حاضر به عنوان {fullName} وارد شده اید.",
+        "is_owner": "You are an owner.",
+        "logout": "Deconectare",
+        "logout_title": "Deconectare?",
+        "logout_text": "Esti sigur ca vrei sa te deconectezi?",
+        "force_narrow": {
+          "header": "Always hide the sidebar",
+          "description": "This will hide the sidebar by default, similar to the mobile experience."
+        },
+        "customize_sidebar": {
+          "header": "Change the order and hide items from the sidebar",
+          "description": "You can also press and hold the header of the sidebar to activate edit mode.",
+          "button": "Edit"
+        },
+        "vibrate": {
+          "header": "ویبره",
+          "description": "هنگام کنترل دستگاه، حالت ویبره فعال یا غیرفعال می‌شود."
+        },
+        "enable_shortcuts": {
+          "header": "Keyboard Shortcuts",
+          "description": "Enable or disable keyboard shortcuts for performing various actions in the UI."
+        },
+        "suspend": {
+          "header": "Automatically close connection",
+          "description": "Should we close the connection to the server after being hidden for 5 minutes?"
+        },
+        "push_notifications": {
+          "header": "ارسال اعلانها",
+          "description": "ارسال اعلانها به این دستگاه",
+          "error_load_platform": "Configure notify.html5.",
+          "error_use_https": "Requires SSL enabled for frontend.",
+          "push_notifications": "ارسال اعلانها",
+          "link_promo": "بیشتر بدانید",
+          "add_device_prompt": {
+            "title": "What should this device be called?",
+            "input_label": "Device name"
+          }
+        },
+        "language": {
+          "header": "Language",
+          "link_promo": "Help translating",
+          "dropdown_label": "Language"
+        },
+        "themes": {
+          "header": "Theme",
+          "error_no_theme": "No themes available.",
+          "link_promo": "Learn about themes",
+          "dropdown_label": "Theme",
+          "dark_mode": { "auto": "Auto", "light": "Light", "dark": "Dark" },
+          "primary_color": "Primary color",
+          "accent_color": "Accent color",
+          "reset": "Reset"
+        },
+        "dashboard": {
+          "header": "داشبورد",
+          "description": "یک داشبورد پیش فرض برای این دستگاه انتخاب کنید.",
+          "dropdown_label": "داشبورد"
+        },
+        "change_password": {
+          "header": "تغییر رمز عبور",
+          "current_password": "رمز فعلی",
+          "new_password": "رمز جدید",
+          "confirm_new_password": "تائید رمز جدید",
+          "error_required": "Required",
+          "submit": "Submit"
+        },
+        "mfa": {
+          "header": "Multi-factor Authentication Modules",
+          "disable": "Disable",
+          "enable": "Enable",
+          "confirm_disable": "آیا مطمئن هستید که میخواهید {name} غیرفعال کنید؟"
+        },
+        "mfa_setup": {
+          "title_aborted": "لغو شد",
+          "title_success": "Success!",
+          "step_done": "Setup done for {step}",
+          "close": "Close",
+          "submit": "Submit"
+        },
+        "advanced_mode": {
+          "title": "حالت پیشرفته",
+          "description": "سیستم به طور پیش فرض ویژگی ها و گزینه های پیشرفته را پنهان می کند. می توانید با تغییر این گزینه ، این ویژگی ها را در فعال کنید. این  تنظیم خاص یک کاربر بوده و استفاده سایر کاربران این سیستم را تحت تأثیر قرار نمی دهد.",
+          "link_promo": "Learn more"
+        },
+        "refresh_tokens": {
+          "header": "تازه کردن نشانه",
+          "description": "هر نشانه بازخوانی نشان دهنده یک جلسه ورود به سیستم است. هنگام خروج از سیستم ، نشانه های تازه سازی به صورت خودکار حذف می شوند. نشانه های تازه سازی زیر در حال حاضر برای حساب شما فعال هستند.",
+          "token_title": "تازه token برای {clientId}",
+          "created_at": "ایجاد شده در {date}",
+          "last_used": "آخرین در {date} از {location}",
+          "not_used": "هرگز استفاده نشده است",
+          "confirm_delete": "Are you sure you want to delete the refresh token for {name}?",
+          "delete_failed": "token حذف نشد.",
+          "current_token_tooltip": "عدم امکان حذف تازه کردن​ token"
+        },
+        "long_lived_access_tokens": {
+          "header": "Long-Lived Access Tokens",
+          "description": "علامت های دسترسی طولانی مدت را ایجاد کنید تا اسکریپت های شما بتوانند با مثال معاونت Home خود ارتباط برقرار کنند. هر علامت گذاری برای 10 سال معتبر است. برچسبهای دسترسی طولانی مدت در حال حاضر فعال هستند.",
+          "learn_auth_requests": "با نحوه انجام درخواست های تأیید اعتبار آشنا شوید.",
+          "created": "Created {date}",
+          "confirm_delete": "آیا مطمئن هستید که میخواهید token زیر را برای {name} حذف کنید؟",
+          "delete_failed": "Failed to delete the access token.",
+          "create": "Create Token",
+          "create_failed": "Failed to create the access token.",
+          "name": "Name",
+          "prompt_name": "Give the token a name",
+          "prompt_copy_token": "Copy your access token. It will not be shown again.",
+          "empty_state": "You have no long-lived access tokens yet.",
+          "created_at": "ایجاد شده در {date}",
+          "last_used": "آخرین مورد استفاده در {date} از {location}",
+          "not_used": "هرگز استفاده نشده است"
+        }
+      }
+    }
+  }
+}

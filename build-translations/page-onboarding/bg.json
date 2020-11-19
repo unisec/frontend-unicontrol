@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Готови ли сте да събудите дома си, да отвоювате независимостта си и да се присъедините към световна общност от хора автоматизиращи домовете си?",
+        "user": {
+          "intro": "Нека да започнете, като създадете потребителски акаунт.",
+          "required_field": "Задължително",
+          "data": {
+            "name": "Име",
+            "username": "Потребителско име",
+            "password": "Парола",
+            "password_confirm": "Потвърждение на парола"
+          },
+          "create_account": "Създай акаунт",
+          "error": {
+            "required_fields": "Попълнете всички задължителни полета",
+            "password_not_match": "Паролите не съвпадат"
+          }
+        },
+        "core-config": {
+          "intro": "Здравейте {name} , добре дошли в Home Assistant. Как бихте искали да назовете дома си?",
+          "intro_location": "Бихме искали да знаем къде живеете. Тази информация ще помогне за показването на информация и създаването на автоматизаци, които се активират от изгрев и залез. Тези данни никога не се споделят извън мрежата ви.",
+          "intro_location_detect": "Можем да ви помогнем да попълните тази информация, като изпратим еднократна заявка до външна услуга.",
+          "location_name": "Name of your Home Assistant installation",
+          "location_name_default": "Вкъщи",
+          "button_detect": "Откриване",
+          "finish": "Напред"
+        },
+        "integration": {
+          "intro": "Устройствата и услугите са представени в Home Assistant като Интеграции. Можете да ги настроите сега или да го направите по-късно от конфигурационния екран.",
+          "more_integrations": "Повече",
+          "finish": "Завърши"
+        },
+        "restore": {
+          "description": "Alternatively you can restore from a previous snapshot.",
+          "in_progress": "Restore in progress",
+          "show_log": "Show full log",
+          "hide_log": "Hide full log"
+        }
+      }
+    }
+  }
+}

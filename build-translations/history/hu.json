@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Ma",
+          "yesterday": "Tegnap",
+          "this_week": "Aktuális hét",
+          "last_week": "Múlt hét"
+        },
+        "period": "Időtartam",
+        "showing_entries": "Bejegyzések megjelenítése"
+      }
+    }
+  }
+}

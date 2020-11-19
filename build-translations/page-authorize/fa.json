@@ -1,0 +1,87 @@
+{
+  "ui": {
+    "panel": {
+      "page-authorize": {
+        "initializing": "Initializing",
+        "authorizing_client": "شما در مورد ارائه {clientId} به عنوان مثال دستیار Home Assistant هستید.",
+        "logging_in_with": "ورود با ** {authProviderName} **.",
+        "pick_auth_provider": "یا وارد سیستم شوید",
+        "abort_intro": "ورود به سیستم لغو شد",
+        "form": {
+          "working": "لطفاً منتظر بمانید",
+          "unknown_error": "Something went wrong",
+          "next": "Next",
+          "start_over": "Start over",
+          "error": "Error: {error}",
+          "providers": {
+            "command_line": {
+              "step": {
+                "init": {
+                  "data": { "username": "نام کاربری", "password": "پسورد" }
+                },
+                "mfa": {
+                  "data": { "code": "تایید دو مرحله ای" },
+                  "description": "باز کردن **{mfa_module_name}** * * * در دستگاه خود را برای مشاهده شما دو فاکتور تأیید هویت کد و هویت خود را تایید کنید:"
+                }
+              },
+              "error": {
+                "invalid_auth": "کد احراز هویت نامعتبر",
+                "invalid_code": "کد احراز هویت نامعتبر"
+              },
+              "abort": {
+                "login_expired": "ورود منقضی شده است، لطفا دوباره وارد شوید."
+              }
+            },
+            "homeassistant": {
+              "step": {
+                "init": {
+                  "data": { "username": "نام کاربری", "password": "رمز عبور" }
+                },
+                "mfa": {
+                  "data": { "code": "Two-factor Authentication Code" },
+                  "description": "باز کردن **{mfa_module_name}** * * * در دستگاه خود را برای مشاهده شما دو فاکتور تأیید هویت کد و هویت خود را تایید کنید:"
+                }
+              },
+              "error": {
+                "invalid_auth": "Invalid username or password",
+                "invalid_code": "کد احراز هویت نامعتبر"
+              },
+              "abort": {
+                "login_expired": "ورود منقضی شده است، لطفا دوباره وارد شوید."
+              }
+            },
+            "legacy_api_password": {
+              "step": {
+                "init": {
+                  "data": { "password": "API Password" },
+                  "description": "Please input the API password in your HTTP configuration:"
+                },
+                "mfa": {
+                  "data": { "code": "Two-factor Authentication Code" },
+                  "description": "باز کردن **{mfa_module_name}** * * * در دستگاه خود را برای مشاهده شما دو فاکتور تأیید هویت کد و هویت خود را تایید کنید:"
+                }
+              },
+              "error": {
+                "invalid_auth": "Invalid API password",
+                "invalid_code": "کد احراز هویت نامعتبر"
+              },
+              "abort": {
+                "no_api_password_set": "You don't have an API password configured.",
+                "login_expired": "لطفا دوباره وارد شوید."
+              }
+            },
+            "trusted_networks": {
+              "step": {
+                "init": {
+                  "data": { "user": "User" },
+                  "description": "Please select a user you want to login as:"
+                }
+              },
+              "abort": { "not_allowed": "Your computer is not allowed." }
+            }
+          }
+        }
+      }
+    }
+  }
+}

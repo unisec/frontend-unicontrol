@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Oggi",
+          "yesterday": "Ieri",
+          "this_week": "Questa settimana",
+          "last_week": "Settimana scorsa"
+        },
+        "entries_not_found": "Non sono state trovate voci nel registro.",
+        "period": "Periodo",
+        "showing_entries": "Visualizzazione delle voci per"
+      }
+    }
+  }
+}

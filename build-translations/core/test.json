@@ -1,0 +1,1119 @@
+{
+  "panel": {
+    "calendar": "TRANSLATED",
+    "config": "TRANSLATED",
+    "states": "TRANSLATED",
+    "map": "TRANSLATED",
+    "logbook": "TRANSLATED",
+    "history": "TRANSLATED",
+    "mailbox": "TRANSLATED",
+    "shopping_list": "TRANSLATED",
+    "developer_tools": "TRANSLATED",
+    "media_browser": "TRANSLATED",
+    "profile": "TRANSLATED"
+  },
+  "state": {
+    "default": {
+      "on": "TRANSLATED",
+      "off": "TRANSLATED",
+      "unknown": "TRANSLATED",
+      "unavailable": "TRANSLATED"
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": {
+        "off": "TRANSLATED",
+        "on": "TRANSLATED",
+        "auto": "TRANSLATED"
+      },
+      "preset_mode": {
+        "none": "TRANSLATED",
+        "eco": "TRANSLATED",
+        "away": "TRANSLATED",
+        "boost": "TRANSLATED",
+        "comfort": "TRANSLATED",
+        "home": "TRANSLATED",
+        "sleep": "TRANSLATED",
+        "activity": "TRANSLATED"
+      },
+      "hvac_action": {
+        "off": "TRANSLATED",
+        "heating": "TRANSLATED",
+        "cooling": "TRANSLATED",
+        "drying": "TRANSLATED",
+        "idle": "TRANSLATED",
+        "fan": "TRANSLATED"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "TRANSLATED",
+        "eco": "TRANSLATED",
+        "away": "TRANSLATED",
+        "boost": "TRANSLATED",
+        "comfort": "TRANSLATED",
+        "home": "TRANSLATED",
+        "sleep": "TRANSLATED",
+        "auto": "TRANSLATED",
+        "baby": "TRANSLATED"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "TRANSLATED",
+      "unavailable": "TRANSLATED",
+      "error": "TRANSLATED",
+      "entity_not_found": "TRANSLATED"
+    },
+    "alarm_control_panel": {
+      "armed": "TRANSLATED",
+      "disarmed": "TRANSLATED",
+      "armed_home": "TRANSLATED",
+      "armed_away": "TRANSLATED",
+      "armed_night": "TRANSLATED",
+      "armed_custom_bypass": "TRANSLATED",
+      "pending": "TRANSLATED",
+      "arming": "TRANSLATED",
+      "disarming": "TRANSLATED",
+      "triggered": "TRANSLATED"
+    },
+    "device_tracker": { "home": "TRANSLATED", "not_home": "TRANSLATED" },
+    "person": { "home": "TRANSLATED", "not_home": "TRANSLATED" }
+  },
+  "groups": {
+    "system-admin": "TRANSLATED",
+    "system-users": "TRANSLATED",
+    "system-read-only": "TRANSLATED"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "TRANSLATED",
+      "integration": "TRANSLATED",
+      "config_entry": "TRANSLATED"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "TRANSLATED",
+      "decline": "TRANSLATED",
+      "confirm": "TRANSLATED"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "TRANSLATED",
+        "clear_code": "TRANSLATED",
+        "disarm": "TRANSLATED",
+        "arm_home": "TRANSLATED",
+        "arm_away": "TRANSLATED",
+        "arm_night": "TRANSLATED",
+        "arm_custom_bypass": "TRANSLATED"
+      },
+      "automation": { "last_triggered": "TRANSLATED", "trigger": "TRANSLATED" },
+      "camera": { "not_available": "TRANSLATED" },
+      "climate": {
+        "currently": "TRANSLATED",
+        "on_off": "TRANSLATED",
+        "target_temperature": "TRANSLATED",
+        "target_temperature_entity": "TRANSLATED",
+        "target_temperature_mode": "TRANSLATED",
+        "current_temperature": "TRANSLATED",
+        "heating": "TRANSLATED",
+        "cooling": "TRANSLATED",
+        "high": "TRANSLATED",
+        "low": "TRANSLATED",
+        "target_humidity": "TRANSLATED",
+        "operation": "TRANSLATED",
+        "fan_mode": "TRANSLATED",
+        "swing_mode": "TRANSLATED",
+        "preset_mode": "TRANSLATED",
+        "away_mode": "TRANSLATED",
+        "aux_heat": "TRANSLATED"
+      },
+      "counter": {
+        "actions": {
+          "increment": "TRANSLATED",
+          "decrement": "TRANSLATED",
+          "reset": "TRANSLATED"
+        }
+      },
+      "cover": { "position": "TRANSLATED", "tilt_position": "TRANSLATED" },
+      "fan": {
+        "speed": "TRANSLATED",
+        "oscillate": "TRANSLATED",
+        "direction": "TRANSLATED",
+        "forward": "TRANSLATED",
+        "reverse": "TRANSLATED"
+      },
+      "humidifier": {
+        "humidity": "TRANSLATED",
+        "mode": "TRANSLATED",
+        "target_humidity_entity": "TRANSLATED",
+        "on_entity": "TRANSLATED"
+      },
+      "light": {
+        "brightness": "TRANSLATED",
+        "color_temperature": "TRANSLATED",
+        "white_value": "TRANSLATED",
+        "effect": "TRANSLATED"
+      },
+      "lock": {
+        "code": "TRANSLATED",
+        "lock": "TRANSLATED",
+        "unlock": "TRANSLATED"
+      },
+      "media_player": {
+        "source": "TRANSLATED",
+        "sound_mode": "TRANSLATED",
+        "browse_media": "TRANSLATED",
+        "turn_on": "TRANSLATED",
+        "turn_off": "TRANSLATED",
+        "media_play": "TRANSLATED",
+        "media_play_pause": "TRANSLATED",
+        "media_next_track": "TRANSLATED",
+        "media_previous_track": "TRANSLATED",
+        "text_to_speak": "TRANSLATED"
+      },
+      "persistent_notification": { "dismiss": "TRANSLATED" },
+      "scene": { "activate": "TRANSLATED" },
+      "script": {
+        "execute": "TRANSLATED",
+        "cancel": "TRANSLATED",
+        "cancel_multiple": "TRANSLATED"
+      },
+      "service": { "run": "TRANSLATED" },
+      "timer": {
+        "actions": {
+          "start": "TRANSLATED",
+          "pause": "TRANSLATED",
+          "cancel": "TRANSLATED",
+          "finish": "TRANSLATED"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "TRANSLATED",
+          "return_to_base": "TRANSLATED",
+          "start_cleaning": "TRANSLATED",
+          "turn_on": "TRANSLATED",
+          "turn_off": "TRANSLATED"
+        }
+      },
+      "water_heater": {
+        "currently": "TRANSLATED",
+        "on_off": "TRANSLATED",
+        "target_temperature": "TRANSLATED",
+        "operation": "TRANSLATED",
+        "away_mode": "TRANSLATED"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "TRANSLATED",
+          "humidity": "TRANSLATED",
+          "temperature": "TRANSLATED",
+          "visibility": "TRANSLATED",
+          "wind_speed": "TRANSLATED",
+          "precipitation": "TRANSLATED"
+        },
+        "cardinal_direction": {
+          "e": "TRANSLATED",
+          "ene": "TRANSLATED",
+          "ese": "TRANSLATED",
+          "n": "TRANSLATED",
+          "ne": "TRANSLATED",
+          "nne": "TRANSLATED",
+          "nw": "TRANSLATED",
+          "nnw": "TRANSLATED",
+          "s": "TRANSLATED",
+          "se": "TRANSLATED",
+          "sse": "TRANSLATED",
+          "ssw": "TRANSLATED",
+          "sw": "TRANSLATED",
+          "w": "TRANSLATED",
+          "wnw": "TRANSLATED",
+          "wsw": "TRANSLATED"
+        },
+        "day": "TRANSLATED",
+        "night": "TRANSLATED",
+        "forecast": "TRANSLATED",
+        "high": "TRANSLATED",
+        "low": "TRANSLATED"
+      }
+    },
+    "common": {
+      "and": "TRANSLATED",
+      "continue": "TRANSLATED",
+      "previous": "TRANSLATED",
+      "loading": "TRANSLATED",
+      "refresh": "TRANSLATED",
+      "cancel": "TRANSLATED",
+      "delete": "TRANSLATED",
+      "remove": "TRANSLATED",
+      "enable": "TRANSLATED",
+      "disable": "TRANSLATED",
+      "close": "TRANSLATED",
+      "leave": "TRANSLATED",
+      "stay": "TRANSLATED",
+      "next": "TRANSLATED",
+      "back": "TRANSLATED",
+      "undo": "TRANSLATED",
+      "save": "TRANSLATED",
+      "rename": "TRANSLATED",
+      "yes": "TRANSLATED",
+      "no": "TRANSLATED",
+      "not_now": "TRANSLATED",
+      "skip": "TRANSLATED",
+      "menu": "TRANSLATED",
+      "overflow_menu": "TRANSLATED",
+      "successfully_saved": "TRANSLATED",
+      "successfully_deleted": "TRANSLATED",
+      "error_required": "TRANSLATED",
+      "copied": "TRANSLATED"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "TRANSLATED",
+        "by": "TRANSLATED",
+        "by_service": "TRANSLATED",
+        "messages": {
+          "was_away": "TRANSLATED",
+          "was_at_state": "TRANSLATED",
+          "rose": "TRANSLATED",
+          "set": "TRANSLATED",
+          "was_low": "TRANSLATED",
+          "was_normal": "TRANSLATED",
+          "was_connected": "TRANSLATED",
+          "was_disconnected": "TRANSLATED",
+          "was_opened": "TRANSLATED",
+          "was_closed": "TRANSLATED",
+          "was_unlocked": "TRANSLATED",
+          "was_locked": "TRANSLATED",
+          "was_plugged_in": "TRANSLATED",
+          "was_unplugged": "TRANSLATED",
+          "was_at_home": "TRANSLATED",
+          "was_unsafe": "TRANSLATED",
+          "was_safe": "TRANSLATED",
+          "detected_device_class": "TRANSLATED",
+          "cleared_device_class": "TRANSLATED",
+          "turned_off": "TRANSLATED",
+          "turned_on": "TRANSLATED",
+          "changed_to_state": "TRANSLATED",
+          "became_unavailable": "TRANSLATED"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "TRANSLATED",
+          "clear": "TRANSLATED",
+          "show_entities": "TRANSLATED"
+        },
+        "entity-attribute-picker": {
+          "attribute": "TRANSLATED",
+          "show_attributes": "TRANSLATED"
+        }
+      },
+      "user-picker": {
+        "no_user": "TRANSLATED",
+        "add_user": "TRANSLATED",
+        "remove_user": "TRANSLATED"
+      },
+      "device-picker": {
+        "clear": "TRANSLATED",
+        "toggle": "TRANSLATED",
+        "show_devices": "TRANSLATED",
+        "device": "TRANSLATED",
+        "no_area": "TRANSLATED"
+      },
+      "area-picker": {
+        "clear": "TRANSLATED",
+        "show_areas": "TRANSLATED",
+        "area": "TRANSLATED",
+        "add_new": "TRANSLATED",
+        "add_dialog": {
+          "title": "TRANSLATED",
+          "text": "TRANSLATED",
+          "name": "TRANSLATED",
+          "add": "TRANSLATED",
+          "failed_create_area": "TRANSLATED"
+        }
+      },
+      "picture-upload": {
+        "label": "TRANSLATED",
+        "unsupported_format": "TRANSLATED"
+      },
+      "date-range-picker": {
+        "start_date": "TRANSLATED",
+        "end_date": "TRANSLATED",
+        "select": "TRANSLATED"
+      },
+      "relative_time": {
+        "never": "TRANSLATED",
+        "just_now": "TRANSLATED",
+        "duration": {
+          "second": "TRANSLATED",
+          "minute": "TRANSLATED",
+          "hour": "TRANSLATED",
+          "day": "TRANSLATED",
+          "week": "TRANSLATED"
+        },
+        "past_duration": {
+          "second": "TRANSLATED",
+          "minute": "TRANSLATED",
+          "hour": "TRANSLATED",
+          "day": "TRANSLATED",
+          "week": "TRANSLATED"
+        },
+        "future_duration": {
+          "second": "TRANSLATED",
+          "minute": "TRANSLATED",
+          "hour": "TRANSLATED",
+          "day": "TRANSLATED",
+          "week": "TRANSLATED"
+        }
+      },
+      "history_charts": {
+        "loading_history": "TRANSLATED",
+        "no_history_found": "TRANSLATED"
+      },
+      "service-picker": { "service": "TRANSLATED" },
+      "related-items": {
+        "no_related_found": "TRANSLATED",
+        "integration": "TRANSLATED",
+        "device": "TRANSLATED",
+        "area": "TRANSLATED",
+        "entity": "TRANSLATED",
+        "group": "TRANSLATED",
+        "scene": "TRANSLATED",
+        "script": "TRANSLATED",
+        "automation": "TRANSLATED"
+      },
+      "data-table": { "search": "TRANSLATED", "no-data": "TRANSLATED" },
+      "media-browser": {
+        "pick": "TRANSLATED",
+        "play": "TRANSLATED",
+        "play-media": "TRANSLATED",
+        "pick-media": "TRANSLATED",
+        "no_items": "TRANSLATED",
+        "choose_player": "TRANSLATED",
+        "media-player-browser": "TRANSLATED",
+        "web-browser": "TRANSLATED",
+        "media_player": "TRANSLATED",
+        "audio_not_supported": "TRANSLATED",
+        "video_not_supported": "TRANSLATED",
+        "media_not_supported": "TRANSLATED",
+        "media_browsing_error": "TRANSLATED",
+        "learn_adding_local_media": "TRANSLATED",
+        "local_media_files": "TRANSLATED",
+        "documentation": "TRANSLATED",
+        "no_local_media_found": "TRANSLATED",
+        "no_media_folder": "TRANSLATED",
+        "setup_local_help": "TRANSLATED",
+        "class": {
+          "album": "TRANSLATED",
+          "app": "TRANSLATED",
+          "artist": "TRANSLATED",
+          "channel": "TRANSLATED",
+          "composer": "TRANSLATED",
+          "contributing_artist": "TRANSLATED",
+          "directory": "TRANSLATED",
+          "episode": "TRANSLATED",
+          "game": "TRANSLATED",
+          "genre": "TRANSLATED",
+          "image": "TRANSLATED",
+          "movie": "TRANSLATED",
+          "music": "TRANSLATED",
+          "playlist": "TRANSLATED",
+          "podcast": "TRANSLATED",
+          "season": "TRANSLATED",
+          "track": "TRANSLATED",
+          "tv_show": "TRANSLATED",
+          "url": "TRANSLATED",
+          "video": "TRANSLATED"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "TRANSLATED",
+            "core": "TRANSLATED",
+            "group": "TRANSLATED",
+            "automation": "TRANSLATED",
+            "script": "TRANSLATED",
+            "scene": "TRANSLATED",
+            "person": "TRANSLATED",
+            "zone": "TRANSLATED",
+            "input_boolean": "TRANSLATED",
+            "input_text": "TRANSLATED",
+            "input_number": "TRANSLATED",
+            "input_datetime": "TRANSLATED",
+            "input_select": "TRANSLATED",
+            "template": "TRANSLATED",
+            "universal": "TRANSLATED",
+            "rest": "TRANSLATED",
+            "command_line": "TRANSLATED",
+            "filter": "TRANSLATED",
+            "statistics": "TRANSLATED",
+            "generic": "TRANSLATED",
+            "generic_thermostat": "TRANSLATED",
+            "homekit": "TRANSLATED",
+            "min_max": "TRANSLATED",
+            "history_stats": "TRANSLATED",
+            "trend": "TRANSLATED",
+            "ping": "TRANSLATED",
+            "filesize": "TRANSLATED",
+            "telegram": "TRANSLATED",
+            "smtp": "TRANSLATED",
+            "mqtt": "TRANSLATED",
+            "rpi_gpio": "TRANSLATED"
+          },
+          "server_control": {
+            "perform_action": "TRANSLATED",
+            "restart": "TRANSLATED",
+            "stop": "TRANSLATED"
+          },
+          "navigation": {
+            "navigate_to": "TRANSLATED",
+            "navigate_to_config": "TRANSLATED",
+            "logs": "TRANSLATED",
+            "automation": "TRANSLATED",
+            "script": "TRANSLATED",
+            "integrations": "TRANSLATED",
+            "areas": "TRANSLATED",
+            "scene": "TRANSLATED",
+            "helpers": "TRANSLATED",
+            "tags": "TRANSLATED",
+            "person": "TRANSLATED",
+            "devices": "TRANSLATED",
+            "entities": "TRANSLATED",
+            "lovelace": "TRANSLATED",
+            "core": "TRANSLATED",
+            "zone": "TRANSLATED",
+            "users": "TRANSLATED",
+            "info": "TRANSLATED",
+            "customize": "TRANSLATED",
+            "server_control": "TRANSLATED"
+          }
+        },
+        "filter_placeholder": "TRANSLATED"
+      },
+      "voice_command": {
+        "did_not_hear": "TRANSLATED",
+        "found": "TRANSLATED",
+        "error": "TRANSLATED",
+        "how_can_i_help": "TRANSLATED",
+        "label": "TRANSLATED",
+        "label_voice": "TRANSLATED"
+      },
+      "generic": {
+        "cancel": "TRANSLATED",
+        "ok": "TRANSLATED",
+        "default_confirmation_title": "TRANSLATED",
+        "close": "TRANSLATED"
+      },
+      "image_cropper": { "crop": "TRANSLATED" },
+      "more_info_control": {
+        "dismiss": "TRANSLATED",
+        "settings": "TRANSLATED",
+        "edit": "TRANSLATED",
+        "details": "TRANSLATED",
+        "history": "TRANSLATED",
+        "last_changed": "TRANSLATED",
+        "last_updated": "TRANSLATED",
+        "script": {
+          "last_action": "TRANSLATED",
+          "last_triggered": "TRANSLATED"
+        },
+        "sun": {
+          "elevation": "TRANSLATED",
+          "rising": "TRANSLATED",
+          "setting": "TRANSLATED"
+        },
+        "updater": { "title": "TRANSLATED" },
+        "restored": {
+          "not_provided": "TRANSLATED",
+          "remove_intro": "TRANSLATED",
+          "remove_action": "TRANSLATED",
+          "confirm_remove_title": "TRANSLATED",
+          "confirm_remove_text": "TRANSLATED"
+        },
+        "vacuum": {
+          "status": "TRANSLATED",
+          "commands": "TRANSLATED",
+          "fan_speed": "TRANSLATED",
+          "start": "TRANSLATED",
+          "pause": "TRANSLATED",
+          "stop": "TRANSLATED",
+          "clean_spot": "TRANSLATED",
+          "locate": "TRANSLATED",
+          "return_home": "TRANSLATED",
+          "start_pause": "TRANSLATED"
+        },
+        "person": { "create_zone": "TRANSLATED" },
+        "cover": {
+          "open_tilt_cover": "TRANSLATED",
+          "close_tile_cover": "TRANSLATED",
+          "stop_cover": "TRANSLATED"
+        }
+      },
+      "entity_registry": {
+        "settings": "TRANSLATED",
+        "control": "TRANSLATED",
+        "related": "TRANSLATED",
+        "dismiss": "TRANSLATED",
+        "no_unique_id": "TRANSLATED",
+        "faq": "TRANSLATED",
+        "editor": {
+          "name": "TRANSLATED",
+          "icon": "TRANSLATED",
+          "icon_error": "TRANSLATED",
+          "entity_id": "TRANSLATED",
+          "unavailable": "TRANSLATED",
+          "enabled_label": "TRANSLATED",
+          "enabled_cause": "TRANSLATED",
+          "enabled_description": "TRANSLATED",
+          "enabled_delay_confirm": "TRANSLATED",
+          "enabled_restart_confirm": "TRANSLATED",
+          "delete": "TRANSLATED",
+          "confirm_delete": "TRANSLATED",
+          "update": "TRANSLATED",
+          "note": "TRANSLATED"
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "TRANSLATED",
+        "yaml_not_editable": "TRANSLATED",
+        "required_error_msg": "TRANSLATED",
+        "generic": { "name": "TRANSLATED", "icon": "TRANSLATED" },
+        "input_datetime": {
+          "date": "TRANSLATED",
+          "time": "TRANSLATED",
+          "datetime": "TRANSLATED",
+          "mode": "TRANSLATED"
+        },
+        "input_text": {
+          "min": "TRANSLATED",
+          "max": "TRANSLATED",
+          "mode": "TRANSLATED",
+          "text": "TRANSLATED",
+          "password": "TRANSLATED",
+          "pattern": "TRANSLATED"
+        },
+        "input_number": {
+          "min": "TRANSLATED",
+          "max": "TRANSLATED",
+          "mode": "TRANSLATED",
+          "box": "TRANSLATED",
+          "slider": "TRANSLATED",
+          "step": "TRANSLATED",
+          "unit_of_measurement": "TRANSLATED"
+        },
+        "input_select": {
+          "options": "TRANSLATED",
+          "add_option": "TRANSLATED",
+          "no_options": "TRANSLATED",
+          "add": "TRANSLATED"
+        },
+        "counter": {
+          "minimum": "TRANSLATED",
+          "maximum": "TRANSLATED",
+          "initial": "TRANSLATED",
+          "restore": "TRANSLATED",
+          "step": "TRANSLATED"
+        },
+        "timer": { "duration": "TRANSLATED" }
+      },
+      "options_flow": {
+        "form": { "header": "TRANSLATED" },
+        "success": { "description": "TRANSLATED" }
+      },
+      "config_entry_system_options": {
+        "title": "TRANSLATED",
+        "enable_new_entities_label": "TRANSLATED",
+        "enable_new_entities_description": "TRANSLATED",
+        "update": "TRANSLATED"
+      },
+      "zha_device_info": {
+        "manuf": "TRANSLATED",
+        "no_area": "TRANSLATED",
+        "device_signature": "TRANSLATED",
+        "buttons": {
+          "add": "TRANSLATED",
+          "remove": "TRANSLATED",
+          "clusters": "TRANSLATED",
+          "reconfigure": "TRANSLATED",
+          "zigbee_information": "TRANSLATED"
+        },
+        "services": {
+          "reconfigure": "TRANSLATED",
+          "updateDeviceName": "TRANSLATED",
+          "remove": "TRANSLATED",
+          "zigbee_information": "TRANSLATED"
+        },
+        "confirmations": { "remove": "TRANSLATED" },
+        "quirk": "TRANSLATED",
+        "last_seen": "TRANSLATED",
+        "power_source": "TRANSLATED",
+        "unknown": "TRANSLATED",
+        "zha_device_card": { "device_name_placeholder": "TRANSLATED" }
+      },
+      "domain_toggler": {
+        "title": "TRANSLATED",
+        "reset_entities": "TRANSLATED"
+      },
+      "mqtt_device_debug_info": {
+        "title": "TRANSLATED",
+        "deserialize": "TRANSLATED",
+        "entities": "TRANSLATED",
+        "no_entities": "TRANSLATED",
+        "no_triggers": "TRANSLATED",
+        "payload_display": "TRANSLATED",
+        "recent_messages": "TRANSLATED",
+        "show_as_yaml": "TRANSLATED",
+        "triggers": "TRANSLATED"
+      }
+    },
+    "duration": {
+      "second": "TRANSLATED",
+      "minute": "TRANSLATED",
+      "hour": "TRANSLATED",
+      "day": "TRANSLATED",
+      "week": "TRANSLATED"
+    },
+    "login-form": {
+      "password": "TRANSLATED",
+      "remember": "TRANSLATED",
+      "log_in": "TRANSLATED"
+    },
+    "notification_drawer": {
+      "click_to_configure": "TRANSLATED",
+      "empty": "TRANSLATED",
+      "title": "TRANSLATED",
+      "close": "TRANSLATED",
+      "dismiss_all": "TRANSLATED"
+    },
+    "notification_toast": {
+      "service_call_failed": "TRANSLATED",
+      "connection_lost": "TRANSLATED",
+      "started": "TRANSLATED",
+      "starting": "TRANSLATED",
+      "triggered": "TRANSLATED",
+      "dismiss": "TRANSLATED"
+    },
+    "sidebar": {
+      "external_app_configuration": "TRANSLATED",
+      "sidebar_toggle": "TRANSLATED",
+      "done": "TRANSLATED"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "TRANSLATED", "today": "TRANSLATED" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "TRANSLATED",
+          "empty_state": {
+            "title": "TRANSLATED",
+            "no_devices": "TRANSLATED",
+            "go_to_integrations_page": "TRANSLATED"
+          },
+          "entities": { "never_triggered": "TRANSLATED" },
+          "shopping-list": {
+            "checked_items": "TRANSLATED",
+            "clear_items": "TRANSLATED",
+            "add_item": "TRANSLATED"
+          },
+          "picture-elements": {
+            "hold": "TRANSLATED",
+            "tap": "TRANSLATED",
+            "navigate_to": "TRANSLATED",
+            "url": "TRANSLATED",
+            "toggle": "TRANSLATED",
+            "call_service": "TRANSLATED",
+            "more_info": "TRANSLATED"
+          },
+          "safe-mode": { "header": "TRANSLATED", "description": "TRANSLATED" },
+          "starting": { "description": "TRANSLATED" }
+        },
+        "unused_entities": {
+          "title": "TRANSLATED",
+          "available_entities": "TRANSLATED",
+          "select_to_add": "TRANSLATED",
+          "entity": "TRANSLATED",
+          "entity_id": "TRANSLATED",
+          "domain": "TRANSLATED",
+          "last_changed": "TRANSLATED",
+          "search": "TRANSLATED",
+          "no_data": "TRANSLATED"
+        },
+        "add_entities": {
+          "yaml_unsupported": "TRANSLATED",
+          "generated_unsupported": "TRANSLATED",
+          "saving_failed": "TRANSLATED"
+        },
+        "views": {
+          "confirm_delete": "TRANSLATED",
+          "confirm_delete_text": "TRANSLATED",
+          "confirm_delete_existing_cards": "TRANSLATED",
+          "confirm_delete_existing_cards_text": "TRANSLATED"
+        },
+        "menu": {
+          "configure_ui": "TRANSLATED",
+          "help": "TRANSLATED",
+          "start_conversation": "TRANSLATED",
+          "reload_resources": "TRANSLATED",
+          "exit_edit_mode": "TRANSLATED",
+          "close": "TRANSLATED"
+        },
+        "reload_resources": {
+          "refresh_header": "TRANSLATED",
+          "refresh_body": "TRANSLATED"
+        },
+        "editor": {
+          "header": "TRANSLATED",
+          "menu": { "open": "TRANSLATED", "raw_editor": "TRANSLATED" },
+          "common": {
+            "edit": "TRANSLATED",
+            "clear": "TRANSLATED",
+            "add": "TRANSLATED",
+            "none": "TRANSLATED"
+          },
+          "raw_editor": {
+            "header": "TRANSLATED",
+            "save": "TRANSLATED",
+            "unsaved_changes": "TRANSLATED",
+            "saved": "TRANSLATED",
+            "confirm_remove_config_title": "TRANSLATED",
+            "confirm_remove_config_text": "TRANSLATED",
+            "confirm_unsaved_changes": "TRANSLATED",
+            "confirm_unsaved_comments": "TRANSLATED",
+            "error_parse_yaml": "TRANSLATED",
+            "error_invalid_config": "TRANSLATED",
+            "error_save_yaml": "TRANSLATED",
+            "error_remove": "TRANSLATED",
+            "resources_moved": "TRANSLATED"
+          },
+          "edit_lovelace": {
+            "header": "TRANSLATED",
+            "explanation": "TRANSLATED",
+            "edit_title": "TRANSLATED",
+            "title": "TRANSLATED"
+          },
+          "edit_view": {
+            "header": "TRANSLATED",
+            "header_name": "TRANSLATED",
+            "add": "TRANSLATED",
+            "edit": "TRANSLATED",
+            "delete": "TRANSLATED",
+            "move_left": "TRANSLATED",
+            "move_right": "TRANSLATED",
+            "tab_settings": "TRANSLATED",
+            "tab_badges": "TRANSLATED",
+            "tab_visibility": "TRANSLATED",
+            "visibility": { "select_users": "TRANSLATED" }
+          },
+          "edit_badges": { "panel_mode": "TRANSLATED" },
+          "edit_card": {
+            "header": "TRANSLATED",
+            "typed_header": "TRANSLATED",
+            "pick_card": "TRANSLATED",
+            "pick_card_view_title": "TRANSLATED",
+            "toggle_editor": "TRANSLATED",
+            "unsaved_changes": "TRANSLATED",
+            "confirm_cancel": "TRANSLATED",
+            "show_visual_editor": "TRANSLATED",
+            "show_code_editor": "TRANSLATED",
+            "add": "TRANSLATED",
+            "edit": "TRANSLATED",
+            "clear": "TRANSLATED",
+            "delete": "TRANSLATED",
+            "duplicate": "TRANSLATED",
+            "move": "TRANSLATED",
+            "move_before": "TRANSLATED",
+            "move_after": "TRANSLATED",
+            "options": "TRANSLATED",
+            "search_cards": "TRANSLATED"
+          },
+          "move_card": { "header": "TRANSLATED" },
+          "select_view": {
+            "header": "TRANSLATED",
+            "dashboard_label": "TRANSLATED"
+          },
+          "suggest_card": {
+            "header": "TRANSLATED",
+            "create_own": "TRANSLATED",
+            "add": "TRANSLATED"
+          },
+          "save_config": {
+            "header": "TRANSLATED",
+            "para": "TRANSLATED",
+            "para_sure": "TRANSLATED",
+            "yaml_mode": "TRANSLATED",
+            "yaml_control": "TRANSLATED",
+            "yaml_config": "TRANSLATED",
+            "empty_config": "TRANSLATED",
+            "cancel": "TRANSLATED",
+            "close": "TRANSLATED",
+            "save": "TRANSLATED"
+          },
+          "migrate": {
+            "header": "TRANSLATED",
+            "para_no_id": "TRANSLATED",
+            "para_migrate": "TRANSLATED",
+            "migrate": "TRANSLATED"
+          },
+          "action-editor": {
+            "navigation_path": "TRANSLATED",
+            "url_path": "TRANSLATED",
+            "editor_service_data": "TRANSLATED",
+            "actions": {
+              "default_action": "TRANSLATED",
+              "call-service": "TRANSLATED",
+              "more-info": "TRANSLATED",
+              "toggle": "TRANSLATED",
+              "navigate": "TRANSLATED",
+              "url": "TRANSLATED",
+              "none": "TRANSLATED"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "TRANSLATED",
+              "available_states": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "calendar": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED",
+              "inital_view": "TRANSLATED",
+              "calendar_entities": "TRANSLATED",
+              "views": {
+                "dayGridMonth": "TRANSLATED",
+                "dayGridDay": "TRANSLATED",
+                "listWeek": "TRANSLATED"
+              }
+            },
+            "conditional": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED",
+              "conditions": "TRANSLATED",
+              "card": "TRANSLATED",
+              "state_equal": "TRANSLATED",
+              "state_not_equal": "TRANSLATED",
+              "current_state": "TRANSLATED",
+              "condition_explanation": "TRANSLATED",
+              "change_type": "TRANSLATED"
+            },
+            "config": { "required": "TRANSLATED", "optional": "TRANSLATED" },
+            "entities": {
+              "name": "TRANSLATED",
+              "show_header_toggle": "TRANSLATED",
+              "toggle": "TRANSLATED",
+              "description": "TRANSLATED",
+              "special_row": "TRANSLATED",
+              "edit_special_row": "TRANSLATED",
+              "entity_row_editor": "TRANSLATED",
+              "secondary_info_values": {
+                "none": "TRANSLATED",
+                "entity-id": "TRANSLATED",
+                "last-changed": "TRANSLATED",
+                "last-triggered": "TRANSLATED",
+                "position": "TRANSLATED",
+                "tilt-position": "TRANSLATED",
+                "brightness": "TRANSLATED",
+                "last-updated": "TRANSLATED"
+              },
+              "entity_row": {
+                "divider": "TRANSLATED",
+                "call-service": "TRANSLATED",
+                "section": "TRANSLATED",
+                "weblink": "TRANSLATED",
+                "attribute": "TRANSLATED",
+                "buttons": "TRANSLATED",
+                "conditional": "TRANSLATED",
+                "cast": "TRANSLATED",
+                "button": "TRANSLATED"
+              }
+            },
+            "entity": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "button": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED",
+              "default_action_help": "TRANSLATED"
+            },
+            "entity-filter": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "gauge": {
+              "name": "TRANSLATED",
+              "severity": {
+                "define": "TRANSLATED",
+                "green": "TRANSLATED",
+                "red": "TRANSLATED",
+                "yellow": "TRANSLATED"
+              },
+              "description": "TRANSLATED"
+            },
+            "glance": {
+              "name": "TRANSLATED",
+              "columns": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "grid": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "logbook": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "history-graph": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "horizontal-stack": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "humidifier": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "iframe": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "light": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "generic": {
+              "aspect_ratio": "TRANSLATED",
+              "attribute": "TRANSLATED",
+              "camera_image": "TRANSLATED",
+              "camera_view": "TRANSLATED",
+              "double_tap_action": "TRANSLATED",
+              "entities": "TRANSLATED",
+              "entity": "TRANSLATED",
+              "hold_action": "TRANSLATED",
+              "hours_to_show": "TRANSLATED",
+              "icon": "TRANSLATED",
+              "icon_height": "TRANSLATED",
+              "image": "TRANSLATED",
+              "maximum": "TRANSLATED",
+              "manual": "TRANSLATED",
+              "manual_description": "TRANSLATED",
+              "minimum": "TRANSLATED",
+              "name": "TRANSLATED",
+              "refresh_interval": "TRANSLATED",
+              "show_icon": "TRANSLATED",
+              "show_name": "TRANSLATED",
+              "show_state": "TRANSLATED",
+              "tap_action": "TRANSLATED",
+              "title": "TRANSLATED",
+              "theme": "TRANSLATED",
+              "no_theme": "TRANSLATED",
+              "unit": "TRANSLATED",
+              "url": "TRANSLATED",
+              "state": "TRANSLATED",
+              "secondary_info_attribute": "TRANSLATED",
+              "search": "TRANSLATED",
+              "state_color": "TRANSLATED"
+            },
+            "map": {
+              "name": "TRANSLATED",
+              "geo_location_sources": "TRANSLATED",
+              "dark_mode": "TRANSLATED",
+              "default_zoom": "TRANSLATED",
+              "hours_to_show": "TRANSLATED",
+              "source": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "markdown": {
+              "name": "TRANSLATED",
+              "content": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "media-control": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "picture": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "picture-elements": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "picture-entity": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "picture-glance": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "plant-status": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "sensor": {
+              "name": "TRANSLATED",
+              "show_more_detail": "TRANSLATED",
+              "graph_type": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "shopping-list": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED",
+              "integration_not_loaded": "TRANSLATED"
+            },
+            "thermostat": { "name": "TRANSLATED", "description": "TRANSLATED" },
+            "vertical-stack": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED"
+            },
+            "weather-forecast": {
+              "name": "TRANSLATED",
+              "description": "TRANSLATED",
+              "show_forecast": "TRANSLATED"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "TRANSLATED",
+              "description": "TRANSLATED",
+              "warning_multiple_cards": "TRANSLATED"
+            }
+          },
+          "cardpicker": {
+            "no_description": "TRANSLATED",
+            "custom_card": "TRANSLATED",
+            "domain": "TRANSLATED",
+            "entity": "TRANSLATED",
+            "by_entity": "TRANSLATED",
+            "by_card": "TRANSLATED"
+          },
+          "header-footer": {
+            "header": "TRANSLATED",
+            "footer": "TRANSLATED",
+            "choose_header_footer": "TRANSLATED",
+            "types": {
+              "graph": { "name": "TRANSLATED" },
+              "picture": { "name": "TRANSLATED" },
+              "buttons": { "name": "TRANSLATED" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "TRANSLATED",
+              "footer": "TRANSLATED",
+              "row": "TRANSLATED"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "TRANSLATED",
+          "entity_not_found": "TRANSLATED",
+          "entity_non_numeric": "TRANSLATED",
+          "entity_unavailable": "TRANSLATED",
+          "starting": "TRANSLATED"
+        },
+        "changed_toast": { "message": "TRANSLATED" },
+        "reload_lovelace": "TRANSLATED"
+      },
+      "shopping_list": { "start_conversation": "TRANSLATED" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "TRANSLATED",
+          "complete_access": "TRANSLATED",
+          "hide_message": "TRANSLATED"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1284 @@
+{
+  "panel": {
+    "calendar": "日历",
+    "config": "配置",
+    "states": "概览",
+    "map": "地图",
+    "logbook": "日志",
+    "history": "历史",
+    "mailbox": "邮箱",
+    "shopping_list": "购物清单",
+    "developer_tools": "开发者工具",
+    "media_browser": "媒体浏览器",
+    "profile": "用户资料"
+  },
+  "state": {
+    "default": {
+      "on": "开",
+      "off": "关",
+      "unknown": "未知",
+      "unavailable": "不可用"
+    },
+    "alarm_control_panel": {
+      "armed": "警戒",
+      "armed_away": "离家警戒",
+      "armed_custom_bypass": "自定义区域警戒",
+      "armed_home": "在家警戒",
+      "armed_night": "夜间警戒",
+      "arming": "警戒中",
+      "disarmed": "警戒解除",
+      "disarming": "警戒解除",
+      "pending": "挂起",
+      "triggered": "已触发"
+    },
+    "automation": { "off": "关闭", "on": "开启" },
+    "binary_sensor": {
+      "battery": { "off": "正常", "on": "低" },
+      "cold": { "off": "正常", "on": "过冷" },
+      "connectivity": { "off": "已断开", "on": "已连接" },
+      "default": { "off": "关闭", "on": "开启" },
+      "door": { "off": "关闭", "on": "开启" },
+      "garage_door": { "off": "关闭", "on": "开启" },
+      "gas": { "off": "正常", "on": "触发" },
+      "heat": { "off": "正常", "on": "过热" },
+      "lock": { "off": "上锁", "on": "解锁" },
+      "moisture": { "off": "干燥", "on": "湿润" },
+      "motion": { "off": "未触发", "on": "触发" },
+      "occupancy": { "off": "未触发", "on": "已触发" },
+      "opening": { "off": "关闭", "on": "开启" },
+      "presence": { "off": "离开", "on": "在家" },
+      "problem": { "off": "正常", "on": "异常" },
+      "safety": { "off": "安全", "on": "危险" },
+      "smoke": { "off": "正常", "on": "触发" },
+      "sound": { "off": "正常", "on": "触发" },
+      "vibration": { "off": "正常", "on": "触发" },
+      "window": { "off": "关闭", "on": "开启" }
+    },
+    "calendar": { "off": "关", "on": "开" },
+    "camera": { "idle": "待机", "recording": "录制中", "streaming": "监控中" },
+    "climate": {
+      "cool": "制冷",
+      "dry": "除湿",
+      "fan_only": "仅送风",
+      "heat": "制热",
+      "heat_cool": "制热/制冷",
+      "off": "关"
+    },
+    "configurator": { "configure": "设置", "configured": "设置成功" },
+    "cover": {
+      "closed": "已关闭",
+      "closing": "正在关闭",
+      "open": "已打开",
+      "opening": "正在打开",
+      "stopped": "已停止"
+    },
+    "device_tracker": { "not_home": "离开" },
+    "fan": { "off": "关闭", "on": "开启" },
+    "group": {
+      "closed": "已关闭",
+      "closing": "正在关闭",
+      "home": "在家",
+      "locked": "已锁定",
+      "not_home": "离开",
+      "off": "关闭",
+      "ok": "正常",
+      "on": "开",
+      "open": "开启",
+      "opening": "正在打开",
+      "problem": "异常",
+      "stopped": "已停止",
+      "unlocked": "已解锁"
+    },
+    "input_boolean": { "off": "关", "on": "开" },
+    "light": { "off": "关", "on": "开" },
+    "lock": { "locked": "锁定", "unlocked": "解锁" },
+    "media_player": {
+      "idle": "空闲",
+      "off": "关闭",
+      "on": "开启",
+      "paused": "已暂停",
+      "playing": "正在播放",
+      "standby": "待机"
+    },
+    "person": { "home": "在家" },
+    "plant": { "ok": "正常", "problem": "异常" },
+    "remote": { "off": "关", "on": "开" },
+    "scene": { "scening": "场景启用中" },
+    "script": { "off": "关闭", "on": "开" },
+    "sensor": { "off": "关闭", "on": "开启" },
+    "sun": { "above_horizon": "日出", "below_horizon": "日落" },
+    "switch": { "off": "关", "on": "开" },
+    "timer": { "active": "激活", "idle": "空闲", "paused": "暂停" },
+    "vacuum": {
+      "cleaning": "正在清扫",
+      "docked": "停靠",
+      "error": "错误",
+      "idle": "空闲",
+      "off": "关闭",
+      "on": "开启",
+      "paused": "已暂停",
+      "returning": "正在返回"
+    },
+    "weather": {
+      "clear-night": "夜间晴朗",
+      "cloudy": "阴",
+      "exceptional": "特殊",
+      "fog": "雾",
+      "hail": "冰雹",
+      "lightning": "雷电",
+      "lightning-rainy": "雷阵雨",
+      "partlycloudy": "多云",
+      "pouring": "暴雨",
+      "rainy": "雨",
+      "snowy": "雪",
+      "snowy-rainy": "雨夹雪",
+      "sunny": "晴",
+      "windy": "有风",
+      "windy-variant": "有风"
+    },
+    "zwave": {
+      "default": {
+        "dead": "断开",
+        "initializing": "初始化",
+        "ready": "就绪",
+        "sleeping": "休眠"
+      },
+      "query_stage": {
+        "dead": "断开 ({query_stage})",
+        "initializing": "初始化 ({query_stage})"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "关闭", "on": "开", "auto": "自动" },
+      "preset_mode": {
+        "none": "无",
+        "eco": "节能",
+        "away": "离家",
+        "boost": "强力",
+        "comfort": "舒适",
+        "home": "在家",
+        "sleep": "睡眠",
+        "activity": "活动"
+      },
+      "hvac_action": {
+        "off": "关闭",
+        "heating": "制热",
+        "cooling": "制冷",
+        "drying": "除湿",
+        "idle": "空闲",
+        "fan": "送风"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "标准",
+        "eco": "节能",
+        "away": "离开",
+        "boost": "强力",
+        "comfort": "舒适",
+        "home": "在家",
+        "sleep": "睡眠",
+        "auto": "自动",
+        "baby": "儿童"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "未知",
+      "unavailable": "不可用",
+      "error": "错误",
+      "entity_not_found": "未找到实体"
+    },
+    "alarm_control_panel": {
+      "armed": "警戒中",
+      "disarmed": "警戒解除",
+      "armed_home": "警戒中",
+      "armed_away": "警戒中",
+      "armed_night": "警戒中",
+      "armed_custom_bypass": "警戒中",
+      "pending": "挂起",
+      "arming": "警戒准备",
+      "disarming": "警戒解除",
+      "triggered": "触发"
+    },
+    "device_tracker": { "home": "在家", "not_home": "离开" },
+    "person": { "home": "在家", "not_home": "离开" }
+  },
+  "groups": {
+    "system-admin": "管理员",
+    "system-users": "用户",
+    "system-read-only": "只读用户"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "用户",
+      "integration": "集成",
+      "config_entry": "配置条目"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "保持登录状态吗？",
+      "decline": "不保持",
+      "confirm": "保持"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "密码",
+        "clear_code": "清除",
+        "disarm": "解除警戒",
+        "arm_home": "在家警戒",
+        "arm_away": "离家警戒",
+        "arm_night": "夜间警戒",
+        "arm_custom_bypass": "自定义略过条件"
+      },
+      "automation": { "last_triggered": "上次触发", "trigger": "触发" },
+      "camera": { "not_available": "无图像" },
+      "climate": {
+        "currently": "当前",
+        "on_off": "开/关",
+        "target_temperature": "设定温度",
+        "target_temperature_entity": "{name}目标温度",
+        "target_temperature_mode": "{name}目标温度{mode}",
+        "current_temperature": "{name}当前温度",
+        "heating": "{name}制热",
+        "cooling": "{name}制冷",
+        "high": "高",
+        "low": "低",
+        "target_humidity": "设定湿度",
+        "operation": "运行模式",
+        "fan_mode": "风速",
+        "swing_mode": "扫风模式",
+        "preset_mode": "预设",
+        "away_mode": "离开模式",
+        "aux_heat": "辅热"
+      },
+      "counter": {
+        "actions": { "increment": "增加", "decrement": "减少", "reset": "重置" }
+      },
+      "cover": { "position": "位置", "tilt_position": "倾斜位置" },
+      "fan": {
+        "speed": "风速",
+        "oscillate": "摇头",
+        "direction": "方向",
+        "forward": "正向",
+        "reverse": "反向"
+      },
+      "humidifier": {
+        "humidity": "设定湿度",
+        "mode": "模式",
+        "target_humidity_entity": "{name} 的设定湿度",
+        "on_entity": "{name} 已打开"
+      },
+      "light": {
+        "brightness": "亮度",
+        "color_temperature": "色温",
+        "white_value": "白度值",
+        "effect": "效果"
+      },
+      "lock": { "code": "密码", "lock": "锁定", "unlock": "解锁" },
+      "media_player": {
+        "source": "信号源",
+        "sound_mode": "声音模式",
+        "browse_media": "浏览媒体",
+        "turn_on": "打开",
+        "turn_off": "关闭",
+        "media_play": "播放",
+        "media_play_pause": "播放/暂停",
+        "media_next_track": "下一曲",
+        "media_previous_track": "上一曲",
+        "text_to_speak": "要朗读的文本"
+      },
+      "persistent_notification": { "dismiss": "忽略" },
+      "scene": { "activate": "激活" },
+      "script": {
+        "execute": "执行",
+        "cancel": "取消",
+        "cancel_multiple": "取消 {number} 个"
+      },
+      "service": { "run": "运行" },
+      "timer": {
+        "actions": {
+          "start": "开始",
+          "pause": "暂停",
+          "cancel": "取消",
+          "finish": "完成"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "恢复清扫",
+          "return_to_base": "返回底座",
+          "start_cleaning": "开始清扫",
+          "turn_on": "打开",
+          "turn_off": "关闭"
+        }
+      },
+      "water_heater": {
+        "currently": "当前",
+        "on_off": "开/关",
+        "target_temperature": "设定温度",
+        "operation": "操作",
+        "away_mode": "离开模式"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "气压",
+          "humidity": "湿度",
+          "temperature": "温度",
+          "visibility": "能见度",
+          "wind_speed": "风速",
+          "precipitation": "降水量"
+        },
+        "cardinal_direction": {
+          "e": "东",
+          "ene": "东北偏东",
+          "ese": "东南偏东",
+          "n": "北",
+          "ne": "东北",
+          "nne": "东北偏北",
+          "nw": "西北",
+          "nnw": "西北偏北",
+          "s": "南",
+          "se": "东南",
+          "sse": "东南偏南",
+          "ssw": "西南偏南",
+          "sw": "西南",
+          "w": "西",
+          "wnw": "西北偏西",
+          "wsw": "西南偏西"
+        },
+        "day": "白天",
+        "night": "夜间",
+        "forecast": "预报",
+        "high": "高",
+        "low": "低"
+      }
+    },
+    "common": {
+      "and": "和",
+      "continue": "继续",
+      "previous": "上一步",
+      "loading": "加载中",
+      "refresh": "刷新",
+      "cancel": "取消",
+      "delete": "删除",
+      "remove": "删除",
+      "enable": "启用",
+      "disable": "禁用",
+      "close": "关闭",
+      "leave": "离开",
+      "stay": "留下",
+      "next": "下一步",
+      "back": "返回",
+      "undo": "撤消",
+      "save": "保存",
+      "rename": "重命名",
+      "yes": "是",
+      "no": "否",
+      "not_now": "暂时不要",
+      "skip": "跳过",
+      "menu": "菜单",
+      "overflow_menu": "Overflow 菜单",
+      "successfully_saved": "保存成功",
+      "successfully_deleted": "已成功删除",
+      "error_required": "必填",
+      "copied": "已复制"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "未找到日志条目。",
+        "by": ", 通过",
+        "by_service": ", 通过服务",
+        "messages": {
+          "was_away": "离开",
+          "was_at_state": "处于 {state}",
+          "rose": "升起",
+          "set": "落下",
+          "was_low": "较低",
+          "was_normal": "正常",
+          "was_connected": "已连接",
+          "was_disconnected": "已断开",
+          "was_opened": "已打开",
+          "was_closed": "已关闭",
+          "was_unlocked": "已解锁",
+          "was_locked": "已锁定",
+          "was_plugged_in": "已插入",
+          "was_unplugged": "已拔出",
+          "was_at_home": "在家",
+          "was_unsafe": "危险",
+          "was_safe": "安全",
+          "detected_device_class": "检测到 {device_class}",
+          "cleared_device_class": "未检测到 {device_class}",
+          "turned_off": "已关闭",
+          "turned_on": "已开启",
+          "changed_to_state": "变为 {state}",
+          "became_unavailable": "不再可用"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "实体",
+          "clear": "清除",
+          "show_entities": "显示实体"
+        },
+        "entity-attribute-picker": {
+          "attribute": "属性",
+          "show_attributes": "显示属性"
+        }
+      },
+      "user-picker": {
+        "no_user": "没有用户",
+        "add_user": "添加用户",
+        "remove_user": "删除用户"
+      },
+      "device-picker": {
+        "clear": "清除",
+        "toggle": "切换",
+        "show_devices": "显示设备",
+        "device": "设备",
+        "no_area": "没有区域"
+      },
+      "area-picker": {
+        "clear": "清除",
+        "show_areas": "显示区域",
+        "area": "区域",
+        "add_new": "添加新区域…",
+        "add_dialog": {
+          "title": "添加新区域",
+          "text": "输入新区域的名称。",
+          "name": "名称",
+          "add": "添加",
+          "failed_create_area": "创建区域失败。"
+        }
+      },
+      "picture-upload": {
+        "label": "图片",
+        "unsupported_format": "格式不受支持，请选择 JPEG、PNG 或 GIF 图像。"
+      },
+      "date-range-picker": {
+        "start_date": "开始日期",
+        "end_date": "结束日期",
+        "select": "选定"
+      },
+      "relative_time": {
+        "never": "从未",
+        "just_now": "刚刚",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}",
+          "minute": "{count} {count, plural,\n  one {分钟}\n  other {分钟}\n}",
+          "hour": "{count} {count, plural,\n  one {小时}\n  other {小时}\n}",
+          "day": "{count} {count, plural,\n  one {天}\n  other {天}\n}",
+          "week": "{count} {count, plural,\n  one {周}\n  other {周}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}前",
+          "minute": "{count} {count, plural,\n  one {分钟}\n  other {分钟}\n}前",
+          "hour": "{count} {count, plural,\none {小时}\nother {小时}\n}前",
+          "day": "{count} {count, plural,\n  one {天}\n  other {天}\n}前",
+          "week": "{count} {count, plural,\n  one {周}\n  other {周}\n}前"
+        },
+        "future_duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}后",
+          "minute": "{count} {count, plural,\n  one {分钟}\n  other {分钟}\n}后",
+          "hour": "{count} {count, plural,\n  one {小时}\n  other {小时}\n}后",
+          "day": "{count} {count, plural,\n  one {天}\n  other {天}\n}后",
+          "week": "{count} {count, plural,\none {周}\nother {周}\n}后"
+        },
+        "future": "{time}后",
+        "past": "{time}前"
+      },
+      "history_charts": {
+        "loading_history": "正在加载历史状态...",
+        "no_history_found": "没有找到历史状态。"
+      },
+      "service-picker": { "service": "服务" },
+      "related-items": {
+        "no_related_found": "未找到相关项目。",
+        "integration": "集成",
+        "device": "设备",
+        "area": "区域",
+        "entity": "相关实体",
+        "group": "以下群组的一部分",
+        "scene": "以下场景的一部分",
+        "script": "以下脚本的一部分",
+        "automation": "以下自动化的一部分"
+      },
+      "data-table": { "search": "搜索", "no-data": "没有数据" },
+      "media-browser": {
+        "pick": "选定",
+        "play": "播放",
+        "play-media": "播放媒体",
+        "pick-media": "选定媒体",
+        "no_items": "没有项目",
+        "choose_player": "选择播放器",
+        "media-player-browser": "媒体播放浏览器",
+        "web-browser": "网页浏览器",
+        "media_player": "媒体播放器",
+        "audio_not_supported": "您的浏览器不支持音频元素。",
+        "video_not_supported": "您的浏览器不支持视频元素。",
+        "media_not_supported": "浏览器媒体播放器不支持此类型的媒体",
+        "media_browsing_error": "媒体浏览错误",
+        "learn_adding_local_media": "请参阅{documentation}以了解更多关于添加媒体的信息。",
+        "local_media_files": "将视频、音频和图像文件放在媒体目录中，以便在浏览器或支持的媒体播放器上浏览和播放这些文件。",
+        "documentation": "文档",
+        "no_local_media_found": "未找到本地媒体",
+        "no_media_folder": "您还没有创建媒体目录。",
+        "setup_local_help": "请参阅{documentation}以了解如何设置本地媒体。",
+        "class": {
+          "album": "专辑",
+          "app": "应用",
+          "artist": "艺术家",
+          "channel": "频道",
+          "composer": "作曲家",
+          "contributing_artist": "参与创作者",
+          "directory": "媒体库",
+          "episode": "分集",
+          "game": "游戏",
+          "genre": "流派",
+          "image": "图片",
+          "movie": "电影",
+          "music": "音乐",
+          "playlist": "播放列表",
+          "podcast": "播客",
+          "season": "播出季",
+          "track": "音轨",
+          "tv_show": "电视节目",
+          "url": "网址",
+          "video": "视频"
+        },
+        "choose-source": "选择媒体源",
+        "content-type": {
+          "album": "专辑",
+          "artist": "艺术家",
+          "library": "媒体库",
+          "playlist": "播放列表",
+          "server": "服务器"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "重载{domain}",
+            "core": "重载位置和自定义",
+            "group": "重载分组、分组实体及通知服务",
+            "automation": "重载自动化",
+            "script": "重载脚本",
+            "scene": "重载场景",
+            "person": "重载人员",
+            "zone": "重载地点",
+            "input_boolean": "重载二元选择器",
+            "input_text": "重载文字输入",
+            "input_number": "重载数值选择器",
+            "input_datetime": "重载日期选择器",
+            "input_select": "重载多项选择器",
+            "template": "重载模板实体",
+            "universal": "重载通用媒体播放器实体",
+            "rest": "重载 REST 实体及通知服务",
+            "command_line": "重载命令行实体",
+            "filter": "重载 filter 实体",
+            "statistics": "重载 statistics 实体",
+            "generic": "重载通用 IP 摄像机实体",
+            "generic_thermostat": "重载通用恒温器实体",
+            "homekit": "重载 HomeKit",
+            "min_max": "重载最小值/最大值实体",
+            "history_stats": "重载历史记录统计实体",
+            "trend": "重载 trend 实体",
+            "ping": "重载 ping 二元传感器实体",
+            "filesize": "重载文件大小实体",
+            "telegram": "重载 telegram 通知服务",
+            "smtp": "重载 smtp 通知服务",
+            "mqtt": "重载手动配置的 mqtt 实体",
+            "rpi_gpio": "重载树莓派 GPIO 实体"
+          },
+          "server_control": {
+            "perform_action": "{action}服务",
+            "restart": "重启",
+            "stop": "停止"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "实体筛选"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant 什么也没有听到",
+        "found": "为您找到以下结果：",
+        "error": "糟糕，发生错误",
+        "how_can_i_help": "请问需要什么帮助？",
+        "label": "输入问题，然后按回车",
+        "label_voice": "输入后按回车，或点击麦克风图标后讲话"
+      },
+      "generic": {
+        "cancel": "取消",
+        "ok": "确定",
+        "default_confirmation_title": "您确定吗？",
+        "close": "关闭"
+      },
+      "image_cropper": { "crop": "剪裁" },
+      "more_info_control": {
+        "dismiss": "关闭对话框",
+        "settings": "实体设置",
+        "edit": "编辑实体",
+        "details": "详情",
+        "history": "历史",
+        "last_changed": "上次变化",
+        "last_updated": "上次更新",
+        "script": { "last_action": "上次执行", "last_triggered": "上次触发" },
+        "sun": {
+          "elevation": "太阳高度角",
+          "rising": "日出",
+          "setting": "日落"
+        },
+        "updater": { "title": "更新说明" },
+        "restored": {
+          "not_provided": "此实体当前不可用，是已被删除、更改或失效的集成或设备的孤立实体。",
+          "remove_intro": "如果该实体不再使用，可以通过删除来清理它。",
+          "remove_action": "删除实体",
+          "confirm_remove_title": "是否删除实体？",
+          "confirm_remove_text": "您确定要删除此实体吗？"
+        },
+        "vacuum": {
+          "status": "状态",
+          "commands": "扫地机指令：",
+          "fan_speed": "风扇转速",
+          "start": "启动",
+          "pause": "暂停",
+          "stop": "停止",
+          "clean_spot": "清理污渍",
+          "locate": "定位",
+          "return_home": "返回底座",
+          "start_pause": "启动/暂停"
+        },
+        "person": { "create_zone": "从当前位置创建地点" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "控制项"
+      },
+      "entity_registry": {
+        "settings": "设置",
+        "control": "控制",
+        "related": "关联",
+        "dismiss": "忽略",
+        "no_unique_id": "该实体没有唯一的 ID，因此无法由 UI 管理其设置。请参阅 {faq_link} 以详细了解。",
+        "faq": "文档",
+        "editor": {
+          "name": "名称",
+          "icon": "图标",
+          "icon_error": "图标的格式应为 prefix:iconname，例如：mdi:home",
+          "entity_id": "实体 ID",
+          "unavailable": "该实体暂不可用。",
+          "enabled_label": "启用实体",
+          "enabled_cause": "由于 {cause} 而被禁用",
+          "enabled_description": "已禁用的实体不再添加到 Home Assistant。",
+          "enabled_delay_confirm": "已启用的实体将在 {delay} 秒后添加到 Home Assistant",
+          "enabled_restart_confirm": "重启 Home Assistant 以完成实体的启用",
+          "delete": "删除",
+          "confirm_delete": "您确定要删除此条目吗？",
+          "update": "更新",
+          "note": "注意：这可能不适用于所有集成。"
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "{platform} 组件尚未加载。请从 'default_config:' 或 ''{platform}:'' 中选择一种方式，将其写入配置中。",
+        "yaml_not_editable": "无法从 UI 编辑此实体的设置。只有通过 UI 设置的实体可以从 UI 配置。",
+        "required_error_msg": "此字段为必填字段",
+        "generic": { "name": "名称", "icon": "图标" },
+        "input_datetime": {
+          "date": "日期",
+          "time": "时间",
+          "datetime": "日期和时间",
+          "mode": "要输入哪种形式"
+        },
+        "input_text": {
+          "min": "最小长度",
+          "max": "最大长度",
+          "mode": "显示模式",
+          "text": "文本",
+          "password": "密码",
+          "pattern": "用于客户端验证的正则表达式模式"
+        },
+        "input_number": {
+          "min": "最小值",
+          "max": "最大值",
+          "mode": "显示模式",
+          "box": "输入框",
+          "slider": "滑杆",
+          "step": "滑杆步长",
+          "unit_of_measurement": "单位"
+        },
+        "input_select": {
+          "options": "选项",
+          "add_option": "添加选项",
+          "no_options": "目前没有选项。",
+          "add": "添加"
+        },
+        "counter": {
+          "minimum": "最小值",
+          "maximum": "最大值",
+          "initial": "初始值",
+          "restore": "当 Home Assistant 启动时，还原为最近一次的值",
+          "step": "步长"
+        },
+        "timer": { "duration": "时长" }
+      },
+      "options_flow": {
+        "form": { "header": "选项" },
+        "success": { "description": "选项已成功保存。" }
+      },
+      "config_entry_system_options": {
+        "title": "{integration} 系统选项",
+        "enable_new_entities_label": "启用新添加的实体。",
+        "enable_new_entities_description": "如果禁用，从 {integration} 新发现的实体将不会自动添加到 Home Assistant。",
+        "update": "更新"
+      },
+      "zha_device_info": {
+        "manuf": "制造商：{manufacturer}",
+        "no_area": "没有区域",
+        "device_signature": "Zigbee 设备签名",
+        "buttons": {
+          "add": "通过此设备添加设备",
+          "remove": "删除设备",
+          "clusters": "管理集群",
+          "reconfigure": "重新配置设备",
+          "zigbee_information": "Zigbee 设备签名"
+        },
+        "services": {
+          "reconfigure": "这将重新配置 ZHA 设备（复原设备）。如果您的设备遇到问题，请使用此项。如果有问题的设备是由电池供电的，请确保在使用此服务时它处于唤醒状态并可以接受指令。",
+          "updateDeviceName": "在设备注册表中为此设备设置自定义名称。",
+          "remove": "从 Zigbee 网络中删除设备。",
+          "zigbee_information": "查看设备的 Zigbee 信息。"
+        },
+        "confirmations": { "remove": "您确定要删除此设备吗？" },
+        "quirk": "Quirk",
+        "last_seen": "上次发现",
+        "power_source": "电源",
+        "unknown": "未知",
+        "zha_device_card": {
+          "device_name_placeholder": "更改设备名称",
+          "area_picker_label": "区域",
+          "update_name_button": "更新名称"
+        }
+      },
+      "domain_toggler": { "title": "切换域", "reset_entities": "重置实体" },
+      "mqtt_device_debug_info": {
+        "title": "{device} 调试信息",
+        "deserialize": "尝试将 MQTT 消息解析为 JSON",
+        "entities": "实体",
+        "no_entities": "没有实体",
+        "no_triggers": "没有触发器",
+        "payload_display": "数据体显示",
+        "recent_messages": "最近 {n} 条收到的消息",
+        "show_as_yaml": "显示为 YAML",
+        "triggers": "触发器"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\none {秒}\nother {秒}\n}",
+      "minute": "{count} {count, plural,\none {分钟}\nother {分钟}\n}",
+      "hour": "{count} {count, plural,\none {小时}\nother {小时}\n}",
+      "day": "{count} {count, plural,\none {天}\nother {天}\n}",
+      "week": "{count} {count, plural,\none {周}\nother {周}\n}"
+    },
+    "login-form": {
+      "password": "密码",
+      "remember": "记住密码",
+      "log_in": "登录"
+    },
+    "notification_drawer": {
+      "click_to_configure": "单击按钮可以配置 {entity}",
+      "empty": "没有任何通知",
+      "title": "通知",
+      "close": "关闭",
+      "dismiss_all": "全部关闭"
+    },
+    "notification_toast": {
+      "service_call_failed": "调用服务 {service} 失败。",
+      "connection_lost": "连接中断。正在重新连接...",
+      "started": "Home Assistant 已启动！",
+      "starting": "Home Assistant 正在启动。在启动完成前，部分功能暂不可用。",
+      "triggered": "已触发 {name}",
+      "dismiss": "关闭"
+    },
+    "sidebar": {
+      "external_app_configuration": "应用配置",
+      "sidebar_toggle": "侧边栏切换",
+      "done": "完成"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "我的日历", "today": "今天" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "您确定要删除此卡片吗？",
+          "empty_state": {
+            "title": "欢迎回家",
+            "no_devices": "此页面是用来控制设备的，不过您好像还没有配置好任何设备。请前往集成页面以开始。",
+            "go_to_integrations_page": "前往集成页面。"
+          },
+          "entities": { "never_triggered": "从未触发" },
+          "shopping-list": {
+            "checked_items": "已完成项目",
+            "clear_items": "清除已完成项目",
+            "add_item": "新增项目"
+          },
+          "picture-elements": {
+            "hold": "按住：",
+            "tap": "点击：",
+            "navigate_to": "导航到{location}",
+            "url": "打开窗口前往 {url_path}",
+            "toggle": "切换{name}",
+            "call_service": "调用服务{name}",
+            "more_info": "显示更多信息： {name}"
+          },
+          "safe-mode": {
+            "header": "安全模式已开启",
+            "description": "Home Assistant 在加载配置时遇到问题，现正以安全模式运行。请查看错误日志以排查问题。"
+          },
+          "starting": {
+            "description": "Home Assistant 正在启动，请稍候。",
+            "header": "Home Assistant 正在启动......"
+          }
+        },
+        "unused_entities": {
+          "title": "未使用的实体",
+          "available_entities": "这些是您可用的实体，但尚未在 Lovelace UI 中显示。",
+          "select_to_add": "选择要添加到卡片中的实体，然后单击添加卡片按钮。",
+          "entity": "实体",
+          "entity_id": "实体 ID",
+          "domain": "域",
+          "last_changed": "上次变化",
+          "search": "搜索实体",
+          "no_data": "没有未使用的实体"
+        },
+        "add_entities": {
+          "yaml_unsupported": "在 YAML 模式下使用 Lovelace 时不能使用此功能。",
+          "generated_unsupported": "只有在自行编辑 Lovelace UI 时才能使用此功能。",
+          "saving_failed": "保存 Lovelace UI 配置失败。"
+        },
+        "views": {
+          "confirm_delete": "删除此视图？",
+          "confirm_delete_text": "您确定要删除“{name}”视图吗？",
+          "confirm_delete_existing_cards": "删除此视图将同时删除卡片。",
+          "confirm_delete_existing_cards_text": "您确定要删除“{name}”视图吗？该视图包含的 {number} 张卡片也将被删除。该操作不能撤消。"
+        },
+        "menu": {
+          "configure_ui": "编辑仪表盘",
+          "help": "帮助",
+          "start_conversation": "开始对话",
+          "reload_resources": "重载资源",
+          "exit_edit_mode": "退出 UI 编辑模式",
+          "close": "关闭",
+          "refresh": "刷新"
+        },
+        "reload_resources": {
+          "refresh_header": "要刷新吗？",
+          "refresh_body": "必须刷新页面才能完成重载，是否要立即刷新？"
+        },
+        "editor": {
+          "header": "编辑 UI",
+          "menu": {
+            "open": "打开 Lovelace UI 菜单",
+            "raw_editor": "原始配置编辑器"
+          },
+          "common": {
+            "edit": "编辑",
+            "clear": "清除",
+            "add": "添加",
+            "none": "无"
+          },
+          "raw_editor": {
+            "header": "编辑配置",
+            "save": "保存",
+            "unsaved_changes": "未保存的更改",
+            "saved": "已保存",
+            "confirm_remove_config_title": "您确定要删除 Lovelace 配置吗？",
+            "confirm_remove_config_text": "如果您删除了 Lovelace 配置，我们将通过您的区域和设备自动生成 Lovelace 视图。",
+            "confirm_unsaved_changes": "您有未保存的更改，确定要退出吗？",
+            "confirm_unsaved_comments": "您的配置包含注释，这些注释将不会保存。是否继续？",
+            "error_parse_yaml": "无法解析 YAML：{error}",
+            "error_invalid_config": "您的配置无效：{error}",
+            "error_save_yaml": "无法保存 YAML：{error}",
+            "error_remove": "无法删除配置：{error}",
+            "resources_moved": "资源(resources)不应再添加到 Lovelace 配置中，而是在 Lovelace 配置面板中添加。"
+          },
+          "edit_lovelace": {
+            "header": "Lovelace UI 标题",
+            "explanation": "此标题将显示在 Lovelace 的所有视图之上。",
+            "edit_title": "编辑标题",
+            "title": "标题"
+          },
+          "edit_view": {
+            "header": "查看配置",
+            "header_name": "{name}查看配置",
+            "add": "添加视图",
+            "edit": "编辑视图",
+            "delete": "删除视图",
+            "move_left": "向左移动视图",
+            "move_right": "向右移动视图",
+            "tab_settings": "设置",
+            "tab_badges": "徽章",
+            "tab_visibility": "可见性",
+            "visibility": {
+              "select_users": "选择要让哪些用户在导航中看到此视图"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "这些徽章将不会显示，因为此视图处于面板模式。"
+          },
+          "edit_card": {
+            "header": "卡片配置",
+            "typed_header": "{type}卡片配置",
+            "pick_card": "您想添加哪张卡片？",
+            "pick_card_view_title": "您想将哪张卡片添加到 {name} 视图？",
+            "toggle_editor": "切换编辑器",
+            "unsaved_changes": "有更改尚未保存",
+            "confirm_cancel": "确实要取消吗？",
+            "show_visual_editor": "显示可视化编辑器",
+            "show_code_editor": "显示代码编辑器",
+            "add": "添加卡片",
+            "edit": "编辑",
+            "clear": "清除",
+            "delete": "删除卡片",
+            "duplicate": "复制卡片",
+            "move": "移动",
+            "move_before": "向前移动卡片",
+            "move_after": "向后移动卡片",
+            "options": "更多选项",
+            "search_cards": "搜索卡片"
+          },
+          "move_card": { "header": "选择要将卡片移动到哪个视图" },
+          "select_view": { "header": "选择视图", "dashboard_label": "仪表盘" },
+          "suggest_card": {
+            "header": "为您生成的建议如下",
+            "create_own": "选择其他卡片",
+            "add": "添加至 Lovelace UI"
+          },
+          "save_config": {
+            "header": "自行编辑您的 Lovelace UI",
+            "para": "该仪表盘目前由 Home Assistant 维护，当新的实体或 Lovelace 组件可用时会自动更新。如果您选择自行编辑，将不再自动更新仪表盘。您始终可以在配置中新建一个仪表盘用于试验。",
+            "para_sure": "您确定要自行编辑用户界面吗？",
+            "yaml_mode": "此仪表盘正在使用 YAML 模式，因此无法从 UI 更改 Lovelace 配置。若要从 UI 管理此仪表盘，请从 'configuration.yaml' 中的 Lovelace 配置中删除 'mode: yaml'。",
+            "yaml_control": "要以 YAML 模式下自行编辑，请创建 YAML 文件并命名为在配置中为此仪表盘指定的名称，或使用默认的 'ui-lovelace.yaml'。",
+            "yaml_config": "为方便您开始，以下是此仪表盘的当前配置：",
+            "empty_config": "从空白仪表盘开始",
+            "cancel": "算了吧",
+            "close": "关闭",
+            "save": "自行编辑"
+          },
+          "migrate": {
+            "header": "配置不兼容",
+            "para_no_id": "此元素没有 ID。请在 'ui-lovelace.yaml' 中为此元素添加 ID。",
+            "para_migrate": "通过点击“迁移配置”按钮，Home Assistant 可以自动为您的所有卡片和视图添加 ID。",
+            "migrate": "迁移配置"
+          },
+          "action-editor": {
+            "navigation_path": "导航路径",
+            "url_path": "网址路径",
+            "editor_service_data": "服务数据只能在代码编辑器中输入",
+            "actions": {
+              "default_action": "默认动作",
+              "call-service": "调用服务",
+              "more-info": "更多信息",
+              "toggle": "切换",
+              "navigate": "导航",
+              "url": "网址",
+              "none": "没有动作"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "报警面板",
+              "available_states": "可用状态",
+              "description": "“警报面板”卡片用于对警报控制集成进行“警戒”和“解除警戒”操作。"
+            },
+            "calendar": {
+              "name": "日历",
+              "description": "“日历”卡片显示一个日历，其包括日视图、周视图和列表视图。",
+              "inital_view": "初始视图",
+              "calendar_entities": "日历实体",
+              "views": {
+                "dayGridMonth": "月",
+                "dayGridDay": "日",
+                "listWeek": "列表"
+              }
+            },
+            "conditional": {
+              "name": "条件",
+              "description": "“条件卡片”会根据实体的状态决定是否显示。",
+              "conditions": "条件",
+              "card": "卡片",
+              "state_equal": "状态等于",
+              "state_not_equal": "状态不等于",
+              "current_state": "当前状态",
+              "condition_explanation": "当以下条件全部满足时，才会显示卡片。",
+              "change_type": "更改类型"
+            },
+            "config": { "required": "必填", "optional": "可选" },
+            "entities": {
+              "name": "实体",
+              "show_header_toggle": "显示标题旁的开关？",
+              "toggle": "切换实体。",
+              "description": "“实体”卡片是最常见的卡片。它将项目汇聚成列表。",
+              "special_row": "特殊行",
+              "edit_special_row": "点击编辑按钮可查看该行的详细信息",
+              "entity_row_editor": "实体行编辑器",
+              "secondary_info_values": {
+                "none": "无次要信息",
+                "entity-id": "实体 ID",
+                "last-changed": "上次变化",
+                "last-triggered": "上次触发",
+                "position": "位置",
+                "tilt-position": "倾斜位置",
+                "brightness": "亮度",
+                "last-updated": "上次更新"
+              },
+              "entity_row": {
+                "divider": "分隔线",
+                "call-service": "调用服务",
+                "section": "部分",
+                "weblink": "网页链接",
+                "attribute": "属性",
+                "buttons": "按钮",
+                "conditional": "条件",
+                "cast": "投射",
+                "button": "按钮"
+              }
+            },
+            "entity": {
+              "name": "实体",
+              "description": "“实体”卡片供您快速了解实体的状态。"
+            },
+            "button": {
+              "name": "按钮",
+              "description": "“按钮”卡片用于添加按钮来执行任务。",
+              "default_action_help": "默认动作取决于实体的功能，可能会切换状态或显示更多信息。"
+            },
+            "entity-filter": {
+              "name": "实体筛选",
+              "description": "“实体筛选”卡片用于定义一个实体的列表，只显示处于指定状态的实体。"
+            },
+            "gauge": {
+              "name": "表盘",
+              "severity": {
+                "define": "设置分级变色？",
+                "green": "绿色",
+                "red": "红色",
+                "yellow": "黄色"
+              },
+              "description": "“表盘”卡片是基础卡片，用于直观地展示传感器数据。"
+            },
+            "glance": {
+              "name": "概览",
+              "columns": "列",
+              "description": "“概览”卡片用于将多个传感器汇聚成一个紧凑的概览。"
+            },
+            "grid": {
+              "name": "网格",
+              "description": "“网格”卡片用于将多个卡片显示在一个网格。"
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "历史图表",
+              "description": "“历史图表”卡片用于为每一个列出的实体显示图表。"
+            },
+            "horizontal-stack": {
+              "name": "水平堆叠",
+              "description": "“水平堆叠”卡片用于将多张卡片堆叠在一起，使它们始终彼此相邻放置成一行。"
+            },
+            "humidifier": {
+              "name": "加湿器",
+              "description": "“加湿器”卡片用于控制加湿器实体，改变其设定湿度和模式。"
+            },
+            "iframe": {
+              "name": "网页",
+              "description": "“网页”卡片供您将喜欢的网页直接嵌入 Home Assistant 中。"
+            },
+            "light": {
+              "name": "灯光",
+              "description": "“灯光”卡片用于调整灯的亮度。"
+            },
+            "generic": {
+              "aspect_ratio": "长宽比",
+              "attribute": "属性",
+              "camera_image": "相机实体",
+              "camera_view": "相机视图",
+              "double_tap_action": "双击动作",
+              "entities": "实体",
+              "entity": "实体",
+              "hold_action": "长按动作",
+              "hours_to_show": "显示时间",
+              "icon": "图标",
+              "icon_height": "图标高度",
+              "image": "图像路径",
+              "maximum": "最大值",
+              "manual": "手动模式",
+              "manual_description": "需要添加自定义卡片，或者手动编写 yaml 吗？",
+              "minimum": "最小值",
+              "name": "名称",
+              "refresh_interval": "刷新间隔",
+              "show_icon": "显示图标？",
+              "show_name": "显示名称？",
+              "show_state": "显示状态？",
+              "tap_action": "点击动作",
+              "title": "标题",
+              "theme": "主题",
+              "no_theme": "没有主题",
+              "unit": "单位",
+              "url": "网址",
+              "state": "状态",
+              "secondary_info_attribute": "次要信息属性",
+              "search": "搜索",
+              "state_color": "使图标根据状态变色？"
+            },
+            "map": {
+              "name": "地图",
+              "geo_location_sources": "地理位置来源",
+              "dark_mode": "夜间模式？",
+              "default_zoom": "默认缩放",
+              "hours_to_show": "显示指定小时数的路径",
+              "source": "位置来源",
+              "description": "“地图”卡片用于在地图上显示实体。"
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "内容",
+              "description": "“Markdown”卡片用于渲染 Markdown。"
+            },
+            "media-control": {
+              "name": "媒体控制",
+              "description": "“媒体控制”卡片用于显示媒体播放器实体，并提供一个易用的控制界面。"
+            },
+            "picture": {
+              "name": "图片",
+              "description": "“图片”卡片可设置图像，以用于前往界面路径或调用服务。"
+            },
+            "picture-elements": {
+              "name": "图片元素",
+              "description": "“图片元素”是最多才多艺的卡片类型了。在图片的配合下，它可用于放置图标、文本甚至是服务！"
+            },
+            "picture-entity": {
+              "name": "图片实体",
+              "description": "“图片实体”卡片以图像的形式显示实体。除了来自 URL 的图像，它还可以显示摄像机实体拍摄到的画面。"
+            },
+            "picture-glance": {
+              "name": "图片概览",
+              "description": "“图片概览”卡片显示图像和相应的实体状态作为图标。右侧的实体允许切换操作，其他实体则显示“更多信息”对话框。"
+            },
+            "plant-status": {
+              "name": "植物状态",
+              "description": "“植物状态”卡片适合所有的植物爱好者。"
+            },
+            "sensor": {
+              "name": "传感器",
+              "show_more_detail": "显示更多信息",
+              "graph_type": "图形类型",
+              "description": "“传感器”卡片供您快速了解传感器的状态，还提供可选的图表来表示其随时间的变化。",
+              "graph_detail": "图形详细信息"
+            },
+            "shopping-list": {
+              "name": "购物清单",
+              "description": "“购物清单”卡片供您向购物清单中添加、编辑、划掉、删除商品。",
+              "integration_not_loaded": "此卡片需要先配置好 `shopping_list` 集成。"
+            },
+            "thermostat": {
+              "name": "温控器",
+              "description": "“温控器”卡片用于控制恒温器实体，改变其设定温度和模式。"
+            },
+            "vertical-stack": {
+              "name": "垂直堆叠",
+              "description": "“垂直堆叠”卡片用于将多张卡片堆叠在一起，使它们始终排成一列。"
+            },
+            "weather-forecast": {
+              "name": "天气预报",
+              "description": "“天气预报”卡片用于显示天气。对于将界面挂墙显示的情况非常有用。",
+              "show_forecast": "显示预报"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "面板模式？",
+              "description": "这将使第一张卡片全屏显示。此视图中的其他卡片和徽章将不会呈现。",
+              "warning_multiple_cards": "此视图包含多张卡片，但面板视图只能显示一张卡片。"
+            }
+          },
+          "cardpicker": {
+            "no_description": "没有描述。",
+            "custom_card": "自定义",
+            "domain": "域",
+            "entity": "实体",
+            "by_entity": "按实体",
+            "by_card": "按卡片"
+          },
+          "header-footer": {
+            "header": "页眉",
+            "footer": "页脚",
+            "choose_header_footer": "请选择{type}",
+            "types": {
+              "graph": { "name": "图表" },
+              "picture": { "name": "图片" },
+              "buttons": { "name": "按钮" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "页眉编辑器",
+              "footer": "页脚编辑器",
+              "row": "实体行编辑器"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "属性 {attribute} 对 {entity} 不可用",
+          "entity_not_found": "实体 {entity} 不可用",
+          "entity_non_numeric": "实体 {entity} 非数值",
+          "entity_unavailable": "{entity} 当前不可用",
+          "starting": "Home Assistant 正在启动，部分功能暂不可用"
+        },
+        "changed_toast": {
+          "message": "此仪表盘的 Lovelace 配置已更新。刷新页面以查看更改？",
+          "refresh": "刷新"
+        },
+        "reload_lovelace": "重新加载 Lovelace"
+      },
+      "shopping_list": { "start_conversation": "开始对话" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "您是否信任 {link} 处的外部面板 {name}？",
+          "complete_access": "它将有权访问 Home Assistant 中的所有数据。",
+          "hide_message": "查看有关 panel_custom 的文档以隐藏此消息"
+        }
+      }
+    }
+  }
+}

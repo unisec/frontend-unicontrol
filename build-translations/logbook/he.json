@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "היום",
+          "yesterday": "אתמול",
+          "this_week": "השבוע",
+          "last_week": "שבוע שעבר"
+        },
+        "entries_not_found": "לא נמצאו רשומות ביומן.",
+        "period": "תקופה",
+        "showing_entries": "מציג רשומות עבור"
+      }
+    }
+  }
+}

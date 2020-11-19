@@ -1,0 +1,1321 @@
+{
+  "panel": {
+    "calendar": "Ημερολόγιο",
+    "config": "Ρυθμίσεις",
+    "states": "Επισκόπηση",
+    "map": "Χάρτης",
+    "logbook": "Αρχείο Συμβάντων",
+    "history": "Ιστορικό",
+    "mailbox": "Γραμματοκιβώτιο",
+    "shopping_list": "Λίστα αγορών",
+    "developer_tools": "Εργαλεία προγραμματιστή",
+    "media_browser": "Πρόγραμμα περιήγησης πολυμέσων",
+    "profile": "Προφίλ"
+  },
+  "state": {
+    "default": {
+      "on": "Ενεργό",
+      "off": "Μη Ενεργό",
+      "unknown": "Άγνωστη",
+      "unavailable": "Μη Διαθέσιμο"
+    },
+    "alarm_control_panel": {
+      "armed": "Οπλισμένος",
+      "armed_away": "Οπλισμένος μακριά",
+      "armed_custom_bypass": "Προσαρμοσμένη παράκαμψη ενεργή",
+      "armed_home": "Σπίτι Οπλισμένο",
+      "armed_night": "Οπλισμένο βράδυ",
+      "arming": "Όπλιση",
+      "disarmed": "Αφοπλισμένος",
+      "disarming": "Αφόπλιση",
+      "pending": "Εκκρεμής",
+      "triggered": "Παραβίαση"
+    },
+    "automation": { "off": "Κλειστό", "on": "Ενεργή" },
+    "binary_sensor": {
+      "battery": { "off": "Κανονικός", "on": "Χαμηλός" },
+      "cold": { "off": "Φυσιολογικό", "on": "Κρύο" },
+      "connectivity": { "off": "Αποσύνδεση", "on": "Συνδεδεμένος" },
+      "default": { "off": "Ανενεργός", "on": "Ανοιχτό" },
+      "door": { "off": "Κλειστή", "on": "Ανοιχτή" },
+      "garage_door": { "off": "Κλειστό", "on": "Άνοιγμα" },
+      "gas": { "off": "Δεν Εντοπίστηκε", "on": "Εντοπίστηκε" },
+      "heat": { "off": "Φυσιολογικό", "on": "Καυτό" },
+      "lock": { "off": "Κλειδωμένο", "on": "Ξεκλείδωτο" },
+      "moisture": { "off": "Ξηρό", "on": "Υγρό" },
+      "motion": { "off": "Δεν Εντοπίστηκε", "on": "Εντοπίστηκε" },
+      "occupancy": { "off": "Δεν Εντοπίστηκε", "on": "Εντοπίστηκε" },
+      "opening": { "off": "Κλειστό", "on": "Ανοιχτό" },
+      "presence": { "off": "Εκτός", "on": "Σπίτι" },
+      "problem": { "off": "Εντάξει", "on": "Πρόβλημα" },
+      "safety": { "off": "Ασφαλής", "on": "Ανασφαλής" },
+      "smoke": { "off": "Δεν Εντοπίστηκε", "on": "Εντοπίστηκε" },
+      "sound": { "off": "Δεν Εντοπίστηκε", "on": "Εντοπίστηκε" },
+      "vibration": { "off": "Δεν Εντοπίστηκε", "on": "Εντοπίστηκε" },
+      "window": { "off": "Κλειστό", "on": "Ανοιχτό" }
+    },
+    "calendar": { "off": "Απενεργοποιημένο", "on": "Ανοιχτό" },
+    "camera": {
+      "idle": "Αδρανές",
+      "recording": "Καταγράφει",
+      "streaming": "Μετάδοση Ροής"
+    },
+    "climate": {
+      "cool": "Δροσερό",
+      "dry": "Ξηρό",
+      "fan_only": "Ανεμιστήρας μόνο",
+      "heat": "Θερμό",
+      "heat_cool": "Θέρμανση / Ψύξη",
+      "off": "Ανενεργό"
+    },
+    "configurator": {
+      "configure": "Διαμορφώστε",
+      "configured": "Διαμορφώθηκε"
+    },
+    "cover": {
+      "closed": "Κλειστό",
+      "closing": "Κλείσιμο",
+      "open": "Ανοιχτό",
+      "opening": "Άνοιγμα",
+      "stopped": "Σταμάτησε"
+    },
+    "device_tracker": { "not_home": "Εκτός Σπιτιού" },
+    "fan": { "off": "Κλειστό", "on": "Ενεργός" },
+    "group": {
+      "closed": "Κλειστό",
+      "closing": "Κλείνει",
+      "home": "Σπίτι",
+      "locked": "Κλειδωμένο",
+      "not_home": "Εκτός Σπιτιού",
+      "off": "Κλειστό",
+      "ok": "Εντάξει",
+      "on": "Ανοιχτό",
+      "open": "Ανοιχτό",
+      "opening": "Ανοίγει",
+      "problem": "Πρόβλημα",
+      "stopped": "Σταματημένο",
+      "unlocked": "Ξεκλείδωτο"
+    },
+    "input_boolean": { "off": "Κλειστό", "on": "Ανοιχτό" },
+    "light": { "off": "Κλειστό", "on": "Ανοιχτό" },
+    "lock": { "locked": "Κλειδωμένη", "unlocked": "Ξεκλείδωτη" },
+    "media_player": {
+      "idle": "Σε αδράνεια",
+      "off": "Κλειστό",
+      "on": "Ενεργοποίηση",
+      "paused": "Σε Παύση",
+      "playing": "Κατάσταση Αναπαραγωγής",
+      "standby": "Κατάσταση αναμονής"
+    },
+    "person": { "home": "Σπίτι" },
+    "plant": { "ok": "Εντάξει", "problem": "Πρόβλημα" },
+    "remote": { "off": "Κλειστό", "on": "Ανοιχτό" },
+    "scene": { "scening": "Σκίτσο" },
+    "script": { "off": "Κλειστό", "on": "Ενεργό" },
+    "sensor": { "off": "Κλειστό", "on": "Ανοιχτό" },
+    "sun": {
+      "above_horizon": "Πάνω από τον ορίζοντα",
+      "below_horizon": "Κάτω από τον ορίζοντα"
+    },
+    "switch": { "off": "Κλειστό", "on": "Ανοιχτό" },
+    "timer": {
+      "active": "ενεργό",
+      "idle": "Σε αδράνεια",
+      "paused": "σε παύση"
+    },
+    "vacuum": {
+      "cleaning": "Καθαρισμός",
+      "docked": "Καρφιτσωμένο",
+      "error": "Σφάλμα",
+      "idle": "Σε αδράνεια",
+      "off": "Ανενεργό",
+      "on": "Ενεργό",
+      "paused": "Παύση",
+      "returning": "Επιστροφή στο dock"
+    },
+    "weather": {
+      "clear-night": "Ξαστεριά, νύχτα",
+      "cloudy": "Νεφελώδης",
+      "exceptional": "Εξαιρετικό",
+      "fog": "Ομίχλη",
+      "hail": "Χαλάζι",
+      "lightning": "Αστραπές",
+      "lightning-rainy": "Καταιγίδα, βροχερός",
+      "partlycloudy": "Μερικώς νεφελώδης",
+      "pouring": "Ψιχαλίζει",
+      "rainy": "Βροχερός",
+      "snowy": "Χιονώδης",
+      "snowy-rainy": "Χιονισμένος, βροχερός",
+      "sunny": "Ηλιόλουστος",
+      "windy": "Θυελλώδης",
+      "windy-variant": "Θυελλώδης"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Νεκρό",
+        "initializing": "Αρχικοποίηση",
+        "ready": "Έτοιμο",
+        "sleeping": "Κοιμάται"
+      },
+      "query_stage": {
+        "dead": "Νεκρό ( {query_stage} )",
+        "initializing": "Αρχικοποίηση ( {query_stage} )"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "Κλειστό", "on": "Ανοιχτό", "auto": "Αυτόματο" },
+      "preset_mode": {
+        "none": "Κανένας",
+        "eco": "Οικονομικό",
+        "away": "Εκτός Σπιτιού",
+        "boost": "Ενίσχυση",
+        "comfort": "Άνεση",
+        "home": "Σπίτι",
+        "sleep": "Ύπνος",
+        "activity": "Δραστηριότητα"
+      },
+      "hvac_action": {
+        "off": "Κλειστό",
+        "heating": "Θέρμανση",
+        "cooling": "Ψύξη",
+        "drying": "Αφύγρανση",
+        "idle": "Σε αδράνεια",
+        "fan": "Ανεμιστήρας"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Κανονικός",
+        "eco": "Eco",
+        "away": "Εκτός",
+        "boost": "Ενίσχυση",
+        "comfort": "Άνεση",
+        "home": "Σπίτι",
+        "sleep": "Ύπνος",
+        "auto": "Αυτόματο",
+        "baby": "Μωρό"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Άγνωστο",
+      "unavailable": "Μη Διαθ",
+      "error": "Σφάλμα",
+      "entity_not_found": "Η οντότητα δεν βρέθηκε"
+    },
+    "alarm_control_panel": {
+      "armed": "Οπλισμένο",
+      "disarmed": "Αφόπλιση",
+      "armed_home": "Οπλισμένο",
+      "armed_away": "Οπλισμένο",
+      "armed_night": "Οπλισμένο",
+      "armed_custom_bypass": "Οπλισμένο",
+      "pending": "Εκκρεμής",
+      "arming": "Όπλιση",
+      "disarming": "Αφόπλιση",
+      "triggered": "Ενεργ"
+    },
+    "device_tracker": { "home": "Σπίτι", "not_home": "Εκτός" },
+    "person": { "home": "Σπίτι", "not_home": "Εκτός" }
+  },
+  "groups": {
+    "system-admin": "Διαχειριστές",
+    "system-users": "Χρήστες",
+    "system-read-only": "Χρήστες μόνο για ανάγνωση"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Χρήστης",
+      "integration": "Ενσωμάτωση",
+      "config_entry": "Παράμετρος διαμόρφωσης"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Θέλετε να αποθηκεύσετε αυτή τη σύνδεση;",
+      "decline": "Όχι, ευχαριστώ",
+      "confirm": "Αποθήκευση σύνδεσης"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Κωδικός",
+        "clear_code": "Καθαρισμός",
+        "disarm": "Αφοπλισμός",
+        "arm_home": "Οπλισμός εντός",
+        "arm_away": "Οπλισμός εκτός",
+        "arm_night": "Οπλισμός νυκτός",
+        "arm_custom_bypass": "Προσαρμοσμένη παράκαμψη"
+      },
+      "automation": {
+        "last_triggered": "Τελευταίο έναυσμα",
+        "trigger": "Έναυσμα"
+      },
+      "camera": { "not_available": "Μη διαθέσιμη εικόνα" },
+      "climate": {
+        "currently": "Αυτή τη στιγμή",
+        "on_off": "Ενεργοποίηση / απενεργοποίηση",
+        "target_temperature": "Επιθυμητή θερμοκρασία",
+        "target_temperature_entity": "{name} στόχος θερμοκρασίας",
+        "target_temperature_mode": "{name} στόχος θερμοκρασίας {mode}",
+        "current_temperature": "{name} τρέχουσα θερμοκρασία",
+        "heating": "{name} θέρμανση",
+        "cooling": "{name} ψύξη",
+        "high": "υψηλός",
+        "low": "χαμηλός",
+        "target_humidity": "Επιθυμητή υγρασία",
+        "operation": "Λειτουργία",
+        "fan_mode": "Λειτουργία ανεμιστήρα",
+        "swing_mode": "Λειτουργία ανεμιστήρα",
+        "preset_mode": "Προκαθορισμένο",
+        "away_mode": "Λειτουργία εκτός σπιτιού",
+        "aux_heat": "Θερμοκρασία Aux"
+      },
+      "counter": {
+        "actions": {
+          "increment": "αύξηση",
+          "decrement": "μείωση",
+          "reset": "επαναφορά"
+        }
+      },
+      "cover": { "position": "Θέση", "tilt_position": "Θέση ανάκλισης" },
+      "fan": {
+        "speed": "Ταχύτητα",
+        "oscillate": "Περιστροφή",
+        "direction": "Κατεύθυνση",
+        "forward": "Εμπρός",
+        "reverse": "Αντιστροφή"
+      },
+      "humidifier": {
+        "humidity": "Επιθυμητή υγρασία",
+        "mode": "Λειτουργία",
+        "target_humidity_entity": "{name} στόχος υγρασίας",
+        "on_entity": "{name} ενεργοποιημένο"
+      },
+      "light": {
+        "brightness": "Φωτεινότητα",
+        "color_temperature": "Θερμοκρασία χρώματος",
+        "white_value": "Τιμή λευκού",
+        "effect": "Εφέ"
+      },
+      "lock": { "code": "Κώδικας", "lock": "Κλείδωμα", "unlock": "Ξεκλείδωμα" },
+      "media_player": {
+        "source": "Πηγή",
+        "sound_mode": "Λειτουργία ήχου",
+        "browse_media": "Αναζήτηση πολυμέσων",
+        "turn_on": "Ενεργοποίηση",
+        "turn_off": "Απενεργοποίηση",
+        "media_play": "Αναπαραγωγή",
+        "media_play_pause": "Αναπαραγωγή/παύση",
+        "media_next_track": "Επόμενο",
+        "media_previous_track": "Προηγούμενο",
+        "text_to_speak": "Κείμενο προς εκφώνηση"
+      },
+      "persistent_notification": { "dismiss": "Απόρριψη" },
+      "scene": { "activate": "Ενεργοποίηση" },
+      "script": {
+        "execute": "Εκτέλεση",
+        "cancel": "Ακύρωση",
+        "cancel_multiple": "Ακύρωση {number}"
+      },
+      "service": { "run": "Εκτέλεση" },
+      "timer": {
+        "actions": {
+          "start": "Εκκίνηση",
+          "pause": "Παύση",
+          "cancel": "Ακύρωση",
+          "finish": "Ολοκληρώθηκαν"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Συνέχιση καθαρισμού",
+          "return_to_base": "Επιστροφή στο dock",
+          "start_cleaning": "Έναρξη καθαρισμού",
+          "turn_on": "Ενεργοποίηση",
+          "turn_off": "Απενεργοποίηση"
+        }
+      },
+      "water_heater": {
+        "currently": "Αυτή τη στιγμή",
+        "on_off": "Ενεργοποίηση / απενεργοποίηση",
+        "target_temperature": "Επιθυμητή θερμοκρασία",
+        "operation": "Λειτουργία",
+        "away_mode": "Λειτουργία 'Είμαι εκτός'"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Πίεση αέρα",
+          "humidity": "Υγρασία",
+          "temperature": "Θερμοκρασία",
+          "visibility": "Ορατότητα",
+          "wind_speed": "Ταχύτητα ανέμου",
+          "precipitation": "Υετός"
+        },
+        "cardinal_direction": {
+          "e": "Α",
+          "ene": "ΑΒΑ",
+          "ese": "ΑΝΑ",
+          "n": "Β",
+          "ne": "ΒΑ",
+          "nne": "ΒΒΑ",
+          "nw": "ΒΔ",
+          "nnw": "ΒΒΔ",
+          "s": "Ν",
+          "se": "ΝΑ",
+          "sse": "ΝΝΑ",
+          "ssw": "ΝΝΔ",
+          "sw": "ΝΔ",
+          "w": "Δ",
+          "wnw": "ΔΒΔ",
+          "wsw": "ΔΝΔ"
+        },
+        "day": "Ημέρα",
+        "night": "Νύχτα",
+        "forecast": "Πρόγνωση",
+        "high": "Υψηλή",
+        "low": "Χαμηλή"
+      }
+    },
+    "common": {
+      "and": "και",
+      "continue": "Συνέχεια",
+      "previous": "Προηγούμενο",
+      "loading": "Φόρτωση",
+      "refresh": "Ανανέωση",
+      "cancel": "Ακύρωση",
+      "delete": "Διαγραφή",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Κλείστε",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Επόμενο",
+      "back": "Πίσω",
+      "undo": "Αναίρεση",
+      "save": "Αποθήκευση",
+      "rename": "Rename",
+      "yes": "Ναι",
+      "no": "Όχι",
+      "not_now": "Not now",
+      "skip": "Παράλειψη",
+      "menu": "Μενού",
+      "overflow_menu": "Μενού υπερχείλισης",
+      "successfully_saved": "Αποθηκεύτηκε με επιτυχία",
+      "successfully_deleted": "Η διαγραφή ολοκληρώθηκε με επιτυχία",
+      "error_required": "Υποχρεωτικό",
+      "copied": "Αντιγράφηκε"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "Δεν βρέθηκαν καταχωρήσεις ημερολογίου.",
+        "by": "από",
+        "by_service": "από υπηρεσία",
+        "messages": {
+          "was_away": "ήταν μακριά",
+          "was_at_state": "ήταν σε {state}",
+          "rose": "αυξήθηκε",
+          "set": "ορίστηκε",
+          "was_low": "ήταν χαμηλό",
+          "was_normal": "ήταν φυσιολογικό",
+          "was_connected": "ήταν συνδεδεμένο",
+          "was_disconnected": "ήταν αποσυνδεδεμένο",
+          "was_opened": "ήταν ανοιχτό",
+          "was_closed": "ήταν κλειστό",
+          "was_unlocked": "ήταν ξεκλείδωτο",
+          "was_locked": "ήταν κλειδωμένο",
+          "was_plugged_in": "ήταν συνδεδεμένο",
+          "was_unplugged": "ήταν αποσυνδεδεμένο",
+          "was_at_home": "ήταν στο σπίτι",
+          "was_unsafe": "δεν ήταν ασφαλές",
+          "was_safe": "ήταν ασφαλές",
+          "detected_device_class": "εντόπισε {device_class}",
+          "cleared_device_class": "παραγράφηκε (δεν εντοπίστηκε {device_class} )",
+          "turned_off": "απενεργοποιήθηκε",
+          "turned_on": "ενεργοποιήθηκε",
+          "changed_to_state": "άλλαξε σε {state}",
+          "became_unavailable": "μετετράπη σε μη διαθέσιμο"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Οντότητα",
+          "clear": "Καθαρισμός",
+          "show_entities": "Εμφάνιση οντοτήτων"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Χαρακτηριστικό",
+          "show_attributes": "Εμφάνιση χαρακτηριστικών"
+        }
+      },
+      "user-picker": {
+        "no_user": "Κανένας χρήστης",
+        "add_user": "Προσθήκη χρήστη",
+        "remove_user": "Κατάργηση χρήστη"
+      },
+      "device-picker": {
+        "clear": "Καθαρός",
+        "toggle": "Εναλλαγή",
+        "show_devices": "Εμφάνιση συσκευών",
+        "device": "Συσκευή",
+        "no_area": "Καμία περιοχή"
+      },
+      "area-picker": {
+        "clear": "Εκκαθάριση",
+        "show_areas": "Εμφάνιση περιοχών",
+        "area": "Περιοχή",
+        "add_new": "Προσθήκη νέας περιοχής...",
+        "add_dialog": {
+          "title": "Προσθήκη νέας περιοχής",
+          "text": "Εισάγετε το όνομα της νέας περιοχής.",
+          "name": "Όνομα",
+          "add": "Προσθήκη",
+          "failed_create_area": "Αποτυχία δημιουργίας περιοχής."
+        }
+      },
+      "picture-upload": {
+        "label": "Εικόνα",
+        "unsupported_format": "Μη υποστηριζόμενη μορφή, επιλέξτε μια εικόνα JPEG, PNG ή GIF."
+      },
+      "date-range-picker": {
+        "start_date": "Ημερομηνία έναρξης",
+        "end_date": "Ημερομηνία λήξης",
+        "select": "Επιλογή"
+      },
+      "relative_time": {
+        "never": "Ποτέ",
+        "just_now": "Μόλις τώρα",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {δευτερόλεπτο}\n  other {δευτερόλεπτα}\n}",
+          "minute": "{count} {count, plural,\n  one {λεπτό}\n  other {λεπτά}\n}",
+          "hour": "{count} {count, plural,\n  one {ώρα}\n  other {ώρες}\n}",
+          "day": "{count} {count, plural,\n  one {μέρα}\n  other {μέρες}\n}",
+          "week": "{count} {count, plural,\n  one {εβδομάδα}\n  other {εβδομάδες}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {δευτερόλεπτο}\n  other {δευτερόλεπτα}\n} πριν",
+          "minute": "{count} {count, plural,\n  one {λεπτό}\n  other {λεπτά}\n} πριν",
+          "hour": "{count} {count, plural,\n  one {ώρα}\n  other {ώρες}\n} πριν",
+          "day": "{count} {count, plural,\n  one {ημέρα}\n  other {ημέρες}\n} πριν",
+          "week": "{count} {count, plural,\n  one {εβδομάδα}\n  other {εβδομάδες}\n} πριν"
+        },
+        "future_duration": {
+          "second": "Σε {count} {count, plural,\n  one {δευτερόλεπτο}\n  other {δευτερόλεπτα}\n}",
+          "minute": "Σε {count} {count, plural,\n  one {λεπτό}\n  other {λεπτά}\n}",
+          "hour": "Σε {count} {count, plural,\n  one {ώρα}\n  other {ώρες}\n}",
+          "day": "Σε {count} {count, plural,\n  μία {ημέρα}\n  other {ημέρες}\n}",
+          "week": "Σε {count} {count, plural,\n  one {εβδομάδα}\n  other {εβδομάδες}\n}"
+        },
+        "future": "Σε {time}",
+        "past": "{time} πριν"
+      },
+      "history_charts": {
+        "loading_history": "Φόρτωση ιστορικού κατάστασης …",
+        "no_history_found": "Δεν έχει βρεθεί ιστορικό κατάστασης."
+      },
+      "service-picker": { "service": "Υπηρεσία" },
+      "related-items": {
+        "no_related_found": "Δεν βρέθηκαν σχετικά αντικείμενα.",
+        "integration": "Ενσωμάτωση",
+        "device": "Συσκευή",
+        "area": "Περιοχή",
+        "entity": "Σχετιζόμενες οντότητες",
+        "group": "Μέρος των ακόλουθων ομάδων",
+        "scene": "Μέρος των ακόλουθων σκηνών",
+        "script": "Μέρος των ακόλουθων δεσμών ενεργειών",
+        "automation": "Μέρος των ακόλουθων αυτοματισμών"
+      },
+      "data-table": {
+        "search": "Αναζήτηση",
+        "no-data": "Δεν υπάρχουν δεδομένα"
+      },
+      "media-browser": {
+        "pick": "Επιλέξετε",
+        "play": "Αναπαραγωγή",
+        "play-media": "Αναπαραγωγή πολυμέσων",
+        "pick-media": "Επιλογή μέσων",
+        "no_items": "Χωρίς στοιχεία",
+        "choose_player": "Επιλογή προγράμματος αναπαραγωγής",
+        "media-player-browser": "Πρόγραμμα περιήγησης πολυμέσων",
+        "web-browser": "Φυλλομετρητής",
+        "media_player": "Πρόγραμμα αναπαραγωγής πολυμέσων",
+        "audio_not_supported": "Το πρόγραμμα περιήγησής σας δεν υποστηρίζει το στοιχείο ήχου.",
+        "video_not_supported": "Το πρόγραμμα περιήγησής σας δεν υποστηρίζει το στοιχείο βίντεο.",
+        "media_not_supported": "Το Πρόγραμμα αναπαραγωγής πολυμέσων του προγράμματος περιήγησης δεν υποστηρίζει αυτόν τον τύπο πολυμέσων",
+        "media_browsing_error": "Σφάλμα περιήγησης πολυμέσων",
+        "learn_adding_local_media": "Μάθετε περισσότερα σχετικά με την προσθήκη πολυμέσων στην {documentation} .",
+        "local_media_files": "Τοποθετήστε τα αρχεία βίντεο, ήχου και εικόνας στον κατάλογο πολυμέσων για να μπορείτε να περιηγηθείτε και να τα αναπαραγάγετε στο πρόγραμμα περιήγησης ή σε υποστηριζόμενες συσκευές αναπαραγωγής πολυμέσων.",
+        "documentation": "τεκμηρίωση",
+        "no_local_media_found": "Δεν βρέθηκαν τοπικά μέσα",
+        "no_media_folder": "Φαίνεται ότι δεν έχετε δημιουργήσει ακόμη έναν κατάλογο πολυμέσων.",
+        "setup_local_help": "Ελέγξτε την {documentation} σχετικά με τον τρόπο ρύθμισης τοπικών μέσων.",
+        "class": {
+          "album": "Άλμπουμ",
+          "app": "Εφαρμογή",
+          "artist": "Καλλιτέχνης",
+          "channel": "Κανάλι",
+          "composer": "Συνθέτης",
+          "contributing_artist": "Συνεισφέροντας Καλλιτέχνης",
+          "directory": "Βιβλιοθήκη",
+          "episode": "Επεισόδιο",
+          "game": "Παιχνίδι",
+          "genre": "Είδος",
+          "image": "Εικόνα",
+          "movie": "Ταινία",
+          "music": "Μουσική",
+          "playlist": "Λίστα αναπαραγωγής",
+          "podcast": "Podcast",
+          "season": "Σεζόν",
+          "track": "Κομμάτι",
+          "tv_show": "Τηλεοπτική εκπομπή",
+          "url": "Διεύθυνση Url",
+          "video": "Βίντεο"
+        },
+        "choose-source": "Επιλέξτε Πηγή",
+        "content-type": {
+          "album": "Άλμπουμ",
+          "artist": "Καλλιτέχνης",
+          "library": "Βιβλιοθήκη",
+          "playlist": "Λίστα αναπαραγωγής",
+          "server": "Διακομιστής"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Επαναφόρτωση {domain}",
+            "core": "Επαναφόρτωση τοποθεσίας και προσαρμογών",
+            "group": "Επαναφόρτωση ομάδων, οντοτήτων ομάδας και ειδοποίησης υπηρεσιών",
+            "automation": "Επαναφόρτωση αυτοματισμών",
+            "script": "Επαναφόρτωση σεναρίων",
+            "scene": "Επαναφόρτωση σκηνών",
+            "person": "Επαναφόρτωση ατόμων",
+            "zone": "Επαναφόρτωση ζωνών",
+            "input_boolean": "Επαναφόρτωση εισαγόμενων boolean",
+            "input_text": "Επαναφόρτωση κειμένου εισαγωγής",
+            "input_number": "Επαναφόρτωση αριθμών εισαγωγής",
+            "input_datetime": "Επαναφόρτωση ωρών ημερομηνίας εισαγωγής",
+            "input_select": "Επαναφόρτωση επιλογών εισόδου",
+            "template": "Επαναφόρτωση οντοτήτων προτύπου",
+            "universal": "Επαναφόρτωση οντοτήτων αναπαραγωγής καθολικών μέσων",
+            "rest": "Επαναφόρτωση οντοτήτων ανάπαυσης και ειδοποίηση υπηρεσιών",
+            "command_line": "Επαναφόρτωση οντοτήτων γραμμής εντολών",
+            "filter": "Επαναφόρτωση οντοτήτων φίλτρου",
+            "statistics": "Επαναφόρτωση οντοτήτων στατιστικών",
+            "generic": "Επαναφόρτωση γενικών οντοτήτων κάμερας IP",
+            "generic_thermostat": "Επαναφόρτωση γενικών οντοτήτων θερμοστάτη",
+            "homekit": "Επαναφόρτωση HomeKit",
+            "min_max": "Επαναφόρτωση οντοτήτων ελάχιστων/μέγιστων",
+            "history_stats": "Επαναφόρτωση οντοτήτων στατιστικών στοιχείων ιστορικού",
+            "trend": "Επαναφόρτωση οντοτήτων τάσης",
+            "ping": "Επαναφόρτωση ping οντοτήτων δυαδικών αισθητήρων",
+            "filesize": "Επαναφόρτωση οντοτήτων μεγέθους αρχείων",
+            "telegram": "Επαναφόρωση telegram υπηρεσιών ειδοποίησης",
+            "smtp": "Επαναφόρωση smtp υπηρεσιών ειδοποίησης",
+            "mqtt": "Επανααφόρτωση οντοτήτων mqtt",
+            "rpi_gpio": "Επαναφόρτωση GPIO οντοτήτων του Raspberry Pi"
+          },
+          "server_control": {
+            "perform_action": "{action} Διακομιστής",
+            "restart": "Επανεκκίνηση",
+            "stop": "Στοπ"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Φίλτρο οντοτήτων"
+      },
+      "voice_command": {
+        "did_not_hear": "O Home Assistant δεν άκουσε τίποτα",
+        "found": "Βρήκα τα εξής για σας:",
+        "error": "Ωχ, παρουσιάστηκε σφάλμα",
+        "how_can_i_help": "Πώς μπορώ να βοηθήσω;",
+        "label": "Πληκτρολογήστε μια ερώτηση και πατήστε 'Enter'",
+        "label_voice": "Πληκτρολογήστε και πατήστε 'Enter' ή πατήστε το μικρόφωνο για να μιλήσετε"
+      },
+      "generic": {
+        "cancel": "Ακύρωση",
+        "ok": "Εντάξει",
+        "default_confirmation_title": "Είστε σίγουροι;",
+        "close": "κλείσε"
+      },
+      "image_cropper": { "crop": "Περικοπή" },
+      "more_info_control": {
+        "dismiss": "Κλείσιμο διαλόγου.",
+        "settings": "Ρυθμίσεις οντότητας",
+        "edit": "Επεξεργασία οντότητας",
+        "details": "Λεπτομέρειες",
+        "history": "Ιστορικό",
+        "last_changed": "Τελευταία αλλαγή",
+        "last_updated": "Τελευταία ενημέρωση",
+        "script": {
+          "last_action": "Τελευταία Ενέργεια",
+          "last_triggered": "Τελευταία ενεργοποίηση"
+        },
+        "sun": {
+          "elevation": "Υψόμετρο",
+          "rising": "Αύξηση",
+          "setting": "Ρύθμιση"
+        },
+        "updater": { "title": "Οδηγίες Ενημέρωσης" },
+        "restored": {
+          "not_provided": "Αυτή η οντότητα επί του παρόντος δεν είναι διαθέσιμη και είναι απομεινάρι από μια καταργημένη, τροποποιημένη ή δυσλειτουργική ενσωμάτωση ή συσκευή.",
+          "remove_intro": "Εάν η οντότητα δεν χρησιμοποιείται πλέον, μπορείτε να την καθαρίσετε αφαιρώντας την.",
+          "remove_action": "Αφαίρεση οντότητας",
+          "confirm_remove_title": "Θέλετε να αφαιρέσετε αυτή την οντότητα;",
+          "confirm_remove_text": "Είστε βέβαιοι πως θέλετε να καταργήσετε αυτή την οντότητα;"
+        },
+        "vacuum": {
+          "status": "Κατάσταση",
+          "commands": "Εντολές ηλεκτρικής σκούπας:",
+          "fan_speed": "Ταχύτητα ανεμιστήρα",
+          "start": "Έναρξη",
+          "pause": "Παύση",
+          "stop": "Στοπ",
+          "clean_spot": "Καθαρό σημείο",
+          "locate": "Εντοπισμός",
+          "return_home": "Επιστροφή στο σπίτι",
+          "start_pause": "Έναρξη/Παύση"
+        },
+        "person": { "create_zone": "Δημιουργία ζώνης από την τρέχουσα θέση" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "Έλεγχοι"
+      },
+      "entity_registry": {
+        "settings": "Ρυθμίσεις",
+        "control": "Έλεγχος",
+        "related": "Σχετίζεται με",
+        "dismiss": "Απόρριψη",
+        "no_unique_id": "Αυτή η οντότητα δεν διαθέτει μοναδικό αναγνωριστικό, επομένως δεν είναι δυνατή η διαχείριση των ρυθμίσεών της από το περιβάλλον χρήστη. Για περισσότερες λεπτομέρειες, ανατρέξτε στο {faq_link} .",
+        "faq": "τεκμηρίωση",
+        "editor": {
+          "name": "Όνομα",
+          "icon": "Εικονίδιο",
+          "icon_error": "Το εικονίδιο πρέπει να είναι στη μορφή 'πρόθεμα:όνομα_εικόνας', για παράδειγμα: 'mdi:home'",
+          "entity_id": "Αναγνωριστικό οντότητας",
+          "unavailable": "Αυτή η οντότητα δεν είναι προς το παρόν διαθέσιμη.",
+          "enabled_label": "Ενεργοποίηση οντότητας",
+          "enabled_cause": "Απενεργοποιήθηκε από  {cause}.",
+          "enabled_description": "Οι απενεργοποιημένες οντότητες δεν θα προστεθούν στον Home Assistant.",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "Διαγραφή",
+          "confirm_delete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την καταχώριση;",
+          "update": "Ενημέρωση",
+          "note": "Σημείωση: Αυτό μπορεί να μην λειτουργεί ακόμη με όλες τις ενσωματώσεις."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "Η ενσωμάτωση {platform} δεν έχει φορτωθεί. Προσθέστε το στη διαμόρφωσή σας είτε προσθέτοντας 'default_config:' ή '' {platform} : ''.",
+        "yaml_not_editable": "Δεν είναι δυνατή η επεξεργασία των ρυθμίσεων αυτής της οντότητας από το περιβάλλον χρήστη. Μόνο οντότητες που έχουν δημιουργηθεί από το περιβάλλον χρήστη μπορούν να διαμορφωθούν από το περιβάλλον χρήστη.",
+        "required_error_msg": "Αυτό το πεδίο είναι υποχρεωτικό",
+        "generic": { "name": "Όνομα", "icon": "Εικονίδιο" },
+        "input_datetime": {
+          "date": "Ημερομηνία",
+          "time": "Ώρα",
+          "datetime": "Ημερομηνία και ώρα",
+          "mode": "Τι θέλετε να εισαγάγετε"
+        },
+        "input_text": {
+          "min": "Ελάχιστο μήκος",
+          "max": "Μέγιστο μήκος",
+          "mode": "Λειτουργία προβολής",
+          "text": "Κείμενο",
+          "password": "Κωδικός",
+          "pattern": "Μοτίβο Regex για επικύρωση από την πλευρά του πελάτη"
+        },
+        "input_number": {
+          "min": "Ελάχιστη τιμή",
+          "max": "Μέγιστη τιμή",
+          "mode": "Λειτουργία εμφάνισης",
+          "box": "Πεδίο εισαγωγής",
+          "slider": "Ολισθητής",
+          "step": "Μέγεθος βήματος",
+          "unit_of_measurement": "Μονάδα μέτρησης"
+        },
+        "input_select": {
+          "options": "Επιλογές",
+          "add_option": "Προσθήκη επιλογής",
+          "no_options": "Δεν υπάρχουν επιλογές ακόμα.",
+          "add": "Προσθήκη"
+        },
+        "counter": {
+          "minimum": "Ελάχιστη τιμή",
+          "maximum": "Μέγιστη τιμή",
+          "initial": "Αρχική τιμή",
+          "restore": "Επαναφορά της τελευταίας γνωστής τιμής κατά την εκκίνηση του Home Assistant",
+          "step": "Μέγεθος βήματος"
+        },
+        "timer": { "duration": "Διάρκεια" }
+      },
+      "options_flow": {
+        "form": { "header": "Επιλογές" },
+        "success": { "description": "Οι επιλογές αποθηκεύτηκαν με επιτυχία." }
+      },
+      "config_entry_system_options": {
+        "title": "Επιλογές συστήματος για το {integration}",
+        "enable_new_entities_label": "Ενεργοποίηση οντοτήτων που προστέθηκαν πρόσφατα.",
+        "enable_new_entities_description": "Αν απενεργοποιηθεί, οι πρόσφατα ανακαλυφθείσες οντότητες για το {integration} δε θα προστεθούν αυτόματα στον Home Assistant.",
+        "update": "Ενημέρωση"
+      },
+      "zha_device_info": {
+        "manuf": "από τον {manufacturer}",
+        "no_area": "Καμία περιοχή",
+        "device_signature": "Υπογραφή συσκευής Zigbee",
+        "buttons": {
+          "add": "Προσθήκη συσκευών μέσω αυτής της συσκευής",
+          "remove": "Κατάργηση συσκευής",
+          "clusters": "Διαχείριση συμπλεγμάτων",
+          "reconfigure": "Ρυθμίστε Ξανά Τη Συσκευή",
+          "zigbee_information": "Υπογραφή συσκευής Zigbee"
+        },
+        "services": {
+          "reconfigure": "Ρυθμίστε ξανά τη συσκευή ZHA (θεραπεία συσκευής). Χρησιμοποιήστε αυτήν την επιλογή εάν αντιμετωπίζετε προβλήματα με τη συσκευή. Εάν η συγκεκριμένη συσκευή τροφοδοτείται από μπαταρία παρακαλώ βεβαιωθείτε ότι είναι ενεργοποιημένη και δέχεται εντολές όταν χρησιμοποιείτε αυτή την υπηρεσία.",
+          "updateDeviceName": "Ορίστε ένα προσαρμοσμένο όνομα γι αυτήν τη συσκευή στο μητρώο συσκευών.",
+          "remove": "Καταργήστε μια συσκευή από το δίκτυο Zigbee.",
+          "zigbee_information": "Δείτε τις πληροφορίες Zigbee για τη συσκευή."
+        },
+        "confirmations": {
+          "remove": "Είστε βέβαιοι ότι θέλετε να καταργήσετε τη συσκευή;"
+        },
+        "quirk": "Ιδιοτροπία",
+        "last_seen": "Εθεάθη τελευταία",
+        "power_source": "Πηγή ενέργειας",
+        "unknown": "Άγνωστη",
+        "zha_device_card": {
+          "device_name_placeholder": "Αλλαγή ονόματος συσκευής",
+          "area_picker_label": "Περιοχή",
+          "update_name_button": "Ενημέρωση ονόματος"
+        }
+      },
+      "domain_toggler": {
+        "title": "Εναλλαγή τομέων",
+        "reset_entities": "Επαναφορά οντοτήτων"
+      },
+      "mqtt_device_debug_info": {
+        "title": "Πληροφορίες εντοπισμού σφαλμάτων {device}",
+        "deserialize": "Προσπάθεια ανάλυσης μηνυμάτων MQTT ως JSON",
+        "entities": "Οντότητες",
+        "no_entities": "Δεν υπάρχουν οντότητες",
+        "no_triggers": "Δεν υπάρχουν εναύσματα",
+        "payload_display": "Εμφάνιση ωφέλιμου φορτίου",
+        "recent_messages": "{n} πιο πρόσφατα ληφθέντα μηνύματα",
+        "show_as_yaml": "Εμφάνιση ως YAML",
+        "triggers": "Εναύσματα"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\n  one {δευτερόλεπτο}\n  other {δευτερόλεπτα}\n}",
+      "minute": "{count} {count, plural,\n  one {λεπτό}\n  other {λεπτά}\n}",
+      "hour": "{count} {count, plural,\n  one {ώρα}\n  other {ώρες}\n}",
+      "day": "{count} {count, plural,\n  one {μέρα}\n  other {μέρες}\n}",
+      "week": "{count} {count, plural,\n  one {εβδομάδα}\n  other {εβδομάδες}\n}"
+    },
+    "login-form": {
+      "password": "Κωδικός",
+      "remember": "Να θυμάμαι",
+      "log_in": "Σύνδεση"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Πατήστε το κουμπί για να διαμορφώσετε το {entity}",
+      "empty": "Καμία ειδοποίηση",
+      "title": "Ειδοποιήσεις",
+      "close": "Κλείστε",
+      "dismiss_all": "Απόρριψη όλων"
+    },
+    "notification_toast": {
+      "service_call_failed": "Απέτυχε η κλήση στην υπηρεσία {service}.",
+      "connection_lost": "Η σύνδεση χάθηκε. Επανασύνδεση…",
+      "started": "Το Home Assistant έχει ξεκινήσει!",
+      "starting": "Το Home Assistant ξεκινά, ενδέχεται να μην είναι ακόμη διαθέσιμα όλα.",
+      "triggered": "Ενεργοποιήθηκε το {name}",
+      "dismiss": "Απόρριψη"
+    },
+    "sidebar": {
+      "external_app_configuration": "Διαμόρφωση Εφαρμογής",
+      "sidebar_toggle": "Εναλλαγή πλαϊνής μπάρας",
+      "done": "Ολοκληρώθηκε"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "Τα ημερολόγιά μου", "today": "Σήμερα" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την κάρτα;",
+          "empty_state": {
+            "title": "Καλωσορίσατε στην αρχική σελίδα",
+            "no_devices": "Αυτή η σελίδα σάς επιτρέπει να ελέγχετε τις συσκευές σας, ωστόσο φαίνεται ότι δεν έχετε ακόμα ρυθμίσει συσκευές. Μεταβείτε στη σελίδα ενοποίησης για να ξεκινήσετε.",
+            "go_to_integrations_page": "Μεταβείτε στη σελίδα ενοποίησης."
+          },
+          "entities": { "never_triggered": "Ποτέ δεν ενεργοποιήθηκε" },
+          "shopping-list": {
+            "checked_items": "Επιλεγμένα στοιχεία",
+            "clear_items": "Εκκαθάριση επιλεγμένων στοιχείων",
+            "add_item": "Προσθήκη στοιχείου"
+          },
+          "picture-elements": {
+            "hold": "Αναστολή:",
+            "tap": "Κλικ:",
+            "navigate_to": "Μετάβαση σε {location}",
+            "url": "Ανοίξτε το παράθυρο στο {url_path}",
+            "toggle": "Εναλλαγή {name}",
+            "call_service": "Κλήση υπηρεσίας {name}",
+            "more_info": "Εμφάνιση περισσότερων πληροφοριών: {name}"
+          },
+          "safe-mode": {
+            "header": "Ενεργοποίηση ασφαλούς λειτουργίας",
+            "description": "Το Home Assistant αντιμετώπισε πρόβλημα κατά τη φόρτωση της διαμόρφωσής σας και εκτελείται σε ασφαλή λειτουργία. Ρίξτε μια ματιά στο αρχείο καταγραφής σφαλμάτων για να δείτε τι πήγε στραβά."
+          },
+          "starting": {
+            "description": "Το Home Assistant ξεκινά, παρακαλώ περιμένετε…",
+            "header": "Το Home Assistant ξεκινά…"
+          }
+        },
+        "unused_entities": {
+          "title": "Αχρησιμοποίητες οντότητες",
+          "available_entities": "Αυτές είναι οι οντότητες που έχετε στη διάθεσή σας, αλλά δεν έχετε ακόμα στο UI του Lovelace.",
+          "select_to_add": "Επιλέξτε τις οντότητες που θέλετε να προσθέσετε σε μια κάρτα και, στη συνέχεια, κάντε κλικ στο κουμπί Προσθήκη κάρτας.",
+          "entity": "Οντότητα",
+          "entity_id": "Αναγνωριστικό οντότητας",
+          "domain": "Τομέας",
+          "last_changed": "Τελευταία αλλαγή",
+          "search": "Οντότητες αναζήτησης",
+          "no_data": "Δεν βρέθηκαν αχρησιμοποίητες οντότητες"
+        },
+        "add_entities": {
+          "yaml_unsupported": "Δεν μπορείτε να χρησιμοποιήσετε αυτήν τη λειτουργία όταν χρησιμοποιείτε το Lovelace UI σε λειτουργία YAML.",
+          "generated_unsupported": "Μπορείτε να χρησιμοποιήσετε αυτήν τη λειτουργία μόνο όταν έχετε πάρει τον έλεγχο του Lovelace UI.",
+          "saving_failed": "Η αποθήκευση της παραμετροποίησης του Lovelace απέτυχε"
+        },
+        "views": {
+          "confirm_delete": "Θέλετε να διαγράψετε αυτήν την προβολή;",
+          "confirm_delete_text": "Είστε βέβαιοι ότι θέλετε να διαγράψετε την προβολή '' {name} '';",
+          "confirm_delete_existing_cards": "Η διαγραφή αυτής της προβολής θα αφαιρέσει επίσης τις κάρτες",
+          "confirm_delete_existing_cards_text": "Είστε βέβαιοι ότι θέλετε να διαγράψετε την προβολή '' {name} ''; Η προβολή περιέχει {number} κάρτες που θα διαγραφούν. Αυτή η πράξη δε μπορεί να αναιρεθεί."
+        },
+        "menu": {
+          "configure_ui": "Επεξεργασία πίνακα ελέγχου",
+          "help": "Βοήθεια",
+          "start_conversation": "Έναρξη συζήτησης",
+          "reload_resources": "Επαναφόρτωση πόρων",
+          "exit_edit_mode": "Έξοδος από τη λειτουργία επεξεργασίας περιβάλλοντος εργασίας χρήστη",
+          "close": "Κλείστε",
+          "refresh": "Ανανέωση"
+        },
+        "reload_resources": {
+          "refresh_header": "Θέλετε να ανανεώσετε;",
+          "refresh_body": "Πρέπει να ανανεώσετε τη σελίδα για να ολοκληρώσετε την επαναφόρτωση, θέλετε να την ανανεώσετε τώρα;"
+        },
+        "editor": {
+          "header": "Επεξεργασία περιβάλλοντος χρήστη",
+          "menu": {
+            "open": "Ανοίξτε το μενού Lovelace",
+            "raw_editor": "Πρόγραμμα επεξεργασίας ρύθμισης παραμέτρων raw"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "Επεξεργασία διαμόρφωσης",
+            "save": "Αποθήκευση",
+            "unsaved_changes": "Μη αποθηκευμένες αλλαγές",
+            "saved": "Αποθηκεύτηκε",
+            "confirm_remove_config_title": "Είστε βέβαιοι ότι θέλετε να καταργήσετε τη διαμόρφωση διεπαφής χρήστη Lovelace;",
+            "confirm_remove_config_text": "Θα δημιουργήσουμε αυτόματα τις προβολές του Lovelace UI με τις περιοχές και τις συσκευές σας, εάν καταργήσετε τη διαμόρφωση του Lovelace UI.",
+            "confirm_unsaved_changes": "Έχετε μη-αποθηκευμένες αλλαγές, είστε βέβαιοι ότι θέλετε να βγείτε;",
+            "confirm_unsaved_comments": "Η παραμετροποίηση σας περιέχει σχόλιο(α), αυτά δεν θα αποθηκευτούν. Θέλετε να συνεχίσετε;",
+            "error_parse_yaml": "Δεν είναι δυνατή η ανάλυση του YAML: {error}",
+            "error_invalid_config": "Η διαμόρφωσή σας δεν είναι έγκυρη: {error}",
+            "error_save_yaml": "Δεν είναι δυνατή η αποθήκευση του YAML: {error}",
+            "error_remove": "Δεν είναι δυνατή η κατάργηση της διαμόρφωσης: {error}",
+            "resources_moved": "Οι πόροι δεν θα πρέπει πλέον να προστίθενται στη διαμόρφωση Lovelace, αλλά μπορούν να προστεθούν στον πίνακα παραμέτρων Lovelace."
+          },
+          "edit_lovelace": {
+            "header": "Τίτλος του περιβάλλοντος εργασίας σας Lovelace",
+            "explanation": "Αυτός ο τίτλος εμφανίζεται πάνω από όλες τις καρτέλες σας στο Lovelace.",
+            "edit_title": "Επεξεργασία τίτλου",
+            "title": "Τίτλος"
+          },
+          "edit_view": {
+            "header": "Ρυθμίσεις προβολής",
+            "header_name": "{name} Προβολή διαμόρφωσης",
+            "add": "Προσθήκη προβολής",
+            "edit": "Επεξεργασία προβολής",
+            "delete": "Διαγραφή προβολής",
+            "move_left": "Μετακίνηση προβολής αριστερά",
+            "move_right": "Μετακίνηση προβολής δεξιά",
+            "tab_settings": "Ρυθμίσεις",
+            "tab_badges": "Εμβλήματα",
+            "tab_visibility": "Ορατότητα",
+            "visibility": {
+              "select_users": "Επιλέξτε ποιοι χρήστες θα βλέπουν αυτήν την προβολή στην πλοήγηση"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "Αυτά τα σήματα δεν θα εμφανιστούν, επειδή αυτή η προβολή βρίσκεται σε \"Λειτουργία πίνακα\"."
+          },
+          "edit_card": {
+            "header": "Διαμόρφωση κάρτας",
+            "typed_header": "{type} Διαμόρφωση κάρτας",
+            "pick_card": "Επιλέξτε την κάρτα που θέλετε να προσθέσετε.",
+            "pick_card_view_title": "Ποια κάρτα θέλετε να προσθέσετε στην προβολή {name} ;",
+            "toggle_editor": "Εναλλαγή κειμενογράφου",
+            "unsaved_changes": "Έχετε μη αποθηκευμένες αλλαγές",
+            "confirm_cancel": "Είστε βέβαιοι ότι θέλετε να ακυρώσετε;",
+            "show_visual_editor": "Εμφάνιση οπτικού προγράμματος επεξεργασίας",
+            "show_code_editor": "Εμφάνιση επεξεργαστή κώδικα",
+            "add": "Προσθήκη κάρτας",
+            "edit": "Επεξεργασία",
+            "clear": "Clear",
+            "delete": "Διαγραφή κάρτας",
+            "duplicate": "Διπλότυπη κάρτα",
+            "move": "Μετακίνηση",
+            "move_before": "Μετακίνηση κάρτας πριν",
+            "move_after": "Μετακίνηση κάρτας μετά",
+            "options": "Περισσότερες επιλογές",
+            "search_cards": "Αναζήτηση καρτών"
+          },
+          "move_card": {
+            "header": "Επιλέξτε μια προβολή για να μετακινήσετε την κάρτα"
+          },
+          "select_view": {
+            "header": "Επιλέξτε μια προβολή",
+            "dashboard_label": "Πίνακας Επισκόπησης"
+          },
+          "suggest_card": {
+            "header": "Δημιουργήσαμε μια πρόταση για εσάς",
+            "create_own": "Επιλέξτε άλλη κάρτα",
+            "add": "Προσθήκη στο Lovelace UI"
+          },
+          "save_config": {
+            "header": "Πάρτε τον έλεγχο του περιβάλλοντος χρήστη στο Lovelace",
+            "para": "Ο πίνακας προεπισκόπησης διαχειρίζεται από το Home Assistant. Αυτό  θα ενημερωθεί αυτόματα όταν νέες οντότητες ή στοιχεία διεπαφής Lovelace γίνουν διαθέσιμα. Αν αναλάβετε τον έλεγχο ο πίνακας προεπισκόπισης δεν θα ανανεώνεται αυτόματα. Μπορείτε οποιαδήποτε στιγμή να δημιουργήσετε νέο πίνακα προεπισκόπισης για να πειραματιστείτε",
+            "para_sure": "Είστε βέβαιος ότι θέλετε να πάρετε τον έλεγχο του περιβάλλοντος χρήστη;",
+            "yaml_mode": "Χρησιμοποιείτε τη λειτουργία YAML για αυτόν τον πίνακα εργαλείων, πράγμα που σημαίνει ότι δεν μπορείτε να αλλάξετε τη διαμόρφωση Lovelace από το περιβάλλον εργασίας χρήστη. Εάν θέλετε να διαχειριστείτε αυτόν τον πίνακα εργαλείων από το περιβάλλον εργασίας χρήστη, καταργήστε το 'mode: yaml' από τη διαμόρφωση Lovelace στο 'configuration.yaml.'.",
+            "yaml_control": "Για να αποκτήσετε τον έλεγχο σε λειτουργία YAML, δημιουργήστε ένα αρχείο YAML με το όνομα που καθορίσατε στη διαμόρφωσή σας για αυτόν τον πίνακα ελέγχου ή το προεπιλεγμένο \"ui-lovelace.yaml\".",
+            "yaml_config": "Για να σας βοηθήσουμε να ξεκινήσετε εδώ είναι η τρέχουσα διαμόρφωση αυτού του πίνακα ελέγχου:",
+            "empty_config": "Ξεκινήστε με μια κενή επισκόπηση",
+            "cancel": "Δεν πειράζει",
+            "close": "Κλείσιμο",
+            "save": "Πάρτε τον έλεγχο"
+          },
+          "migrate": {
+            "header": "Μη συμβατή διαμόρφωση",
+            "para_no_id": "Αυτό το στοιχείο δεν έχει αναγνωριστικό. Προσθέστε ένα αναγνωριστικό σε αυτό το στοιχείο στο 'ui-lovelace.yaml'.",
+            "para_migrate": "To Home Assistant  μπορεί να προσθέσει αυτόματα τα αναγνωριστικά σε όλες τις κάρτες και τις προβολές σας, πατώντας το κουμπί \"Μετεγκατάσταση διαμόρφωσης\".",
+            "migrate": "Μετεγκατάσταση διαμόρφωσης"
+          },
+          "action-editor": {
+            "navigation_path": "Διαδρομή πλοήγησης",
+            "url_path": "Διαδρομή διεύθυνσης URL",
+            "editor_service_data": "Τα δεδομένα υπηρεσίας μπορούν να εισαχθούν μόνο στον επεξεργαστή κώδικα",
+            "actions": {
+              "default_action": "Προεπιλεγμένη ενέργεια",
+              "call-service": "Κλήση υπηρεσίας",
+              "more-info": "Περισσότερες πληροφορίες",
+              "toggle": "Εναλλαγή",
+              "navigate": "Πλοήγηση",
+              "url": "Διεύθυνση Url",
+              "none": "Καμία ενέργεια"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Πίνακας συναγερμών",
+              "available_states": "Διαθέσιμες λειτουργίες",
+              "description": "Η κάρτα Alarm Panel σας επιτρέπει να οπλίσετε και να αφοπλίσετε τις ενσωματώσεις του πίνακα ελέγχου συναγερμού."
+            },
+            "calendar": {
+              "name": "Ημερολόγιο",
+              "description": "Η κάρτα \"Ημερολόγιο\" εμφανίζει ένα ημερολόγιο που περιλαμβάνει προβολές ημέρας, εβδομάδας και λίστας",
+              "inital_view": "Αρχική προβολή",
+              "calendar_entities": "Οντότητες ημερολογίου",
+              "views": {
+                "dayGridMonth": "Μήνας",
+                "dayGridDay": "Ημέρα",
+                "listWeek": "Λίστα"
+              }
+            },
+            "conditional": {
+              "name": "Υπό όρους",
+              "description": "Η κάρτα υπό όρους εμφανίζει μια άλλη κάρτα βάσει των καταστάσεων οντοτήτων.",
+              "conditions": "Συνθήκες",
+              "card": "Κάρτα",
+              "state_equal": "Η κατάσταση ισούται με",
+              "state_not_equal": "Η κατάσταση δεν ισούται με",
+              "current_state": "Τρέχουσα",
+              "condition_explanation": "Η κάρτα θα εμφανίζεται όταν πληρούνται ΟΛΕΣ οι παρακάτω προϋποθέσεις.",
+              "change_type": "Αλλαγή τύπου"
+            },
+            "config": { "required": "Υποχρεωτικό", "optional": "Προαιρετικό" },
+            "entities": {
+              "name": "Οντότητες",
+              "show_header_toggle": "Εμφάνιση εναλλαγής κεφαλίδων;",
+              "toggle": "Εναλλαγή οντοτήτων.",
+              "description": "Η καρτέλα Οντότητες είναι ο πιο συνηθισμένος τύπος κάρτας. Ομαδοποιεί τα στοιχεία σε λίστες.",
+              "special_row": "ειδική σειρά",
+              "edit_special_row": "Προβολή των λεπτομερειών αυτής της γραμμής κάνοντας κλικ στο κουμπί επεξεργασίας",
+              "entity_row_editor": "Πρόγραμμα επεξεργασίας γραμμής οντότητας",
+              "secondary_info_values": {
+                "none": "Δεν υπάρχουν δευτερεύουσες πληροφορίες",
+                "entity-id": "Αναγνωριστικό οντότητας",
+                "last-changed": "Τελευταία αλλαγή",
+                "last-triggered": "Τελευταία ενεργοποίηση",
+                "position": "Θέση",
+                "tilt-position": "Θέση κλίσης",
+                "brightness": "Φωτεινότητα",
+                "last-updated": "Τελευταία ενημέρωση"
+              },
+              "entity_row": {
+                "divider": "Διαιρέτης",
+                "call-service": "Κλήση υπηρεσίας",
+                "section": "Ενότητα",
+                "weblink": "Σύνδεσμος Ιστού",
+                "attribute": "Χαρακτηριστικό",
+                "buttons": "Κουμπιά",
+                "conditional": "Υπό όρους",
+                "cast": "Μετάδοση",
+                "button": "Κουμπί"
+              }
+            },
+            "entity": {
+              "name": "Οντότητα",
+              "description": "Η κάρτα Οντότητα σας παρέχει μια γρήγορη επισκόπηση της κατάστασης της οντότητας σας."
+            },
+            "button": {
+              "name": "Κουμπί",
+              "description": "Η κάρτα Button σας επιτρέπει να προσθέσετε κουμπιά για την εκτέλεση εργασιών.",
+              "default_action_help": "Η προεπιλεγμένη ενέργεια εξαρτάται από τις δυνατότητες της οντότητας, είτε θα εναλλάσσεται είτε θα εμφανίζονται περισσότερες πληροφορίες."
+            },
+            "entity-filter": {
+              "name": "Φίλτρο οντοτήτων",
+              "description": "Η κάρτα \"Φίλτρο οντότητας\" σάς επιτρέπει να ορίσετε μια λίστα οντοτήτων που θέλετε να παρακολουθείτε μόνο όταν βρίσκεστε σε μια συγκεκριμένη κατάσταση."
+            },
+            "gauge": {
+              "name": "Μετρητής",
+              "severity": {
+                "define": "Ορισμός σοβαρότητας;",
+                "green": "Πράσινος",
+                "red": "Κόκκινο",
+                "yellow": "Κίτρινο"
+              },
+              "description": "Η κάρτα Gauge είναι μια βασική κάρτα που επιτρέπει την οπτική προβολή δεδομένων αισθητήρα."
+            },
+            "glance": {
+              "name": "Ματιά",
+              "columns": "Στήλες",
+              "description": "Η κάρτα Glance είναι χρήσιμη για την ομαδοποίηση πολλαπλών αισθητήρων σε μια συμπαγή επισκόπηση."
+            },
+            "grid": {
+              "name": "Πλέγμα",
+              "description": "Η κάρτα πλέγματος σάς επιτρέπει να εμφανίζετε πολλές κάρτες σε ένα πλέγμα."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "Ιστορικό γράφημα",
+              "description": "Η κάρτα Ιστορικού γραφήματος σάς επιτρέπει να εμφανίσετε ένα γράφημα για καθεμία από τις αναφερόμενες οντότητες."
+            },
+            "horizontal-stack": {
+              "name": "Οριζόντια διάταξη",
+              "description": "Η κάρτα Οριζόντιας στοίβας σάς επιτρέπει να στοιβάζετε πολλές κάρτες μαζί, έτσι ώστε να κάθονται πάντα η μία δίπλα στην άλλη στο χώρο μιας στήλης."
+            },
+            "humidifier": {
+              "name": "Υγραντήρας",
+              "description": "Η κάρτα υγραντήρα δίνει τον έλεγχο της οντότητας υγραντήρα σας. Σας επιτρέπει να αλλάξετε την υγρασία και τον τρόπο της οντότητας."
+            },
+            "iframe": {
+              "name": "Ιστοσελίδα",
+              "description": "Η κάρτα Ιστοσελίδας σάς επιτρέπει να ενσωματώσετε την αγαπημένη σας ιστοσελίδα απευθείας στο Home Assistant."
+            },
+            "light": {
+              "name": "Φως",
+              "description": "Η κάρτα \"Φως\" σας επιτρέπει να αλλάξετε τη φωτεινότητα του φωτός."
+            },
+            "generic": {
+              "aspect_ratio": "Αναλογία απεικόνισης",
+              "attribute": "Χαρακτηριστικό",
+              "camera_image": "Οντότητα κάμερας",
+              "camera_view": "Προβολή κάμερας",
+              "double_tap_action": "Ενέργεια διπλού πατήματος",
+              "entities": "Οντότητες",
+              "entity": "Οντότητα",
+              "hold_action": "Ενέργεια διακράτησης",
+              "hours_to_show": "Ώρες για εμφάνιση",
+              "icon": "Εικονίδιο",
+              "icon_height": "Ύψος εικονιδίου",
+              "image": "Διαδρομή εικόνας",
+              "maximum": "Μέγιστο",
+              "manual": "Χειροκίνητο",
+              "manual_description": "Θέλετε να προσθέσετε μια προσαρμοσμένη κάρτα ή απλά θέλετε να γράψετε χειροκίνητα το yaml;",
+              "minimum": "Ελάχιστο",
+              "name": "Όνομα",
+              "refresh_interval": "Χρονικό διάστημα ανανέωσης",
+              "show_icon": "Εμφάνιση εικονιδίου;",
+              "show_name": "Εμφάνιση ονόματος;",
+              "show_state": "Εμφάνιση κατάστασης;",
+              "tap_action": "Ενέργεια πατήματος",
+              "title": "Τίτλος",
+              "theme": "Θέμα",
+              "no_theme": "Χωρίς θέμα",
+              "unit": "Μονάδα",
+              "url": "Διεύθυνση url",
+              "state": "Κατάσταση",
+              "secondary_info_attribute": "Χαρακτηριστικό δευτερευουσών πληροφοριών",
+              "search": "Αναζήτηση",
+              "state_color": "Έγχρωμα εικονίδια βάσει της κατάστασης;"
+            },
+            "map": {
+              "name": "Χάρτης",
+              "geo_location_sources": "Πηγές γεωγραφικής θέσης",
+              "dark_mode": "Σκοτεινή λειτουργία;",
+              "default_zoom": "Προεπιλεγμένο ζουμ",
+              "hours_to_show": "Ώρες για εμφάνιση",
+              "source": "Πηγή",
+              "description": "Η κάρτα χάρτη που σας επιτρέπει να εμφανίζετε οντότητες σε έναν χάρτη."
+            },
+            "markdown": {
+              "name": "Υποσημείωση.",
+              "content": "Περιεχόμενο",
+              "description": "Η κάρτα Markdown χρησιμοποιείται για την απόδοση του Markdown."
+            },
+            "media-control": {
+              "name": "Έλεγχος πολυμέσων",
+              "description": "Η κάρτα ελέγχου πολυμέσων χρησιμοποιείται για την εμφάνιση οντοτήτων αναπαραγωγής πολυμέσων σε μια διασύνδεση με εύχρηστα στοιχεία ελέγχου."
+            },
+            "picture": {
+              "name": "Εικόνα",
+              "description": "Η κάρτα Εικόνας σάς επιτρέπει να ορίσετε μια εικόνα που θα χρησιμοποιείται για πλοήγηση σε διάφορες διαδρομές στη διεπαφή σας ή να καλείτε μια υπηρεσία."
+            },
+            "picture-elements": {
+              "name": "Στοιχεία εικόνας",
+              "description": "Η κάρτα Picture Elements είναι ένας από τους πιο ευέλικτους τύπους καρτών. Οι κάρτες σας επιτρέπουν να τοποθετήσετε εικονίδια ή κείμενο και ακόμη και υπηρεσίες! Σε μια εικόνα που βασίζεται σε συντεταγμένες."
+            },
+            "picture-entity": {
+              "name": "Οντότητα εικόνας",
+              "description": "Η κάρτα \"Οντότητα εικόνας\" εμφανίζει μια οντότητα με τη μορφή εικόνας. Αντί για εικόνες από τη διεύθυνση URL, μπορεί επίσης να εμφανίσει την εικόνα των οντοτήτων της κάμερας."
+            },
+            "picture-glance": {
+              "name": "Στιγμιότυπο εικόνας",
+              "description": "Η κάρτα \"Ματιά εικόνας\" εμφανίζει μια εικόνα και τις αντίστοιχες καταστάσεις οντότητας ως εικονίδιο. Οι οντότητες στη δεξιά πλευρά επιτρέπουν ενέργειες εναλλαγής, ενώ άλλες εμφανίζουν το παράθυρο διαλόγου περισσότερων πληροφοριών."
+            },
+            "plant-status": {
+              "name": "Κατάσταση εγκατάστασης",
+              "description": "Η κάρτα κατάστασης φυτών είναι για όλους τους υπέροχους βοτανολόγους εκεί έξω."
+            },
+            "sensor": {
+              "name": "Αισθητήρας",
+              "show_more_detail": "Εμφάνιση περισσότερων λεπτομερειών",
+              "graph_type": "Τύπος γραφήματος",
+              "description": "Η Κάρτα Αισθητήρα σας παρέχει μια γρήγορη επισκόπηση της κατάστασης των αισθητήρων σας με ένα προαιρετικό γράφημα για να απεικονίσετε την αλλαγή με την πάροδο του χρόνου.",
+              "graph_detail": "Λεπτομέρειες γραφήματος"
+            },
+            "shopping-list": {
+              "name": "Λίστα αγορών",
+              "description": "Η κάρτα \"Λίστα αγορών\" σάς επιτρέπει να προσθέτετε, να επεξεργάζεστε, να κάνετε check-off και να εκκαθαρίζετε στοιχεία από τη λίστα αγορών σας.",
+              "integration_not_loaded": "Αυτή η κάρτα απαιτεί τη ρύθμιση της ενσωμάτσωσης \"shopping_list\"."
+            },
+            "thermostat": {
+              "name": "Θερμοστάτης",
+              "description": "Η κάρτα Θερμοστάτη δίνει τον έλεγχο της κλιματικής οντότητας. Επιτρέποντάς σας να αλλάξετε τη θερμοκρασία και τον τρόπο της οντότητας."
+            },
+            "vertical-stack": {
+              "name": "Κάθετη διάταξη",
+              "description": "Η κάρτα κατακόρυφης στοίβας σάς επιτρέπει να ομαδοποιείτε πολλές κάρτες, ώστε να παραμένουν  πάντα στην ίδια στήλη."
+            },
+            "weather-forecast": {
+              "name": "Πρόγνωση καιρού",
+              "description": "Η κάρτα Πρόγνωση καιρού εμφανίζει τον καιρό. Πολύ χρήσιμο να συμπεριληφθεί στις διασυνδέσεις που οι άνθρωποι εμφανίζουν στον τοίχο.",
+              "show_forecast": "Πρόγνωση καιρού"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Λειτουργία πίνακα;",
+              "description": "Αυτό καθιστά την πρώτη κάρτα σε πλήρες πλάτος. Άλλες κάρτες σε αυτήν την προβολή, καθώς και σήματα δεν θα αποδοθούν.",
+              "warning_multiple_cards": "Αυτή η προβολή περιέχει περισσότερες από μία κάρτες, αλλά μια προβολή πίνακα μπορεί να εμφανίσει μόνο 1 κάρτα."
+            }
+          },
+          "cardpicker": {
+            "no_description": "Δεν υπάρχει διαθέσιμη περιγραφή",
+            "custom_card": "Προσαρμοσμένη",
+            "domain": "Τομέας",
+            "entity": "Οντότητα",
+            "by_entity": "Ανά οντότητα",
+            "by_card": "Ανά κάρτα"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Το χαρακτηριστικό {attribute} δεν είναι διαθέσιμο σε: {entity}",
+          "entity_not_found": "Η οντότητα δεν είναι διαθέσιμη: {entity}",
+          "entity_non_numeric": "Η οντότητα δεν είναι αριθμητική: {entity}",
+          "entity_unavailable": "{entity} δεν είναι διαθέσιμο προς το παρόν",
+          "starting": "Το Home Assistant ξεκινά, ενδέχεται να μην είναι ακόμη διαθέσιμα όλα"
+        },
+        "changed_toast": {
+          "message": "Η παραμετροποίηση του Lovelace για αυτή την επισκόπηση έχει επικαιροποιηθεί, θέλεις να κάνεις ανανέωση για να δεις τις αλλαγές;",
+          "refresh": "Ανανέωση"
+        },
+        "reload_lovelace": "Επαναφόρτωση Lovelace"
+      },
+      "shopping_list": { "start_conversation": "Έναρξη συζήτησης" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Έχετε εμπιστοσύνη στο εξωτερικό πάνελ {name} στο {link} ;",
+          "complete_access": "Θα έχει πρόσβαση σε όλα τα δεδομένα του Home Assistant.",
+          "hide_message": "Ελέγξτε τα έγγραφα για το στοιχείο panel_custom για να αποκρύψετε αυτό το μήνυμα"
+        }
+      }
+    }
+  }
+}

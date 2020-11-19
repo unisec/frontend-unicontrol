@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Ali ste pripravljeni prebuditi svoj dom, povrniti svojo zasebnost in se pridružiti svetovni skupnosti ustvarjalcev?",
+        "user": {
+          "intro": "Začnite tako, da ustvarite uporabniški račun.",
+          "required_field": "Zahtevano",
+          "data": {
+            "name": "Ime",
+            "username": "Uporabniško ime",
+            "password": "Geslo",
+            "password_confirm": "Potrdi Geslo"
+          },
+          "create_account": "Ustvarite račun",
+          "error": {
+            "required_fields": "Izpolnite vsa zahtevana polja",
+            "password_not_match": "Gesli se ne ujemata"
+          }
+        },
+        "core-config": {
+          "intro": "Pozdravljeni {name}, dobrodošli v Home Assistantu. Kako bi radi poimenovali vaš dom?",
+          "intro_location": "Radi bi vedeli, kje živite. Te informacije vam bodo pomagale pri prikazovanju informacij in postavitvi avtomatizacij, ki temeljijo na soncu. Ti podatki se nikoli ne delijo izven vašega omrežja.",
+          "intro_location_detect": "Lahko vam pomagamo izpolniti te informacije z enkratno zahtevo za zunanjo storitev.",
+          "location_name": "Ime namestitve Home Assistant",
+          "location_name_default": "Dom",
+          "button_detect": "Odkrij",
+          "finish": "Naslednji"
+        },
+        "integration": {
+          "intro": "Naprave in storitve so v Home Assistantu predstavljene kot integracije. Zdaj jih lahko nastavite ali pa to storite kasneje iz konfiguracijske strani.",
+          "more_integrations": "Več",
+          "finish": "Dokončaj"
+        },
+        "restore": {
+          "description": "Lahko pa obnovite tudi iz prejšnjega posnetka.",
+          "in_progress": "Obnavljanje v teku",
+          "show_log": "Prikaži celoten dnevnik",
+          "hide_log": "Skrij celoten dnevnik"
+        }
+      }
+    }
+  }
+}

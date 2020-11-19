@@ -1,0 +1,15 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "اليوم",
+          "yesterday": "أمس",
+          "this_week": "هذا الأسبوع",
+          "last_week": "الأسبوع الماضي"
+        },
+        "showing_entries": "عرض الأحداث لـ"
+      }
+    }
+  }
+}

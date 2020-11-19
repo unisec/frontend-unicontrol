@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Hôm nay",
+          "yesterday": "Hôm qua",
+          "this_week": "Tuần này",
+          "last_week": "Tuần trước"
+        },
+        "period": "Giai đoạn",
+        "showing_entries": "Hiển thị mục cho"
+      }
+    }
+  }
+}

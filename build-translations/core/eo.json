@@ -1,0 +1,1154 @@
+{
+  "panel": {
+    "calendar": "Calendar",
+    "config": "Configuration",
+    "states": "Overview",
+    "map": "Map",
+    "logbook": "Logbook",
+    "history": "History",
+    "mailbox": "Mailbox",
+    "shopping_list": "Shopping List",
+    "developer_tools": "Developer Tools",
+    "media_browser": "Media Browser",
+    "profile": "Profile"
+  },
+  "state": {
+    "default": {
+      "on": "On",
+      "off": "Off",
+      "unknown": "Unknown",
+      "unavailable": "Unavailable"
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "Off", "on": "On", "auto": "Auto" },
+      "preset_mode": {
+        "none": "None",
+        "eco": "Eco",
+        "away": "Away",
+        "boost": "Boost",
+        "comfort": "Comfort",
+        "home": "Home",
+        "sleep": "Sleep",
+        "activity": "Activity"
+      },
+      "hvac_action": {
+        "off": "Off",
+        "heating": "Heating",
+        "cooling": "Cooling",
+        "drying": "Drying",
+        "idle": "Idle",
+        "fan": "Fan"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normal",
+        "eco": "Eco",
+        "away": "Away",
+        "boost": "Boost",
+        "comfort": "Comfort",
+        "home": "Home",
+        "sleep": "Sleep",
+        "auto": "Auto",
+        "baby": "Baby"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Unk",
+      "unavailable": "Unavai",
+      "error": "Error",
+      "entity_not_found": "Entity Not Found"
+    },
+    "alarm_control_panel": {
+      "armed": "Armed",
+      "disarmed": "Disarm",
+      "armed_home": "Armed",
+      "armed_away": "Armed",
+      "armed_night": "Armed",
+      "armed_custom_bypass": "Armed",
+      "pending": "Pend",
+      "arming": "Arming",
+      "disarming": "Disarm",
+      "triggered": "Trig"
+    },
+    "device_tracker": { "home": "Home", "not_home": "Away" },
+    "person": { "home": "Home", "not_home": "Away" }
+  },
+  "groups": {
+    "system-admin": "Administrators",
+    "system-users": "Users",
+    "system-read-only": "Read-Only Users"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "User",
+      "integration": "Integration",
+      "config_entry": "Config Entry"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Do you want to stay logged in?",
+      "decline": "No",
+      "confirm": "Yes"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Code",
+        "clear_code": "Clear",
+        "disarm": "Disarm",
+        "arm_home": "Arm home",
+        "arm_away": "Arm away",
+        "arm_night": "Arm night",
+        "arm_custom_bypass": "Custom bypass"
+      },
+      "automation": {
+        "last_triggered": "Last triggered",
+        "trigger": "Execute"
+      },
+      "camera": { "not_available": "Image not available" },
+      "climate": {
+        "currently": "Currently",
+        "on_off": "On / off",
+        "target_temperature": "Target temperature",
+        "target_temperature_entity": "{name} cela temperaturo",
+        "target_temperature_mode": "{name} cela temperaturo {mode}",
+        "current_temperature": "{name} aktuala temperaturo",
+        "heating": "{name} hejtado",
+        "cooling": "{name} malvarmigo",
+        "high": "alta",
+        "low": "malalta",
+        "target_humidity": "Target humidity",
+        "operation": "Operation",
+        "fan_mode": "Fan mode",
+        "swing_mode": "Swing mode",
+        "preset_mode": "Preset",
+        "away_mode": "Away mode",
+        "aux_heat": "Aux heat"
+      },
+      "counter": {
+        "actions": {
+          "increment": "pliigo",
+          "decrement": "dekreto",
+          "reset": "restarigi"
+        }
+      },
+      "cover": { "position": "Position", "tilt_position": "Tilt position" },
+      "fan": {
+        "speed": "Speed",
+        "oscillate": "Oscillate",
+        "direction": "Direction",
+        "forward": "Forward",
+        "reverse": "Reverse"
+      },
+      "humidifier": {
+        "humidity": "Target humidity",
+        "mode": "Mode",
+        "target_humidity_entity": "{name} target humidity",
+        "on_entity": "{name} on"
+      },
+      "light": {
+        "brightness": "Brightness",
+        "color_temperature": "Color temperature",
+        "white_value": "White value",
+        "effect": "Effect"
+      },
+      "lock": { "code": "Code", "lock": "Lock", "unlock": "Unlock" },
+      "media_player": {
+        "source": "Source",
+        "sound_mode": "Sound mode",
+        "browse_media": "Browse media",
+        "turn_on": "Turn on",
+        "turn_off": "Turn off",
+        "media_play": "Play",
+        "media_play_pause": "Play/pause",
+        "media_next_track": "Next",
+        "media_previous_track": "Previous",
+        "text_to_speak": "Text to speak"
+      },
+      "persistent_notification": { "dismiss": "Dismiss" },
+      "scene": { "activate": "Activate" },
+      "script": {
+        "execute": "Execute",
+        "cancel": "Cancel",
+        "cancel_multiple": "Cancel {number}"
+      },
+      "service": { "run": "Run" },
+      "timer": {
+        "actions": {
+          "start": "start",
+          "pause": "pause",
+          "cancel": "cancel",
+          "finish": "finish"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Resume cleaning",
+          "return_to_base": "Return to dock",
+          "start_cleaning": "Start cleaning",
+          "turn_on": "Turn on",
+          "turn_off": "Turn off"
+        }
+      },
+      "water_heater": {
+        "currently": "Currently",
+        "on_off": "On / off",
+        "target_temperature": "Target temperature",
+        "operation": "Operation",
+        "away_mode": "Away mode"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Air pressure",
+          "humidity": "Humidity",
+          "temperature": "Temperature",
+          "visibility": "Visibility",
+          "wind_speed": "Wind speed",
+          "precipitation": "Precipitation"
+        },
+        "cardinal_direction": {
+          "e": "E",
+          "ene": "ENE",
+          "ese": "ESE",
+          "n": "N",
+          "ne": "NE",
+          "nne": "NNE",
+          "nw": "NW",
+          "nnw": "NNW",
+          "s": "S",
+          "se": "SE",
+          "sse": "SSE",
+          "ssw": "SSW",
+          "sw": "SW",
+          "w": "W",
+          "wnw": "WNW",
+          "wsw": "WSW"
+        },
+        "day": "Day",
+        "night": "Night",
+        "forecast": "Forecast",
+        "high": "High",
+        "low": "Low"
+      }
+    },
+    "common": {
+      "and": "and",
+      "continue": "Continue",
+      "previous": "Previous",
+      "loading": "Loading",
+      "refresh": "Refresh",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Close",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Next",
+      "back": "Back",
+      "undo": "Undo",
+      "save": "Save",
+      "rename": "Rename",
+      "yes": "Jes",
+      "no": "Ne",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "Menu",
+      "overflow_menu": "Overflow menu",
+      "successfully_saved": "Successfully saved",
+      "successfully_deleted": "Successfully deleted",
+      "error_required": "Required",
+      "copied": "Copied"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "No logbook entries found.",
+        "by": "by",
+        "by_service": "by service",
+        "messages": {
+          "was_away": "was away",
+          "was_at_state": "was at {state}",
+          "rose": "rose",
+          "set": "set",
+          "was_low": "was low",
+          "was_normal": "was normal",
+          "was_connected": "was connected",
+          "was_disconnected": "was disconnected",
+          "was_opened": "was opened",
+          "was_closed": "was closed",
+          "was_unlocked": "was unlocked",
+          "was_locked": "was locked",
+          "was_plugged_in": "was plugged in",
+          "was_unplugged": "was unplugged",
+          "was_at_home": "was at home",
+          "was_unsafe": "was unsafe",
+          "was_safe": "was safe",
+          "detected_device_class": "detected {device_class}",
+          "cleared_device_class": "cleared (no {device_class} detected)",
+          "turned_off": "turned off",
+          "turned_on": "turned on",
+          "changed_to_state": "changed to {state}",
+          "became_unavailable": "became unavailable"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Entity",
+          "clear": "Klarigi",
+          "show_entities": "Montri entojn"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Attribute",
+          "show_attributes": "Show attributes"
+        }
+      },
+      "user-picker": {
+        "no_user": "No user",
+        "add_user": "Add user",
+        "remove_user": "Remove user"
+      },
+      "device-picker": {
+        "clear": "Klarigi",
+        "toggle": "Toggle",
+        "show_devices": "Montri aparatojn",
+        "device": "Aparato",
+        "no_area": "No area"
+      },
+      "area-picker": {
+        "clear": "Clear",
+        "show_areas": "Show areas",
+        "area": "Area",
+        "add_new": "Add new area…",
+        "add_dialog": {
+          "title": "Add new area",
+          "text": "Enter the name of the new area.",
+          "name": "Name",
+          "add": "Add",
+          "failed_create_area": "Failed to create area."
+        }
+      },
+      "picture-upload": {
+        "label": "Picture",
+        "unsupported_format": "Unsupported format, please choose a JPEG, PNG or GIF image."
+      },
+      "date-range-picker": {
+        "start_date": "Start date",
+        "end_date": "End date",
+        "select": "Select"
+      },
+      "relative_time": {
+        "never": "Never",
+        "just_now": "Just now",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n} ago",
+          "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n} ago",
+          "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n} ago",
+          "day": "{count} {count, plural,\n  one {day}\n  other {days}\n} ago",
+          "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n} ago"
+        },
+        "future_duration": {
+          "second": "In {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "In {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "In {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "In {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "In {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        }
+      },
+      "history_charts": {
+        "loading_history": "Loading state history...",
+        "no_history_found": "No state history found."
+      },
+      "service-picker": { "service": "Service" },
+      "related-items": {
+        "no_related_found": "No related items found.",
+        "integration": "Integration",
+        "device": "Device",
+        "area": "Area",
+        "entity": "Related entities",
+        "group": "Part of the following groups",
+        "scene": "Part of the following scenes",
+        "script": "Part of the following scripts",
+        "automation": "Part of the following automations"
+      },
+      "data-table": { "search": "Search", "no-data": "No data" },
+      "media-browser": {
+        "pick": "Pick",
+        "play": "Play",
+        "play-media": "Play Media",
+        "pick-media": "Pick Media",
+        "no_items": "No items",
+        "choose_player": "Choose Player",
+        "media-player-browser": "Media Player Browser",
+        "web-browser": "Web Browser",
+        "media_player": "Media Player",
+        "audio_not_supported": "Your browser does not support the audio element.",
+        "video_not_supported": "Your browser does not support the video element.",
+        "media_not_supported": "The Browser Media Player does not support this type of media",
+        "media_browsing_error": "Media Browsing Error",
+        "learn_adding_local_media": "Learn more about adding media in the {documentation}.",
+        "local_media_files": "Place your video, audio and image files in the media directory to be able to browse and play them in the browser or on supported media players.",
+        "documentation": "documentation",
+        "no_local_media_found": "No local media found",
+        "no_media_folder": "It looks like you have not yet created a media directory.",
+        "setup_local_help": "Check the {documentation} on how to setup local media.",
+        "class": {
+          "album": "Album",
+          "app": "App",
+          "artist": "Artist",
+          "channel": "Channel",
+          "composer": "Composer",
+          "contributing_artist": "Contributing Artist",
+          "directory": "Library",
+          "episode": "Episode",
+          "game": "Game",
+          "genre": "Genre",
+          "image": "Image",
+          "movie": "Movie",
+          "music": "Music",
+          "playlist": "Playlist",
+          "podcast": "Podcast",
+          "season": "Season",
+          "track": "Track",
+          "tv_show": "TV Show",
+          "url": "URL",
+          "video": "Video"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Reload {domain}",
+            "core": "Reload location & customizations",
+            "group": "Reload groups, group entities, and notify services",
+            "automation": "Reload automations",
+            "script": "Reload scripts",
+            "scene": "Reload scenes",
+            "person": "Reload people",
+            "zone": "Reload zones",
+            "input_boolean": "Reload input booleans",
+            "input_text": "Reload input texts",
+            "input_number": "Reload input numbers",
+            "input_datetime": "Reload input date times",
+            "input_select": "Reload input selects",
+            "template": "Reload template entities",
+            "universal": "Reload universal media player entities",
+            "rest": "Reload rest entities and notify services",
+            "command_line": "Reload command line entities",
+            "filter": "Reload filter entities",
+            "statistics": "Reload statistics entities",
+            "generic": "Reload generic IP camera entities",
+            "generic_thermostat": "Reload generic thermostat entities",
+            "homekit": "Reload HomeKit",
+            "min_max": "Reload min/max entities",
+            "history_stats": "Reload history stats entities",
+            "trend": "Reload trend entities",
+            "ping": "Reload ping binary sensor entities",
+            "filesize": "Reload file size entities",
+            "telegram": "Reload telegram notify services",
+            "smtp": "Reload SMTP notify services",
+            "mqtt": "Reload manually configured MQTT entities",
+            "rpi_gpio": "Reload Raspberry Pi GPIO entities"
+          },
+          "server_control": {
+            "perform_action": "{action} Server",
+            "restart": "Restart",
+            "stop": "Stop"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Entity Filter"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant nenion aŭdis",
+        "found": "Mi trovis jenon por vi:",
+        "error": "Ho ve, eraro okazis",
+        "how_can_i_help": "Kiel mi povas helpi?",
+        "label": "Tajpu demandon kaj premu 'Enter'",
+        "label_voice": "Tajpu kaj premu 'Enter' aŭ frapu la mikrofonon por paroli"
+      },
+      "generic": {
+        "cancel": "Cancel",
+        "ok": "OK",
+        "default_confirmation_title": "Are you sure?",
+        "close": "close"
+      },
+      "image_cropper": { "crop": "Crop" },
+      "more_info_control": {
+        "dismiss": "Malakcepti dialogon",
+        "settings": "Agordoj pri entoj",
+        "edit": "Edit entity",
+        "details": "Details",
+        "history": "History",
+        "last_changed": "Last changed",
+        "last_updated": "Last updated",
+        "script": {
+          "last_action": "Last Action",
+          "last_triggered": "Last Triggered"
+        },
+        "sun": {
+          "elevation": "Elevation",
+          "rising": "Rising",
+          "setting": "Setting"
+        },
+        "updater": { "title": "Update Instructions" },
+        "restored": {
+          "not_provided": "This entity is currently unavailable and is an orphan to a removed, changed or dysfunctional integration or device.",
+          "remove_intro": "If the entity is no longer in use, you can clean it up by removing it.",
+          "remove_action": "Remove entity",
+          "confirm_remove_title": "Remove entity?",
+          "confirm_remove_text": "Are you sure you want to remove this entity?"
+        },
+        "vacuum": {
+          "status": "Status",
+          "commands": "Vacuum cleaner commands:",
+          "fan_speed": "Fan speed",
+          "start": "Start",
+          "pause": "Pause",
+          "stop": "Stop",
+          "clean_spot": "Clean spot",
+          "locate": "Locate",
+          "return_home": "Return home",
+          "start_pause": "Start/Pause"
+        },
+        "person": { "create_zone": "Create zone from current location" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        }
+      },
+      "entity_registry": {
+        "settings": "Settings",
+        "control": "Control",
+        "related": "Related",
+        "dismiss": "Dismiss",
+        "no_unique_id": "This entity does not have a unique ID, therefore its settings cannot be managed from the UI. See the {faq_link} for more detail.",
+        "faq": "documentation",
+        "editor": {
+          "name": "Name",
+          "icon": "Icon",
+          "icon_error": "Icons should be in the format 'prefix:iconname', e.g. 'mdi:home'",
+          "entity_id": "Entity ID",
+          "unavailable": "This entity is not currently available.",
+          "enabled_label": "Enable entity",
+          "enabled_cause": "Disabled by {cause}.",
+          "enabled_description": "Disabled entities will not be added to Home Assistant.",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "Delete",
+          "confirm_delete": "Are you sure you want to delete this entry?",
+          "update": "Update",
+          "note": "Note: This might not work yet with all integrations."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "The {platform} integration is not loaded. Please add it to your configuration either by adding 'default_config:' or ''{platform}:''.",
+        "yaml_not_editable": "The settings of this entity cannot be edited from the UI. Only entities set up from the UI are configurable from the UI.",
+        "required_error_msg": "This field is required",
+        "generic": { "name": "Name", "icon": "Icon" },
+        "input_datetime": {
+          "date": "Date",
+          "time": "Time",
+          "datetime": "Date and time",
+          "mode": "What do you want to input"
+        },
+        "input_text": {
+          "min": "Minimum length",
+          "max": "Maximum length",
+          "mode": "Display mode",
+          "text": "Text",
+          "password": "Password",
+          "pattern": "Regex pattern for client-side validation"
+        },
+        "input_number": {
+          "min": "Minimum value",
+          "max": "Maximum value",
+          "mode": "Display mode",
+          "box": "Input field",
+          "slider": "Slider",
+          "step": "Step size",
+          "unit_of_measurement": "Unit of measurement"
+        },
+        "input_select": {
+          "options": "Options",
+          "add_option": "Add option",
+          "no_options": "There are no options yet.",
+          "add": "Add"
+        },
+        "counter": {
+          "minimum": "Minimum value",
+          "maximum": "Maximum value",
+          "initial": "Initial value",
+          "restore": "Restore the last known value when Home Assistant starts",
+          "step": "Step size"
+        },
+        "timer": { "duration": "Duration" }
+      },
+      "options_flow": {
+        "form": { "header": "Options" },
+        "success": { "description": "Options successfully saved." }
+      },
+      "config_entry_system_options": {
+        "title": "System Options for {integration}",
+        "enable_new_entities_label": "Enable newly added entities.",
+        "enable_new_entities_description": "If disabled, newly discovered entities for {integration} will not be automatically added to Home Assistant.",
+        "update": "Update"
+      },
+      "zha_device_info": {
+        "manuf": "by {manufacturer}",
+        "no_area": "No Area",
+        "device_signature": "Zigbee device signature",
+        "buttons": {
+          "add": "Add Devices via this device",
+          "remove": "Remove Device",
+          "clusters": "Manage Clusters",
+          "reconfigure": "Reconfigure Device",
+          "zigbee_information": "Zigbee device signature"
+        },
+        "services": {
+          "reconfigure": "Reconfigure ZHA device (heal device). Use this if you are having issues with the device. If the device in question is a battery powered device please ensure it is awake and accepting commands when you use this service.",
+          "updateDeviceName": "Set a custom name for this device in the device registry.",
+          "remove": "Remove a device from the Zigbee network.",
+          "zigbee_information": "View the Zigbee information for the device."
+        },
+        "confirmations": {
+          "remove": "Are you sure that you want to remove the device?"
+        },
+        "quirk": "Quirk",
+        "last_seen": "Last Seen",
+        "power_source": "Power Source",
+        "unknown": "Unknown",
+        "zha_device_card": { "device_name_placeholder": "Change device name" }
+      },
+      "domain_toggler": {
+        "title": "Baskuligi Domajnojn",
+        "reset_entities": "Reset Entities"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} debug info",
+        "deserialize": "Attempt to parse MQTT messages as JSON",
+        "entities": "Entities",
+        "no_entities": "No entities",
+        "no_triggers": "No triggers",
+        "payload_display": "Payload display",
+        "recent_messages": "{n} most recently received message(s)",
+        "show_as_yaml": "Show as YAML",
+        "triggers": "Triggers"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+      "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+      "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+      "day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+      "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+    },
+    "login-form": {
+      "password": "Password",
+      "remember": "Remember",
+      "log_in": "Log in"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Click button to configure {entity}",
+      "empty": "No Notifications",
+      "title": "Notifications",
+      "close": "Fermi",
+      "dismiss_all": "Dismiss all"
+    },
+    "notification_toast": {
+      "service_call_failed": "Failed to call service {service}.",
+      "connection_lost": "Connection lost. Reconnecting…",
+      "started": "Home Assistant has started!",
+      "starting": "Home Assistant is starting, not everything will be available until it is finished.",
+      "triggered": "Triggered {name}",
+      "dismiss": "Dismiss"
+    },
+    "sidebar": {
+      "external_app_configuration": "App Configuration",
+      "sidebar_toggle": "Flankobarilo Baskulo",
+      "done": "Done"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "My Calendars", "today": "Today" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Ĉu vi certas, ke vi volas forigi ĉi tiun karton?",
+          "empty_state": {
+            "title": "Welcome Home",
+            "no_devices": "This page allows you to control your devices, however it looks like you have no devices set up yet. Head to the integrations page to get started.",
+            "go_to_integrations_page": "Go to the integrations page."
+          },
+          "entities": { "never_triggered": "Never triggered" },
+          "shopping-list": {
+            "checked_items": "Checked items",
+            "clear_items": "Clear checked items",
+            "add_item": "Add item"
+          },
+          "picture-elements": {
+            "hold": "Hold:",
+            "tap": "Tap:",
+            "navigate_to": "Navigate to {location}",
+            "url": "Open window to {url_path}",
+            "toggle": "Toggle {name}",
+            "call_service": "Call service {name}",
+            "more_info": "Show more-info: {name}"
+          },
+          "safe-mode": {
+            "header": "Safe Mode Activated",
+            "description": "Home Assistant ran into trouble while loading your configuration and is now running in safe mode. Take a look at the error log to see what went wrong."
+          },
+          "starting": {
+            "description": "Home Assistant is starting, please wait..."
+          }
+        },
+        "unused_entities": {
+          "title": "Neuzataj entoj",
+          "available_entities": "Ĉi tiuj estas la entoj, kiujn vi disponis, sed ankoraŭ ne estas en via Lovelace-UI.",
+          "select_to_add": "Elektu la entojn, kiujn vi volas aldoni al karto, kaj tiam alklaku la aldonan butonon.",
+          "entity": "Ento",
+          "entity_id": "ID-ento",
+          "domain": "Domajno",
+          "last_changed": "Laste Ŝanĝita",
+          "search": "Search entities",
+          "no_data": "No unused entities found"
+        },
+        "add_entities": {
+          "yaml_unsupported": "You cannot use this function when using Lovelace UI in YAML mode.",
+          "generated_unsupported": "You can only use this function when you have taken control of the Lovelace UI.",
+          "saving_failed": "Saving Lovelace UI configuration failed."
+        },
+        "views": {
+          "confirm_delete": "Ĉu vi certas, ke vi volas forigi ĉi tiun vidon?",
+          "confirm_delete_text": "Are you sure you want to delete your ''{name}'' view?",
+          "confirm_delete_existing_cards": "Deleting this view will also remove the cards",
+          "confirm_delete_existing_cards_text": "Are you sure you want to delete your ''{name}'' view? The view contains {number} cards that will be deleted. This action cannot be undone."
+        },
+        "menu": {
+          "configure_ui": "Edit Dashboard",
+          "help": "Help",
+          "start_conversation": "Start conversation",
+          "reload_resources": "Reload resources",
+          "exit_edit_mode": "Eliri UI-redaktreĝimon",
+          "close": "Fermi"
+        },
+        "reload_resources": {
+          "refresh_header": "Do you want to refresh?",
+          "refresh_body": "You have to refresh the page to complete the reload. Do you want to refresh now?"
+        },
+        "editor": {
+          "header": "Edit UI",
+          "menu": {
+            "open": "Malfermi Lovelace menuo",
+            "raw_editor": "Raw configuration editor"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "Edit Configuration",
+            "save": "Save",
+            "unsaved_changes": "Unsaved changes",
+            "saved": "Saved",
+            "confirm_remove_config_title": "Are you sure you want to remove your Lovelace UI configuration?",
+            "confirm_remove_config_text": "We will automatically generate your Lovelace UI views with your areas and devices if you remove your Lovelace UI configuration.",
+            "confirm_unsaved_changes": "Vi havas ne konservitajn ŝanĝojn, ĉu vi certas, ke vi volas eliri?",
+            "confirm_unsaved_comments": "Via agordo enhavas komento(j)n, tiuj ne konserviĝos. Ĉu vi volas daŭrigi?",
+            "error_parse_yaml": "Ne eblas analizi YAML: {error}",
+            "error_invalid_config": "Via config ne estas valida: {error}",
+            "error_save_yaml": "Ne eblas konservi YAML: {error}",
+            "error_remove": "Unable to remove configuration: {error}",
+            "resources_moved": "Resources should no longer be added to the Lovelace configuration but can be added in the Lovelace config panel."
+          },
+          "edit_lovelace": {
+            "header": "Title of your Lovelace UI",
+            "explanation": "This title is shown above all your views in the Lovelace UI.",
+            "edit_title": "Redakti titolon",
+            "title": "Title"
+          },
+          "edit_view": {
+            "header": "View Configuration",
+            "header_name": "{name} Vidu Agordo",
+            "add": "Add view",
+            "edit": "Edit view",
+            "delete": "Delete view",
+            "move_left": "Movi vidon al la maldekstren",
+            "move_right": "Movi vidon al la dekstren",
+            "tab_settings": "Settings",
+            "tab_badges": "Badges",
+            "tab_visibility": "Visibility",
+            "visibility": {
+              "select_users": "Select which users should see this view in the navigation"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "These badges will not be displayed because this view is in \"Panel Mode\"."
+          },
+          "edit_card": {
+            "header": "Card Configuration",
+            "typed_header": "{type} Card Configuration",
+            "pick_card": "Which card would you like to add?",
+            "pick_card_view_title": "Kiun karton vi ŝatus aldoni al via {name} vido?",
+            "toggle_editor": "Toggle Editor",
+            "unsaved_changes": "You have unsaved changes",
+            "confirm_cancel": "Are you sure you want to cancel?",
+            "show_visual_editor": "Montri Vida Redaktoro",
+            "show_code_editor": "Montri Kodo Redaktilo",
+            "add": "Add Card",
+            "edit": "Edit",
+            "clear": "Clear",
+            "delete": "Delete card",
+            "duplicate": "Duplicate card",
+            "move": "Move to View",
+            "move_before": "Move card before",
+            "move_after": "Move card after",
+            "options": "Pli da ebloj",
+            "search_cards": "Search cards"
+          },
+          "move_card": { "header": "Choose a view to move the card to" },
+          "select_view": {
+            "header": "Choose a view",
+            "dashboard_label": "Dashboard"
+          },
+          "suggest_card": {
+            "header": "We created a suggestion for you",
+            "create_own": "Pick different card",
+            "add": "Add to Lovelace UI"
+          },
+          "save_config": {
+            "header": "Take control of your Lovelace UI",
+            "para": "This dashboard is currently being maintained by Home Assistant. It is automatically updated when new entities or Lovelace UI components become available. If you take control, this dashboard will no longer be automatically updated. You can always create a new dashboard in configuration to play around with.",
+            "para_sure": "Are you sure you want to take control of your user interface?",
+            "yaml_mode": "You are using YAML mode for this dashboard, which means you cannot change your Lovelace config from the UI. If you want to manage this dashboard from the UI, remove 'mode: yaml' from your Lovelace configuration in 'configuration.yaml.'.",
+            "yaml_control": "To take control in YAML mode, create a YAML file with the name you specified in your config for this dashboard, or the default 'ui-lovelace.yaml'.",
+            "yaml_config": "To help you start here is the current config of this dashboard:",
+            "empty_config": "Start with an empty dashboard",
+            "cancel": "Never mind",
+            "close": "Close",
+            "save": "Take control"
+          },
+          "migrate": {
+            "header": "Configuration Incompatible",
+            "para_no_id": "This element doesn't have an ID. Please add an ID to this element in 'ui-lovelace.yaml'.",
+            "para_migrate": "Home Assistant can add IDs to all your cards and views automatically for you by pressing the 'Migrate configuration' button.",
+            "migrate": "Migrate configuration"
+          },
+          "action-editor": {
+            "navigation_path": "Navigation Path",
+            "url_path": "URL Path",
+            "editor_service_data": "Service data can only be entered in the code editor",
+            "actions": {
+              "default_action": "Default Action",
+              "call-service": "Call Service",
+              "more-info": "More Info",
+              "toggle": "Toggle",
+              "navigate": "Navigate",
+              "url": "URL",
+              "none": "No Action"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Alarmo Panelo",
+              "available_states": "Haveblaj Ŝtatoj",
+              "description": "The Alarm Panel card allows you to Arm and Disarm your alarm control panel integrations."
+            },
+            "calendar": {
+              "name": "Calendar",
+              "description": "The Calendar card displays a calendar including day, week and list views",
+              "inital_view": "Initial View",
+              "calendar_entities": "Calendar Entities",
+              "views": {
+                "dayGridMonth": "Month",
+                "dayGridDay": "Day",
+                "listWeek": "List"
+              }
+            },
+            "conditional": {
+              "name": "Kondicionalo",
+              "description": "The Conditional card displays another card based on entity states.",
+              "conditions": "Conditions",
+              "card": "Card",
+              "state_equal": "State is equal to",
+              "state_not_equal": "State is not equal to",
+              "current_state": "current",
+              "condition_explanation": "The card will be shown when ALL conditions below are fulfilled.",
+              "change_type": "Change type"
+            },
+            "config": { "required": "Required", "optional": "Optional" },
+            "entities": {
+              "name": "Entoj",
+              "show_header_toggle": "Show Header Toggle?",
+              "toggle": "Baskuligi entojn.",
+              "description": "The Entities card is the most common type of card. It groups items together into lists.",
+              "special_row": "special row",
+              "edit_special_row": "View the details of this row by clicking the edit button",
+              "entity_row_editor": "Entity Row Editor",
+              "secondary_info_values": {
+                "none": "No Secondary Info",
+                "entity-id": "Entity ID",
+                "last-changed": "Last Changed",
+                "last-triggered": "Last Triggered",
+                "position": "Position",
+                "tilt-position": "Tilt Position",
+                "brightness": "Brightness",
+                "last-updated": "Last Updated"
+              },
+              "entity_row": {
+                "divider": "Divider",
+                "call-service": "Call Service",
+                "section": "Section",
+                "weblink": "Web Link",
+                "attribute": "Attribute",
+                "buttons": "Buttons",
+                "conditional": "Conditional",
+                "cast": "Cast",
+                "button": "Button"
+              }
+            },
+            "entity": {
+              "name": "Entity",
+              "description": "The Entity card gives you a quick overview of your entity’s state."
+            },
+            "button": {
+              "name": "Button",
+              "description": "The Button card allows you to add buttons to perform tasks.",
+              "default_action_help": "The default action depends on the entity's capabilities, it will either be toggled or the more info will be shown."
+            },
+            "entity-filter": {
+              "name": "Ento-Filtrilo",
+              "description": "The Entity Filter card allows you to define a list of entities that you want to track only when in a certain state."
+            },
+            "gauge": {
+              "name": "Mezurilo",
+              "severity": {
+                "define": "Define Severity?",
+                "green": "Green",
+                "red": "Red",
+                "yellow": "Yellow"
+              },
+              "description": "The Gauge card is a basic card that allows visually seeing sensor data."
+            },
+            "glance": {
+              "name": "Rigardo",
+              "columns": "Columns",
+              "description": "The Glance card is useful to group multiple sensors in a compact overview."
+            },
+            "grid": {
+              "name": "Grid",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "Historia Grafiko",
+              "description": "The History Graph card allows you to display a graph for each of the entities listed."
+            },
+            "horizontal-stack": {
+              "name": "Horizontala Pilo",
+              "description": "The Horizontal Stack card allows you to stack together multiple cards, so they always sit next to each other in the space of one column."
+            },
+            "humidifier": {
+              "name": "Humidifier",
+              "description": "The Humidifier card gives control of your humidifier entity. Allowing you to change the humidity and mode of the entity."
+            },
+            "iframe": {
+              "name": "iFrame",
+              "description": "The Webpage card allows you to embed your favorite webpage right into Home Assistant."
+            },
+            "light": {
+              "name": "Lumo",
+              "description": "The Light card allows you to change the brightness of the light."
+            },
+            "generic": {
+              "aspect_ratio": "Aspect Ratio",
+              "attribute": "Attribute",
+              "camera_image": "Camera Entity",
+              "camera_view": "Camera View",
+              "double_tap_action": "Double Tap Action",
+              "entities": "Entities",
+              "entity": "Entity",
+              "hold_action": "Hold Action",
+              "hours_to_show": "Hours to Show",
+              "icon": "Icon",
+              "icon_height": "Icon Height",
+              "image": "Image Path",
+              "maximum": "Maximum",
+              "manual": "Manual",
+              "manual_description": "Need to add a custom card or just want to manually write the yaml?",
+              "minimum": "Minimum",
+              "name": "Name",
+              "refresh_interval": "Refresh Interval",
+              "show_icon": "Show Icon?",
+              "show_name": "Show Name?",
+              "show_state": "Show State?",
+              "tap_action": "Tap Action",
+              "title": "Title",
+              "theme": "Theme",
+              "no_theme": "No theme",
+              "unit": "Unit",
+              "url": "URL",
+              "state": "State",
+              "secondary_info_attribute": "Secondary Info Attribute",
+              "search": "Search",
+              "state_color": "Color icons based on state?"
+            },
+            "map": {
+              "name": "Mapo",
+              "geo_location_sources": "Geolocation Sources",
+              "dark_mode": "Dark Mode?",
+              "default_zoom": "Default Zoom",
+              "hours_to_show": "Hours to Show",
+              "source": "Source",
+              "description": "The Map card that allows you to display entities on a map."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Content",
+              "description": "The Markdown card is used to render Markdown."
+            },
+            "media-control": {
+              "name": "Amaskomunikilaro Kontrolo",
+              "description": "The Media Control card is used to display media player entities on an interface with easy to use controls."
+            },
+            "picture": {
+              "name": "Bildo",
+              "description": "The Picture card allows you to set an image to use for navigation to various paths in your interface or to call a service."
+            },
+            "picture-elements": {
+              "name": "Bildaj Elementoj",
+              "description": "The Picture Elements card is one of the most versatile types of cards. The cards allow you to position icons or text and even services! On an image based on coordinates."
+            },
+            "picture-entity": {
+              "name": "Bildo Ento",
+              "description": "The Picture Entity card displays an entity in the form of an image. Instead of images from URL, it can also show the picture of camera entities."
+            },
+            "picture-glance": {
+              "name": "Bildo Ekrigardo",
+              "description": "The Picture Glance card shows an image and corresponding entity states as an icon. The entities on the right side allow toggle actions, others show the more information dialog."
+            },
+            "plant-status": {
+              "name": "Planto-Statuso",
+              "description": "The Plant Status card is for all the lovely botanists out there."
+            },
+            "sensor": {
+              "name": "Sensilo",
+              "show_more_detail": "Show more detail",
+              "graph_type": "Graph Type",
+              "description": "The Sensor card gives you a quick overview of your sensors state with an optional graph to visualize change over time."
+            },
+            "shopping-list": {
+              "name": "Aĉetlisto",
+              "description": "The Shopping List card allows you to add, edit, check-off, and clear items from your shopping list.",
+              "integration_not_loaded": "This card requires the `shopping_list` integration to be set up."
+            },
+            "thermostat": {
+              "name": "Termostato",
+              "description": "The Thermostat card gives control of your climate entity. Allowing you to change the temperature and mode of the entity."
+            },
+            "vertical-stack": {
+              "name": "Vertikala Pilo",
+              "description": "The Vertical Stack card allows you to group multiple cards so they always sit in the same column."
+            },
+            "weather-forecast": {
+              "name": "Veterprognozo",
+              "description": "The Weather Forecast card displays the weather. Very useful to include on interfaces that people display on the wall.",
+              "show_forecast": "Show Forecast"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Panela Modo?",
+              "description": "Ĉi tio redonas la unuan karton je plena larĝo; aliaj kartoj laŭ ĉi tiu vido ne estos redonitaj.",
+              "warning_multiple_cards": "This view contains more than one card, but a panel view can only show 1 card."
+            }
+          },
+          "cardpicker": {
+            "no_description": "No description available.",
+            "custom_card": "Custom",
+            "domain": "Domain",
+            "entity": "Entity",
+            "by_entity": "By Entity",
+            "by_card": "By Card"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Attribute {attribute} not available in: {entity}",
+          "entity_not_found": "Entity not available: {entity}",
+          "entity_non_numeric": "Entity is non-numeric: {entity}",
+          "entity_unavailable": "{entity} is currently unavailable",
+          "starting": "Home Assistant is starting, not everything may be available yet"
+        },
+        "changed_toast": {
+          "message": "The Lovelace UI configuration for this dashboard was updated. Refresh to see changes?"
+        },
+        "reload_lovelace": "Reload UI"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Ĉu vi fidas la eksteran panelon {name} ĉe {link} ?",
+          "complete_access": "Ĝi havos aliron al ĉiuj datumoj en Home Assistant.",
+          "hide_message": "Kontrolu dokumentojn pri la panel_custom komponento por kaŝi ĉi tiun mesaĝon"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Bugün",
+          "yesterday": "Dün",
+          "this_week": "Bu hafta",
+          "last_week": "Geçen hafta"
+        },
+        "entries_not_found": "Kayıt defteri girişi bulunamadı.",
+        "period": "Dönem",
+        "showing_entries": "Gösterilen girişler"
+      }
+    }
+  }
+}

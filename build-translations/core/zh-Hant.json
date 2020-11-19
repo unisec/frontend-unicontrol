@@ -1,0 +1,1281 @@
+{
+  "panel": {
+    "calendar": "行事曆",
+    "config": "設定",
+    "states": "總覽",
+    "map": "地圖",
+    "logbook": "日誌",
+    "history": "歷史",
+    "mailbox": "郵箱",
+    "shopping_list": "購物清單",
+    "developer_tools": "開發工具",
+    "media_browser": "媒體瀏覽器",
+    "profile": "個人設定"
+  },
+  "state": {
+    "default": {
+      "on": "開啟",
+      "off": "關閉",
+      "unknown": "未知",
+      "unavailable": "不可用"
+    },
+    "alarm_control_panel": {
+      "armed": "已警戒",
+      "armed_away": "離家警戒",
+      "armed_custom_bypass": "警戒模式狀態",
+      "armed_home": "在家警戒",
+      "armed_night": "夜間警戒",
+      "arming": "警戒中",
+      "disarmed": "警戒解除",
+      "disarming": "解除中",
+      "pending": "等待中",
+      "triggered": "已觸發"
+    },
+    "automation": { "off": "關閉", "on": "開啟" },
+    "binary_sensor": {
+      "battery": { "off": "電量正常", "on": "電量低" },
+      "cold": { "off": "不冷", "on": "冷" },
+      "connectivity": { "off": "已斷線", "on": "已連線" },
+      "default": { "off": "關閉", "on": "開啟" },
+      "door": { "off": "已關閉", "on": "已開啟" },
+      "garage_door": { "off": "關閉", "on": "已開啟" },
+      "gas": { "off": "未觸發", "on": "已觸發" },
+      "heat": { "off": "不熱", "on": "熱" },
+      "lock": { "off": "已上鎖", "on": "已解鎖" },
+      "moisture": { "off": "乾燥", "on": "濕潤" },
+      "motion": { "off": "無人", "on": "有人" },
+      "occupancy": { "off": "未觸發", "on": "已觸發" },
+      "opening": { "off": "關閉", "on": "開啟" },
+      "presence": { "off": "離家", "on": "在家" },
+      "problem": { "off": "確定", "on": "問題" },
+      "safety": { "off": "安全", "on": "危險" },
+      "smoke": { "off": "未觸發", "on": "已觸發" },
+      "sound": { "off": "已解除", "on": "已觸發" },
+      "vibration": { "off": "未偵測", "on": "偵測" },
+      "window": { "off": "關閉", "on": "開啟" }
+    },
+    "calendar": { "off": "關閉", "on": "開啟" },
+    "camera": { "idle": "待命", "recording": "錄影中", "streaming": "監控中" },
+    "climate": {
+      "cool": "冷氣",
+      "dry": "除濕模式",
+      "fan_only": "僅送風",
+      "heat": "暖氣",
+      "heat_cool": "暖氣/冷氣",
+      "off": "關閉"
+    },
+    "configurator": { "configure": "設定", "configured": "設定成功" },
+    "cover": {
+      "closed": "關閉",
+      "closing": "關閉中",
+      "open": "開啟",
+      "opening": "開啟中",
+      "stopped": "停止"
+    },
+    "device_tracker": { "not_home": "離家" },
+    "fan": { "off": "關閉", "on": "開啟" },
+    "group": {
+      "closed": "關閉",
+      "closing": "關閉中",
+      "home": "在家",
+      "locked": "鎖",
+      "not_home": "離家",
+      "off": "關閉",
+      "ok": "正常",
+      "on": "開啟",
+      "open": "開啟",
+      "opening": "開啟中",
+      "problem": "異常",
+      "stopped": "停止",
+      "unlocked": "已解鎖"
+    },
+    "input_boolean": { "off": "關閉", "on": "開啟" },
+    "light": { "off": "關閉", "on": "開啟" },
+    "lock": { "locked": "已上鎖", "unlocked": "已解鎖" },
+    "media_player": {
+      "idle": "閒置",
+      "off": "關閉",
+      "on": "開啟",
+      "paused": "已暫停",
+      "playing": "播放中",
+      "standby": "待命"
+    },
+    "person": { "home": "在家" },
+    "plant": { "ok": "健康", "problem": "異常" },
+    "remote": { "off": "關閉", "on": "開啓" },
+    "scene": { "scening": "目前場景" },
+    "script": { "off": "關閉", "on": "開啓" },
+    "sensor": { "off": "關閉", "on": "開啓" },
+    "sun": { "above_horizon": "日出東海", "below_horizon": "日落西山" },
+    "switch": { "off": "關閉", "on": "開啟" },
+    "timer": { "active": "啟用", "idle": "閒置", "paused": "暫停" },
+    "vacuum": {
+      "cleaning": "清掃中",
+      "docked": "充電中",
+      "error": "錯誤",
+      "idle": "暫停",
+      "off": "關閉",
+      "on": "開啟",
+      "paused": "暫停",
+      "returning": "返回充電"
+    },
+    "weather": {
+      "clear-night": "晴空、夜間",
+      "cloudy": "多雲",
+      "exceptional": "例外",
+      "fog": "有霧",
+      "hail": "冰雹",
+      "lightning": "有雷",
+      "lightning-rainy": "有雷雨",
+      "partlycloudy": "局部多雲",
+      "pouring": "大雨",
+      "rainy": "有雨",
+      "snowy": "有雪",
+      "snowy-rainy": "有雪、有雨",
+      "sunny": "晴天",
+      "windy": "有風",
+      "windy-variant": "有風"
+    },
+    "zwave": {
+      "default": {
+        "dead": "失去連線",
+        "initializing": "正在初始化",
+        "ready": "準備就緒",
+        "sleeping": "休眠中"
+      },
+      "query_stage": {
+        "dead": "失去連線 ({query_stage})",
+        "initializing": "正在初始化 ( {query_stage} )"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "關閉", "on": "開啟", "auto": "自動" },
+      "preset_mode": {
+        "none": "無",
+        "eco": "節能",
+        "away": "離家",
+        "boost": "全速",
+        "comfort": "舒適",
+        "home": "在家",
+        "sleep": "睡眠",
+        "activity": "活動"
+      },
+      "hvac_action": {
+        "off": "關閉",
+        "heating": "暖氣",
+        "cooling": "冷氣",
+        "drying": "除濕",
+        "idle": "閒置",
+        "fan": "風速"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "一般模式",
+        "eco": "節能模式",
+        "away": "離家模式",
+        "boost": "全速模式",
+        "comfort": "舒適模式",
+        "home": "居家模式",
+        "sleep": "睡眠模式",
+        "auto": "自動模式",
+        "baby": "孩童模式"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "未知",
+      "unavailable": "不可用",
+      "error": "錯誤",
+      "entity_not_found": "找不到實體"
+    },
+    "alarm_control_panel": {
+      "armed": "已警戒",
+      "disarmed": "解除警戒",
+      "armed_home": "在家警戒",
+      "armed_away": "已警戒",
+      "armed_night": "已警戒",
+      "armed_custom_bypass": "已警戒",
+      "pending": "等待中",
+      "arming": "開啟警戒中",
+      "disarming": "關閉警戒",
+      "triggered": "觸發"
+    },
+    "device_tracker": { "home": "在家", "not_home": "離家" },
+    "person": { "home": "在家", "not_home": "離家" }
+  },
+  "groups": {
+    "system-admin": "管理員",
+    "system-users": "用戶",
+    "system-read-only": "唯讀用戶"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "使用者",
+      "integration": "整合",
+      "config_entry": "設定實體"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "是否要保持登錄狀態？",
+      "decline": "否",
+      "confirm": "是"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "密碼",
+        "clear_code": "清除",
+        "disarm": "解除警戒",
+        "arm_home": "在家警戒",
+        "arm_away": "離家警戒",
+        "arm_night": "夜間警戒",
+        "arm_custom_bypass": "警戒模式狀態"
+      },
+      "automation": { "last_triggered": "上次觸發", "trigger": "執行" },
+      "camera": { "not_available": "無法載入影像" },
+      "climate": {
+        "currently": "目前狀態",
+        "on_off": "開 / 關",
+        "target_temperature": "設定溫度",
+        "target_temperature_entity": "{name} 目標溫度",
+        "target_temperature_mode": "{name} 目標溫度 {mode}",
+        "current_temperature": "{name} 目前溫度",
+        "heating": "{name} 加熱中",
+        "cooling": "{name} 制冷中",
+        "high": "調高",
+        "low": "調低",
+        "target_humidity": "設定濕度",
+        "operation": "運轉模式",
+        "fan_mode": "風速模式",
+        "swing_mode": "擺動模式",
+        "preset_mode": "預置",
+        "away_mode": "外出模式",
+        "aux_heat": "輔助暖氣"
+      },
+      "counter": {
+        "actions": { "increment": "增量", "decrement": "減量", "reset": "重置" }
+      },
+      "cover": { "position": "位置", "tilt_position": "葉片位置" },
+      "fan": {
+        "speed": "風速",
+        "oscillate": "擺動",
+        "direction": "方向",
+        "forward": "正向",
+        "reverse": "反向"
+      },
+      "humidifier": {
+        "humidity": "設定濕度",
+        "mode": "模式",
+        "target_humidity_entity": "{name} 設定濕度",
+        "on_entity": "{name} 已開啟"
+      },
+      "light": {
+        "brightness": "亮度",
+        "color_temperature": "色溫",
+        "white_value": "白色值",
+        "effect": "場景"
+      },
+      "lock": { "code": "密碼", "lock": "上鎖", "unlock": "解鎖" },
+      "media_player": {
+        "source": "來源",
+        "sound_mode": "音效模式",
+        "browse_media": "瀏覽媒體",
+        "turn_on": "開啟",
+        "turn_off": "關閉",
+        "media_play": "播放",
+        "media_play_pause": "播放/暫停",
+        "media_next_track": "下一首",
+        "media_previous_track": "上一首",
+        "text_to_speak": "所要閱讀的文字"
+      },
+      "persistent_notification": { "dismiss": "關閉" },
+      "scene": { "activate": "啟用" },
+      "script": {
+        "execute": "執行",
+        "cancel": "取消",
+        "cancel_multiple": "取消 {number}"
+      },
+      "service": { "run": "執行" },
+      "timer": {
+        "actions": {
+          "start": "開始",
+          "pause": "暫停",
+          "cancel": "取消",
+          "finish": "完成"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "繼續清掃",
+          "return_to_base": "返回充電",
+          "start_cleaning": "開始清掃",
+          "turn_on": "開啟",
+          "turn_off": "關閉"
+        }
+      },
+      "water_heater": {
+        "currently": "目前狀態",
+        "on_off": "開 / 關",
+        "target_temperature": "設定溫度",
+        "operation": "運轉模式",
+        "away_mode": "外出模式"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "大氣壓",
+          "humidity": "濕度",
+          "temperature": "溫度",
+          "visibility": "顯示選項",
+          "wind_speed": "風速",
+          "precipitation": "降雨量"
+        },
+        "cardinal_direction": {
+          "e": "東",
+          "ene": "東北東",
+          "ese": "西南西",
+          "n": "北",
+          "ne": "東北",
+          "nne": "北北東",
+          "nw": "西北",
+          "nnw": "北北西",
+          "s": "南",
+          "se": "東南",
+          "sse": "南南東",
+          "ssw": "南南西",
+          "sw": "西南",
+          "w": "西",
+          "wnw": "西北西",
+          "wsw": "西南西"
+        },
+        "day": "白天",
+        "night": "夜晚",
+        "forecast": "預報",
+        "high": "高",
+        "low": "低"
+      }
+    },
+    "common": {
+      "and": "及",
+      "continue": "繼續",
+      "previous": "上一步",
+      "loading": "讀取中",
+      "refresh": "更新",
+      "cancel": "取消",
+      "delete": "刪除",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "關閉",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "下一步",
+      "back": "上一步",
+      "undo": "撤消",
+      "save": "儲存",
+      "rename": "Rename",
+      "yes": "是",
+      "no": "否",
+      "not_now": "Not now",
+      "skip": "略過",
+      "menu": "選單",
+      "overflow_menu": "捲動選單",
+      "successfully_saved": "成功儲存",
+      "successfully_deleted": "成功刪除",
+      "error_required": "必填",
+      "copied": "已複製"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "找不到實體日誌。",
+        "by": "由",
+        "by_service": "由服務",
+        "messages": {
+          "was_away": "狀態離家",
+          "was_at_state": "狀態{state}",
+          "rose": "升高",
+          "set": "設定",
+          "was_low": "狀態過低",
+          "was_normal": "狀態正常",
+          "was_connected": "狀態連線",
+          "was_disconnected": "狀態斷線",
+          "was_opened": "狀態開啟",
+          "was_closed": "狀態關閉",
+          "was_unlocked": "狀態解鎖",
+          "was_locked": "狀態上鎖",
+          "was_plugged_in": "狀態插上",
+          "was_unplugged": "狀態拔下",
+          "was_at_home": "狀態在家",
+          "was_unsafe": "狀態不安全",
+          "was_safe": "狀態安全",
+          "detected_device_class": "偵測到{device_class}",
+          "cleared_device_class": "安全（無{device_class}偵測）",
+          "turned_off": "關閉",
+          "turned_on": "開啟",
+          "changed_to_state": "變更為{state}",
+          "became_unavailable": "變成不可用"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "實體",
+          "clear": "清除",
+          "show_entities": "顯示實體"
+        },
+        "entity-attribute-picker": {
+          "attribute": "屬性",
+          "show_attributes": "顯示屬性"
+        }
+      },
+      "user-picker": {
+        "no_user": "沒有用戶",
+        "add_user": "新增用戶",
+        "remove_user": "移除用戶"
+      },
+      "device-picker": {
+        "clear": "清除",
+        "toggle": "觸發",
+        "show_devices": "顯示設備",
+        "device": "設備",
+        "no_area": "無分區"
+      },
+      "area-picker": {
+        "clear": "未觸發",
+        "show_areas": "顯示分區",
+        "area": "分區",
+        "add_new": "新增分區...",
+        "add_dialog": {
+          "title": "新增分區",
+          "text": "輸入新分區名稱。",
+          "name": "名稱",
+          "add": "新增",
+          "failed_create_area": "新增分區失敗。"
+        }
+      },
+      "picture-upload": {
+        "label": "照片",
+        "unsupported_format": "不支援的格式，請選擇 JPEG、PNG 或 GIF 圖檔。"
+      },
+      "date-range-picker": {
+        "start_date": "開始日期",
+        "end_date": "結束日期",
+        "select": "選擇"
+      },
+      "relative_time": {
+        "never": "未執行",
+        "just_now": "現在",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}",
+          "minute": "{count} {count, plural,\n  one {分鐘}\n  other {分鐘}\n}",
+          "hour": "{count} {count, plural,\n  one {小時}\n  other {小時}\n}",
+          "day": "{count} {count, plural,\n  one {天}\n  other {天}\n}",
+          "week": "{count} {count, plural,\n  one {週}\n  other {週}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {秒}\n  other {秒}\n}以前",
+          "minute": "{count} {count, plural,\n  one {分鐘}\n  other {分鐘}\n}以前",
+          "hour": "{count} {count, plural,\n  one {小時}\n  other {小時}\n}以前",
+          "day": "{count} {count, plural,\n  one {天}\n  other {天}\n}以前",
+          "week": "{count} {count, plural,\n  one {週}\n  other {週}\n}以前"
+        },
+        "future_duration": {
+          "second": "於{count} {count, plural,\n  one {秒}\n  other {秒}\n}",
+          "minute": "於{count} {count, plural,\n  one {分鐘}\n  other {分鐘}\n}",
+          "hour": "於{count} {count, plural,\n  one {小時}\n  other {小時}\n}",
+          "day": "於{count} {count, plural,\n  one {天}\n  other {天}\n}",
+          "week": "於{count} {count, plural,\n  one {週}\n  other {週}\n}"
+        },
+        "future": "{time}後",
+        "past": "{time}前"
+      },
+      "history_charts": {
+        "loading_history": "正在載入狀態歷史...",
+        "no_history_found": "找不到狀態歷史。"
+      },
+      "service-picker": { "service": "服務" },
+      "related-items": {
+        "no_related_found": "找不到相關實體。",
+        "integration": "整合",
+        "device": "設備",
+        "area": "分區",
+        "entity": "相關實體",
+        "group": "以下群組部分",
+        "scene": "以下場景部分",
+        "script": "以下腳本部分",
+        "automation": "以下自動化部分"
+      },
+      "data-table": { "search": "搜尋", "no-data": "沒有資料" },
+      "media-browser": {
+        "pick": "選擇",
+        "play": "播放",
+        "play-media": "播放媒體",
+        "pick-media": "選擇媒體",
+        "no_items": "沒有項目",
+        "choose_player": "選擇播放器",
+        "media-player-browser": "媒體播放器瀏覽器",
+        "web-browser": "網頁瀏覽器",
+        "media_player": "媒體播放器",
+        "audio_not_supported": "瀏覽器不支援音效元件。",
+        "video_not_supported": "瀏覽器不支援影片元件。",
+        "media_not_supported": "瀏覽器媒體播放器不支援此類型媒體",
+        "media_browsing_error": "媒體瀏覽錯誤",
+        "learn_adding_local_media": "詳細了解如何新增媒體{documentation}。",
+        "local_media_files": "將影片、音效及影像檔案放置於媒體資料夾、將可以透過瀏覽器或支援的媒體播放器進行瀏覽與播放。",
+        "documentation": "相關文件",
+        "no_local_media_found": "找不到本地端媒體",
+        "no_media_folder": "看起來您還沒有建立任何媒體資料夾。",
+        "setup_local_help": "請參閱{documentation}以了解如何設定本地端媒體。",
+        "class": {
+          "album": "專輯",
+          "app": "App",
+          "artist": "演唱者",
+          "channel": "頻道",
+          "composer": "作曲者",
+          "contributing_artist": "參與藝術家",
+          "directory": "媒體庫",
+          "episode": "集",
+          "game": "遊戲",
+          "genre": "類型",
+          "image": "圖像",
+          "movie": "電影",
+          "music": "音樂",
+          "playlist": "播放列表",
+          "podcast": "Podcast",
+          "season": "季",
+          "track": "音軌",
+          "tv_show": "電視節目",
+          "url": "網址",
+          "video": "影片"
+        },
+        "choose-source": "選擇來源",
+        "content-type": {
+          "album": "專輯",
+          "artist": "演唱者",
+          "library": "媒體庫",
+          "playlist": "播放列表",
+          "server": "伺服器"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "重新載入{domain}",
+            "core": "重新載入座標與自訂化",
+            "group": "重新載入群組、群組實體及通知服務",
+            "automation": "重新載入自動化",
+            "script": "重新載入腳本",
+            "scene": "重新載入場景",
+            "person": "重新載入人員",
+            "zone": "重新載入區域",
+            "input_boolean": "重新載入輸入 boolean",
+            "input_text": "重新載入輸入文字",
+            "input_number": "重新載入輸入數字",
+            "input_datetime": "重新載入輸入日期時間",
+            "input_select": "重新載入輸入選擇",
+            "template": "重新載入模板實體",
+            "universal": "重新載入通用媒體播放器實體",
+            "rest": "重新載入剩餘實體及通知服務",
+            "command_line": "重新載入命令列實體",
+            "filter": "重新載入過濾器實體",
+            "statistics": "重新載入統計資訊實體",
+            "generic": "重新載入通用 IP 攝影機實體",
+            "generic_thermostat": "重新載入通用溫控器實體",
+            "homekit": "重新載入 Homekit",
+            "min_max": "重新載入最低/最高實體",
+            "history_stats": "重新載入歷史狀態實體",
+            "trend": "重新載入趨勢實體",
+            "ping": "重新載入 Ping 二進位傳感器實體",
+            "filesize": "重新載入檔案大小實體",
+            "telegram": "重新載入 Telegram 通知服務",
+            "smtp": "重新載入 SMTP 通知服務",
+            "mqtt": "手動重新載入 MQTT 實體",
+            "rpi_gpio": "重新載入 Raspberry Pi GPIO 實體"
+          },
+          "server_control": {
+            "perform_action": "{action} 伺服器",
+            "restart": "重啟",
+            "stop": "停止"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "實體過濾"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant 未收到任何語音",
+        "found": "找到下列內容：",
+        "error": "糟糕、發生錯誤",
+        "how_can_i_help": "需要協助嗎？",
+        "label": "輸入問題並按下 'Enter'",
+        "label_voice": "點選並按住「Enter」或點選麥克風圖案進行語音命令"
+      },
+      "generic": {
+        "cancel": "取消",
+        "ok": "好",
+        "default_confirmation_title": "確認？",
+        "close": "關閉"
+      },
+      "image_cropper": { "crop": "裁切" },
+      "more_info_control": {
+        "dismiss": "忽略對話",
+        "settings": "實體設定",
+        "edit": "編輯實體",
+        "details": "詳細資訊",
+        "history": "歷史",
+        "last_changed": "上次變更",
+        "last_updated": "最後更新",
+        "script": { "last_action": "上次觸發", "last_triggered": "上次觸發" },
+        "sun": { "elevation": "海拔", "rising": "日升", "setting": "日落" },
+        "updater": { "title": "更新說明" },
+        "restored": {
+          "not_provided": "此實體目前不可用，屬於獨立可移除、變更或失常的整合或設備。",
+          "remove_intro": "假如實體不再使用，可以藉由移除進行清除。",
+          "remove_action": "移除實體",
+          "confirm_remove_title": "移除實體？",
+          "confirm_remove_text": "確定要移除此實體？"
+        },
+        "vacuum": {
+          "status": "狀態",
+          "commands": "吸塵器清掃指令：",
+          "fan_speed": "風速",
+          "start": "開始清掃",
+          "pause": "暫停",
+          "stop": "停止清掃",
+          "clean_spot": "區部清掃",
+          "locate": "尋找",
+          "return_home": "回充",
+          "start_pause": "開始/暫停"
+        },
+        "person": { "create_zone": "使用目前位置新增區域" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "控制"
+      },
+      "entity_registry": {
+        "settings": "設定",
+        "control": "控制",
+        "related": "相關",
+        "dismiss": "關閉",
+        "no_unique_id": "此實體不包含唯一 ID、因此無法由 UI 進行管理設定。請參閱{faq_link}以獲得更詳細資訊。",
+        "faq": "相關文件",
+        "editor": {
+          "name": "名稱",
+          "icon": "圖示",
+          "icon_error": "圖示必須按照格式「prefix:iconname」設定，例如「mdi:home」",
+          "entity_id": "實體 ID",
+          "unavailable": "該實體目前不可用。",
+          "enabled_label": "啟用實體",
+          "enabled_cause": "由 {cause} 關閉。",
+          "enabled_description": "關閉的實體將不會新增至 Home Assistant。",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "刪除",
+          "confirm_delete": "確定要刪除此實體？",
+          "update": "更新",
+          "note": "注意：可能無法適用所有整合。"
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "整合 {platform} 未載入。請於設定檔進行添加、新增 'default_config:' 或 ''{platform}:''。",
+        "yaml_not_editable": "此實體的設定無法藉由 UI 編輯、僅有透過 UI 設定的實體可於 UI 進行設定。",
+        "required_error_msg": "必填欄位",
+        "generic": { "name": "名稱", "icon": "圖示" },
+        "input_datetime": {
+          "date": "日期",
+          "time": "時間",
+          "datetime": "日期與時間",
+          "mode": "所要輸入的內容"
+        },
+        "input_text": {
+          "min": "最小長度",
+          "max": "最大長度",
+          "mode": "顯示模式",
+          "text": "文字",
+          "password": "密碼",
+          "pattern": "客戶端驗證模式"
+        },
+        "input_number": {
+          "min": "最小值",
+          "max": "最大值",
+          "mode": "顯示模式",
+          "box": "輸入欄位",
+          "slider": "滑桿",
+          "step": "滑桿刻度",
+          "unit_of_measurement": "單位"
+        },
+        "input_select": {
+          "options": "選項",
+          "add_option": "新增選項",
+          "no_options": "尚無選項。",
+          "add": "新增"
+        },
+        "counter": {
+          "minimum": "最小值",
+          "maximum": "最大值",
+          "initial": "初始值",
+          "restore": "回復至上次 Home Assistant 啟動時已知值",
+          "step": "階段大小"
+        },
+        "timer": { "duration": "持續時間" }
+      },
+      "options_flow": {
+        "form": { "header": "選項" },
+        "success": { "description": "選項已儲存。" }
+      },
+      "config_entry_system_options": {
+        "title": "{integration} 系統選項",
+        "enable_new_entities_label": "啟用新增實體",
+        "enable_new_entities_description": "關閉後，{integration} 新發現的實體將不會自動新增至 Home Assistant。",
+        "update": "更新"
+      },
+      "zha_device_info": {
+        "manuf": "由 {manufacturer}",
+        "no_area": "無分區",
+        "device_signature": "Zigbee 設備簽章",
+        "buttons": {
+          "add": "透過此設備新增設備",
+          "remove": "移除設備",
+          "clusters": "管理叢集",
+          "reconfigure": "重新設定設備",
+          "zigbee_information": "Zigbee 設備簽章"
+        },
+        "services": {
+          "reconfigure": "重新設定 ZHA Zibgee 設備（健康設備）。假如遇到設備問題，請使用此選項。假如有問題的設備為使用電池的設備，請先確定設備已喚醒並處於接受命令狀態。",
+          "updateDeviceName": "於實體 ID 中自訂此設備名稱。",
+          "remove": "從 Zigbee 網路移除設備。",
+          "zigbee_information": "檢視設備 Zigbee 資訊。"
+        },
+        "confirmations": { "remove": "確定要移除此設備？" },
+        "quirk": "Quirk",
+        "last_seen": "上次出現",
+        "power_source": "電力來源",
+        "unknown": "未知",
+        "zha_device_card": {
+          "device_name_placeholder": "變更設備名稱",
+          "area_picker_label": "分區",
+          "update_name_button": "更新名稱"
+        }
+      },
+      "domain_toggler": {
+        "title": "實體類群開關",
+        "reset_entities": "重置實體"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} debug 訊息",
+        "deserialize": "嘗試將 MQTT 訊息解析為 JSON",
+        "entities": "實體",
+        "no_entities": "無實體",
+        "no_triggers": "無觸發",
+        "payload_display": "負載顯示",
+        "recent_messages": "{n} 個最近接收的訊息",
+        "show_as_yaml": "以 YAML 顯示",
+        "triggers": "觸發"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\none {秒}\nother {秒}\n}",
+      "minute": "{count} {count, plural,\n  one {分鐘}\n  other {分鐘}\n}",
+      "hour": "{count} {count, plural,\n  one {小時}\n  other {小時}\n}",
+      "day": "{count} {count, plural,\none {天}\nother {天}\n}",
+      "week": "{count} {count, plural,\none {週}\nother {週}\n}"
+    },
+    "login-form": {
+      "password": "密碼",
+      "remember": "記住設定",
+      "log_in": "登入"
+    },
+    "notification_drawer": {
+      "click_to_configure": "點擊按鈕以設定{entity}",
+      "empty": "沒有通知",
+      "title": "通知提示",
+      "close": "關閉",
+      "dismiss_all": "全部關閉"
+    },
+    "notification_toast": {
+      "service_call_failed": "服務 {service} 執行失敗。",
+      "connection_lost": "連線中斷。重新連線中...",
+      "started": "Home Assistant 已啟動！",
+      "starting": "Home Assistant 正在啟動，在完成載入前、可能無法顯示所有功能。",
+      "triggered": "觸發 {name}",
+      "dismiss": "關閉"
+    },
+    "sidebar": {
+      "external_app_configuration": "App 設定",
+      "sidebar_toggle": "側邊欄開關",
+      "done": "完成"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "我的行事曆", "today": "今天" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "確定要刪除此面板？",
+          "empty_state": {
+            "title": "歡迎回家",
+            "no_devices": "此頁面允許進行控制所擁有的設備。看起來您尚未設定任何設備，從設定中的整合頁面開始吧。",
+            "go_to_integrations_page": "轉至整合頁面。"
+          },
+          "entities": { "never_triggered": "從未觸發" },
+          "shopping-list": {
+            "checked_items": "已選取項目",
+            "clear_items": "清除已選取項目",
+            "add_item": "新增項目"
+          },
+          "picture-elements": {
+            "hold": "按住：",
+            "tap": "點擊：",
+            "navigate_to": "導航至 {location}",
+            "url": "開啟視窗至 {url_path}",
+            "toggle": "切換 {name}",
+            "call_service": "執行服務 {name}",
+            "more_info": "顯示更多資訊：{name}"
+          },
+          "safe-mode": {
+            "header": "安全模式已開啟",
+            "description": "Home Assistant 於載入設定時發生問題、正以安全模式執行中。請參閱錯誤紀錄、以找出問題。"
+          },
+          "starting": {
+            "description": "Home Assistant 正在啟動，請稍候...",
+            "header": "Home Assistant 正在啟動..."
+          }
+        },
+        "unused_entities": {
+          "title": "未使用實體",
+          "available_entities": "此些為尚未於 Lovelace 介面中、可供使用的實體。",
+          "select_to_add": "選擇所要新增至面板的實體、並點選新增至面板按鈕。",
+          "entity": "實體",
+          "entity_id": "實體 ID",
+          "domain": "實體類群",
+          "last_changed": "上次變更",
+          "search": "搜尋實體",
+          "no_data": "找不到未使用實體"
+        },
+        "add_entities": {
+          "yaml_unsupported": "當使用 Lovelace UI 的 YAML 模式時，無法使用此功能。",
+          "generated_unsupported": "僅能於 Lovelace UI 自訂功能下使用此功能。",
+          "saving_failed": "儲存 Lovelace UI 設定失敗。"
+        },
+        "views": {
+          "confirm_delete": "刪除視圖？",
+          "confirm_delete_text": "確定要刪除 \"{name}\"視圖？",
+          "confirm_delete_existing_cards": "刪除此視圖同時將移除面板。",
+          "confirm_delete_existing_cards_text": "確定要刪除 \"{name}\" 視圖？視圖內包含 {number} 張面板也同時將被刪除。此動作將無法回復。"
+        },
+        "menu": {
+          "configure_ui": "編輯主面板",
+          "help": "說明",
+          "start_conversation": "開始對話",
+          "reload_resources": "重新載入資源",
+          "exit_edit_mode": "退出 UI 編輯模式",
+          "close": "關閉",
+          "refresh": "更新"
+        },
+        "reload_resources": {
+          "refresh_header": "是否要更新？",
+          "refresh_body": "必須更新頁面以完成重新載入、要立即更新？"
+        },
+        "editor": {
+          "header": "編輯 UI",
+          "menu": {
+            "open": "開啟 Lovelace UI 選單",
+            "raw_editor": "文字模式編輯器"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "編輯設定",
+            "save": "儲存",
+            "unsaved_changes": "未儲存的變更",
+            "saved": "已儲存",
+            "confirm_remove_config_title": "確定要移除 Lovelace UI 設定？",
+            "confirm_remove_config_text": "假如移除 Lovelace UI 設定的話，將自動以區域與設備產生 Lovelace UI 視圖。",
+            "confirm_unsaved_changes": "變更尚未儲存，確定要退出？",
+            "confirm_unsaved_comments": "設定包含命令、將不會被儲存。是否要繼續？",
+            "error_parse_yaml": "無法解析 YAML：{error}",
+            "error_invalid_config": "設定無效：{error}",
+            "error_save_yaml": "無法儲存 YAML：{error}",
+            "error_remove": "無法移除設定：{error}",
+            "resources_moved": "無法再透過 Lovelace 設定新增資源，需透過 Lovelace 設定面板進行新增。"
+          },
+          "edit_lovelace": {
+            "header": "Lovelace UI 的標題",
+            "explanation": "此為 Lovelace UI 所有分視圖上方之標題。",
+            "edit_title": "編輯標題",
+            "title": "標題"
+          },
+          "edit_view": {
+            "header": "視圖設定",
+            "header_name": "{name}視圖設定",
+            "add": "新增視圖",
+            "edit": "編輯視圖",
+            "delete": "刪除視圖",
+            "move_left": "向左移動視圖",
+            "move_right": "向右移動視圖",
+            "tab_settings": "設定",
+            "tab_badges": "圓標圖示",
+            "tab_visibility": "顯示選項",
+            "visibility": { "select_users": "選擇可觀看此視圖的使用者" }
+          },
+          "edit_badges": {
+            "panel_mode": "\"面板模式\"下、圓標圖示將不會顯示。"
+          },
+          "edit_card": {
+            "header": "面板設定",
+            "typed_header": "{type} 面板設定",
+            "pick_card": "選擇所要新增的面板？",
+            "pick_card_view_title": "要加入 {name} 視圖的面板？",
+            "toggle_editor": "切換編輯器",
+            "unsaved_changes": "有未儲存變更",
+            "confirm_cancel": "確定要取消？",
+            "show_visual_editor": "顯示視覺編輯器",
+            "show_code_editor": "顯示編碼編輯器",
+            "add": "新增面板",
+            "edit": "編輯",
+            "clear": "Clear",
+            "delete": "刪除面板",
+            "duplicate": "複製面板",
+            "move": "移動至視圖",
+            "move_before": "向前移動面板",
+            "move_after": "向後移動面板",
+            "options": "更多選項",
+            "search_cards": "搜尋面板"
+          },
+          "move_card": { "header": "移動至哪個面板" },
+          "select_view": { "header": "選擇面板", "dashboard_label": "主面板" },
+          "suggest_card": {
+            "header": "已為您產生建議面板",
+            "create_own": "選擇其他面板",
+            "add": "新增至 Lovelace UI"
+          },
+          "save_config": {
+            "header": "自行編輯 Lovelace UI",
+            "para": "主面板目前正由 Home Assistant 維護、於新實體或 Lovelace UI 元件可使用時自動進行更新。假如選擇自行編輯，系統將不再為您自動更新主面板，亦可隨時於設定中新增主面板。",
+            "para_sure": "確定要自行編輯使用者介面？",
+            "yaml_mode": "正使用 YAML 模式、表示您無法藉由 UI 變更 Lovelace 設定。假如您想由 UI 中進行變更、請於「configuration.yaml」檔案中移除 'mode: yaml' 參數。",
+            "yaml_control": "欲使用 YAML 進行控制、新增一個與此主面板相同名稱的 YAML 檔案、或者預設為「ui-lovelace.yaml」。",
+            "yaml_config": "目前此主面板設定：",
+            "empty_config": "以空白主面板開始",
+            "cancel": "我再想想",
+            "close": "關閉",
+            "save": "自行編輯"
+          },
+          "migrate": {
+            "header": "設定不相容",
+            "para_no_id": "該元件未含 ID，請於「ui-lovelace.yaml」中為該元件新增 ID。",
+            "para_migrate": "Home Assistant 能於您點選 '遷移設定' 按鈕後，自動新增 ID 與視圖至所有面板。",
+            "migrate": "遷移設定"
+          },
+          "action-editor": {
+            "navigation_path": "導航路徑",
+            "url_path": "網址路徑",
+            "editor_service_data": "服務資料僅能於代碼編輯器中輸入",
+            "actions": {
+              "default_action": "預設動作",
+              "call-service": "執行服務",
+              "more-info": "更多資訊",
+              "toggle": "開關",
+              "navigate": "導航",
+              "url": "網址",
+              "none": "沒有動作"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "警報器面板",
+              "available_states": "可用狀態",
+              "description": "警報器面板可供進行警戒或解除警戒。"
+            },
+            "calendar": {
+              "name": "行事曆",
+              "description": "行事曆面板可顯示包含日、週及列表的行事曆",
+              "inital_view": "起始面板",
+              "calendar_entities": "日曆實體",
+              "views": {
+                "dayGridMonth": "週",
+                "dayGridDay": "日",
+                "listWeek": "列表"
+              }
+            },
+            "conditional": {
+              "name": "條件式面板",
+              "description": "觸發面板可基於實體狀態進而顯示其他面板。",
+              "conditions": "觸發面板",
+              "card": "面板",
+              "state_equal": "狀態等於",
+              "state_not_equal": "狀態不等於",
+              "current_state": "目前狀態",
+              "condition_explanation": "當以下所有條件都滿足時將會顯示面板。",
+              "change_type": "變更類別"
+            },
+            "config": { "required": "必填", "optional": "選項" },
+            "entities": {
+              "name": "實體",
+              "show_header_toggle": "於頁首顯示開關？",
+              "toggle": "切換實體。",
+              "description": "實體列表面板為最常用的面板。將實體分組為列表使用。",
+              "special_row": "特殊列",
+              "edit_special_row": "點選編輯按鈕以檢視此列詳細資訊",
+              "entity_row_editor": "實體編輯器",
+              "secondary_info_values": {
+                "none": "無次要資訊",
+                "entity-id": "實體 ID",
+                "last-changed": "上次變更",
+                "last-triggered": "上次觸發",
+                "position": "位置",
+                "tilt-position": "標題位置",
+                "brightness": "亮度",
+                "last-updated": "最後更新"
+              },
+              "entity_row": {
+                "divider": "分配",
+                "call-service": "執行服務",
+                "section": "部分",
+                "weblink": "網站連結",
+                "attribute": "屬性",
+                "buttons": "按鈕",
+                "conditional": "條件式",
+                "cast": "Cast",
+                "button": "按鈕"
+              }
+            },
+            "entity": {
+              "name": "實體",
+              "description": "實體面板、可快速獲得實體狀態概況。"
+            },
+            "button": {
+              "name": "按鈕面板",
+              "description": "按鈕面板可供新增按鈕以執行任務。",
+              "default_action_help": "預設動作視實體的功能有所不同，可能為開關或顯示更多訊息。"
+            },
+            "entity-filter": {
+              "name": "實體過濾式面板",
+              "description": "實體過濾式面板可供定義於特定狀態下、所要進行追蹤的實體列表。"
+            },
+            "gauge": {
+              "name": "量表式面板",
+              "severity": {
+                "define": "定義嚴重度？",
+                "green": "綠色",
+                "red": "紅色",
+                "yellow": "黃色"
+              },
+              "description": "量表式面板可供視覺化檢視傳感器資料。"
+            },
+            "glance": {
+              "name": "簡略式面板",
+              "columns": "列",
+              "description": "簡略式面板以緊致群組方式顯示多個傳感器狀態。"
+            },
+            "grid": {
+              "name": "方格排列面板",
+              "description": "方格排列面板可於方格內顯示多個面板。"
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "歷史圖表式面板",
+              "description": "歷史圖表式面板可供顯示每個列表實體圖表。"
+            },
+            "horizontal-stack": {
+              "name": "水平排列面板",
+              "description": "水平排列面板可供將多個面板排列、同時顯示。"
+            },
+            "humidifier": {
+              "name": "加濕器",
+              "description": "加濕器面板可供控制加濕實體、可允許變更濕度與模式。"
+            },
+            "iframe": {
+              "name": "網頁面板",
+              "description": "網頁面板可供於 Home Assistant 嵌入喜愛的網頁。"
+            },
+            "light": {
+              "name": "燈光面板",
+              "description": "燈光面板可供變更燈光的亮度與開關。"
+            },
+            "generic": {
+              "aspect_ratio": "長寬比",
+              "attribute": "屬性",
+              "camera_image": "攝影機實體",
+              "camera_view": "攝影機視角",
+              "double_tap_action": "雙點擊觸發",
+              "entities": "實體",
+              "entity": "實體",
+              "hold_action": "保持觸發",
+              "hours_to_show": "顯示小時",
+              "icon": "圖示",
+              "icon_height": "圖示高度",
+              "image": "圖像路徑",
+              "maximum": "最大值",
+              "manual": "手動",
+              "manual_description": "需要新增自定面板或手動編寫 Yaml？",
+              "minimum": "最小值",
+              "name": "名稱",
+              "refresh_interval": "更新間隔",
+              "show_icon": "顯示圖示？",
+              "show_name": "顯示名稱？",
+              "show_state": "顯示狀態？",
+              "tap_action": "點選觸發",
+              "title": "標題",
+              "theme": "主題",
+              "no_theme": "沒有主題",
+              "unit": "單位",
+              "url": "網址",
+              "state": "狀態",
+              "secondary_info_attribute": "次要資訊屬性",
+              "search": "搜尋",
+              "state_color": "以色彩顯示狀態？"
+            },
+            "map": {
+              "name": "地圖面板",
+              "geo_location_sources": "地理位置來源",
+              "dark_mode": "深色模式？",
+              "default_zoom": "預設大小",
+              "hours_to_show": "顯示小時",
+              "source": "來源",
+              "description": "地圖面板可供顯示地圖實體。"
+            },
+            "markdown": {
+              "name": "Markdown 面板",
+              "content": "內容",
+              "description": "Markdown 面板用以使用 Markdown。"
+            },
+            "media-control": {
+              "name": "媒體控制面板",
+              "description": "媒體控制面板用以易於使用的介面、顯示媒體播放器實體。"
+            },
+            "picture": {
+              "name": "圖片面板",
+              "description": "圖片面板可供設定圖片、進而導向不同的介面或呼叫服務。"
+            },
+            "picture-elements": {
+              "name": "圖片要素面板",
+              "description": "圖片要素面板為最多樣化的面板之一。可供基於圖片座標上，放置圖示、文字，甚至服務！"
+            },
+            "picture-entity": {
+              "name": "圖片實體面板",
+              "description": "圖片實體面板可以圖像方式顯示實體。除了使用 URL 圖片之外、也能夠顯示攝影機實體的圖像。"
+            },
+            "picture-glance": {
+              "name": "圖片簡略式面板",
+              "description": "圖片簡略式面板顯示圖像與以圖示顯示的實體狀態。於右側的實體可切換動作、其他則為顯示更詳細資訊。"
+            },
+            "plant-status": {
+              "name": "植物狀態面板",
+              "description": "植物狀態面板針對植物愛好者而推出。"
+            },
+            "sensor": {
+              "name": "傳感器面板",
+              "show_more_detail": "顯示更多資訊",
+              "graph_type": "圖像類型",
+              "description": "傳感器面板、可供以選項圖像方式檢視傳感器時間變化與狀態。",
+              "graph_detail": "圖像精細度"
+            },
+            "shopping-list": {
+              "name": "購物清單面板",
+              "description": "購物清單面板、可供新增、編輯、勾選或清除購物清單項目。",
+              "integration_not_loaded": "此面板需要先設定「shopping_list」整合。"
+            },
+            "thermostat": {
+              "name": "溫控器面板",
+              "description": "溫控器面板可供控制溫控實體、可允許變更溫度與模式。"
+            },
+            "vertical-stack": {
+              "name": "垂直排列面板",
+              "description": "垂直排列面板可將多個面板進行分組、總是顯示在一起。"
+            },
+            "weather-forecast": {
+              "name": "天氣預報面板",
+              "description": "天氣預報面板顯示天氣狀態。對於放置於牆上顯示非常實用。",
+              "show_forecast": "顯示預報"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "面板模式？",
+              "description": "將會以全寬度製作第一張面板，其他面板與圓標圖示將不會顯示。",
+              "warning_multiple_cards": "此視圖包含超過一張面板，但面板視圖僅能顯示一張面板。"
+            }
+          },
+          "cardpicker": {
+            "no_description": "無描述可使用。",
+            "custom_card": "自訂面板",
+            "domain": "實體類群",
+            "entity": "實體",
+            "by_entity": "以實體",
+            "by_card": "以面板"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "無法使用屬性 {attribute} 之實體：{entity}",
+          "entity_not_found": "實體不可用：{entity}",
+          "entity_non_numeric": "實體為非數字：{entity}",
+          "entity_unavailable": "{entity} 目前不可用",
+          "starting": "Home Assistant 正在啟動，可能無法顯示所有功能。"
+        },
+        "changed_toast": {
+          "message": "此主面板 Lovelace UI 設定已更新，是否要更新頁面檢視變更？",
+          "refresh": "更新"
+        },
+        "reload_lovelace": "重新載入 UI"
+      },
+      "shopping_list": { "start_conversation": "開始對話" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "是否信任位於 {link}外部面板 {name}？",
+          "complete_access": "將能存取所有 Home Assistant 所有資料。",
+          "hide_message": "參閱關於 panel_custom component 文件以隱藏此訊息"
+        }
+      }
+    }
+  }
+}

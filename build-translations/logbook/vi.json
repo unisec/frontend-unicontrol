@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Hôm nay",
+          "yesterday": "Hôm qua",
+          "this_week": "Tuần này",
+          "last_week": "Tuần trước"
+        },
+        "entries_not_found": "Không tìm thấy trong sổ nhật ký.",
+        "period": "Giai đoạn",
+        "showing_entries": "Hiển thị mục cho"
+      }
+    }
+  }
+}

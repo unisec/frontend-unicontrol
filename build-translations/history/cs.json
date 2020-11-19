@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Dnes",
+          "yesterday": "Včera",
+          "this_week": "Tento týden",
+          "last_week": "Minulý týden"
+        },
+        "period": "Období",
+        "showing_entries": "Zobrazeny údaje pro"
+      }
+    }
+  }
+}

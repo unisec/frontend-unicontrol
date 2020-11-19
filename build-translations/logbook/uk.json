@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Сьогодні",
+          "yesterday": "Вчора",
+          "this_week": "Цього тижня",
+          "last_week": "Минулого тижня"
+        },
+        "entries_not_found": "Не знайдено записів журналу.",
+        "period": "Період",
+        "showing_entries": "Відображення записів за"
+      }
+    }
+  }
+}

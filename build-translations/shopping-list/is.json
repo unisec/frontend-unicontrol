@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Bæta við hlut",
+        "clear_completed": "Hreinsa lokið",
+        "microphone_tip": "Ýttu á hljóðnemann efst til hægri og segðu \"Add candy to my shopping list\""
+      }
+    }
+  }
+}

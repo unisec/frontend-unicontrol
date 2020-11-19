@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Добави артикул",
+        "clear_completed": "Изчистването завършено",
+        "microphone_tip": "Докоснете микрофона горе вдясно и кажете \"Add candy to my shopping list\""
+      }
+    }
+  }
+}

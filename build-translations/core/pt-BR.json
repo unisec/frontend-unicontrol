@@ -1,0 +1,1314 @@
+{
+  "panel": {
+    "calendar": "Calendário",
+    "config": "Configurações",
+    "states": "Visão geral",
+    "map": "Mapa",
+    "logbook": "Log de eventos",
+    "history": "Histórico",
+    "mailbox": "Caixa de correio",
+    "shopping_list": "Lista de compras",
+    "developer_tools": "Ferramentas de desenvolvedor",
+    "media_browser": "Navegador de multimédia",
+    "profile": "Perfil"
+  },
+  "state": {
+    "default": {
+      "on": "Ligado",
+      "off": "Desligado",
+      "unknown": "Desconhecido",
+      "unavailable": "Indisponível"
+    },
+    "alarm_control_panel": {
+      "armed": "Armado",
+      "armed_away": "Armado ausente",
+      "armed_custom_bypass": "Armado em áreas específicas",
+      "armed_home": "Armado casa",
+      "armed_night": "Armado noite",
+      "arming": "Armando",
+      "disarmed": "Desarmado",
+      "disarming": "Desarmando",
+      "pending": "Pendente",
+      "triggered": "Acionado"
+    },
+    "automation": { "off": "Desligado", "on": "Ativa" },
+    "binary_sensor": {
+      "battery": { "off": "Normal", "on": "Fraca" },
+      "cold": { "off": "Normal", "on": "Frio" },
+      "connectivity": { "off": "Desconectado", "on": "Conectado" },
+      "default": { "off": "Livre", "on": "Detectado" },
+      "door": { "off": "Fechado", "on": "Aberto" },
+      "garage_door": { "off": "Fechado", "on": "Aberto" },
+      "gas": { "off": "Livre", "on": "Detectado" },
+      "heat": { "off": "Normal", "on": "Quente" },
+      "lock": { "off": "Trancado", "on": "Destrancado" },
+      "moisture": { "off": "Seco", "on": "Molhado" },
+      "motion": { "off": "Livre", "on": "Detectado" },
+      "occupancy": { "off": "Livre", "on": "Detectado" },
+      "opening": { "off": "Fechado", "on": "Aberto" },
+      "presence": { "off": "Ausente", "on": "Em casa" },
+      "problem": { "off": "OK", "on": "Problema" },
+      "safety": { "off": "Seguro", "on": "Inseguro" },
+      "smoke": { "off": "Livre", "on": "Detectado" },
+      "sound": { "off": "Livre", "on": "Detectado" },
+      "vibration": { "off": "Livre", "on": "Detectado" },
+      "window": { "off": "Fechado", "on": "Aberto" }
+    },
+    "calendar": { "off": "Inativo", "on": "Ligado" },
+    "camera": {
+      "idle": "Ocioso",
+      "recording": "Gravando",
+      "streaming": "Transmitindo"
+    },
+    "climate": {
+      "cool": "Frio",
+      "dry": "Seco",
+      "fan_only": "Apenas ventilador",
+      "heat": "Quente",
+      "heat_cool": "Quente/Frio",
+      "off": "Desligado"
+    },
+    "configurator": { "configure": "Configurar", "configured": "Configurado" },
+    "cover": {
+      "closed": "Fechado",
+      "closing": "Fechando",
+      "open": "Aberto",
+      "opening": "Abrindo",
+      "stopped": "Parado"
+    },
+    "device_tracker": { "not_home": "Ausente" },
+    "fan": { "off": "Desligado", "on": "Ligado" },
+    "group": {
+      "closed": "Fechado",
+      "closing": "Fechando",
+      "home": "Em casa",
+      "locked": "Trancado",
+      "not_home": "Ausente",
+      "off": "Desligado",
+      "ok": "OK",
+      "on": "Ligado",
+      "open": "Aberto",
+      "opening": "Abrindo",
+      "problem": "Problema",
+      "stopped": "Parado",
+      "unlocked": "Destrancado"
+    },
+    "input_boolean": { "off": "Desligado", "on": "Ligado" },
+    "light": { "off": "Desligado", "on": "Ligado" },
+    "lock": { "locked": "Trancado", "unlocked": "Destrancado" },
+    "media_player": {
+      "idle": "Ocioso",
+      "off": "Desligado",
+      "on": "Ligado",
+      "paused": "Pausado",
+      "playing": "Tocando",
+      "standby": "Em espera"
+    },
+    "person": { "home": "Em casa" },
+    "plant": { "ok": "Ok", "problem": "Problema" },
+    "remote": { "off": "Desligado", "on": "Ligado" },
+    "scene": { "scening": "Ativa" },
+    "script": { "off": "Desligado", "on": "Ligado" },
+    "sensor": { "off": "Desligado", "on": "Ligado" },
+    "sun": {
+      "above_horizon": "Acima do horizonte",
+      "below_horizon": "Abaixo do horizonte"
+    },
+    "switch": { "off": "Desligado", "on": "Ligado" },
+    "timer": { "active": "ativo", "idle": "ocioso", "paused": "Pausado" },
+    "vacuum": {
+      "cleaning": "Limpando",
+      "docked": "Baseado",
+      "error": "Erro",
+      "idle": "Em espera",
+      "off": "Desligado",
+      "on": "Ligado",
+      "paused": "Pausado",
+      "returning": "Retornando para base"
+    },
+    "weather": {
+      "clear-night": "Noite clara",
+      "cloudy": "Nublado",
+      "exceptional": "Excepcional",
+      "fog": "Nevoeiro",
+      "hail": "Granizo",
+      "lightning": "Raios",
+      "lightning-rainy": "Raios, chuvoso",
+      "partlycloudy": "Parcialmente nublado",
+      "pouring": "Torrencial",
+      "rainy": "Chuvoso",
+      "snowy": "Neve",
+      "snowy-rainy": "Neve, chuva",
+      "sunny": "Ensolarado",
+      "windy": "Ventoso",
+      "windy-variant": "Ventoso"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Morto",
+        "initializing": "Iniciando",
+        "ready": "Pronto",
+        "sleeping": "Dormindo"
+      },
+      "query_stage": {
+        "dead": "Morto ({query_stage})",
+        "initializing": "Iniciando ( {query_stage} )"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "Desligado", "on": "Ligado", "auto": "Automático" },
+      "preset_mode": {
+        "none": "Nenhum",
+        "eco": "Eco",
+        "away": "Ausente",
+        "boost": "Impulsionar",
+        "comfort": "Conforto",
+        "home": "Home",
+        "sleep": "Suspender",
+        "activity": "Atividade"
+      },
+      "hvac_action": {
+        "off": "Desligado",
+        "heating": "Aquecimento",
+        "cooling": "Resfriamento",
+        "drying": "Secagem",
+        "idle": "Oscioso",
+        "fan": "Ventilador"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normal",
+        "eco": "Econômico",
+        "away": "Ausente",
+        "boost": "Turbo",
+        "comfort": "Conforto",
+        "home": "Casa",
+        "sleep": "Sono",
+        "auto": "Automático",
+        "baby": "Bebê"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Desc",
+      "unavailable": "Indisp",
+      "error": "Erro",
+      "entity_not_found": "Entidade não encontrada"
+    },
+    "alarm_control_panel": {
+      "armed": "Armado",
+      "disarmed": "Desarmado",
+      "armed_home": "Armado",
+      "armed_away": "Armado",
+      "armed_night": "Armado",
+      "armed_custom_bypass": "Armado",
+      "pending": "Pend",
+      "arming": "Armando",
+      "disarming": "Desarmando",
+      "triggered": "Ativado"
+    },
+    "device_tracker": { "home": "Em casa", "not_home": "Ausente" },
+    "person": { "home": "Em casa", "not_home": "Ausente" }
+  },
+  "groups": {
+    "system-admin": "Administradores",
+    "system-users": "Usuários",
+    "system-read-only": "Usuários somente leitura"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Usuário",
+      "integration": "Integração",
+      "config_entry": "Entrada de configuração"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Você deseja continuar logado?",
+      "decline": "Não",
+      "confirm": "Sim"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Código",
+        "clear_code": "Limpar",
+        "disarm": "Desarmar",
+        "arm_home": "Armar em casa",
+        "arm_away": "Armar ausente",
+        "arm_night": "Acionamento noturno",
+        "arm_custom_bypass": "Bypass personalizado"
+      },
+      "automation": {
+        "last_triggered": "Último disparo",
+        "trigger": "Gatilho"
+      },
+      "camera": { "not_available": "Imagem indisponível" },
+      "climate": {
+        "currently": "Atualmente",
+        "on_off": "Lig. / Des.",
+        "target_temperature": "Temperatura desejada",
+        "target_temperature_entity": "Temperatura desejada",
+        "target_temperature_mode": "Temperatura desejada",
+        "current_temperature": "Temperatura atual {name}",
+        "heating": "Aquecendo {name}",
+        "cooling": "Resfriando {name}",
+        "high": "quente",
+        "low": "frio",
+        "target_humidity": "Umidade desejada",
+        "operation": "Operação",
+        "fan_mode": "Modo ventilação",
+        "swing_mode": "Modo oscilante",
+        "preset_mode": "Predefinir",
+        "away_mode": "Modo ausente",
+        "aux_heat": "Aquecedor aux"
+      },
+      "counter": {
+        "actions": {
+          "increment": "incrementar",
+          "decrement": "decrementar",
+          "reset": "redefinir"
+        }
+      },
+      "cover": {
+        "position": "Posição",
+        "tilt_position": "Posição de inclinação"
+      },
+      "fan": {
+        "speed": "Velocidade",
+        "oscillate": "Oscilar",
+        "direction": "Direção",
+        "forward": "Frente",
+        "reverse": "Reverter"
+      },
+      "humidifier": {
+        "humidity": "Umidade desejada",
+        "mode": "Modo",
+        "target_humidity_entity": "umidade desejada em {name}",
+        "on_entity": "{name} ligado"
+      },
+      "light": {
+        "brightness": "Brilho",
+        "color_temperature": "Temperatura de cor",
+        "white_value": "Balanço de branco",
+        "effect": "Efeito"
+      },
+      "lock": { "code": "Código", "lock": "Trancar", "unlock": "Destrancar" },
+      "media_player": {
+        "source": "Fonte",
+        "sound_mode": "Modo de som",
+        "browse_media": "Navegar mídias",
+        "turn_on": "Ligar",
+        "turn_off": "Desligar",
+        "media_play": "Tocar",
+        "media_play_pause": "Tocar/pausar",
+        "media_next_track": "Próximo",
+        "media_previous_track": "Anterior",
+        "text_to_speak": "Texto para falar"
+      },
+      "persistent_notification": { "dismiss": "Dispensar" },
+      "scene": { "activate": "Ativar" },
+      "script": {
+        "execute": "Executar",
+        "cancel": "Cancelar",
+        "cancel_multiple": "Cancelar {number}"
+      },
+      "service": { "run": "Executar" },
+      "timer": {
+        "actions": {
+          "start": "Iniciar",
+          "pause": "pausar",
+          "cancel": "cancelar",
+          "finish": "terminar"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Continuar limpeza",
+          "return_to_base": "Retornar a base",
+          "start_cleaning": "Iniciar limpeza",
+          "turn_on": "Ligar",
+          "turn_off": "Desligar"
+        }
+      },
+      "water_heater": {
+        "currently": "Atualmente",
+        "on_off": "Lig. / Des.",
+        "target_temperature": "Temperatura alvo",
+        "operation": "Operação",
+        "away_mode": "Modo ausente"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Pressão do ar",
+          "humidity": "Umidade",
+          "temperature": "Temperatura",
+          "visibility": "Visibilidade",
+          "wind_speed": "Velocidade do vento",
+          "precipitation": "Precipitação"
+        },
+        "cardinal_direction": {
+          "e": "E",
+          "ene": "ENE",
+          "ese": "ESE",
+          "n": "N",
+          "ne": "NE",
+          "nne": "NNE",
+          "nw": "NO",
+          "nnw": "NNO",
+          "s": "S",
+          "se": "SE",
+          "sse": "SSE",
+          "ssw": "SSO",
+          "sw": "SO",
+          "w": "O",
+          "wnw": "ONO",
+          "wsw": "OSO"
+        },
+        "day": "Dia",
+        "night": "Noite",
+        "forecast": "Previsão",
+        "high": "Alto",
+        "low": "Fraco"
+      }
+    },
+    "common": {
+      "and": "e",
+      "continue": "Continuar",
+      "previous": "Anterior",
+      "loading": "Carregando",
+      "refresh": "Atualizar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Fechar",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Próximo",
+      "back": "Voltar",
+      "undo": "Desfazer",
+      "save": "Salvar",
+      "rename": "Rename",
+      "yes": "Sim",
+      "no": "Não",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "Menu",
+      "overflow_menu": "Menu expansível",
+      "successfully_saved": "Salvo com sucesso",
+      "successfully_deleted": "Eliminado com sucesso",
+      "error_required": "Obrigatório",
+      "copied": "Copiado"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "Não foram encontradas entradas no registro",
+        "by": "por",
+        "by_service": "por serviço",
+        "messages": {
+          "was_away": "estava fora",
+          "was_at_state": "estava em {state}",
+          "rose": "rosa",
+          "set": "definir",
+          "was_low": "estava baixo",
+          "was_normal": "estava normal",
+          "was_connected": "foi conectado",
+          "was_disconnected": "foi desconectado",
+          "was_opened": "foi aberto",
+          "was_closed": "foi fechado",
+          "was_unlocked": "foi destrancada",
+          "was_locked": "foi trancada",
+          "was_plugged_in": "foi conectado",
+          "was_unplugged": "foi desconectado",
+          "was_at_home": "estava em casa",
+          "was_unsafe": "estava inseguro",
+          "was_safe": "estava seguro",
+          "detected_device_class": "detetado {device_class}",
+          "cleared_device_class": "Vazio (nenhuma {device_class} detetada)",
+          "turned_off": "desligou",
+          "turned_on": "ligou",
+          "changed_to_state": "alterado para {state}",
+          "became_unavailable": "ficou indisponível"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Entidade",
+          "clear": "Limpar",
+          "show_entities": "Mostrar entidades"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Atributo",
+          "show_attributes": "Mostrar atributos"
+        }
+      },
+      "user-picker": {
+        "no_user": "No user",
+        "add_user": "Add user",
+        "remove_user": "Remove user"
+      },
+      "device-picker": {
+        "clear": "Limpar",
+        "toggle": "Alternar",
+        "show_devices": "Mostrar dispositivos",
+        "device": "Dispositivo",
+        "no_area": "Sem área"
+      },
+      "area-picker": {
+        "clear": "Limpar",
+        "show_areas": "Mostrar áreas",
+        "area": "Área",
+        "add_new": "Adicionar nova área…",
+        "add_dialog": {
+          "title": "Adicionar nova área",
+          "text": "Digite o nome da nova área.",
+          "name": "Nome",
+          "add": "Adicionar",
+          "failed_create_area": "Falha ao criar a área."
+        }
+      },
+      "picture-upload": {
+        "label": "Imagem",
+        "unsupported_format": "Formato não suportado, por favor escolha uma imagem JPEG, PNG ou GIF."
+      },
+      "date-range-picker": {
+        "start_date": "Data de início",
+        "end_date": "Data final",
+        "select": "Selecione"
+      },
+      "relative_time": {
+        "never": "Nunca",
+        "just_now": "Agora",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {segundo}\n  other {segundos}\n}",
+          "minute": "{count} {count, plural,\n  one {minuto}\n  other {minutos}\n}",
+          "hour": "{count} {count, plural,\n  one {hora}\n  other {horas}\n}",
+          "day": "{count} {count, plural,\n  one {dia}\n other {dias}\n}",
+          "week": "{count} {count, plural,\n  one {semana}\n  other {semanas}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {segundo}\n  other {segundos}\n} atrás",
+          "minute": "{count} {count, plural,\n  one {minuto}\n  other {minutos}\n} atrás",
+          "hour": "{count} {count, plural,\n  one {hora}\n  other {horas}\n} atrás",
+          "day": "{count} {count, plural,\n  one {dia}\n  other {dias}\n} atrás",
+          "week": "{count} {count, plural,\n  one {semana}\n  other {semanas}\n} atrás"
+        },
+        "future_duration": {
+          "second": "In {count} {count, plural,\n  one {segundo}\n  other {segundos}\n}",
+          "minute": "In {count} {count, plural,\n  one {minuto}\n  other {minutos}\n}",
+          "hour": "In {count} {count, plural,\n  one {hora}\n  other {horas}\n}",
+          "day": "In {count} {count, plural,\n  one {dia}\n  other {dias}\n}",
+          "week": "In {count} {count, plural,\n  one {semana}\n  other {semanas}\n}"
+        },
+        "future": "Em {time}",
+        "past": "{time} atrás"
+      },
+      "history_charts": {
+        "loading_history": "Carregando histórico do estado ...",
+        "no_history_found": "Histórico de estado não encontrado."
+      },
+      "service-picker": { "service": "Serviço" },
+      "related-items": {
+        "no_related_found": "Não foram encontrados itens relacionados.",
+        "integration": "Integração",
+        "device": "Dispositivo",
+        "area": "Área",
+        "entity": "Entidades relacionadas",
+        "group": "Parte dos seguintes grupos",
+        "scene": "Parte das seguintes cenas",
+        "script": "Parte dos seguintes scripts",
+        "automation": "Parte das seguintes automações"
+      },
+      "data-table": { "search": "Procurar", "no-data": "Sem dados" },
+      "media-browser": {
+        "pick": "Escolher",
+        "play": "Tocar",
+        "play-media": "Reproduzir Mídia",
+        "pick-media": "Escolher mídia",
+        "no_items": "Sem itens",
+        "choose_player": "Escolha o Leitor",
+        "media-player-browser": "Navegador do Reprodutor de Mídia",
+        "web-browser": "Navegador web",
+        "media_player": "Reprodutor de Mídia",
+        "audio_not_supported": "O seu navegador não suporta o elemento de áudio.",
+        "video_not_supported": "O seu navegador não suporta o elemento de vídeo.",
+        "media_not_supported": "O Browser Media Player não suporta este tipo de ficheiro",
+        "media_browsing_error": "Erro de Navegação de Multimédia",
+        "learn_adding_local_media": "Saiba mais sobre como adicionar ficheiros de média na {documentation} .",
+        "local_media_files": "Coloque seus ficheiros de vídeo, áudio e imagem no diretório de multimédia para poder navegar e reproduzi-los no navegador ou em reprodutores de média compatíveis.",
+        "documentation": "Documentação",
+        "no_local_media_found": "Não existem ficheiros de média",
+        "no_media_folder": "Parece que ainda não criou um diretório de multimédia.",
+        "setup_local_help": "Verifique a {documentation} sobre como configurar a média local.",
+        "class": {
+          "album": "Álbum",
+          "app": "App",
+          "artist": "Artista",
+          "channel": "Canal",
+          "composer": "Compositor",
+          "contributing_artist": "Artista Contribuinte",
+          "directory": "Biblioteca",
+          "episode": "Episódio",
+          "game": "Jogo",
+          "genre": "Gênero",
+          "image": "Imagem",
+          "movie": "Filme",
+          "music": "Música",
+          "playlist": "Lista de reprodução",
+          "podcast": "Podcast",
+          "season": "Temporada",
+          "track": "Faixa",
+          "tv_show": "Programa de TV",
+          "url": "Url",
+          "video": "Vídeo"
+        },
+        "choose-source": "Escolha a fonte",
+        "content-type": {
+          "album": "Álbum",
+          "artist": "Artista",
+          "library": "Biblioteca",
+          "playlist": "Lista de reprodução",
+          "server": "Servidor"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Recarregar {domain}",
+            "core": "Recarregar localização e personalizações",
+            "group": "Recarregar grupos, grupos de entidades e serviços de notificação",
+            "automation": "Recarregar automações",
+            "script": "Recarregar scripts",
+            "scene": "Recarregar cenas",
+            "person": "Recarregar pessoas",
+            "zone": "Recarregar zonas",
+            "input_boolean": "Recarregar booleanos de entrada",
+            "input_text": "Recarregar input texts",
+            "input_number": "Recarregar input numbers",
+            "input_datetime": "Recarregar input date times",
+            "input_select": "Recarregar input selects",
+            "template": "Recarregar entidades modelo",
+            "universal": "Recarregue entidades reprodutoras de multimédia",
+            "rest": "Recarregar as restantes entidades e notificar serviços",
+            "command_line": "Recarregar entidades de linha de comando",
+            "filter": "Recarregar entidades de filtro",
+            "statistics": "Recarregar entidades estatísticas",
+            "generic": "Recarregar entidades genéricas de câmeras IP",
+            "generic_thermostat": "Recarregar entidades termostáticas genéricas",
+            "homekit": "Recarregar HomeKit",
+            "min_max": "Recarregar entidades Mín. / Máx.",
+            "history_stats": "Recarregar entidades de estatísticas de histórico",
+            "trend": "Recarregar entidades de tendência",
+            "ping": "Recarregar entidades de sensor binárias de ping",
+            "filesize": "Recarregar tamanho do ficheiro de entidades",
+            "telegram": "Recarregar os serviços de notificação do Telegram",
+            "smtp": "Recarregar serviços de notificação de smtp",
+            "mqtt": "Recarregar entidades mqtt",
+            "rpi_gpio": "Recarregar entidades Raspberry Pi GPIO"
+          },
+          "server_control": {
+            "perform_action": "{action} Server",
+            "restart": "Restart",
+            "stop": "Stop"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Filtro de Entidades"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant não ouviu nada",
+        "found": "Encontrei o seguinte para você:",
+        "error": "Oops, ocorreu um erro",
+        "how_can_i_help": "Como posso ajudar?",
+        "label": "Digite uma pergunta e pressione 'Enter'",
+        "label_voice": "Digite e pressione 'Enter' ou toque no microfone para falar"
+      },
+      "generic": {
+        "cancel": "Cancelar",
+        "ok": "OK",
+        "default_confirmation_title": "Você tem certeza?",
+        "close": "fechar"
+      },
+      "image_cropper": { "crop": "Recortar" },
+      "more_info_control": {
+        "dismiss": "Dispensar diálogo",
+        "settings": "Configurações da entidade",
+        "edit": "Editar entidade",
+        "details": "Detalhes",
+        "history": "Histórico",
+        "last_changed": "Last changed",
+        "last_updated": "Última atualização",
+        "script": {
+          "last_action": "Última Ação",
+          "last_triggered": "Último disparo"
+        },
+        "sun": {
+          "elevation": "Elevação",
+          "rising": "Nascendo",
+          "setting": "Se pondo"
+        },
+        "updater": { "title": "Atualizar Instruções" },
+        "restored": {
+          "not_provided": "Esta entidade está atualmente indisponível e é um órfã de uma integração ou dispositivo removido, alterado ou disfuncional.",
+          "remove_intro": "Se a entidade não estiver mais em uso, você pode limpá-la removendo-a.",
+          "remove_action": "Remover entidade",
+          "confirm_remove_title": "Remover entidade?",
+          "confirm_remove_text": "Tem certeza de que deseja remover esta entidade?"
+        },
+        "vacuum": {
+          "status": "Estado",
+          "commands": "Comandos do aspirador de pó:",
+          "fan_speed": "Velocidade do ventilador",
+          "start": "Iniciar",
+          "pause": "Pausar",
+          "stop": "Parar",
+          "clean_spot": "Limpar local",
+          "locate": "Localizar",
+          "return_home": "Voltar para casa",
+          "start_pause": "Iniciar / Pausar"
+        },
+        "person": { "create_zone": "Criar zona a partir da localização atual" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "Controles"
+      },
+      "entity_registry": {
+        "settings": "Configurações",
+        "control": "Controle",
+        "related": "Relacionado",
+        "dismiss": "Dispensar",
+        "no_unique_id": "Essa entidade não possui um ID exclusivo; portanto, suas configurações não podem ser gerenciadas a partir da interface do usuário.",
+        "faq": "documentação",
+        "editor": {
+          "name": "Sobrescrever nome",
+          "icon": "Sobrescrever ícone",
+          "icon_error": "Os ícones devem estar no formato 'prefixo:nome do ícone', ex: 'mdi:home'.",
+          "entity_id": "ID da entidade",
+          "unavailable": "Esta entidade não está disponível no momento.",
+          "enabled_label": "Ativar entidade",
+          "enabled_cause": "Desativado por {cause}.",
+          "enabled_description": "Entidades desativadas não serão adicionadas ao Home Assistant.",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "Excluir",
+          "confirm_delete": "Tem certeza que você deseja excluir esta entrada?",
+          "update": "Atualizar",
+          "note": "Nota: isso talvez ainda não funcione com todas as integrações."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "A integração {platform} não está carregada. Por favor adicione-a em sua configuração adicionando 'default_config:' ou ''{platform}:''.",
+        "yaml_not_editable": "As configurações desta entidade não podem ser editadas a partir da interface do usuário. Somente entidades configuradas a partir da interface do usuário são configuráveis a partir da interface do usuário.",
+        "required_error_msg": "Este campo é obrigatório",
+        "generic": { "name": "Nome", "icon": "Ícone" },
+        "input_datetime": {
+          "date": "Data",
+          "time": "Hora",
+          "datetime": "Data e hora",
+          "mode": "O que você deseja inserir"
+        },
+        "input_text": {
+          "min": "Comprimento mínimo",
+          "max": "Comprimento máximo",
+          "mode": "Modo de exibição",
+          "text": "Texto",
+          "password": "Senha",
+          "pattern": "Padrão Regex para validação do lado do cliente"
+        },
+        "input_number": {
+          "min": "Valor mínimo",
+          "max": "Valor máximo",
+          "mode": "Modo de exibição",
+          "box": "Campo de entrada",
+          "slider": "Controle deslizante",
+          "step": "Tamanho da etapa",
+          "unit_of_measurement": "Unidade de medida"
+        },
+        "input_select": {
+          "options": "Opções",
+          "add_option": "Adicionar opção",
+          "no_options": "Ainda não há opções.",
+          "add": "Adicionar"
+        },
+        "counter": {
+          "minimum": "Minimum value",
+          "maximum": "Maximum value",
+          "initial": "Initial value",
+          "restore": "Restore the last known value when Home Assistant starts",
+          "step": "Step size"
+        },
+        "timer": { "duration": "Duration" }
+      },
+      "options_flow": {
+        "form": { "header": "Opções" },
+        "success": { "description": "Opções salvas com sucesso." }
+      },
+      "config_entry_system_options": {
+        "title": "Opções do sistema para {integration}",
+        "enable_new_entities_label": "Habilitar entidades recém-adicionadas.",
+        "enable_new_entities_description": "Se desativadas, as entidades recém-descobertas de {integration} não serão automaticamente adicionadas ao Home Assistant.",
+        "update": "Atualizar"
+      },
+      "zha_device_info": {
+        "manuf": "por {manufacturer}",
+        "no_area": "Sem área",
+        "device_signature": "Assinatura do dispositivo Zigbee",
+        "buttons": {
+          "add": "Adicionar dispositivos através deste dispositivo",
+          "remove": "Remover dispositivo",
+          "clusters": "Gerenciar Grupos",
+          "reconfigure": "Reconfigurar O Dispositivo",
+          "zigbee_information": "Assinatura de dispositivo Zigbee"
+        },
+        "services": {
+          "reconfigure": "Reconfigure o dispositivo ZHA (curar dispositivo). Use isto se você estiver tendo problemas com o dispositivo. Se o dispositivo em questão for um dispositivo alimentado por bateria, certifique-se de que ele esteja ativo e aceitando comandos ao usar esse serviço.",
+          "updateDeviceName": "Definir um nome personalizado para este dispositivo no registro de dispositivos.",
+          "remove": "Remove um dispositivo da rede Zigbee.",
+          "zigbee_information": "Veja as informações Zigbee do dispositivo."
+        },
+        "confirmations": {
+          "remove": "Tem a certeza que quer remover o dispositivo?"
+        },
+        "quirk": "Quirk",
+        "last_seen": "Visto pela última vez",
+        "power_source": "Fonte de energia",
+        "unknown": "Desconhecido",
+        "zha_device_card": {
+          "device_name_placeholder": "Alterar o nome do dispositivo",
+          "area_picker_label": "Área",
+          "update_name_button": "Atualizar Nome"
+        }
+      },
+      "domain_toggler": {
+        "title": "Alternar Domínios",
+        "reset_entities": "Reiniciar Entidades"
+      },
+      "mqtt_device_debug_info": {
+        "title": "Informação de depuração de {device}",
+        "deserialize": "Tentativa de analisar mensagens MQTT como JSON",
+        "entities": "Entidades",
+        "no_entities": "Nenhuma entidade",
+        "no_triggers": "Nenhum gatilhos",
+        "payload_display": "Exibição de carga",
+        "recent_messages": "{n} mensagem(ns) recebida(s) mais recentemente",
+        "show_as_yaml": "Mostrar como YAML",
+        "triggers": "Gatilhos"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\none {second}\nother {seconds}\n}",
+      "minute": "{count} {count, plural,\none {minuto}\nother {minutos}\n}",
+      "hour": "{count} {count, plural,\none {hora}\nother {horas}\n}",
+      "day": "{count} {count, plural,\none {dia}\nother {dias}\n}",
+      "week": "{count} {count, plural,\none {semana}\nother {semanas}\n}"
+    },
+    "login-form": {
+      "password": "Senha",
+      "remember": "Lembrar",
+      "log_in": "Entrar"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Clique no botão para configurar {entity}",
+      "empty": "Sem notificações",
+      "title": "Notificações",
+      "close": "Fechar",
+      "dismiss_all": "Dismiss all"
+    },
+    "notification_toast": {
+      "service_call_failed": "Falha ao chamar o serviço {service}.",
+      "connection_lost": "Conexão perdida. Reconectando…",
+      "started": "O Home Assistant foi iniciado!",
+      "starting": "O Home Assistant está iniciando, algumas funcionalidades podem estar indisponíveis até que esteja iniciado.",
+      "triggered": "{name} disparado",
+      "dismiss": "Dismiss"
+    },
+    "sidebar": {
+      "external_app_configuration": "Configuração do aplicativo",
+      "sidebar_toggle": "Alternar barra lateral",
+      "done": "Feito"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "Meus Calendários", "today": "Hoje" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Tem certeza de que deseja excluir este cartão?",
+          "empty_state": {
+            "title": "Bem-vindo a casa",
+            "no_devices": "Esta página permite que você controle seus dispositivos, no entanto, parece que você ainda não tem dispositivos configurados. Vá até a página de integrações para começar.",
+            "go_to_integrations_page": "Vá para a página de integrações."
+          },
+          "entities": { "never_triggered": "Nunca disparado" },
+          "shopping-list": {
+            "checked_items": "Itens marcados",
+            "clear_items": "Limpar itens marcados",
+            "add_item": "Adicionar item"
+          },
+          "picture-elements": {
+            "hold": "Aguarde:",
+            "tap": "Toque:",
+            "navigate_to": "Navegue até {location}",
+            "url": "Abrir janela para {url_path}",
+            "toggle": "Alternar {name}",
+            "call_service": "Iniciar Serviço {name}",
+            "more_info": "Mostrar mais informações: {name}"
+          },
+          "safe-mode": {
+            "header": "Modo de segurança ativado",
+            "description": "O Home Assistant teve problemas ao carregar sua configuração e agora está sendo executado no modo de segurança. Dê uma olhada no log de erros para ver o que deu errado."
+          },
+          "starting": {
+            "description": "O Home Assistant está iniciando, por favor aguarde...",
+            "header": "O Home Assistant está iniciando..."
+          }
+        },
+        "unused_entities": {
+          "title": "Entidades não utilizadas",
+          "available_entities": "Essas são as entidades que você tem disponíveis, mas ainda não estão na sua interface do Lovelace.",
+          "select_to_add": "Selecione as entidades que você deseja adicionar a um cartão e clique no botão Adicionar cartão.",
+          "entity": "Entidade",
+          "entity_id": "ID da entidade",
+          "domain": "Domínio",
+          "last_changed": "Última alteração",
+          "search": "Procurar entidades",
+          "no_data": "Nenhuma entidade não utilizada encontrada"
+        },
+        "add_entities": {
+          "yaml_unsupported": "Você não pode usar esta função ao usar a UI do Lovelace no modo YAML.",
+          "generated_unsupported": "Você só pode usar esta função quando tiver assumido o controle da UI do Lovelace.",
+          "saving_failed": "Falha ao salvar a configuração da UI do Lovelace."
+        },
+        "views": {
+          "confirm_delete": "Excluir visualização",
+          "confirm_delete_text": "Tem a certeza que quer apagar a visualização ''{name}''?",
+          "confirm_delete_existing_cards": "Eliminar esta visualização vai também remover os cartões",
+          "confirm_delete_existing_cards_text": "Tem certeza de que deseja excluir a visualização ''{name}''? Ela contém {number} cartões que serão excluídos. Esta ação não pode ser desfeita."
+        },
+        "menu": {
+          "configure_ui": "Configurar “interface” do usuário",
+          "help": "Ajuda",
+          "start_conversation": "Start conversation",
+          "reload_resources": "Recarregar recursos",
+          "exit_edit_mode": "Sair do modo de edição de interface",
+          "close": "Fechar",
+          "refresh": "Atualizar"
+        },
+        "reload_resources": {
+          "refresh_header": "Deseja atualizar?",
+          "refresh_body": "Você precisa atualizar a página para concluir a recarga. Deseja atualizar agora?"
+        },
+        "editor": {
+          "header": "Editar “interface” do usuário",
+          "menu": {
+            "open": "Abra o menu da Interface Lovelace",
+            "raw_editor": "Editor de configuração RAW"
+          },
+          "common": {
+            "edit": "Editar",
+            "clear": "Limpar",
+            "add": "Adicionar",
+            "none": "Nenhum"
+          },
+          "raw_editor": {
+            "header": "Editar Configuração",
+            "save": "Salvar",
+            "unsaved_changes": "Alterações não salvas",
+            "saved": "Salvo",
+            "confirm_remove_config_title": "Tem certeza de que deseja remover a configuração da interface Lovelace? Geraremos automaticamente visualizações da interface Lovelace com suas áreas e dispositivos.",
+            "confirm_remove_config_text": "Geraremos automaticamente suas visualizações da interface do usuário do Lovelace com suas áreas e dispositivos se você remover a configuração da interface do usuário do Lovelace.",
+            "confirm_unsaved_changes": "Você tem alterações não salvas. Tem certeza de que deseja sair?",
+            "confirm_unsaved_comments": "Sua configuração contém comentário(s), eles não serão salvos. Você quer continuar?",
+            "error_parse_yaml": "Não foi possível analisar o YAML: {error}",
+            "error_invalid_config": "Sua configuração não é válida: {error}",
+            "error_save_yaml": "Não foi possível salvar o YAML: {error}",
+            "error_remove": "Não foi possível remover a configuração: {error}",
+            "resources_moved": "Os recursos não devem mais ser adicionados à configuração do Lovelace, mas podem ser adicionados no painel de configuração do Lovelace."
+          },
+          "edit_lovelace": {
+            "header": "Título da sua interface do Lovelace",
+            "explanation": "Este título é mostrado acima de todas as suas visualizações no Lovelace.",
+            "edit_title": "Editar título",
+            "title": "Título"
+          },
+          "edit_view": {
+            "header": "Configurações",
+            "header_name": "Configuração da Visualização {name}",
+            "add": "Editar visualização",
+            "edit": "Editar visualização",
+            "delete": "Excluir visualização",
+            "move_left": "Mover à esquerda",
+            "move_right": "Mover à direita",
+            "tab_settings": "Configurações",
+            "tab_badges": "Distintivos",
+            "tab_visibility": "Visibilidade",
+            "visibility": {
+              "select_users": "Selecione quais usuários devem ver essa visualização na navegação"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "These badges will not be displayed because this view is in \"Panel Mode\"."
+          },
+          "edit_card": {
+            "header": "Configuração de cartão",
+            "typed_header": "Configuração do cartão {type}",
+            "pick_card": "Qual card você gostaria de adicionar?",
+            "pick_card_view_title": "Qual cartão você gostaria de adicionar à sua visualização {name} ?",
+            "toggle_editor": "Alternar Editor",
+            "unsaved_changes": "Você tem alterações não salvas",
+            "confirm_cancel": "Tem certeza de que deseja cancelar?",
+            "show_visual_editor": "Mostrar Editor Visual",
+            "show_code_editor": "Mostrar Editor de Código",
+            "add": "Adicionar Cartão",
+            "edit": "Editar",
+            "clear": "Limpar",
+            "delete": "Excluir Cartão",
+            "duplicate": "Duplicar",
+            "move": "Mover para Visualização",
+            "move_before": "Mover cartão antes de",
+            "move_after": "Mover cartão após",
+            "options": "Mais opções",
+            "search_cards": "Procurar cartões"
+          },
+          "move_card": {
+            "header": "Selecione uma tela para onde mover este cartão"
+          },
+          "select_view": {
+            "header": "Selecione uma tela",
+            "dashboard_label": "Painel de controle"
+          },
+          "suggest_card": {
+            "header": "Criamos uma sugestão para você",
+            "create_own": "Escolha cartão diferente",
+            "add": "Adicionar a UI do Lovelace"
+          },
+          "save_config": {
+            "header": "Assuma o controle da sua interface do Lovelace",
+            "para": "Este painel está sendo atualmente mantido pelo Home Assistant. É atualizado automaticamente quando novas entidades ou componentes da interface do Lovelace ficam disponíveis. Se você assumir o controle, esse painel não será mais atualizado automaticamente. Alternativamente, você pode criar um novo painel na configuração para brincar.",
+            "para_sure": "Tem certeza de que deseja assumir o controle da sua interface de usuário?",
+            "yaml_mode": "Você está usando o modo YAML para este painel, o que significa que não é possível alterar a configuração do Lovelace na interface. Se você deseja gerenciar esse painel na interface do usuário, remova 'mode: yaml' da configuração do Lovelace em 'configuration.yaml.'",
+            "yaml_control": "Para assumir o controle no modo YAML, crie um arquivo YAML com o nome que você especificou na sua configuração para este painel ou arquivo padrão 'ui-lovelace.yaml'.",
+            "yaml_config": "Para ajudá-lo a começar, aqui está a configuração atual deste painel:",
+            "empty_config": "Comece com um painel de instrumentos vazio",
+            "cancel": "Esquecer",
+            "close": "Fechar",
+            "save": "Assuma o controle"
+          },
+          "migrate": {
+            "header": "Configuração Incompatível",
+            "para_no_id": "Este elemento não possui um ID. Por favor adicione um ID a este elemento em 'ui-lovelace.yaml'.",
+            "para_migrate": "O Home Assistant pode adicionar IDs a todos os seus cards e visualizações automaticamente clicando no botão 'Migrar configuração'.",
+            "migrate": "Migrar configuração"
+          },
+          "action-editor": {
+            "navigation_path": "URL de navegação",
+            "url_path": "Caminho de Url",
+            "editor_service_data": "Os dados de serviço só podem ser inseridos no editor de código",
+            "actions": {
+              "default_action": "Ação Padrão",
+              "call-service": "Iniciar Serviço",
+              "more-info": "Mais Informações",
+              "toggle": "Alternar",
+              "navigate": "Navegar",
+              "url": "URL",
+              "none": "Sem Ação"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Painel de Alarme",
+              "available_states": "Estados Disponíveis",
+              "description": "O cartão Painel de alarme permite que você arme e desarme as integrações do painel de controle de alarme."
+            },
+            "calendar": {
+              "name": "Calendário",
+              "description": "O cartão do Calendário exibe um calendário incluindo dia, semana e visualizações de lista",
+              "inital_view": "Vista Inicial",
+              "calendar_entities": "Entidades do calendário",
+              "views": {
+                "dayGridMonth": "Mês",
+                "dayGridDay": "Dia",
+                "listWeek": "Lista"
+              }
+            },
+            "conditional": {
+              "name": "Condicional",
+              "description": "O cartão Condicional exibe outro cartão com base nos estados de entidades.",
+              "conditions": "Condições",
+              "card": "Cartão",
+              "state_equal": "Estado é igual a",
+              "state_not_equal": "Estado não é igual a",
+              "current_state": "atual",
+              "condition_explanation": "O cartão será exibido quando TODAS as condições abaixo forem cumpridas.",
+              "change_type": "Alterar tipo"
+            },
+            "config": { "required": "Obrigatório", "optional": "Opcional" },
+            "entities": {
+              "name": "Entidades",
+              "show_header_toggle": "Mostrar Alternador do Cabeçalho?",
+              "toggle": "Alternar entidades.",
+              "description": "O cartão das Entidades é o tipo de cartão mais comum. Ele agrupa os itens em listas.",
+              "special_row": "linha especial",
+              "edit_special_row": "Veja os detalhes desta linha clicando no botão editar",
+              "entity_row_editor": "Editor de Linha de Entidade",
+              "secondary_info_values": {
+                "none": "Sem informações secundárias",
+                "entity-id": "ID da entidade",
+                "last-changed": "Última modificação",
+                "last-triggered": "Último Disparo",
+                "position": "Posição",
+                "tilt-position": "Posição de inclinação",
+                "brightness": "Brilho",
+                "last-updated": "Last Updated"
+              },
+              "entity_row": {
+                "divider": "Divisor",
+                "call-service": "Serviço de chamada",
+                "section": "Seção",
+                "weblink": "Ligação Web",
+                "attribute": "Atributo",
+                "buttons": "Botões",
+                "conditional": "Condicional",
+                "cast": "Cast",
+                "button": "Botão"
+              }
+            },
+            "entity": {
+              "name": "Entidade",
+              "description": "O cartão Entidade fornece uma visão rápida do estado de uma entidade."
+            },
+            "button": {
+              "name": "Botão",
+              "description": "O cartão Botão permite adicionar botões para executar tarefas.",
+              "default_action_help": "A ação padrão depende dos recursos da entidade, ela será alternada ou mais informações serão mostradas."
+            },
+            "entity-filter": {
+              "name": "Entidade Filtro",
+              "description": "O cartão Filtro de Entidade permite definir uma lista de entidades que você quer ver apenas quando em um determinado estado."
+            },
+            "gauge": {
+              "name": "Indicador",
+              "severity": {
+                "define": "Definir gravidade?",
+                "green": "Verde",
+                "red": "Vermelho",
+                "yellow": "Amarelo"
+              },
+              "description": "O cartão Medidor é um cartão básico que permite ver visualmente os dados de um sensor."
+            },
+            "glance": {
+              "name": "Relance",
+              "columns": "Colunas",
+              "description": "O cartão Relance é útil para agrupar vários sensores em uma visão compacta."
+            },
+            "grid": {
+              "name": "Grid",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "Gráfico de histórico",
+              "description": "O cartão Gráfico Histórico permite exibir um gráfico para cada uma das entidades listadas."
+            },
+            "horizontal-stack": {
+              "name": "Pilha horizontal",
+              "description": "O cartão Pilha Horizontal permite empilhar vários cartões, para que eles sempre fiquem próximos um do outro no espaço de uma coluna."
+            },
+            "humidifier": {
+              "name": "Umidificador",
+              "description": "O cartão Umidificador fornece controle da sua entidade de umidificador. Permite alterar a umidade e o modo da entidade."
+            },
+            "iframe": {
+              "name": "Página Web",
+              "description": "O cartão de Página Web permite incorporar sua página web favorita diretamente no Home Assistant."
+            },
+            "light": {
+              "name": "Luz",
+              "description": "O cartão Luz permite mudar a luminosidade da luz."
+            },
+            "generic": {
+              "aspect_ratio": "Proporção da tela",
+              "attribute": "Atributo",
+              "camera_image": "Entidade da câmera",
+              "camera_view": "Vista da câmera",
+              "double_tap_action": "Ação de toque duplo",
+              "entities": "Entidades",
+              "entity": "Entidade",
+              "hold_action": "Manter Ação",
+              "hours_to_show": "Horas a Mostrar",
+              "icon": "Ícone",
+              "icon_height": "Altura do ícone",
+              "image": "Caminho da imagem",
+              "maximum": "Máximo",
+              "manual": "Manual",
+              "manual_description": "Precisa adicionar um cartão personalizado ou apenas escrever manualmente o yaml?",
+              "minimum": "Mínimo",
+              "name": "Nome",
+              "refresh_interval": "Intervalo de atualização",
+              "show_icon": "Mostrar Icone?",
+              "show_name": "Mostrar nome?",
+              "show_state": "Mostrar Estado?",
+              "tap_action": "Ação de toque",
+              "title": "Título",
+              "theme": "Tema",
+              "no_theme": "Nenhum tema",
+              "unit": "Unidade",
+              "url": "URL",
+              "state": "Estado",
+              "secondary_info_attribute": "Atributo de informação secundária",
+              "search": "Procurar",
+              "state_color": "Colorir ícones baseado no estado?"
+            },
+            "map": {
+              "name": "Mapa",
+              "geo_location_sources": "Fontes de geolocalização",
+              "dark_mode": "Modo escuro?",
+              "default_zoom": "Zoom padrão",
+              "hours_to_show": "Horas a Mostrar",
+              "source": "Origem",
+              "description": "O cartão Mapa permite visualizar entidades num mapa."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Conteúdo",
+              "description": "O cartão Markdown é usado para renderizar Markdown."
+            },
+            "media-control": {
+              "name": "Controle de Mídia",
+              "description": "O cartão Controle de Mídia é usado para exibir entidades reprodutores de mídia em uma interface com controles fáceis de usar."
+            },
+            "picture": {
+              "name": "Imagem",
+              "description": "O cartão Imagem permite que você defina uma imagem para navegar em sua interface ou para chamar um serviço."
+            },
+            "picture-elements": {
+              "name": "Elementos de Imagem",
+              "description": "O cartão Elementos de Imagem é um dos tipos de cartões mais versáteis. Ele permite que você posicione ícones, texto e até serviços em uma imagem usando coordenadas."
+            },
+            "picture-entity": {
+              "name": "Entidade Imagem",
+              "description": "O cartão Entidade de Imagem exibe uma entidade na forma de uma imagem. Em vez de imagens de URL, ele também pode mostrar a imagem de entidades de câmera."
+            },
+            "picture-glance": {
+              "name": "Relance de Imagem",
+              "description": "O cartão Imagem de Relance mostra uma imagem e estados correspondentes da entidade como um ícone. As entidades do lado direito permitem alternar ações, outras mostram diálogo com mais informações."
+            },
+            "plant-status": {
+              "name": "Estado da planta",
+              "description": "O cartão Estado de Plantas é para todos os botânicos adoráveis por aí."
+            },
+            "sensor": {
+              "name": "Sensor",
+              "show_more_detail": "Mostrar mais detalhes",
+              "graph_type": "Tipo de gráfico",
+              "description": "O cartão Sensor oferece uma visão rápida do estado de seus sensores com um gráfico opcional para visualizar a mudança ao longo do tempo.",
+              "graph_detail": "Detalhe do gráfico"
+            },
+            "shopping-list": {
+              "name": "Lista de compras",
+              "description": "O cartão da Lista de Compras permite adicionar, editar, fazer check-off e limpar itens da sua lista de compras.",
+              "integration_not_loaded": "Este cartão requer que a integração `shopping_list` tenha sido configurada."
+            },
+            "thermostat": {
+              "name": "Termostato",
+              "description": "O cartão Termostato fornece controle da sua entidade climática. Permite alterar a temperatura e o modo da entidade."
+            },
+            "vertical-stack": {
+              "name": "Pilha vertical",
+              "description": "O cartão Pilha vertical permite agrupar vários cartões para que eles sempre fiquem na mesma coluna."
+            },
+            "weather-forecast": {
+              "name": "Previsão do Tempo",
+              "description": "O cartão Previsão do tempo exibe o clima. Muito útil para incluir nas interfaces que as pessoas exibem na parede.",
+              "show_forecast": "Mostrar previsão"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Modo Painel?",
+              "description": "Isso renderiza o primeiro cartão em largura total; outros cartões nesta visualização não serão renderizados.",
+              "warning_multiple_cards": "Esta visualização contém mais de uma cartão, mas uma visualização de modo painel só pode mostrar 1 cartão."
+            }
+          },
+          "cardpicker": {
+            "no_description": "Nenhuma descrição disponível",
+            "custom_card": "Personalizado",
+            "domain": "Domínio",
+            "entity": "Entidade",
+            "by_entity": "Por Entidade",
+            "by_card": "Por Cartão"
+          },
+          "header-footer": {
+            "header": "Cabeçalho",
+            "footer": "Rodapé",
+            "choose_header_footer": "Escolhe um {type}",
+            "types": {
+              "graph": { "name": "Gráfico" },
+              "picture": { "name": "Imagem" },
+              "buttons": { "name": "Botões" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Editor de Cabeçalho",
+              "footer": "Editor de Rodapé",
+              "row": "Editor de Linha de Entidade"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "O atributo {attribute} não está disponível em: {entity}",
+          "entity_not_found": "Entidade não disponível: {entity}",
+          "entity_non_numeric": "Entidade não é numérica: {entity}",
+          "entity_unavailable": "{entity} não está disponível",
+          "starting": "O Home Assistant está iniciando, algumas funcionalidades podem estar temporariamente indisponíveis"
+        },
+        "changed_toast": {
+          "message": "A configuração da Interface Lovelace foi atualizada, você gostaria de recarregar para ver as modificações?",
+          "refresh": "Atualizar"
+        },
+        "reload_lovelace": "Recarregar Interface Lovelace"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Você confia no painel externo {name} em {link} ?",
+          "complete_access": "Terá acesso a todos os dados do Home Assistant.",
+          "hide_message": "Verifique a documentação do componente panel_custom para ocultar esta mensagem."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "今天",
+          "yesterday": "昨天",
+          "this_week": "本周",
+          "last_week": "上周"
+        },
+        "period": "日期范围",
+        "showing_entries": "显示自以下日期的图表"
+      }
+    }
+  }
+}

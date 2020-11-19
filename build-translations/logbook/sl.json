@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Danes",
+          "yesterday": "Včeraj",
+          "this_week": "Ta teden",
+          "last_week": "Prejšnji teden"
+        },
+        "entries_not_found": "Ni vpisov v dnevnike.",
+        "period": "Obdobje",
+        "showing_entries": "Prikaz vnosov za"
+      }
+    }
+  }
+}

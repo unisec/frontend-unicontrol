@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "今日",
+          "yesterday": "昨日",
+          "this_week": "今週",
+          "last_week": "先週"
+        },
+        "period": "期間",
+        "showing_entries": "のエントリを表示する"
+      }
+    }
+  }
+}

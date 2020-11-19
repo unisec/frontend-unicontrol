@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Сегодня",
+          "yesterday": "Вчера",
+          "this_week": "Эта неделя",
+          "last_week": "Прошедшая неделя"
+        },
+        "entries_not_found": "В журнале нет записей.",
+        "period": "Период",
+        "showing_entries": "Отображение записей за"
+      }
+    }
+  }
+}

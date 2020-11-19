@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Ավելացնել իր",
+        "clear_completed": "Մաքրել ավարտվածները",
+        "microphone_tip": "Հպեք խոսափողը վերևի աջ կողմում և ասեք. “Add candy to my shopping list”"
+      }
+    }
+  }
+}

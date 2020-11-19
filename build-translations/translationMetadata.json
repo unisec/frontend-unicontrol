@@ -1,0 +1,237 @@
+{
+  "fragments": [
+    "config",
+    "history",
+    "logbook",
+    "mailbox",
+    "profile",
+    "shopping-list",
+    "page-authorize",
+    "page-demo",
+    "page-onboarding",
+    "developer-tools"
+  ],
+  "translations": {
+    "af": {
+      "nativeName": "Afrikaans",
+      "hash": "2cb285a51c91187fee376a394373126a"
+    },
+    "ar": {
+      "nativeName": "العربية",
+      "isRTL": true,
+      "hash": "0b07d133f4f86354f1c1a93a9fa9fe66"
+    },
+    "bg": {
+      "nativeName": "Български",
+      "hash": "a2a7033336164342e46e4dd7957698da"
+    },
+    "bs": {
+      "nativeName": "Bosanski",
+      "hash": "893093f845665a479b155b93cdff8a2c"
+    },
+    "ca": {
+      "nativeName": "Català",
+      "hash": "9695e910f926b8dfd971a4fdc454c0a7"
+    },
+    "cs": {
+      "nativeName": "Čeština",
+      "hash": "70dea9b28658eb6c2b8321dc8493cf09"
+    },
+    "cy": {
+      "nativeName": "Cymraeg",
+      "hash": "ac33542af3aad9f3815895c001e03a17"
+    },
+    "da": { "nativeName": "Dansk", "hash": "7841e8289103d13b78692d6208c891cd" },
+    "de": {
+      "nativeName": "Deutsch",
+      "hash": "5423509eb9d8c6e6da073affc941ead6"
+    },
+    "el": {
+      "nativeName": "Ελληνικά",
+      "hash": "86cf1efd6c1b332d00b5b90c9b5f3c93"
+    },
+    "en": {
+      "nativeName": "English",
+      "hash": "b1e8cb73139376f8196901fb576acf56"
+    },
+    "en-GB": {
+      "nativeName": "English (GB)",
+      "hash": "b1e8cb73139376f8196901fb576acf56"
+    },
+    "eo": {
+      "nativeName": "Esperanto",
+      "hash": "8b58f0d629ca3c207c1017038c2a555d"
+    },
+    "es": {
+      "nativeName": "Español",
+      "hash": "3bd3d074b7ff869ce4d33982328f30a2"
+    },
+    "es-419": {
+      "nativeName": "Español (Latin America)",
+      "hash": "1dcff3221e29183d2726ad8553f5e005"
+    },
+    "et": { "nativeName": "Eesti", "hash": "6c69bea971bde9b9d50c4a59ee59b913" },
+    "eu": {
+      "nativeName": "Euskara",
+      "hash": "c8c578b2709f737ce691c6455b4f5608"
+    },
+    "fa": {
+      "nativeName": "فارسی",
+      "isRTL": true,
+      "hash": "6bdb7b62ee4fad025736768458b83220"
+    },
+    "fi": { "nativeName": "Suomi", "hash": "301dd7f8bc07f0a353a31ff876f6fd3e" },
+    "fy": { "nativeName": "Frysk", "hash": "dca4b6c954ad56a20d0fe85e1a5dc20a" },
+    "fr": {
+      "nativeName": "Français",
+      "hash": "88df017a75766c3f2e5036e166bc0d4c"
+    },
+    "gl": {
+      "nativeName": "Galego",
+      "hash": "b1e8cb73139376f8196901fb576acf56"
+    },
+    "gsw": {
+      "nativeName": "Schwiizerdütsch",
+      "hash": "bdc6b3e06523e716aadebf5686faadde"
+    },
+    "he": {
+      "nativeName": "עברית",
+      "isRTL": true,
+      "hash": "d8ada3467898c7e4c0ce2e35efc97206"
+    },
+    "hi": {
+      "nativeName": "हिन्दी",
+      "hash": "e1cf46a77572c1636ebe8308a0799393"
+    },
+    "hr": {
+      "nativeName": "Hrvatski",
+      "hash": "116117327bf3b4212359aedd87be54d2"
+    },
+    "hu": {
+      "nativeName": "Magyar",
+      "hash": "91644efc70511b1348d60d59ae6350b3"
+    },
+    "hy": {
+      "nativeName": "Հայերեն",
+      "hash": "32c5d6524900c256f388913783b2f6dd"
+    },
+    "id": {
+      "nativeName": "Indonesia",
+      "hash": "4e6bf6128416f563990a443f0bb33248"
+    },
+    "it": {
+      "nativeName": "Italiano",
+      "hash": "6b0f5752db5cb109cbaa5dea3c5bcfde"
+    },
+    "is": {
+      "nativeName": "Íslenska",
+      "hash": "50637c875b016fe26cebc3c2bcc2997b"
+    },
+    "ja": {
+      "nativeName": "日本語",
+      "hash": "9e84e56680ef678667290ca6634e239c"
+    },
+    "ko": {
+      "nativeName": "한국어",
+      "hash": "535abfd262648fc12599088902593ffa"
+    },
+    "lb": {
+      "nativeName": "Lëtzebuergesch",
+      "hash": "b4d9a8ff8ef7d3e977ff4fe96da84e71"
+    },
+    "lt": {
+      "nativeName": "Lietuvių",
+      "hash": "e316285e0e97b1cd9b151cef73514f18"
+    },
+    "lv": {
+      "nativeName": "Latviešu",
+      "hash": "4b5788ffc9a2eb038ca2208c1941487a"
+    },
+    "nl": {
+      "nativeName": "Nederlands",
+      "hash": "b87d75e124d9e35b35dafe27048a7dfe"
+    },
+    "nb": {
+      "nativeName": "Norsk Bokmål",
+      "hash": "9277c3c4bc96f208677cbbd7a1b04ed6"
+    },
+    "nn": {
+      "nativeName": "Norsk Nynorsk",
+      "hash": "b0e726f44f5eb77047b36b6d20f32019"
+    },
+    "pl": {
+      "nativeName": "Polski",
+      "hash": "35415353acf565a4a463c4343da59cff"
+    },
+    "pt": {
+      "nativeName": "Português",
+      "hash": "473c7e279e71ecd9352a3d14fdc69f0a"
+    },
+    "pt-BR": {
+      "nativeName": "Português (BR)",
+      "hash": "904c4549bcd48a5d2ebf8befc23c489d"
+    },
+    "ro": {
+      "nativeName": "Română",
+      "hash": "0dbca599e8301cc2d8ae6a2971d8fcf8"
+    },
+    "ru": {
+      "nativeName": "Русский",
+      "hash": "ec71bb75076ab28eb7c9a2be4dee482c"
+    },
+    "sk": {
+      "nativeName": "Slovenčina",
+      "hash": "708513ce5cfc4a519cb8499811454c9e"
+    },
+    "sl": {
+      "nativeName": "Slovenščina",
+      "hash": "9c33cc1f2025b589defa276999391f8a"
+    },
+    "sr": {
+      "nativeName": "Српски",
+      "hash": "122bc4f46e49cf418100a4ee3d0b763f"
+    },
+    "sr-Latn": {
+      "nativeName": "Srpski",
+      "hash": "2c8ad9564215cf9ec28f431b32b320f7"
+    },
+    "sv": {
+      "nativeName": "Svenska",
+      "hash": "8331d89773adff83459bcc1c8fcf9cd4"
+    },
+    "ta": { "nativeName": "தமிழ்", "hash": "58cb4f4c5e78acce2022d2c0b7ff265f" },
+    "te": {
+      "nativeName": "తెలుగు",
+      "hash": "e32c7d8aa28c9550e45dea03d7422929"
+    },
+    "th": {
+      "nativeName": "ภาษาไทย",
+      "hash": "4309919e45b5ebbd984e2f8b0faac9ad"
+    },
+    "tr": {
+      "nativeName": "Türkçe",
+      "hash": "d0928b73929b86f9bb1604ac10a261b5"
+    },
+    "uk": {
+      "nativeName": "Українська",
+      "hash": "411b6e180566ed7e5877acfda17bbb95"
+    },
+    "ur": {
+      "nativeName": "اُردُو",
+      "hash": "e19fb9e5173fd234a0079287934902f3"
+    },
+    "vi": {
+      "nativeName": "Tiếng Việt",
+      "hash": "e9325b59e18cfb257ef4ce35808f0ff7"
+    },
+    "zh-Hans": {
+      "nativeName": "简体中文",
+      "hash": "2abc75f52143b070d61bdaaf691db74c"
+    },
+    "zh-Hant": {
+      "nativeName": "繁體中文",
+      "hash": "bf46614331a8e56b1650c457894fc84e"
+    },
+    "test": { "nativeName": "Test", "hash": "45f6f22d37dfd5473eea91fa62fa5b46" }
+  }
+}

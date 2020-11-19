@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Today",
+          "yesterday": "Yesterday",
+          "this_week": "This week",
+          "last_week": "Last week"
+        },
+        "period": "Tydperk",
+        "showing_entries": "Wys inskrywings vir"
+      }
+    }
+  }
+}

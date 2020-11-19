@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Today",
+          "yesterday": "Yesterday",
+          "this_week": "This week",
+          "last_week": "Last week"
+        },
+        "period": "Ժամանակահատված",
+        "showing_entries": "Ցուցադրվում է մուտքագրված  գրառումները"
+      }
+    }
+  }
+}

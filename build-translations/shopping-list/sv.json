@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Lägg till objekt",
+        "clear_completed": "Rensning slutförd",
+        "microphone_tip": "Tryck på mikrofonen längst upp till höger och säg eller skriv \"Add candy to my shopping list\""
+      }
+    }
+  }
+}

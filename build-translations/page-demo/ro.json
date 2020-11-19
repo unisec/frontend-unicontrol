@@ -1,0 +1,47 @@
+{
+  "ui": {
+    "panel": {
+      "page-demo": {
+        "cards": {
+          "demo": {
+            "demo_by": "dupa {name}",
+            "next_demo": "Următorul demo",
+            "introduction": "Bine ai venit acasa! Ați ajuns la demo-ul Home Assistant, unde prezentăm cele mai bune interfețe utilizator, create de comunitatea noastră.",
+            "learn_more": "Aflați mai multe despre Home Assistant"
+          }
+        },
+        "config": {
+          "arsaboo": {
+            "names": {
+              "upstairs": "Etaj",
+              "family_room": "Cameră de familie",
+              "kitchen": "Bucătărie",
+              "patio": "Patio",
+              "hallway": "Hol",
+              "master_bedroom": "Dormitor Principal",
+              "left": "Stânga",
+              "right": "Dreapta",
+              "mirror": "Oglindă",
+              "temperature_study": "Temperature Study"
+            },
+            "labels": {
+              "lights": "Lumini",
+              "information": "Informație",
+              "morning_commute": "Naveta De Dimineață",
+              "commute_home": "Naveta la domiciliu",
+              "entertainment": "Divertisment",
+              "activity": "Activitate",
+              "hdmi_input": "Intrare HDMI",
+              "hdmi_switcher": "Comutator HDMI",
+              "volume": "Volum",
+              "total_tv_time": "Timp total de televiziune",
+              "turn_tv_off": "Opriți televizorul",
+              "air": "Aer"
+            },
+            "unit": { "watching": "vizionare", "minutes_abbr": "min" }
+          }
+        }
+      }
+    }
+  }
+}

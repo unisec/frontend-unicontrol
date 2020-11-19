@@ -1,0 +1,93 @@
+{
+  "ui": {
+    "panel": {
+      "page-authorize": {
+        "initializing": "Inițializează",
+        "authorizing_client": "Sunteți pe punctul de a da {clientId} accesul la instanța dumneavoastra de Home Assistant",
+        "logging_in_with": "Conectare cu **{authProviderName}**.",
+        "pick_auth_provider": "Sau conectați-vă cu",
+        "abort_intro": "Conectare intrerupta",
+        "form": {
+          "working": "Te rog așteaptă",
+          "unknown_error": "Ceva n-a mers bine",
+          "next": "Următorul",
+          "start_over": "Ia-o de la capăt",
+          "error": "Error: {error}",
+          "providers": {
+            "command_line": {
+              "step": {
+                "init": {
+                  "data": { "username": "Utilizator", "password": "Parola" }
+                },
+                "mfa": {
+                  "data": { "code": "Cod Autentificare in doi pasi" },
+                  "description": "Deschideti **{mfa_module_name}** pe dispozitivul d-voastra pentru a vedea codul de 'two-factor authentication' si a va verifica indentitatea:"
+                }
+              },
+              "error": {
+                "invalid_auth": "nume de utilizator sau parola incorecte",
+                "invalid_code": "Cod invalid pentru autentificare"
+              },
+              "abort": {
+                "login_expired": "Sesiunea a expirat, va rugam logati-va din nou."
+              }
+            },
+            "homeassistant": {
+              "step": {
+                "init": {
+                  "data": {
+                    "username": "Nume de utilizator",
+                    "password": "Parola"
+                  }
+                },
+                "mfa": {
+                  "data": { "code": "Autentificare cu doi factori" },
+                  "description": "Deschideti **{mfa_module_name}** pe dispozitivul d-voastra pentru a vedea codul de 'two-factor authentication' si a va verifica indentitatea:"
+                }
+              },
+              "error": {
+                "invalid_auth": "nume de utilizator sau parola incorecte",
+                "invalid_code": "Codul 'Two-factor Authentication' invalid"
+              },
+              "abort": {
+                "login_expired": "Sesiunea a expirat, va rugam logati-va din nou."
+              }
+            },
+            "legacy_api_password": {
+              "step": {
+                "init": {
+                  "data": { "password": "Parola API" },
+                  "description": "Vă rugăm să introduceți parola API în configurația http:"
+                },
+                "mfa": {
+                  "data": { "code": "Autentificare cu doi factori" },
+                  "description": "Deschideti **{mfa_module_name}** pe dispozitivul d-voastra pentru a vedea codul de 'two-factor authentication' si a va verifica indentitatea:"
+                }
+              },
+              "error": {
+                "invalid_auth": "Parola API nevalidă",
+                "invalid_code": "Codul 'Two-factor Authentication' invalid"
+              },
+              "abort": {
+                "no_api_password_set": "Nu aveți o parolă API configurată.",
+                "login_expired": "Sesiunea a expirat, va rugam logati-va din nou."
+              }
+            },
+            "trusted_networks": {
+              "step": {
+                "init": {
+                  "data": { "user": "Utilizator" },
+                  "description": "Selectati utilizatorul cu care doriti sa va logati:"
+                }
+              },
+              "abort": {
+                "not_allowed": "Calculatorul dvs. nu este permis.",
+                "not_whitelisted": "Calculatorul dvs. nu este pe lista albă."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

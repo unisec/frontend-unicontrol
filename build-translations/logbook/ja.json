@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "今日",
+          "yesterday": "昨日",
+          "this_week": "今週",
+          "last_week": "先週"
+        },
+        "entries_not_found": "ログブックエントリが見つかりません。",
+        "period": "期間",
+        "showing_entries": "エントリを表示します"
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Hændelser",
+            "description": "Afsend en hændelse til Home Assistant-hændelses-bussen.",
+            "documentation": "Dokumentationen til hændelser",
+            "type": "Hændelsestype",
+            "data": "Hændelsesdata (YAML, valgfrit)",
+            "fire_event": "Afsend hændelse",
+            "event_fired": "Hændelse {name} afsendt",
+            "available_events": "Tilgængelige hændelser",
+            "count_listeners": " ({count} lyttere)",
+            "listen_to_events": "Lyt til hændelser",
+            "listening_to": "Lytter til",
+            "subscribe_to": "Hændelse at abonnere på",
+            "start_listening": "Start med at lytte",
+            "stop_listening": "Stop med at lytte",
+            "alert_event_type": "Hændelsestype er et obligatorisk felt",
+            "notification_event_fired": "Hændelse {type} blev afsendt!"
+          },
+          "services": {
+            "title": "Tjenester",
+            "description": "Tjenesteværktøjet til udviklere giver dig mulighed for at kalde alle tilgængelige tjenester i Home Assistant.",
+            "data": "Tjenestesdata (YAML, valgfri)",
+            "call_service": "Kald tjeneste",
+            "select_service": "Vælg en tjeneste for at se beskrivelsen",
+            "no_description": "Ingen beskrivelse er tilgængelig",
+            "no_parameters": "Denne tjeneste modtager ingen parametre.",
+            "column_parameter": "Parameter",
+            "column_description": "Beskrivelse",
+            "column_example": "Eksempel",
+            "fill_example_data": "Udfyld eksempeldata",
+            "alert_parsing_yaml": "Fejl under afkodning af YAML: {data}"
+          },
+          "states": {
+            "title": "Tilstande",
+            "description1": "Sæt repræsentationen af en enhed i Home Assistant.",
+            "description2": "Dette vil ikke kommunikere med den faktiske enhed.",
+            "entity": "Entitet",
+            "state": "Tilstand",
+            "attributes": "Egenskaber",
+            "state_attributes": "Tilstandsegenskaber (YAML, valgfri)",
+            "set_state": "Sæt tilstand",
+            "current_entities": "Aktuelle entiteter",
+            "filter_entities": "Filtrer entiteter",
+            "filter_states": "Filtrer tilstande",
+            "filter_attributes": "Filtrer egenskaber",
+            "no_entities": "Ingen entiteter",
+            "more_info": "Mere information",
+            "alert_entity_field": "Entitet er et obligatorisk felt",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "Skabelon",
+            "description": "Skabeloner gengives ved hjælp af Jinja2-skabelonmotoren med nogle Home Assistant-specifikke udvidelser.",
+            "editor": "Skabelonredigering",
+            "reset": "Reset to demo template",
+            "result_type": "Resultattype",
+            "jinja_documentation": "Jinja2-skabelon-dokumentation",
+            "template_extensions": "Skabelon-udvidelser til Home Assistant",
+            "unknown_error_template": "Ukendt fejl ved gengivelse af skabelon",
+            "time": "Denne skabelon opdateres hvert minut",
+            "all_listeners": "This template listens for all state changed events.",
+            "no_listeners": "This template does not listen for any events and will not update automatically.",
+            "listeners": "This template listens for the following state changed events:",
+            "entity": "Entity",
+            "domain": "Domain"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Šiandien",
+          "yesterday": "Yesterday",
+          "this_week": "This week",
+          "last_week": "Last week"
+        },
+        "period": "Laikotarpis"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Vandaag",
+          "yesterday": "Gisteren",
+          "this_week": "Deze week",
+          "last_week": "Vorige week"
+        },
+        "entries_not_found": "Geen logboekvermeldingen gevonden.",
+        "period": "Periode",
+        "showing_entries": "Toont gegevens van"
+      }
+    }
+  }
+}

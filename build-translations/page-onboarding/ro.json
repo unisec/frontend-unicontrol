@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Sunteți gata să vă treziți casa, să vă recuperați intimitatea și să vă alăturați unei comunități mondiale de creatori?",
+        "user": {
+          "intro": "Să începem prin crearea unui cont de utilizator.",
+          "required_field": "Necesar",
+          "data": {
+            "name": "Nume",
+            "username": "Nume de utilizator",
+            "password": "Parola",
+            "password_confirm": "Confirmare parolă"
+          },
+          "create_account": "Creează cont",
+          "error": {
+            "required_fields": "Completați toate câmpurile obligatorii",
+            "password_not_match": "Parolele nu se potrivesc"
+          }
+        },
+        "core-config": {
+          "intro": "Salut {name}, bine ați venit la Home Assistant. Cum ți-ar plăcea să-ți numești casa?",
+          "intro_location": "Am vrea să știm unde locuiți. Aceste informații vă vor ajuta să afișați informații și să configurați automatizări bazate pe soare. Aceste date nu sunt niciodată distribuite în afara rețelei dvs.",
+          "intro_location_detect": "Vă putem ajuta să completați aceste informații făcând o cerere unică unui serviciu extern.",
+          "location_name": "Name of your Home Assistant installation",
+          "location_name_default": "Acasă",
+          "button_detect": "Detecteaza",
+          "finish": "Următorul"
+        },
+        "integration": {
+          "intro": "Dispozitivele și serviciile sunt reprezentate în Home Assistant ca integrări. Aveți posibilitatea să le configurați acum sau să le faceți mai târziu din ecranul de configurare.",
+          "more_integrations": "Mai Mult",
+          "finish": "Termina"
+        },
+        "restore": {
+          "description": "Alternatively you can restore from a previous snapshot.",
+          "in_progress": "Restaurare în curs",
+          "show_log": "Afișați jurnalul complet",
+          "hide_log": "Hide full log"
+        }
+      }
+    }
+  }
+}

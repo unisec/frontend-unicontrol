@@ -1,0 +1,1299 @@
+{
+  "panel": {
+    "calendar": "Kalendrar",
+    "config": "Konfigurasjon",
+    "states": "Oversikt",
+    "map": "Kart",
+    "logbook": "Loggbok",
+    "history": "Historie",
+    "mailbox": "Postkasse",
+    "shopping_list": "Handleliste",
+    "developer_tools": "Utviklarverkty",
+    "media_browser": "Media Browser",
+    "profile": "Profil"
+  },
+  "state": {
+    "default": {
+      "on": "På",
+      "off": "Av",
+      "unknown": "Ukjent",
+      "unavailable": "Utilgjengelig"
+    },
+    "alarm_control_panel": {
+      "armed": "Påslått",
+      "armed_away": "På for borte",
+      "armed_custom_bypass": "Armert tilpassa unntak",
+      "armed_home": "På for heime",
+      "armed_night": "På for natta",
+      "arming": "Skrur på",
+      "disarmed": "Avslått",
+      "disarming": "Skrur av",
+      "pending": "I vente av",
+      "triggered": "Utløyst"
+    },
+    "automation": { "off": "Av", "on": "På" },
+    "binary_sensor": {
+      "battery": { "off": "Normalt", "on": "Lågt" },
+      "cold": { "off": "Normal", "on": "Kald" },
+      "connectivity": { "off": "Fråkopla", "on": "Tilkopla" },
+      "default": { "off": "Av", "on": "På" },
+      "door": { "off": "Lukka", "on": "Open" },
+      "garage_door": { "off": "Lukka", "on": "Open" },
+      "gas": { "off": "Ikkje oppdaga", "on": "Oppdaga" },
+      "heat": { "off": "Normal", "on": "Varm" },
+      "lock": { "off": "Låst", "on": "Ulåst" },
+      "moisture": { "off": "Tørr", "on": "Våt" },
+      "motion": { "off": "Ikkje oppdaga", "on": "Oppdaga" },
+      "occupancy": { "off": "Ikkje oppdaga", "on": "Oppdaga" },
+      "opening": { "off": "Lukka", "on": "Open" },
+      "presence": { "off": "Borte ", "on": "Heime" },
+      "problem": { "off": "Ok", "on": "Problem" },
+      "safety": { "off": "Sikker", "on": "Usikker" },
+      "smoke": { "off": "Ikkje oppdaga", "on": "Oppdaga" },
+      "sound": { "off": "Ikkje oppdaga", "on": "Oppdaga" },
+      "vibration": { "off": "Ikkje oppdaga", "on": "Oppdaga" },
+      "window": { "off": "Lukka", "on": "Open" }
+    },
+    "calendar": { "off": "Av", "on": "På" },
+    "camera": {
+      "idle": "Inaktiv",
+      "recording": "Opptak",
+      "streaming": "Strøymer"
+    },
+    "climate": {
+      "cool": "Kjøle",
+      "dry": "Tørr",
+      "fan_only": "Berre vifte",
+      "heat": "Varme",
+      "heat_cool": "Oppvarming/Nedkjøling",
+      "off": "Av"
+    },
+    "configurator": {
+      "configure": "Konfigurerer",
+      "configured": "Konfigurert"
+    },
+    "cover": {
+      "closed": "Lukka",
+      "closing": "Lukkar",
+      "open": "Open",
+      "opening": "Opnar",
+      "stopped": "Stoppa"
+    },
+    "device_tracker": { "not_home": "Borte" },
+    "fan": { "off": "Av", "on": "På" },
+    "group": {
+      "closed": "Lukka",
+      "closing": "Lukkar",
+      "home": "Heime",
+      "locked": "Låst",
+      "not_home": "Borte",
+      "off": "Av",
+      "ok": "Ok",
+      "on": "På",
+      "open": "Open",
+      "opening": "Opnar",
+      "problem": "Problem",
+      "stopped": "Stoppa",
+      "unlocked": "Ulåst"
+    },
+    "input_boolean": { "off": "Av", "on": "På" },
+    "light": { "off": "Av", "on": "På" },
+    "lock": { "locked": "Låst", "unlocked": "Ulåst" },
+    "media_player": {
+      "idle": "Inaktiv",
+      "off": "Av",
+      "on": "På",
+      "paused": "Pausa",
+      "playing": "Spelar",
+      "standby": "Avventer"
+    },
+    "person": { "home": "Heime" },
+    "plant": { "ok": "Ok", "problem": "Problem" },
+    "remote": { "off": "Av", "on": "På" },
+    "scene": { "scening": "Scenande" },
+    "script": { "off": "Av", "on": "På" },
+    "sensor": { "off": "Av", "on": "På" },
+    "sun": {
+      "above_horizon": "Over horisonten",
+      "below_horizon": "Under horisonten"
+    },
+    "switch": { "off": "Av", "on": "På" },
+    "timer": { "active": "aktiv", "idle": "tomgang", "paused": "pausa" },
+    "vacuum": {
+      "cleaning": "Reingjer",
+      "docked": "Parkert",
+      "error": "Feil",
+      "idle": "Tomgang",
+      "off": "Av",
+      "on": "På",
+      "paused": "Pausa",
+      "returning": "Gå tilbake til ladestasjonen"
+    },
+    "weather": {
+      "clear-night": "Klart, natt",
+      "cloudy": "Overskya",
+      "exceptional": "Utmerka",
+      "fog": "Tåke",
+      "hail": "Hagl",
+      "lightning": "Lyn",
+      "lightning-rainy": "Lyn, regn",
+      "partlycloudy": "Delvis overskya",
+      "pouring": "Pøsande",
+      "rainy": "Regn",
+      "snowy": "Snø",
+      "snowy-rainy": "Snø, regn",
+      "sunny": "Mykje sol",
+      "windy": "Vind",
+      "windy-variant": "Vind"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Død",
+        "initializing": "Initialiserer",
+        "ready": "Klar",
+        "sleeping": "Søv"
+      },
+      "query_stage": {
+        "dead": "Død ({query_stage})",
+        "initializing": "Initialiserer ({query_stage})"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "Av", "on": "På", "auto": "Auto" },
+      "preset_mode": {
+        "none": "Inga",
+        "eco": "Øko",
+        "away": "Borte",
+        "boost": "Auke",
+        "comfort": "Komfort",
+        "home": "Heime",
+        "sleep": "Søvn",
+        "activity": "Aktivitet"
+      },
+      "hvac_action": {
+        "off": "Av",
+        "heating": "Oppvarming",
+        "cooling": "Nedkjøling",
+        "drying": "Tørkar",
+        "idle": "Tomgang",
+        "fan": "Vifte"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normal",
+        "eco": "Eco",
+        "away": "Away",
+        "boost": "Boost",
+        "comfort": "Comfort",
+        "home": "Home",
+        "sleep": "Sleep",
+        "auto": "Auto",
+        "baby": "Baby"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Ukjent",
+      "unavailable": "Utilgjengeleg",
+      "error": "Feil",
+      "entity_not_found": "Fann ikkje einheten"
+    },
+    "alarm_control_panel": {
+      "armed": "Påslått",
+      "disarmed": "Deaktiver",
+      "armed_home": "Påslått",
+      "armed_away": "Påslått",
+      "armed_night": "Påslått",
+      "armed_custom_bypass": "Påslått",
+      "pending": "Ventar",
+      "arming": "Slår på",
+      "disarming": "Slå av",
+      "triggered": "Utløys"
+    },
+    "device_tracker": { "home": "Heime", "not_home": "Borte " },
+    "person": { "home": "Heime", "not_home": "Borte " }
+  },
+  "groups": {
+    "system-admin": "Administratorer",
+    "system-users": "Brukarar",
+    "system-read-only": "Lesebegrensa brukarar"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Brukar",
+      "integration": "Integrasjon",
+      "config_entry": "Konfigurer oppføring"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Vil du lagre denne pålogginga?",
+      "decline": "Nei takk",
+      "confirm": "Lagre innlogging"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Kode",
+        "clear_code": "Slett alt",
+        "disarm": "Skru av",
+        "arm_home": "Heimemodus",
+        "arm_away": "Bortemodus",
+        "arm_night": "Aktiver natt",
+        "arm_custom_bypass": "Tilpassa bypass"
+      },
+      "automation": { "last_triggered": "Sist utløyst", "trigger": "Utfør" },
+      "camera": { "not_available": "Bilete ikkje tilgjengeleg" },
+      "climate": {
+        "currently": "Akkurat no",
+        "on_off": "På / av",
+        "target_temperature": "Temperaturmål",
+        "target_temperature_entity": "{name} target temperature",
+        "target_temperature_mode": "{name} target temperature {mode}",
+        "current_temperature": "{name} current temperature",
+        "heating": "{name} heating",
+        "cooling": "{name} cooling",
+        "high": "high",
+        "low": "low",
+        "target_humidity": "Fuktigheitsmål",
+        "operation": "Operasjon",
+        "fan_mode": "Viftemodus",
+        "swing_mode": "Svingmodus",
+        "preset_mode": "Mal",
+        "away_mode": "Bortemodus",
+        "aux_heat": "Aux-varme"
+      },
+      "counter": {
+        "actions": {
+          "increment": "increment",
+          "decrement": "decrement",
+          "reset": "reset"
+        }
+      },
+      "cover": { "position": "Posisjon", "tilt_position": "Tiltposisjon" },
+      "fan": {
+        "speed": "Fart",
+        "oscillate": "Sving",
+        "direction": "Retning",
+        "forward": "Framover",
+        "reverse": "Bakover"
+      },
+      "humidifier": {
+        "humidity": "Target humidity",
+        "mode": "Mode",
+        "target_humidity_entity": "{name} target humidity",
+        "on_entity": "{name} on"
+      },
+      "light": {
+        "brightness": "Lysstyrke",
+        "color_temperature": "Fargetemperatur",
+        "white_value": "Kvitverdi",
+        "effect": "Effekt"
+      },
+      "lock": { "code": "Kode", "lock": "Lås", "unlock": "Lås opp" },
+      "media_player": {
+        "source": "Kjelde",
+        "sound_mode": "Lydmodus",
+        "browse_media": "Browse media",
+        "turn_on": "Turn on",
+        "turn_off": "Turn off",
+        "media_play": "Play",
+        "media_play_pause": "Play/pause",
+        "media_next_track": "Next",
+        "media_previous_track": "Previous",
+        "text_to_speak": "Tekst til tale"
+      },
+      "persistent_notification": { "dismiss": "Avvis" },
+      "scene": { "activate": "Aktiver" },
+      "script": {
+        "execute": "Utfør",
+        "cancel": "Avbryt",
+        "cancel_multiple": "Avbryt {number}"
+      },
+      "service": { "run": "Køyr" },
+      "timer": {
+        "actions": {
+          "start": "start",
+          "pause": "pause",
+          "cancel": "avbryt",
+          "finish": "fullfør"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Fortsett reingjeringa",
+          "return_to_base": "Gå tilbake til ladestasjonen",
+          "start_cleaning": "Start reingjering",
+          "turn_on": "Skru på",
+          "turn_off": "Skru av"
+        }
+      },
+      "water_heater": {
+        "currently": "For augeblinken",
+        "on_off": "På / av",
+        "target_temperature": "Temperaturmål",
+        "operation": "Operasjon",
+        "away_mode": "Bortemodus"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Lufttrykk",
+          "humidity": "Fuktigheit",
+          "temperature": "Temperatur",
+          "visibility": "Sikt",
+          "wind_speed": "Vindfart",
+          "precipitation": "Nedbør"
+        },
+        "cardinal_direction": {
+          "e": "Ø",
+          "ene": "ØNØ",
+          "ese": "ØSØ",
+          "n": "N",
+          "ne": "NØ",
+          "nne": "NNØ",
+          "nw": "NV",
+          "nnw": "NNV",
+          "s": "S",
+          "se": "SØ",
+          "sse": "SSØ",
+          "ssw": "SSV",
+          "sw": "SV",
+          "w": "V",
+          "wnw": "VNV",
+          "wsw": "VSV"
+        },
+        "day": "Day",
+        "night": "Night",
+        "forecast": "Vêrmelding",
+        "high": "Høgt",
+        "low": "Lågt"
+      }
+    },
+    "common": {
+      "and": "og",
+      "continue": "Continue",
+      "previous": "Førre",
+      "loading": "Lastar",
+      "refresh": "Oppdater ",
+      "cancel": "Avbryt",
+      "delete": "Slett",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Close",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Neste",
+      "back": "Tilbake",
+      "undo": "Undo",
+      "save": "Lagre",
+      "rename": "Rename",
+      "yes": "Yes",
+      "no": "No",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "Meny",
+      "overflow_menu": "Overflow menu",
+      "successfully_saved": "Vellukka lagring",
+      "successfully_deleted": "Vellukka sletting",
+      "error_required": "Påkrevd",
+      "copied": "Copied"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "No logbook entries found.",
+        "by": "by",
+        "by_service": "by service",
+        "messages": {
+          "was_away": "was away",
+          "was_at_state": "was at {state}",
+          "rose": "rose",
+          "set": "set",
+          "was_low": "was low",
+          "was_normal": "was normal",
+          "was_connected": "was connected",
+          "was_disconnected": "was disconnected",
+          "was_opened": "was opened",
+          "was_closed": "was closed",
+          "was_unlocked": "was unlocked",
+          "was_locked": "was locked",
+          "was_plugged_in": "was plugged in",
+          "was_unplugged": "was unplugged",
+          "was_at_home": "was at home",
+          "was_unsafe": "was unsafe",
+          "was_safe": "was safe",
+          "detected_device_class": "detected {device_class}",
+          "cleared_device_class": "cleared (no {device_class} detected)",
+          "turned_off": "turned off",
+          "turned_on": "turned on",
+          "changed_to_state": "changed to {state}",
+          "became_unavailable": "became unavailable"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Eining",
+          "clear": "Clear",
+          "show_entities": "Vis oppføringar"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Attribute",
+          "show_attributes": "Show attributes"
+        }
+      },
+      "user-picker": {
+        "no_user": "No user",
+        "add_user": "Add user",
+        "remove_user": "Remove user"
+      },
+      "device-picker": {
+        "clear": "Clear",
+        "toggle": "Veksl ",
+        "show_devices": "Show devices",
+        "device": "Enhet",
+        "no_area": "Inga område"
+      },
+      "area-picker": {
+        "clear": "Klar ",
+        "show_areas": "Vis områda",
+        "area": "Område",
+        "add_new": "Legg til nytt område...",
+        "add_dialog": {
+          "title": "Legg til nytt område ",
+          "text": "Legg til namnet til det nye området.",
+          "name": "Namn",
+          "add": "Legg til",
+          "failed_create_area": "Klarte ikkje å opprette område."
+        }
+      },
+      "picture-upload": {
+        "label": "Picture",
+        "unsupported_format": "Unsupported format, please choose a JPEG, PNG or GIF image."
+      },
+      "date-range-picker": {
+        "start_date": "Start date",
+        "end_date": "End date",
+        "select": "Select"
+      },
+      "relative_time": {
+        "never": "Aldri",
+        "just_now": "Just now",
+        "duration": {
+          "second": "{count} {count, plural,\none {sekund}\nother {sekundar}\n}",
+          "minute": "{count} {count, plural,\none {minutt}\nother {minutt}\n}",
+          "hour": "{count} {count, plural,\none {time}\nother {timar}\n}",
+          "day": "{count} {count, plural,\none {dag}\nother {dagar}\n}",
+          "week": "{count} {count, plural,\none {veke}\nother {veker}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n} ago",
+          "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n} ago",
+          "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n} ago",
+          "day": "{count} {count, plural,\n  one {day}\n  other {days}\n} ago",
+          "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n} ago"
+        },
+        "future_duration": {
+          "second": "In {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "In {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "In {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "In {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "In {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future": "Om {time}",
+        "past": "{time} sidan"
+      },
+      "history_charts": {
+        "loading_history": "Lastar tilstandshistoria...",
+        "no_history_found": "Inga tilstandshistorie funne"
+      },
+      "service-picker": { "service": "Teneste" },
+      "related-items": {
+        "no_related_found": "No related items found.",
+        "integration": "Integrasjon",
+        "device": "Eining",
+        "area": "Område",
+        "entity": "Related entities",
+        "group": "Part of the following groups",
+        "scene": "Part of the following scenes",
+        "script": "Part of the following scripts",
+        "automation": "Part of the following automations"
+      },
+      "data-table": { "search": "Search", "no-data": "Ingen data" },
+      "media-browser": {
+        "pick": "Pick",
+        "play": "Play",
+        "play-media": "Play Media",
+        "pick-media": "Pick Media",
+        "no_items": "No items",
+        "choose_player": "Choose Player",
+        "media-player-browser": "Media Player Browser",
+        "web-browser": "Web Browser",
+        "media_player": "Media Player",
+        "audio_not_supported": "Your browser does not support the audio element.",
+        "video_not_supported": "Your browser does not support the video element.",
+        "media_not_supported": "The Browser Media Player does not support this type of media",
+        "media_browsing_error": "Media Browsing Error",
+        "learn_adding_local_media": "Learn more about adding media in the {documentation}.",
+        "local_media_files": "Place your video, audio and image files in the media directory to be able to browse and play them in the browser or on supported media players.",
+        "documentation": "documentation",
+        "no_local_media_found": "No local media found",
+        "no_media_folder": "It looks like you have not yet created a media directory.",
+        "setup_local_help": "Check the {documentation} on how to setup local media.",
+        "class": {
+          "album": "Album",
+          "app": "App",
+          "artist": "Artist",
+          "channel": "Channel",
+          "composer": "Composer",
+          "contributing_artist": "Contributing Artist",
+          "directory": "Library",
+          "episode": "Episode",
+          "game": "Game",
+          "genre": "Genre",
+          "image": "Image",
+          "movie": "Movie",
+          "music": "Music",
+          "playlist": "Playlist",
+          "podcast": "Podcast",
+          "season": "Season",
+          "track": "Track",
+          "tv_show": "TV Show",
+          "url": "URL",
+          "video": "Video"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Reload {domain}",
+            "core": "Reload location & customizations",
+            "group": "Reload groups, group entities, and notify services",
+            "automation": "Reload automations",
+            "script": "Reload scripts",
+            "scene": "Reload scenes",
+            "person": "Reload people",
+            "zone": "Reload zones",
+            "input_boolean": "Reload input booleans",
+            "input_text": "Reload input texts",
+            "input_number": "Reload input numbers",
+            "input_datetime": "Reload input date times",
+            "input_select": "Reload input selects",
+            "template": "Reload template entities",
+            "universal": "Reload universal media player entities",
+            "rest": "Reload rest entities and notify services",
+            "command_line": "Reload command line entities",
+            "filter": "Reload filter entities",
+            "statistics": "Reload statistics entities",
+            "generic": "Reload generic IP camera entities",
+            "generic_thermostat": "Reload generic thermostat entities",
+            "homekit": "Reload HomeKit",
+            "min_max": "Reload min/max entities",
+            "history_stats": "Reload history stats entities",
+            "trend": "Reload trend entities",
+            "ping": "Reload ping binary sensor entities",
+            "filesize": "Reload file size entities",
+            "telegram": "Reload telegram notify services",
+            "smtp": "Reload SMTP notify services",
+            "mqtt": "Reload manually configured MQTT entities",
+            "rpi_gpio": "Reload Raspberry Pi GPIO entities"
+          },
+          "server_control": {
+            "perform_action": "{action} Server",
+            "restart": "Restart",
+            "stop": "Stop"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Entity Filter"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant did not hear anything",
+        "found": "I found the following for you:",
+        "error": "Oops, an error has occurred",
+        "how_can_i_help": "How can I help?",
+        "label": "Type a question and press 'Enter'",
+        "label_voice": "Type and press 'Enter' or tap the microphone to speak"
+      },
+      "generic": {
+        "cancel": "Avbryt",
+        "ok": "OK",
+        "default_confirmation_title": "Er du sikker?",
+        "close": "close"
+      },
+      "image_cropper": { "crop": "Crop" },
+      "more_info_control": {
+        "dismiss": "Dismiss dialog",
+        "settings": "Entity settings",
+        "edit": "Rediger oppføringa",
+        "details": "Details",
+        "history": "History",
+        "last_changed": "Last changed",
+        "last_updated": "Last updated",
+        "script": {
+          "last_action": "Siste handling",
+          "last_triggered": "Last Triggered"
+        },
+        "sun": {
+          "elevation": "Høgde",
+          "rising": "Soloppgang",
+          "setting": "Solnedgang"
+        },
+        "updater": { "title": "Oppdater instruksane" },
+        "restored": {
+          "not_provided": "This entity is currently unavailable and is an orphan to a removed, changed or dysfunctional integration or device.",
+          "remove_intro": "If the entity is no longer in use, you can clean it up by removing it.",
+          "remove_action": "Remove entity",
+          "confirm_remove_title": "Remove entity?",
+          "confirm_remove_text": "Are you sure you want to remove this entity?"
+        },
+        "vacuum": {
+          "status": "Status",
+          "commands": "Støvsugarkommandoar",
+          "fan_speed": "Viftefart",
+          "start": "Start ",
+          "pause": "Sett på pause",
+          "stop": "Stopp ",
+          "clean_spot": "Reingjer området",
+          "locate": "Lokaliser",
+          "return_home": "Returner heim ",
+          "start_pause": "Start/Sett på pause"
+        },
+        "person": { "create_zone": "Opprett sone frå gjeldande stad" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        }
+      },
+      "entity_registry": {
+        "settings": "Settings",
+        "control": "Control",
+        "related": "Related",
+        "dismiss": "Dismiss",
+        "no_unique_id": "This entity does not have a unique ID, therefore its settings cannot be managed from the UI. See the {faq_link} for more detail.",
+        "faq": "documentation",
+        "editor": {
+          "name": "Namnoverskriding",
+          "icon": "Icon",
+          "icon_error": "Icons should be in the format 'prefix:iconname', e.g. 'mdi:home'",
+          "entity_id": "Oppførings-ID",
+          "unavailable": "Denne eininga er for augeblinken ikkje tilgjengeleg.",
+          "enabled_label": "Aktiver oppføringa",
+          "enabled_cause": "Deaktivert av {cause}.",
+          "enabled_description": "Dekativere oppføringar kjem ikkje til å bli lagt til i Home Assistant",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "SLETT",
+          "confirm_delete": "Er du sikker på at du vil slette denne oppføringa?",
+          "update": "OPPDATER",
+          "note": "Merk: dette fungerer kanskje ikkje med alle integrasjonane."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "The {platform} integration is not loaded. Please add it to your configuration either by adding 'default_config:' or ''{platform}:''.",
+        "yaml_not_editable": "The settings of this entity cannot be edited from the UI. Only entities set up from the UI are configurable from the UI.",
+        "required_error_msg": "This field is required",
+        "generic": { "name": "Name", "icon": "Icon" },
+        "input_datetime": {
+          "date": "Date",
+          "time": "Time",
+          "datetime": "Date and time",
+          "mode": "What do you want to input"
+        },
+        "input_text": {
+          "min": "Minimum length",
+          "max": "Maximum length",
+          "mode": "Display mode",
+          "text": "Text",
+          "password": "Password",
+          "pattern": "Regex pattern for client-side validation"
+        },
+        "input_number": {
+          "min": "Minimum value",
+          "max": "Maximum value",
+          "mode": "Display mode",
+          "box": "Input field",
+          "slider": "Slider",
+          "step": "Step size",
+          "unit_of_measurement": "Unit of measurement"
+        },
+        "input_select": {
+          "options": "Options",
+          "add_option": "Add option",
+          "no_options": "There are no options yet.",
+          "add": "Add"
+        },
+        "counter": {
+          "minimum": "Minimum value",
+          "maximum": "Maximum value",
+          "initial": "Initial value",
+          "restore": "Restore the last known value when Home Assistant starts",
+          "step": "Step size"
+        },
+        "timer": { "duration": "Duration" }
+      },
+      "options_flow": {
+        "form": { "header": "Val" },
+        "success": { "description": "Vala vart lagra vellukka." }
+      },
+      "config_entry_system_options": {
+        "title": "Systemval",
+        "enable_new_entities_label": "Aktiver nyleg tillagde oppføringar.",
+        "enable_new_entities_description": "Dersom denne er deaktivert, kjem ikkje nyoppdaga oppføringar til å bli automatisk lagt til i Home Assistant.",
+        "update": "Oppdater"
+      },
+      "zha_device_info": {
+        "manuf": "av {manufacturer}",
+        "no_area": "Inga område",
+        "device_signature": "Zigbee device signature",
+        "buttons": {
+          "add": "Add Devices via this device",
+          "remove": "Remove Device",
+          "clusters": "Manage Clusters",
+          "reconfigure": "Reconfigure Device",
+          "zigbee_information": "Zigbee device signature"
+        },
+        "services": {
+          "reconfigure": "Konfigurer ZHA-eininga (heal device) på nytt. Bruk dette om du har problem med eininga. Dersom eininga går på batteri, ver sikker på at den er vaken og tek i mot kommandar når du brukar denne tenesta.",
+          "updateDeviceName": "Gje eininga eit tilpassa namn i einingsregisteret. ",
+          "remove": "Fjern eining frå Zigbee-nettverket",
+          "zigbee_information": "View the Zigbee information for the device."
+        },
+        "confirmations": {
+          "remove": "Er du sikker på at du vil fjerne eininga?"
+        },
+        "quirk": "Quirk",
+        "last_seen": "Last Seen",
+        "power_source": "Power Source",
+        "unknown": "Ukjent",
+        "zha_device_card": {
+          "device_name_placeholder": "Endre navn på eining",
+          "area_picker_label": "Område",
+          "update_name_button": "Oppdater namn"
+        }
+      },
+      "domain_toggler": {
+        "title": "Toggle Domains",
+        "reset_entities": "Reset Entities"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} debug info",
+        "deserialize": "Attempt to parse MQTT messages as JSON",
+        "entities": "Oppføringar",
+        "no_entities": "Ingen oppføringar",
+        "no_triggers": "Ingen utløysarar",
+        "payload_display": "Nyttelastvisning",
+        "recent_messages": "{n} sist mottekne melding(ar)",
+        "show_as_yaml": "Vis som YAML",
+        "triggers": "Utløysarar"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\none {sekund}\nother {sekundar}\n}",
+      "minute": "{count} {count, plural,\none {minutt}\nother {minutt}\n}",
+      "hour": "{count} {count, plural,\none {time}\nother {timar}\n}",
+      "day": "{count} {count, plural,\none {dag}\nother {dagar}\n}",
+      "week": "{count} {count, plural,\none {veke}\nother {veker}\n}"
+    },
+    "login-form": {
+      "password": "Passord",
+      "remember": "Hugs",
+      "log_in": "Logg inn"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Klikk på knappen for å konfigurere {entity}",
+      "empty": "Ingen varslar",
+      "title": "Varsler",
+      "close": "Close",
+      "dismiss_all": "Dismiss all"
+    },
+    "notification_toast": {
+      "service_call_failed": "Klarte ikkje å kalle tenesten {service}.",
+      "connection_lost": "Tilkopling mista. Prøver å kople til på nytt..",
+      "started": "Home Assistant har starta!",
+      "starting": "Home Assistant held på å starte. Alt er ikkje tilgjengeleg før den er ferdig starta.",
+      "triggered": "Triggered {name}",
+      "dismiss": "Dismiss"
+    },
+    "sidebar": {
+      "external_app_configuration": "App-konfigurasjon",
+      "sidebar_toggle": "Sidebar Toggle",
+      "done": "Done"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "Mine kalendarar", "today": "I dag" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Are you sure you want to delete this card?",
+          "empty_state": {
+            "title": "Velkommen heim",
+            "no_devices": "Denne sida let deg ta kontroll på einingane dine, men det ser ut til at du ikkje har sett opp noko endå. Gå til integrasjonssida for å setje i gang.",
+            "go_to_integrations_page": "Gå til integrasjonssida"
+          },
+          "entities": { "never_triggered": "Aldri utløyst" },
+          "shopping-list": {
+            "checked_items": "Markerte elementa",
+            "clear_items": "Fjern dei markerrte elementa",
+            "add_item": "Legg til element"
+          },
+          "picture-elements": {
+            "hold": "Hald:",
+            "tap": "Rør:",
+            "navigate_to": "Naviger til {location}",
+            "url": "Open window to {url_path}",
+            "toggle": "Endre {name}",
+            "call_service": "Tilkall teneste {name}",
+            "more_info": "Vis meir-info: {name}"
+          },
+          "safe-mode": {
+            "header": "Safe Mode Activated",
+            "description": "Home Assistant ran into trouble while loading your configuration and is now running in safe mode. Take a look at the error log to see what went wrong."
+          },
+          "starting": {
+            "description": "Home Assistant held på å starte. Ver vennleg og vent.",
+            "header": "Home Assistant held på å starte..."
+          }
+        },
+        "unused_entities": {
+          "title": "Ubrukte oppføringar",
+          "available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+          "select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+          "entity": "Oppføring ",
+          "entity_id": "Oppførings-ID",
+          "domain": "Domene",
+          "last_changed": "Sist endra",
+          "search": "Søk i oppføringar",
+          "no_data": "Ingen ubrukte oppføringar funne"
+        },
+        "add_entities": {
+          "yaml_unsupported": "You cannot use this function when using Lovelace UI in YAML mode.",
+          "generated_unsupported": "You can only use this function when you have taken control of the Lovelace UI.",
+          "saving_failed": "Saving Lovelace UI configuration failed."
+        },
+        "views": {
+          "confirm_delete": "Delete view?",
+          "confirm_delete_text": "Are you sure you want to delete your ''{name}'' view?",
+          "confirm_delete_existing_cards": "Deleting this view will also remove the cards",
+          "confirm_delete_existing_cards_text": "Are you sure you want to delete your ''{name}'' view? The view contains {number} cards that will be deleted. This action cannot be undone."
+        },
+        "menu": {
+          "configure_ui": "Konfigurer brukargrensesnitt",
+          "help": "Hjelp",
+          "start_conversation": "Start conversation",
+          "reload_resources": "Reload resources",
+          "exit_edit_mode": "Exit UI edit mode",
+          "close": "Lukk",
+          "refresh": "Oppdater"
+        },
+        "reload_resources": {
+          "refresh_header": "Do you want to refresh?",
+          "refresh_body": "You have to refresh the page to complete the reload. Do you want to refresh now?"
+        },
+        "editor": {
+          "header": "Rediger brukargrensesnitt",
+          "menu": {
+            "open": "Open Lovelace UI menu",
+            "raw_editor": "Rå konfigurasjonsredigerar"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "Rediger konfigurasjon",
+            "save": "Lagre",
+            "unsaved_changes": "Ikkje lagra endringar",
+            "saved": "Lagra",
+            "confirm_remove_config_title": "Are you sure you want to remove your Lovelace UI configuration?",
+            "confirm_remove_config_text": "We will automatically generate your Lovelace UI views with your areas and devices if you remove your Lovelace UI configuration.",
+            "confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+            "confirm_unsaved_comments": "Your configuration contains comment(s), these will not be saved. Do you want to continue?",
+            "error_parse_yaml": "Unable to parse YAML: {error}",
+            "error_invalid_config": "Your configuration is not valid: {error}",
+            "error_save_yaml": "Unable to save YAML: {error}",
+            "error_remove": "Unable to remove configuration: {error}",
+            "resources_moved": "Resources should no longer be added to the Lovelace configuration but can be added in the Lovelace config panel."
+          },
+          "edit_lovelace": {
+            "header": "Tittelen til Lovelace-brukargrensesnittet",
+            "explanation": "Denne tittelen vert vist over alle visningane dine i Lovelace",
+            "edit_title": "Edit title",
+            "title": "Title"
+          },
+          "edit_view": {
+            "header": "Vis konfigurasjon",
+            "header_name": "{name} View Configuration",
+            "add": "Legg til side",
+            "edit": "Rediger sida",
+            "delete": "Slett sida",
+            "move_left": "Move view left",
+            "move_right": "Move view right",
+            "tab_settings": "Settings",
+            "tab_badges": "Badges",
+            "tab_visibility": "Visibility",
+            "visibility": {
+              "select_users": "Select which users should see this view in the navigation"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "These badges will not be displayed because this view is in \"Panel Mode\"."
+          },
+          "edit_card": {
+            "header": "Kortkonfigurasjon",
+            "typed_header": "{type} Card Configuration",
+            "pick_card": "Vel kortet du vil legge til.",
+            "pick_card_view_title": "Which card would you like to add to your {name} view?",
+            "toggle_editor": "Bytt redigeringsverktøy",
+            "unsaved_changes": "Du har endringar som ikkje er lagra",
+            "confirm_cancel": "Er du sikker på at du vil avbryte?",
+            "show_visual_editor": "Show Visual Editor",
+            "show_code_editor": "Show Code Editor",
+            "add": "Legg til kort",
+            "edit": "Redigere",
+            "clear": "Clear",
+            "delete": "Slett",
+            "duplicate": "Duplicate card",
+            "move": "Rørsle",
+            "move_before": "Move card before",
+            "move_after": "Move card after",
+            "options": "More options",
+            "search_cards": "Search cards"
+          },
+          "move_card": { "header": "Choose a view to move the card to" },
+          "select_view": {
+            "header": "Choose a view",
+            "dashboard_label": "Dashboard"
+          },
+          "suggest_card": {
+            "header": "We created a suggestion for you",
+            "create_own": "Pick different card",
+            "add": "Add to Lovelace UI"
+          },
+          "save_config": {
+            "header": "Ta kontroll over Lovelace-brukargrensesnittet",
+            "para": "Som standard kjem Home Assistant til å vedlikehalde brukargrensesnittet, og oppdatere det når nye oppføringar eller Lovelace-komponentar vert tilgjengelege. Dersom du tek kontroll, vil vi ikkje lenger kunne lage dette til automatisk for deg.",
+            "para_sure": "Er du sikker på at du vil ta kontroll over brukergrensesnittet ditt?",
+            "yaml_mode": "You are using YAML mode for this dashboard, which means you cannot change your Lovelace config from the UI. If you want to manage this dashboard from the UI, remove 'mode: yaml' from your Lovelace configuration in 'configuration.yaml.'.",
+            "yaml_control": "To take control in YAML mode, create a YAML file with the name you specified in your config for this dashboard, or the default 'ui-lovelace.yaml'.",
+            "yaml_config": "To help you start here is the current config of this dashboard:",
+            "empty_config": "Start med eit tomt dashboard",
+            "cancel": "Gløym det",
+            "close": "Close",
+            "save": "Ta kontroll"
+          },
+          "migrate": {
+            "header": "Konfigurasjonen er ikkje kompatibel",
+            "para_no_id": "Dette elementet har ikkje ein ID. Ver vennleg og legg til ein ID til dette elementet i \"ui-lovelace.yaml\"-fila di.",
+            "para_migrate": "Home assistant kan legge til ID-ar til alle korta og sidene dine automatisk for deg ved å trykke \"Overfør konfigurasjon\"-knappen.",
+            "migrate": "Overfør konfigurasjon"
+          },
+          "action-editor": {
+            "navigation_path": "Navigation Path",
+            "url_path": "URL Path",
+            "editor_service_data": "Service data can only be entered in the code editor",
+            "actions": {
+              "default_action": "Default Action",
+              "call-service": "Call Service",
+              "more-info": "More Info",
+              "toggle": "Toggle",
+              "navigate": "Navigate",
+              "url": "URL",
+              "none": "No Action"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Alarm Panel",
+              "available_states": "Available States",
+              "description": "The Alarm Panel card allows you to Arm and Disarm your alarm control panel integrations."
+            },
+            "calendar": {
+              "name": "Calendar",
+              "description": "The Calendar card displays a calendar including day, week and list views",
+              "inital_view": "Initial View",
+              "calendar_entities": "Calendar Entities",
+              "views": {
+                "dayGridMonth": "Month",
+                "dayGridDay": "Day",
+                "listWeek": "List"
+              }
+            },
+            "conditional": {
+              "name": "Conditional",
+              "description": "The Conditional card displays another card based on entity states.",
+              "conditions": "Føresetnadar",
+              "card": "Kort",
+              "state_equal": "Tilstanden er lik",
+              "state_not_equal": "Tilstanden er ikkje lik",
+              "current_state": "gjeldande",
+              "condition_explanation": "Kortet vil visast når alle føresetnadene under er oppfylt.",
+              "change_type": "Endre type"
+            },
+            "config": { "required": "Påkrevd", "optional": "Valfri" },
+            "entities": {
+              "name": "Oppføringar",
+              "show_header_toggle": "Show Header Toggle?",
+              "toggle": "Toggle entities.",
+              "description": "Oppføringskortet er den vanlegaste korttypen. Den kan gruppere ting inn i lister.",
+              "special_row": "special row",
+              "edit_special_row": "View the details of this row by clicking the edit button",
+              "entity_row_editor": "Entity Row Editor",
+              "secondary_info_values": {
+                "none": "No Secondary Info",
+                "entity-id": "Entity ID",
+                "last-changed": "Last Changed",
+                "last-triggered": "Last Triggered",
+                "position": "Position",
+                "tilt-position": "Tilt Position",
+                "brightness": "Brightness",
+                "last-updated": "Last Updated"
+              },
+              "entity_row": {
+                "divider": "Divider",
+                "call-service": "Call Service",
+                "section": "Section",
+                "weblink": "Web Link",
+                "attribute": "Attribute",
+                "buttons": "Buttons",
+                "conditional": "Conditional",
+                "cast": "Cast",
+                "button": "Button"
+              }
+            },
+            "entity": {
+              "name": "Oppføring ",
+              "description": "The Entity card gives you a quick overview of your entity’s state."
+            },
+            "button": {
+              "name": "Knapp",
+              "description": "Knappekortet let deg legge til knappar som kan uføre oppgåver.",
+              "default_action_help": "The default action depends on the entity's capabilities, it will either be toggled or the more info will be shown."
+            },
+            "entity-filter": {
+              "name": "Entity Filter",
+              "description": "Oppføringsfilterkortet let deg definere ei liste med oppføringar som du vil vise berre når dei har ein spesiell tilstand."
+            },
+            "gauge": {
+              "name": "Gauge",
+              "severity": {
+                "define": "Define Severity?",
+                "green": "Grøn",
+                "red": "Rød",
+                "yellow": "Yellow"
+              },
+              "description": "Målarkortet er eit enkelt kort som let deg visuelt sjå sensordata."
+            },
+            "glance": {
+              "name": "Glance",
+              "columns": "Columns",
+              "description": "Gløttekortet er nyttig dersom du vil gruppere fleire sensorar i ei kompakt oversikt."
+            },
+            "grid": {
+              "name": "Grid",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "History Graph",
+              "description": "Historiekortet let deg vise ein graf for kvar opplista oppføring."
+            },
+            "horizontal-stack": {
+              "name": "Horizontal Stack",
+              "description": "Horisontalstablekortet let deg stable kort saman horisontalt, slik at dei alltid står ved sidan av kvarandre i same rom som ei kolonne."
+            },
+            "humidifier": {
+              "name": "Humidifier",
+              "description": "The Humidifier card gives control of your humidifier entity. Allowing you to change the humidity and mode of the entity."
+            },
+            "iframe": {
+              "name": "iFrame",
+              "description": "Websidekortet let deg vise favorittwebsida di rett inn i Home Assistant"
+            },
+            "light": {
+              "name": "Light",
+              "description": "Lyskortet gjer slik at du kan endre lysstyrka til eit lys."
+            },
+            "generic": {
+              "aspect_ratio": "Aspect Ratio",
+              "attribute": "Attributt",
+              "camera_image": "Camera Entity",
+              "camera_view": "Camera View",
+              "double_tap_action": "Dobbeltrykk-handling",
+              "entities": "Entities",
+              "entity": "Entity",
+              "hold_action": "Hold Action",
+              "hours_to_show": "Hours to Show",
+              "icon": "Ikon",
+              "icon_height": "Icon Height",
+              "image": "Image Path",
+              "maximum": "Maksimum",
+              "manual": "Manuelt",
+              "manual_description": "Vil du legge til eit tilpassa kort eller vil du berre skrive yaml manuelt?",
+              "minimum": "Minimum",
+              "name": "Namn",
+              "refresh_interval": "Refresh Interval",
+              "show_icon": "Show Icon?",
+              "show_name": "Show Name?",
+              "show_state": "Show State?",
+              "tap_action": "Tap Action",
+              "title": "Title",
+              "theme": "Theme",
+              "no_theme": "No theme",
+              "unit": "Unit",
+              "url": "URL",
+              "state": "Tilstand",
+              "secondary_info_attribute": "Sekundærinfo-attributt",
+              "search": "Search",
+              "state_color": "Color icons based on state?"
+            },
+            "map": {
+              "name": "Map",
+              "geo_location_sources": "Geolocation Sources",
+              "dark_mode": "Dark Mode?",
+              "default_zoom": "Default Zoom",
+              "hours_to_show": "Timar som visast",
+              "source": "Source",
+              "description": "Kartkortet som let deg vise oppføringar på eit kart."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Content",
+              "description": "The Markdown card is used to render Markdown."
+            },
+            "media-control": {
+              "name": "Media Control",
+              "description": "The Media Control card is used to display media player entities on an interface with easy to use controls."
+            },
+            "picture": {
+              "name": "Picture",
+              "description": "The Picture card allows you to set an image to use for navigation to various paths in your interface or to call a service."
+            },
+            "picture-elements": {
+              "name": "Picture Elements",
+              "description": "The Picture Elements card is one of the most versatile types of cards. The cards allow you to position icons or text and even services! On an image based on coordinates."
+            },
+            "picture-entity": {
+              "name": "Picture Entity",
+              "description": "The Picture Entity card displays an entity in the form of an image. Instead of images from URL, it can also show the picture of camera entities."
+            },
+            "picture-glance": {
+              "name": "Picture Glance",
+              "description": "The Picture Glance card shows an image and corresponding entity states as an icon. The entities on the right side allow toggle actions, others show the more information dialog."
+            },
+            "plant-status": {
+              "name": "Plant Status",
+              "description": "The Plant Status card is for all the lovely botanists out there."
+            },
+            "sensor": {
+              "name": "Sensor",
+              "show_more_detail": "Show more detail",
+              "graph_type": "Graph Type",
+              "description": "The Sensor card gives you a quick overview of your sensors state with an optional graph to visualize change over time."
+            },
+            "shopping-list": {
+              "name": "Shopping List",
+              "description": "The Shopping List card allows you to add, edit, check-off, and clear items from your shopping list.",
+              "integration_not_loaded": "Dette kortet krev at \"shopping_list\"-integrasjonen er sett opp."
+            },
+            "thermostat": {
+              "name": "Thermostat",
+              "description": "The Thermostat card gives control of your climate entity. Allowing you to change the temperature and mode of the entity."
+            },
+            "vertical-stack": {
+              "name": "Vertical Stack",
+              "description": "The Vertical Stack card allows you to group multiple cards so they always sit in the same column."
+            },
+            "weather-forecast": {
+              "name": "Weather Forecast",
+              "description": "The Weather Forecast card displays the weather. Very useful to include on interfaces that people display on the wall.",
+              "show_forecast": "Vis vêrmeldinga"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Panel Mode?",
+              "description": "This renders the first card at full width. Other cards in this view as well as badges will not be rendered.",
+              "warning_multiple_cards": "Denne sida har fleire enn eitt kort, men panelvisning kan berre vise eitt kort i gangen."
+            }
+          },
+          "cardpicker": {
+            "no_description": "Inga skildring tilgjengeleg",
+            "custom_card": "Tilpassa",
+            "domain": "Domain",
+            "entity": "Entity",
+            "by_entity": "By Entity",
+            "by_card": "By Card"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Attribute {attribute} not available in: {entity}",
+          "entity_not_found": "Oppføringa er utilgjengelig: {entity}",
+          "entity_non_numeric": "Oppføringa er ikkje numerisk: {entity}",
+          "entity_unavailable": "{entity} er utilgjengeleg for augeblinken",
+          "starting": "Home Assistant held på å starte. Det kan hende at alt ikkje er tilgjengeleg endå."
+        },
+        "changed_toast": {
+          "message": "Lovelace-konfigurasjonen vart oppdatert. Ønsker du å friske opp?",
+          "refresh": "Frisk opp"
+        },
+        "reload_lovelace": "Omlast Lovelace"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Do you trust the external panel {name} at {link}?",
+          "complete_access": "It will have access to all data in Home Assistant.",
+          "hide_message": "Check docs for the panel_custom component to hide this message"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Vandaag",
+          "yesterday": "Gisteren",
+          "this_week": "Deze week",
+          "last_week": "Vorige week"
+        },
+        "period": "Periode",
+        "showing_entries": "Toon items voor"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Astăzi",
+          "yesterday": "Ieri",
+          "this_week": "Săptămâna aceasta",
+          "last_week": "Săptămâna trecută"
+        },
+        "period": "Perioadă",
+        "showing_entries": "Se afișează intrările pentru"
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Esdeveniments",
+            "description": "Crida un esdeveniment al bus d'esdeveniments.",
+            "documentation": "Documentació d'esdeveniments.",
+            "type": "Tipus d'esdeveniment",
+            "data": "Dades de l'esdeveniment (en YAML, opcionals)",
+            "fire_event": "Crida esdeveniment",
+            "event_fired": "Esdeveniment {name} cridat",
+            "available_events": "Esdeveniments disponibles",
+            "count_listeners": " ({count} oient/s)",
+            "listen_to_events": "Escolta esdeveniments",
+            "listening_to": "Escoltant a",
+            "subscribe_to": "Esdeveniment al qual subscriure's",
+            "start_listening": "Comença a escoltar",
+            "stop_listening": "Deixa d'escoltar",
+            "alert_event_type": "El tipus d'esdeveniment és un camp obligatori",
+            "notification_event_fired": "L'esdeveniment {type} s'ha cridat correctament"
+          },
+          "services": {
+            "title": "Serveis",
+            "description": "L'eina Serveis et permet fer crides a qualsevol servei disponible a Home Assistant.",
+            "data": "Dades del servei (en YAML, opcionals)",
+            "call_service": "Crida servei",
+            "select_service": "Selecciona un servei per veure'n la descripció",
+            "no_description": "No hi ha cap descripció disponible",
+            "no_parameters": "Aquest servei no té paràmetres.",
+            "column_parameter": "Paràmetre",
+            "column_description": "Descripció",
+            "column_example": "Exemple",
+            "fill_example_data": "Omple amb dades d'exemple",
+            "alert_parsing_yaml": "S'ha produït un error analitzant el codi YAML: {data}"
+          },
+          "states": {
+            "title": "Estats",
+            "description1": "Defineix la representació d'un dispositiu a Home Assistant.",
+            "description2": "No hi haurà cap comunicació amb el dispositiu real.",
+            "entity": "Entitat",
+            "state": "Estat",
+            "attributes": "Atributs",
+            "state_attributes": "Atributs d'estats (en YAML, opcionals)",
+            "set_state": "Estableix estat",
+            "current_entities": "Entitats actuals",
+            "filter_entities": "Filtra entitats",
+            "filter_states": "Filtra estats",
+            "filter_attributes": "Filtra atributs",
+            "no_entities": "No hi ha entitats",
+            "more_info": "Més informació",
+            "alert_entity_field": "L'entitat és un camp obligatori",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "Plantilla",
+            "description": "Les plantilles es renderitzen mitjançant el motor Jinja2 amb algunes extensions específiques de Home Assistant.",
+            "editor": "Editor de plantilles",
+            "reset": "Restableix a la plantilla de demostració",
+            "result_type": "Tipus de resultat",
+            "jinja_documentation": "Documentació sobre plantilles amb Jinja2",
+            "template_extensions": "Extensions de plantilla de Home Assistant",
+            "unknown_error_template": "Error desconegut renderitzant plantilla",
+            "time": "Aquesta plantilla s'actualitza al començament de cada minut.",
+            "all_listeners": "Aquesta plantilla escolta a tots els esdeveniments de canvi d'estat.",
+            "no_listeners": "Aquesta plantilla no escolta cap esdeveniment i no s'actualitzarà automàticament.",
+            "listeners": "Aquesta plantilla escolta als següents esdeveniments de canvi d'estat:",
+            "entity": "Entitat",
+            "domain": "Domini"
+          }
+        }
+      }
+    }
+  }
+}

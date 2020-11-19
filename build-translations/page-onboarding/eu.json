@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Are you ready to awaken your home, reclaim your privacy and join a worldwide community of tinkerers?",
+        "user": {
+          "intro": "Erabiltzaile kontu bat sortuz has gaitezen.",
+          "required_field": "Beharrezkoa",
+          "data": {
+            "name": "Izena",
+            "username": "Erabiltzaile izena",
+            "password": "Pasahitza",
+            "password_confirm": "Pasahitza baieztatu"
+          },
+          "create_account": "Kontua sortu",
+          "error": {
+            "required_fields": "Beharrezkoak diren eremu guztiak bete",
+            "password_not_match": "Pasahitzak ez datoz bat"
+          }
+        },
+        "core-config": {
+          "intro": "Kaixo {name}, ongi etorri Home Assistantera. Nola izendatu nahi duzu zure etxea?",
+          "intro_location": "We would like to know where you live. This information will help with displaying information and setting up sun-based automations. This data is never shared outside of your network.",
+          "intro_location_detect": "Informazio hau betetzen lagundu diezazukegu kanpoko zerbitzu batera esakera bakarra eginez.",
+          "location_name": "Name of your Home Assistant installation",
+          "location_name_default": "Etxea",
+          "button_detect": "Detektatu",
+          "finish": "Hurregoa"
+        },
+        "integration": {
+          "intro": "Devices and services are represented in Home Assistant as integrations. You can set them up now, or do it later from the configuration screen.",
+          "more_integrations": "Gehiago",
+          "finish": "Amaitu"
+        },
+        "restore": {
+          "description": "Alternatively you can restore from a previous snapshot.",
+          "in_progress": "Restore in progress",
+          "show_log": "Show full log",
+          "hide_log": "Hide full log"
+        }
+      }
+    }
+  }
+}

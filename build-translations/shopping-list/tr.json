@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Öge Ekle",
+        "clear_completed": "Tamamlananları Temizle",
+        "microphone_tip": "Sağ üstteki mikrofona dokunun ve \"alışveriş listeme şeker ekle\" deyin"
+      }
+    }
+  }
+}

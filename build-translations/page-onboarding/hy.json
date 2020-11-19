@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Պատրա՞ստ եք արթնացնել ձեր տունը, վերականգնել ձեր գաղտնիությունը և միանալ մրջազգային հանրությանը?",
+        "user": {
+          "intro": "Սկսենք ՝ ստեղծելով օգտվողի հաշիվ:",
+          "required_field": "Պահանջվում է",
+          "data": {
+            "name": "Անուն",
+            "username": "Օգտագործողի անունը",
+            "password": "Գաղտնաբառ",
+            "password_confirm": "Հաստատել գաղտնաբառը"
+          },
+          "create_account": "Գրանցվել",
+          "error": {
+            "required_fields": "Լրացրեք բոլոր պահանջվող դաշտերը",
+            "password_not_match": "Գաղտնաբառերը չեն համընկնում"
+          }
+        },
+        "core-config": {
+          "intro": "Բարեւ {name}, բարի գալուստ տնային օգնականի. Ինչպես եք ցանկանում անվանել ձեր տունը?",
+          "intro_location": "Մենք ցանկանում ենք իմանալ, թե որտեղ եք ապրում. Այս տեղեկատվությունը  կօգնի  կարգավորել արեւի հիման վրա ավտոմատացումը։. Այս տվյալները երբեք չեն տարածվում   ձեր ցանցից դուրս.",
+          "intro_location_detect": "Մենք կարող ենք օգնել ձեզ լրացնել այս տեղեկատվությունը` արտաքին սերվիսով մեկ անգամյա հարցում ուղարկելով:",
+          "location_name": "Name of your Home Assistant installation",
+          "location_name_default": "Տուն",
+          "button_detect": "Հայտնաբերել",
+          "finish": "Հաջորդը"
+        },
+        "integration": {
+          "intro": "Սարքերը և սերվիսները ներկայացված են UNICONTROL-ում որպես ինտեգրացիաներ: Կարող եք դրանք հիմա կարգավորել կամ դա անել ավելի ուշ ՝ կարգավորման էկրանից:",
+          "more_integrations": "Ավելին",
+          "finish": "Ավարտել"
+        },
+        "restore": {
+          "description": "Alternatively you can restore from a previous snapshot.",
+          "in_progress": "Restore in progress",
+          "show_log": "Show full log",
+          "hide_log": "Hide full log"
+        }
+      }
+    }
+  }
+}

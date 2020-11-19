@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Agregar elemento",
+        "clear_completed": "Borrar completados",
+        "microphone_tip": "Toque el micrófono en la esquina superior derecha y diga \"Agregar caramelos a mi lista de compras\""
+      }
+    }
+  }
+}

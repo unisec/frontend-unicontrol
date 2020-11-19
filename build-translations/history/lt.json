@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Šiandien",
+          "yesterday": "Vakar",
+          "this_week": "This week",
+          "last_week": "Last week"
+        },
+        "period": "Laikotarpis",
+        "showing_entries": "Rodomi įrašai, skirti"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Hoje",
+          "yesterday": "Ontem",
+          "this_week": "Esta semana",
+          "last_week": "Semana Anterior"
+        },
+        "period": "Período",
+        "showing_entries": "Exibindo entradas para"
+      }
+    }
+  }
+}

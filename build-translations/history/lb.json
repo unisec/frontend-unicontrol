@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Haut",
+          "yesterday": "Gëschter",
+          "this_week": "Dës Woch",
+          "last_week": "Läscht Woch"
+        },
+        "period": "Zäitraum",
+        "showing_entries": "Weist Beiträg fir"
+      }
+    }
+  }
+}

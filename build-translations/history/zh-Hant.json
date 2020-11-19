@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "今天",
+          "yesterday": "昨天",
+          "this_week": "本週",
+          "last_week": "上週"
+        },
+        "period": "期間長",
+        "showing_entries": "選擇要查看的時間"
+      }
+    }
+  }
+}

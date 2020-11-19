@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "TRANSLATED",
+          "yesterday": "TRANSLATED",
+          "this_week": "TRANSLATED",
+          "last_week": "TRANSLATED"
+        }
+      }
+    }
+  }
+}

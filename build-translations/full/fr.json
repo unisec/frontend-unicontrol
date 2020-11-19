@@ -1,0 +1,3418 @@
+{
+  "panel": {
+    "calendar": "Calendrier",
+    "config": "Configuration",
+    "states": "Aperçu",
+    "map": "Carte",
+    "logbook": "Journal",
+    "history": "Historique",
+    "mailbox": "Boîtes aux lettres",
+    "shopping_list": "Liste de courses",
+    "developer_tools": "Outils de développement",
+    "media_browser": "Navigateur multimédia",
+    "profile": "Profil"
+  },
+  "state": {
+    "default": {
+      "on": "On",
+      "off": "Off",
+      "unknown": "Inconnu",
+      "unavailable": "Indisponible"
+    },
+    "alarm_control_panel": {
+      "armed": "Activé",
+      "armed_away": "Enclenchée (absent)",
+      "armed_custom_bypass": "Activée avec exception",
+      "armed_home": "Enclenchée (présent)",
+      "armed_night": "Enclenché (nuit)",
+      "arming": "Activation",
+      "disarmed": "Désactivée",
+      "disarming": "Désactivation",
+      "pending": "En attente",
+      "triggered": "Déclenché"
+    },
+    "automation": {
+      "off": "Inactif",
+      "on": "Actif"
+    },
+    "binary_sensor": {
+      "battery": {
+        "off": "Normal",
+        "on": "Faible"
+      },
+      "cold": {
+        "off": "Normale",
+        "on": "Froid"
+      },
+      "connectivity": {
+        "off": "Déconnecté",
+        "on": "Connecté"
+      },
+      "default": {
+        "off": "Inactif",
+        "on": "Actif"
+      },
+      "door": {
+        "off": "Fermée",
+        "on": "Ouverte"
+      },
+      "garage_door": {
+        "off": "Fermée",
+        "on": "Ouverte"
+      },
+      "gas": {
+        "off": "Non détecté",
+        "on": "Détecté"
+      },
+      "heat": {
+        "off": "Normale",
+        "on": "Chaud"
+      },
+      "lock": {
+        "off": "Verrouillé",
+        "on": "Déverrouillé"
+      },
+      "moisture": {
+        "off": "Sec",
+        "on": "Humide"
+      },
+      "motion": {
+        "off": "RAS",
+        "on": "Détecté"
+      },
+      "occupancy": {
+        "off": "RAS",
+        "on": "Détecté"
+      },
+      "opening": {
+        "off": "Fermé",
+        "on": "Ouvert"
+      },
+      "presence": {
+        "off": "Absent",
+        "on": "Présent"
+      },
+      "problem": {
+        "off": "OK",
+        "on": "Problème"
+      },
+      "safety": {
+        "off": "Sûr",
+        "on": "Dangereux"
+      },
+      "smoke": {
+        "off": "RAS",
+        "on": "Détecté"
+      },
+      "sound": {
+        "off": "RAS",
+        "on": "Détecté"
+      },
+      "vibration": {
+        "off": "RAS",
+        "on": "Détectée"
+      },
+      "window": {
+        "off": "Fermée",
+        "on": "Ouverte"
+      }
+    },
+    "calendar": {
+      "off": "Inactif",
+      "on": "Actif"
+    },
+    "camera": {
+      "idle": "En veille",
+      "recording": "Enregistrement",
+      "streaming": "Diffusion en cours"
+    },
+    "climate": {
+      "cool": "Frais",
+      "dry": "Sec",
+      "fan_only": "Ventilateur seul",
+      "heat": "Chauffe",
+      "heat_cool": "Chaud/Froid",
+      "off": "Inactif"
+    },
+    "configurator": {
+      "configure": "Configurer",
+      "configured": "Configuré"
+    },
+    "cover": {
+      "closed": "Fermé",
+      "closing": "Fermeture",
+      "open": "Ouvert",
+      "opening": "Ouverture",
+      "stopped": "Arrêté"
+    },
+    "device_tracker": {
+      "not_home": "Absent"
+    },
+    "fan": {
+      "off": "Off",
+      "on": "On"
+    },
+    "group": {
+      "closed": "Fermé",
+      "closing": "Fermeture",
+      "home": "Présent",
+      "locked": "Verrouillé",
+      "not_home": "Absent",
+      "off": "Inactif",
+      "ok": "OK",
+      "on": "Actif",
+      "open": "Ouvert",
+      "opening": "Ouverture",
+      "problem": "Problème",
+      "stopped": "Arrêté",
+      "unlocked": "Déverrouillé"
+    },
+    "input_boolean": {
+      "off": "Off",
+      "on": "Actif"
+    },
+    "light": {
+      "off": "Éteint",
+      "on": "Allumé"
+    },
+    "lock": {
+      "locked": "Verrouillé",
+      "unlocked": "Déverrouillé"
+    },
+    "media_player": {
+      "idle": "En veille",
+      "off": "Inactif",
+      "on": "On",
+      "paused": "En pause",
+      "playing": "Lecture en cours",
+      "standby": "En veille"
+    },
+    "person": {
+      "home": "Présent"
+    },
+    "plant": {
+      "ok": "OK",
+      "problem": "Problème"
+    },
+    "remote": {
+      "off": "Off",
+      "on": "Actif"
+    },
+    "scene": {
+      "scening": "Scénario"
+    },
+    "script": {
+      "off": "Inactif",
+      "on": "Actif"
+    },
+    "sensor": {
+      "off": "Inactif",
+      "on": "Actif"
+    },
+    "sun": {
+      "above_horizon": "Au-dessus de l'horizon",
+      "below_horizon": "Sous l’horizon"
+    },
+    "switch": {
+      "off": "Inactif",
+      "on": "Actif"
+    },
+    "timer": {
+      "active": "actif",
+      "idle": "en veille",
+      "paused": "en pause"
+    },
+    "vacuum": {
+      "cleaning": "Nettoyage",
+      "docked": "Sur la base",
+      "error": "Erreur",
+      "idle": "Inactif",
+      "off": "Off",
+      "on": "On",
+      "paused": "En pause",
+      "returning": "Retourne à la base"
+    },
+    "weather": {
+      "clear-night": "Nuit dégagée",
+      "cloudy": "Nuageux",
+      "exceptional": "Exceptionnel",
+      "fog": "Brouillard",
+      "hail": "Grêle",
+      "lightning": "Orage",
+      "lightning-rainy": "Orage / Pluvieux",
+      "partlycloudy": "Partiellement nuageux",
+      "pouring": "Averses",
+      "rainy": "Pluvieux",
+      "snowy": "Neigeux",
+      "snowy-rainy": "Neigeux, pluvieux",
+      "sunny": "Ensoleillé",
+      "windy": "Venteux",
+      "windy-variant": "Venteux"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Morte",
+        "initializing": "Initialisation",
+        "ready": "Prêt",
+        "sleeping": "En veille"
+      },
+      "query_stage": {
+        "dead": "Morte ( {query_stage} )",
+        "initializing": "Initialisation ( {query_stage} )"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": {
+        "off": "Inactif",
+        "on": "Actif",
+        "auto": "Auto"
+      },
+      "preset_mode": {
+        "none": "Aucun",
+        "eco": "Éco",
+        "away": "Absent",
+        "boost": "Renforcer",
+        "comfort": "Confort",
+        "home": "Présent",
+        "sleep": "Veille",
+        "activity": "Activité"
+      },
+      "hvac_action": {
+        "off": "Éteint",
+        "heating": "En chauffe",
+        "cooling": "Refroidissement",
+        "drying": "Séchage",
+        "idle": "Inactif",
+        "fan": "Ventilateur"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normal",
+        "eco": "Éco",
+        "away": "Absent",
+        "boost": "Boost",
+        "comfort": "Confort",
+        "home": "Présent",
+        "sleep": "Sommeil",
+        "auto": "Auto",
+        "baby": "Bébé"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Inconnu",
+      "unavailable": "Indispo.",
+      "error": "Erreur",
+      "entity_not_found": "Entité introuvable"
+    },
+    "alarm_control_panel": {
+      "armed": "Activé",
+      "disarmed": "Désactivé",
+      "armed_home": "Activé",
+      "armed_away": "Activé",
+      "armed_night": "Activé",
+      "armed_custom_bypass": "Activé",
+      "pending": "En cours",
+      "arming": "Activer",
+      "disarming": "Désarmement",
+      "triggered": "Déclenchée"
+    },
+    "device_tracker": {
+      "home": "Présent",
+      "not_home": "Absent"
+    },
+    "person": {
+      "home": "Présent",
+      "not_home": "Absent"
+    }
+  },
+  "groups": {
+    "system-admin": "Administrateurs",
+    "system-users": "Utilisateurs",
+    "system-read-only": "Utilisateurs en lecture seule"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Utilisateur",
+      "integration": "Intégration",
+      "config_entry": "Paramètre de configuration"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Voulez-vous enregistrer cette connexion?",
+      "decline": "Non merci",
+      "confirm": "Connexion automatique"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Code",
+        "clear_code": "Effacer",
+        "disarm": "Désarmer",
+        "arm_home": "Armer (présent)",
+        "arm_away": "Armer (absent)",
+        "arm_night": "Armer nuit",
+        "arm_custom_bypass": "Bypass personnalisé"
+      },
+      "automation": {
+        "last_triggered": "Dernier déclenchement",
+        "trigger": "Exécuter"
+      },
+      "camera": {
+        "not_available": "Image non disponible"
+      },
+      "climate": {
+        "currently": "Actuellement",
+        "on_off": "On / off",
+        "target_temperature": "Température cible",
+        "target_temperature_entity": "{name} température cible",
+        "target_temperature_mode": "{name} température cible {mode}",
+        "current_temperature": "{name} température actuelle",
+        "heating": "{name} chauffage",
+        "cooling": "{name} refroidissement",
+        "high": "haute",
+        "low": "basse",
+        "target_humidity": "Humidité cible",
+        "operation": "Opération",
+        "fan_mode": "Mode de ventilation",
+        "swing_mode": "Mode de balancement",
+        "preset_mode": "Préréglage",
+        "away_mode": "Mode \"Absent\"",
+        "aux_heat": "Chauffage d'appoint"
+      },
+      "counter": {
+        "actions": {
+          "increment": "incrémenter",
+          "decrement": "décrémenter",
+          "reset": "réinitialiser"
+        }
+      },
+      "cover": {
+        "position": "Position",
+        "tilt_position": "Inclinaison"
+      },
+      "fan": {
+        "speed": "Vitesse",
+        "oscillate": "Osciller",
+        "direction": "Direction",
+        "forward": "En avant",
+        "reverse": "Sens inverse"
+      },
+      "humidifier": {
+        "humidity": "Humidité cible",
+        "mode": "Mode",
+        "target_humidity_entity": "{name} humidité cible",
+        "on_entity": "{name} on"
+      },
+      "light": {
+        "brightness": "Luminosité",
+        "color_temperature": "Température de couleur",
+        "white_value": "Niveau de blanc",
+        "effect": "Effet"
+      },
+      "lock": {
+        "code": "Code",
+        "lock": "Verrouiller",
+        "unlock": "Déverrouiller"
+      },
+      "media_player": {
+        "source": "Source",
+        "sound_mode": "Mode sonore",
+        "browse_media": "Parcourir les médias",
+        "turn_on": "Allumer",
+        "turn_off": "Éteindre",
+        "media_play": "Lecture",
+        "media_play_pause": "Lecture/pause",
+        "media_next_track": "Suivant",
+        "media_previous_track": "Précédent",
+        "text_to_speak": "Texte à lire"
+      },
+      "persistent_notification": {
+        "dismiss": "Ignorer"
+      },
+      "scene": {
+        "activate": "Activer"
+      },
+      "script": {
+        "execute": "Exécuter",
+        "cancel": "Annuler",
+        "cancel_multiple": "Annuler {number}"
+      },
+      "service": {
+        "run": "Exécuter"
+      },
+      "timer": {
+        "actions": {
+          "start": "démarrer",
+          "pause": "pause",
+          "cancel": "annuler",
+          "finish": "terminer"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Reprendre le nettoyage",
+          "return_to_base": "Retourner à la base",
+          "start_cleaning": "Commencer à nettoyer",
+          "turn_on": "Allumer",
+          "turn_off": "Éteindre"
+        }
+      },
+      "water_heater": {
+        "currently": "Actuellement",
+        "on_off": "Marche / Arrêt",
+        "target_temperature": "Température cible",
+        "operation": "Opération",
+        "away_mode": "Mode \"Absent\""
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Pression atmosphérique",
+          "humidity": "Humidité",
+          "temperature": "Température",
+          "visibility": "Visibilité",
+          "wind_speed": "Vitesse du vent",
+          "precipitation": "Précipitation"
+        },
+        "cardinal_direction": {
+          "e": "E",
+          "ene": "E-NE",
+          "ese": "E-SE",
+          "n": "N",
+          "ne": "NE",
+          "nne": "N-NE",
+          "nw": "NO",
+          "nnw": "N-NO",
+          "s": "S",
+          "se": "SE",
+          "sse": "S-SE",
+          "ssw": "S-SO",
+          "sw": "SO",
+          "w": "O",
+          "wnw": "O-NO",
+          "wsw": "O-SO"
+        },
+        "day": "Jour",
+        "night": "Nuit",
+        "forecast": "Prévisions",
+        "high": "Haute",
+        "low": "Faible"
+      }
+    },
+    "common": {
+      "and": "et",
+      "continue": "Continuer",
+      "previous": "Précédent",
+      "loading": "Chargement",
+      "refresh": "Rafraîchir",
+      "cancel": "Annuler",
+      "delete": "Supprimer",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Fermer",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Suivant",
+      "back": "Retour",
+      "undo": "Annuler",
+      "save": "Enregistrer",
+      "rename": "Rename",
+      "yes": "Oui",
+      "no": "Non",
+      "not_now": "Not now",
+      "skip": "Passer",
+      "menu": "Menu",
+      "overflow_menu": "Menu de débordement",
+      "successfully_saved": "Enregistré avec succès",
+      "successfully_deleted": "Supprimé avec succès",
+      "error_required": "Obligatoire",
+      "copied": "Copié"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "Aucune entrée trouvée dans le journal.",
+        "by": "par",
+        "by_service": "par le service",
+        "messages": {
+          "was_away": "Absent",
+          "was_at_state": "était à {state}",
+          "rose": "aube",
+          "set": "Défini",
+          "was_low": "était faible",
+          "was_normal": "était normal",
+          "was_connected": "était connecté",
+          "was_disconnected": "était déconnecté",
+          "was_opened": "était ouvert",
+          "was_closed": "était fermé",
+          "was_unlocked": "Était déverrouillé",
+          "was_locked": "Était verrouillé",
+          "was_plugged_in": "était branché",
+          "was_unplugged": "était débranché",
+          "was_at_home": "Présent",
+          "was_unsafe": "n'était pas sûr",
+          "was_safe": "était sûr",
+          "detected_device_class": "détecté {device_class}",
+          "cleared_device_class": "effacé (no {device_class} detected)",
+          "turned_off": "éteint",
+          "turned_on": "activé",
+          "changed_to_state": "changé en {state}.",
+          "became_unavailable": "est devenu indisponible"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Entité",
+          "clear": "Effacer",
+          "show_entities": "Afficher les entités"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Attribut",
+          "show_attributes": "Afficher les attributs"
+        }
+      },
+      "user-picker": {
+        "no_user": "Aucun utilisateur",
+        "add_user": "Ajouter un utilisateur",
+        "remove_user": "Supprimer l'utilisateur"
+      },
+      "device-picker": {
+        "clear": "Effacer",
+        "toggle": "Permuter",
+        "show_devices": "Afficher les appareils",
+        "device": "Appareil",
+        "no_area": "Pas de zone"
+      },
+      "area-picker": {
+        "clear": "Effacer",
+        "show_areas": "Afficher les pièces",
+        "area": "Pièce",
+        "add_new": "Ajouter une pièce...",
+        "add_dialog": {
+          "title": "Ajouter une pièce",
+          "text": "Entrez le nom de la nouvelle pièce.",
+          "name": "Nom",
+          "add": "Ajouter",
+          "failed_create_area": "Échec de la création de la pièce."
+        }
+      },
+      "picture-upload": {
+        "label": "Image",
+        "unsupported_format": "Format non pris en charge, veuillez choisir une image JPEG, PNG ou GIF."
+      },
+      "date-range-picker": {
+        "start_date": "Date de début",
+        "end_date": "Date de fin",
+        "select": "Sélectionner"
+      },
+      "relative_time": {
+        "never": "Jamais",
+        "just_now": "Juste maintenant",
+        "duration": {
+          "second": "{count} {count, plural,\nzero {seconde}\none {seconde}\nother {secondes}\n}",
+          "minute": "{count} {count, plural,\nzero {minute}\none {minute}\nother {minutes}\n}",
+          "hour": "{count} {count, plural,\nzero {heure}\none {heure}\nother {heures}\n}",
+          "day": "{count} {count, plural,\nzero {jour}\none {jour}\nother {jours}\n}",
+          "week": "{count} {count, plural,\nzero {semaine}\none {semaine}\nother {semaines}\n}"
+        },
+        "past_duration": {
+          "second": "Il y a {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "Il y a {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "Il y a {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "Il y a {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "Il y a {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future_duration": {
+          "second": "Dans {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "Dans {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "Dans {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "Dans {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "Dans {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future": "Dans {time}",
+        "past": "Il y a {time}"
+      },
+      "history_charts": {
+        "loading_history": "Chargement de l'historique des valeurs ...",
+        "no_history_found": "Aucun historique des valeurs trouvé."
+      },
+      "service-picker": {
+        "service": "Service"
+      },
+      "related-items": {
+        "no_related_found": "Aucun historique des valeurs trouvé.",
+        "integration": "Intégration",
+        "device": "Appareil",
+        "area": "Pièce",
+        "entity": "Entités liées",
+        "group": "Partie des groupes suivants",
+        "scene": "Partie des scènes suivantes",
+        "script": "Partie des scripts suivants",
+        "automation": "Partie des automatisations suivantes"
+      },
+      "data-table": {
+        "search": "Chercher",
+        "no-data": "Pas de données"
+      },
+      "media-browser": {
+        "pick": "Choisir",
+        "play": "Lecture",
+        "play-media": "Lire le média",
+        "pick-media": "Choisissez un média",
+        "no_items": "Aucun éléments",
+        "choose_player": "Choisissez le lecteur",
+        "media-player-browser": "Lecteur multimédia",
+        "web-browser": "Navigateur web",
+        "media_player": "Lecteur multimédia",
+        "audio_not_supported": "Votre navigateur ne prend pas en charge l'élément audio.",
+        "video_not_supported": "Votre navigateur ne prend pas en charge l'élément vidéo.",
+        "media_not_supported": "Le Browser Media Player ne prend pas en charge ce type de média",
+        "media_browsing_error": "Erreur de navigation multimédia",
+        "learn_adding_local_media": "En savoir plus sur l'ajout de médias dans la {documentation} .",
+        "local_media_files": "Placez vos fichiers vidéo, audio et image dans le répertoire multimédia pour pouvoir les parcourir et les lire dans le navigateur ou sur les lecteurs multimédias pris en charge.",
+        "documentation": "documentation",
+        "no_local_media_found": "Aucun média local trouvé",
+        "no_media_folder": "Il semble que vous n’avez pas encore créé de répertoire multimédia.",
+        "setup_local_help": "Consultez la {documentation} pour savoir comment configurer un média local.",
+        "class": {
+          "album": "Album",
+          "app": "App",
+          "artist": "Artiste",
+          "channel": "Canal",
+          "composer": "Compositeur",
+          "contributing_artist": "Artiste collaborateur",
+          "directory": "Bibliothèque",
+          "episode": "Épisode",
+          "game": "Jeu",
+          "genre": "Genre",
+          "image": "Image",
+          "movie": "Film",
+          "music": "Musique",
+          "playlist": "Liste de lecture",
+          "podcast": "Podcast",
+          "season": "Saison",
+          "track": "Piste",
+          "tv_show": "Émission de télévision",
+          "url": "Url",
+          "video": "Vidéo"
+        },
+        "choose-source": "Choisissez la source",
+        "content-type": {
+          "album": "Album",
+          "artist": "Artiste",
+          "library": "Bibliothèque",
+          "playlist": "Liste de lecture",
+          "server": "Serveur"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Recharger {domain}",
+            "core": "Recharger les emplacements et personnalisations",
+            "group": "Recharger les groupes, les entités de groupe et notifier les services",
+            "automation": "Recharger les automatisations",
+            "script": "Recharger les scripts",
+            "scene": "Recharger les scènes",
+            "person": "Recharger les personnes",
+            "zone": "Recharger les zones",
+            "input_boolean": "Recharger les entrées booléennes (input boolean)",
+            "input_text": "Recharger les entrées de texte (input text)",
+            "input_number": "Recharger les entrées numériques (input number)",
+            "input_datetime": "Recharger les entrées de date et heure (input date time)",
+            "input_select": "Recharger les listes de sélection (input select)",
+            "template": "Recharger les entités modèles",
+            "universal": "Recharger les entités de lecteur média universel",
+            "rest": "Recharger les entités REST et notifier les services",
+            "command_line": "Recharger les entités de ligne de commande",
+            "filter": "Recharger les entités de filtre",
+            "statistics": "Recharger les entités de statistiques",
+            "generic": "Recharger les entités de caméra IP générique",
+            "generic_thermostat": "Recharger les entités de thermostat générique",
+            "homekit": "Recharger HomeKit",
+            "min_max": "Recharger les entités min/max",
+            "history_stats": "Recharger les entités des statistiques historiques",
+            "trend": "Recharger les entités de tendance",
+            "ping": "Recharger les entités de capteur binaire ping",
+            "filesize": "Recharger les entités de taille de fichier",
+            "telegram": "Recharger les services de notification de telegram",
+            "smtp": "Recharger les services de notification smtp",
+            "mqtt": "Recharger les entités mqtt configurées manuellement",
+            "rpi_gpio": "Recharger les entités GPIO du Raspberry Pi"
+          },
+          "server_control": {
+            "perform_action": "{action} Serveur",
+            "restart": "Redémarrer",
+            "stop": "Arrêter"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Filtre d'entité"
+      },
+      "voice_command": {
+        "did_not_hear": "UNICONTROL n'a rien entendu",
+        "found": "J'ai trouvé ce qui suit pour vous:",
+        "error": "Oups, une erreur est survenue",
+        "how_can_i_help": "Comment puis-je vous aider ?",
+        "label": "Tapez une question et appuyez sur 'Entrée'",
+        "label_voice": "Tapez et appuyez sur 'Entrée' ou appuyez sur le microphone pour parler"
+      },
+      "generic": {
+        "cancel": "Annuler",
+        "ok": "OK",
+        "default_confirmation_title": "Êtes-vous sûr ?",
+        "close": "fermer"
+      },
+      "image_cropper": {
+        "crop": "Recadrer"
+      },
+      "more_info_control": {
+        "dismiss": "Fermer la fenêtre de dialogue",
+        "settings": "Paramètres de l'entité",
+        "edit": "Modifier l'entité",
+        "details": "Détails",
+        "history": "Historique",
+        "last_changed": "Dernière modification",
+        "last_updated": "Dernière mise à jour",
+        "script": {
+          "last_action": "Dernière action",
+          "last_triggered": "Dernier déclenchement"
+        },
+        "sun": {
+          "elevation": "Élévation",
+          "rising": "Lever",
+          "setting": "Coucher"
+        },
+        "updater": {
+          "title": "Instructions de mise à jour"
+        },
+        "restored": {
+          "not_provided": "Cette entité est actuellement indisponible et est orpheline d'une intégration ou d'un périphérique supprimé, modifié ou dysfonctionnel.",
+          "remove_intro": "Si l'entité n'est plus utilisée, vous pouvez la nettoyer en la supprimant.",
+          "remove_action": "Supprimer l'entité",
+          "confirm_remove_title": "Supprimer l'entité ?",
+          "confirm_remove_text": "Voulez-vous vraiment supprimer cette entité ?"
+        },
+        "vacuum": {
+          "status": "Statut",
+          "commands": "Commandes d'aspirateur :",
+          "fan_speed": "Vitesse ventilateur",
+          "start": "Démarrer",
+          "pause": "Pause",
+          "stop": "Arrêter",
+          "clean_spot": "Nettoyer Endroit",
+          "locate": "Localiser",
+          "return_home": "Rentrer à la maison",
+          "start_pause": "Démarrer/Pause"
+        },
+        "person": {
+          "create_zone": "Créer une zone à partir de l'emplacement actuel"
+        },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "Contrôles"
+      },
+      "entity_registry": {
+        "settings": "Réglages",
+        "control": "Contrôle",
+        "related": "Liées",
+        "dismiss": "Ignorer",
+        "no_unique_id": "Cette entité n'a pas d'ID unique, par conséquent ses paramètres ne peuvent pas être gérés à partir de l'interface utilisateur. Consultez le {faq_link} pour plus de détails.",
+        "faq": "documentation",
+        "editor": {
+          "name": "Nom",
+          "icon": "Icône",
+          "icon_error": "Les icônes doivent être au format «préfixe: iconname», par exemple «mdi: home»",
+          "entity_id": "ID d'entité",
+          "unavailable": "Cette entité n'est pas disponible actuellement.",
+          "enabled_label": "Activer l'entité",
+          "enabled_cause": "Désactivé par {cause} .",
+          "enabled_description": "Les entités désactivées ne seront pas ajoutées à UNICONTROL.",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "Supprimer",
+          "confirm_delete": "Voulez-vous vraiment supprimer cette entrée ?",
+          "update": "Mise à jour",
+          "note": "Remarque: cela peut ne pas encore fonctionner avec toutes les intégrations."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "L'intégration {platform} n'est pas chargée. Veuillez l'ajouter à votre configuration en ajoutant 'default_config:' ou ''{platform}:''.",
+        "yaml_not_editable": "Les paramètres de cette entité ne peuvent pas être modifiés à partir de l'interface utilisateur. Seules les entités configurées à partir de l'interface utilisateur sont configurables à partir de l'interface utilisateur.",
+        "required_error_msg": "Ce champ est requis",
+        "generic": {
+          "name": "Nom",
+          "icon": "Icône"
+        },
+        "input_datetime": {
+          "date": "Date",
+          "time": "Heure",
+          "datetime": "Date et heure",
+          "mode": "Que voulez-vous saisir"
+        },
+        "input_text": {
+          "min": "Longueur minimum",
+          "max": "Longueur maximale",
+          "mode": "Mode d'affichage",
+          "text": "Texte",
+          "password": "Mot de passe",
+          "pattern": "Modèle d'expression régulière pour la validation côté client"
+        },
+        "input_number": {
+          "min": "Valeur minimum",
+          "max": "Valeur maximum",
+          "mode": "Mode d'affichage",
+          "box": "Champ de saisie",
+          "slider": "Curseur",
+          "step": "Taille du pas du curseur",
+          "unit_of_measurement": "Unité de mesure"
+        },
+        "input_select": {
+          "options": "Options",
+          "add_option": "Ajouter une option",
+          "no_options": "Il n'y a aucune option pour le moment.",
+          "add": "Ajouter"
+        },
+        "counter": {
+          "minimum": "Valeur minimum",
+          "maximum": "Valeur maximum",
+          "initial": "Valeur initiale",
+          "restore": "Restaurer la dernière valeur connue au démarrage de UNICONTROL",
+          "step": "Taille de pas"
+        },
+        "timer": {
+          "duration": "Durée"
+        }
+      },
+      "options_flow": {
+        "form": {
+          "header": "Options"
+        },
+        "success": {
+          "description": "Options enregistrées avec succès."
+        }
+      },
+      "config_entry_system_options": {
+        "title": "Options système pour {integration}",
+        "enable_new_entities_label": "Activer les entités nouvellement ajoutées.",
+        "enable_new_entities_description": "Si désactivé, les nouvelles entités découvertes pour {integration} ne seront pas ajoutées automatiquement à UNICONTROL.",
+        "update": "Mise à jour"
+      },
+      "zha_device_info": {
+        "manuf": "par {manufacturer}",
+        "no_area": "Aucune pièce",
+        "device_signature": "Signature de l'appareil Zigbee",
+        "buttons": {
+          "add": "Ajouter des appareils",
+          "remove": "Supprimer l'appareil",
+          "clusters": "Gérer les clusters",
+          "reconfigure": "Reconfigurer l'appareil",
+          "zigbee_information": "Informations Zigbee"
+        },
+        "services": {
+          "reconfigure": "Reconfigurer le périphérique ZHA. Utilisez cette option si vous rencontrez des problèmes avec le périphérique. Si l'appareil en question est un appareil alimenté par batterie, assurez-vous qu'il soit allumé et qu'il accepte les commandes lorsque vous utilisez ce service.",
+          "updateDeviceName": "Définissez un nom personnalisé pour ce périphérique dans le registre de périphériques.",
+          "remove": "Supprimer un appareil du réseau Zigbee.",
+          "zigbee_information": "Affichez les informations Zigbee de l'appareil."
+        },
+        "confirmations": {
+          "remove": "Êtes-vous sûr de vouloir retirer l'appareil ?"
+        },
+        "quirk": "Quirk",
+        "last_seen": "Dernière vue",
+        "power_source": "Source d'énergie",
+        "unknown": "Inconnu",
+        "zha_device_card": {
+          "device_name_placeholder": "Nom personnalisé",
+          "area_picker_label": "Pièce",
+          "update_name_button": "Modifier le nom"
+        }
+      },
+      "domain_toggler": {
+        "title": "Changer de domaine",
+        "reset_entities": "Réinitialiser les entités"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} informations de débogage",
+        "deserialize": "Tentative d'analyse des messages MQTT en tant que JSON",
+        "entities": "Entités",
+        "no_entities": "Aucune entité",
+        "no_triggers": "Pas de déclencheur",
+        "payload_display": "Affichage de la charge utile",
+        "recent_messages": "{n} dernier(s) message(s) reçu(s)",
+        "show_as_yaml": "Afficher en tant que YAML",
+        "triggers": "Déclencheurs"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\nzero {seconde}\none {seconde}\nother {secondes}\n}",
+      "minute": "{count} {count, plural,\nzero {minute}\none {minute}\nother {minutes}\n}",
+      "hour": "{count} {count, plural,\nzero {heure}\none {heure}\nother {heures}\n}",
+      "day": "{count} {count, plural,\nzero {jour}\none {jour}\nother {jours}\n}",
+      "week": "{count} {count, plural,\nzero {semaine}\none {semaine}\nother {semaines}\n}"
+    },
+    "login-form": {
+      "password": "Mot de passe",
+      "remember": "Se souvenir",
+      "log_in": "Connexion"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Cliquez sur le bouton pour configurer {entity}",
+      "empty": "Aucune notification",
+      "title": "Notifications",
+      "close": "Fermer",
+      "dismiss_all": "Tout ignorer"
+    },
+    "notification_toast": {
+      "service_call_failed": "Échec d'appel du service \"{service}\".",
+      "connection_lost": "Connexion perdue. Reconnexion en cours ...",
+      "started": "UNICONTROL a démarré !",
+      "starting": "UNICONTROL est en cours de démarrage, tout ne sera pas disponible tant qu’il n’aura pas terminé.",
+      "triggered": "{name} déclenché",
+      "dismiss": "Ignorer"
+    },
+    "sidebar": {
+      "external_app_configuration": "Configuration de l'application",
+      "sidebar_toggle": "Activer la barre latérale",
+      "done": "Terminé"
+    },
+    "panel": {
+      "calendar": {
+        "my_calendars": "Mes calendriers",
+        "today": "Aujourd'hui"
+      },
+      "config": {
+        "header": "Configurer UNICONTROL",
+        "introduction": "Ici, il est possible de configurer vos composants et UNICONTROL. Tout n'est pas encore configurable à partir de l'interface utilisateur, mais nous y travaillons.",
+        "filtering": {
+          "filtering_by": "Filtrage par",
+          "clear": "Effacer"
+        },
+        "advanced_mode": {
+          "hint_enable": "Options de configuration manquantes? Activer le mode avancé",
+          "link_profile_page": "votre page de profil"
+        },
+        "integration_panel_move": {
+          "missing_zha": "Il manque le panneau de configuration de ZHA ? Il a été déplacé vers l'entrée ZHA sur la {integrations_page}.",
+          "missing_zwave": "Il manque le panneau de configuration Z-Wave ? Il a été déplacé vers l'entrée Z-Wave sur la {integrations_page}.",
+          "link_integration_page": "page d'intégration"
+        },
+        "common": {
+          "editor": {
+            "confirm_unsaved": "Vous avez des changements non enregistrés. Êtes-vous sûr de vouloir quitter?"
+          }
+        },
+        "areas": {
+          "caption": "Pièces",
+          "description": "Vue d'ensemble de toutes les pièces de votre maison.",
+          "data_table": {
+            "area": "Pièce",
+            "devices": "Appareils"
+          },
+          "picker": {
+            "header": "Pièces",
+            "introduction": "Les pièces sont utilisées pour organiser l'emplacement des périphériques. Ces informations seront utilisées partout dans UNICONTROL pour vous aider à organiser votre interface, vos autorisations et vos intégrations avec d'autres systèmes.",
+            "introduction2": "Pour placer des périphériques dans une pièce, utilisez le lien ci-dessous pour accéder à la page des intégrations, puis cliquez sur une intégration configurée pour accéder aux cartes de périphérique.",
+            "integrations_page": "Page des intégrations",
+            "no_areas": "On dirait que vous n'avez pas encore de pièces !",
+            "create_area": "Créer une pièce"
+          },
+          "editor": {
+            "default_name": "Nouvelle Pièce",
+            "delete": "Supprimer",
+            "update": "Mise à jour",
+            "create": "Créer",
+            "name": "Nom",
+            "name_required": "Le nom est requis",
+            "area_id": "ID de la zone",
+            "unknown_error": "Erreur inconnue"
+          },
+          "delete": {
+            "confirmation_title": "Êtes-vous sûr de vouloir supprimer cette pièce ?",
+            "confirmation_text": "Tous les appareils de cette pièce ne seront plus attribués."
+          }
+        },
+        "tags": {
+          "caption": "Balises",
+          "description": "Gérer les balises",
+          "learn_more": "En savoir plus sur les balises",
+          "no_tags": "Aucunes balises",
+          "add_tag": "Ajouter une balise",
+          "write": "Écrire",
+          "edit": "Modifier",
+          "never_scanned": "Jamais scanné",
+          "create_automation": "Créer une automatisation avec une balise",
+          "confirm_remove_title": "Remove tag?",
+          "confirm_remove": "Are you sure you want to remove tag {tag}?",
+          "automation_title": "La balise {name} est analysée",
+          "headers": {
+            "name": "Nom",
+            "last_scanned": "Dernière analyse"
+          },
+          "detail": {
+            "new_tag": "Nouvelle balise",
+            "name": "Nom",
+            "description": "Description",
+            "tag_id": "Id de balise",
+            "tag_id_placeholder": "Généré automatiquement lorsque laissé vide",
+            "delete": "Supprimer",
+            "update": "Mise à jour",
+            "create": "Créer",
+            "create_and_write": "Créer et Ecrire",
+            "usage": "Un tag peut déclencher une automatisation lorsqu'il est scanné, vous pouvez utiliser des tags NFC, des codes QR ou tout autre type de tag. Utilisez notre {companion_link} pour écrire cette balise sur une balise NFC programmable ou créez un code QR ci-dessous.",
+            "companion_apps": "applications associées"
+          }
+        },
+        "helpers": {
+          "caption": "Entrées",
+          "description": "Gérer les éléments qui peuvent aider à créer des automatisations",
+          "types": {
+            "input_text": "Texte",
+            "input_number": "Nombre",
+            "input_select": "Liste déroulante",
+            "input_boolean": "Interrupteur",
+            "input_datetime": "Date et/ou heure",
+            "counter": "Compteur",
+            "timer": "Minuteur"
+          },
+          "picker": {
+            "headers": {
+              "name": "Nom",
+              "entity_id": "ID de l'entité",
+              "type": "Type",
+              "editable": "Modifiable"
+            },
+            "add_helper": "Ajouter une entrée",
+            "no_helpers": "On dirait que vous n'avez pas encore d'entrée!"
+          },
+          "dialog": {
+            "create": "Créer",
+            "add_helper": "Ajouter une entrée",
+            "add_platform": "Ajouter {platform}"
+          }
+        },
+        "core": {
+          "caption": "Général",
+          "description": "Changer la configuration générale de votre UNICONTROL.",
+          "section": {
+            "core": {
+              "header": "Configuration générale",
+              "introduction": "Changer votre configuration peut être un processus fastidieux. Nous le savons. Cette section va essayer de vous rendre la vie un peu plus facile.",
+              "core_config": {
+                "edit_requires_storage": "L'éditeur est désactivé car la configuration est stockée dans configuration.yaml.",
+                "location_name": "Nom de votre installation UNICONTROL",
+                "latitude": "Latitude",
+                "longitude": "Longitude",
+                "elevation": "Élévation",
+                "elevation_meters": "mètres",
+                "time_zone": "Fuseau horaire",
+                "unit_system": "Système unitaire",
+                "unit_system_imperial": "Impérial",
+                "unit_system_metric": "Métrique",
+                "imperial_example": "Fahrenheit, livres",
+                "metric_example": "Celsius, kilogrammes",
+                "save_button": "Enregistrer",
+                "external_url": "URL externe",
+                "internal_url": "URL interne"
+              }
+            }
+          }
+        },
+        "info": {
+          "caption": "Info",
+          "description": "Informations sur votre installation UNICONTROL",
+          "home_assistant_logo": "Logo de UNICONTROL",
+          "path_configuration": "Chemin vers configuration.yaml : {path}",
+          "developed_by": "Développé par un groupe de personnes formidables.",
+          "license": "Publié sous la licence Apache 2.0",
+          "source": "Source:",
+          "server": "serveur",
+          "frontend": "interface utilisateur",
+          "built_using": "Construit en utilisant",
+          "icons_by": "Icônes par",
+          "frontend_version": "Version interface utilisateur : {version} - {type}",
+          "custom_uis": "Interfaces utilisateur personnalisées :",
+          "system_health_error": "Le composant System Health n'est pas chargé. Ajouter 'system_health:' à configuration.yaml",
+          "integrations": "Intégrations",
+          "documentation": "Documentation",
+          "issues": "Problèmes",
+          "system_health": {
+            "manage": "Manage",
+            "more_info": "more info"
+          },
+          "title": "Info"
+        },
+        "logs": {
+          "caption": "Journaux",
+          "description": "Afficher les journaux de UNICONTROL",
+          "details": "Détails du journal ( {level} )",
+          "load_full_log": "Charger le journal complet de UNICONTROL",
+          "loading_log": "Chargement du journal des erreurs…",
+          "no_errors": "Aucune erreur n'a été signalée.",
+          "no_issues": "Il n'y a pas de nouveaux problèmes!",
+          "clear": "Nettoyer",
+          "refresh": "Rafraîchir",
+          "multiple_messages": "message survenu pour la première fois à {time} et apparu {counter} fois.",
+          "title": "Journaux"
+        },
+        "lovelace": {
+          "caption": "Tableaux de bord Lovelace",
+          "description": "Configurez vos tableaux de bord Lovelace",
+          "dashboards": {
+            "default_dashboard": "Ceci est le tableau de bord par défaut",
+            "caption": "Tableaux de bord",
+            "conf_mode": {
+              "yaml": "Fichier YAML",
+              "storage": "Contrôle de l'IU"
+            },
+            "picker": {
+              "headers": {
+                "title": "Titre",
+                "conf_mode": "Méthode de configuration",
+                "default": "Défaut",
+                "require_admin": "Admin uniquement",
+                "sidebar": "Afficher dans la barre latérale",
+                "filename": "Nom de fichier"
+              },
+              "open": "Ouvrir",
+              "add_dashboard": "Ajouter un tableau de bord"
+            },
+            "confirm_delete": "Voulez-vous vraiment supprimer ce tableau de bord ?",
+            "cant_edit_yaml": "Les tableaux de bord définis dans YAML ne peuvent pas être modifiés à partir de l'interface utilisateur. Modifiez-les dans configuration.yaml.",
+            "cant_edit_default": "Le tableau de bord Lovelace standard ne peut pas être modifié à partir de l'interface utilisateur. Vous pouvez le masquer en définissant un autre tableau de bord par défaut.",
+            "detail": {
+              "edit_dashboard": "Modifier le tableau de bord",
+              "new_dashboard": "Ajouter un nouveau tableau de bord",
+              "dismiss": "Fermer",
+              "show_sidebar": "Afficher dans la barre latérale",
+              "icon": "Icône",
+              "title": "Titre",
+              "title_required": "Le titre est requis.",
+              "url": "Url",
+              "url_error_msg": "L'url ne peut pas contenir d'espaces ni de caractères spéciaux, sauf pour _ et -",
+              "require_admin": "Administrateur uniquement",
+              "delete": "Supprimer",
+              "update": "Mise à jour",
+              "create": "Créer",
+              "set_default": "Définir par défaut sur cet appareil",
+              "remove_default": "Supprimer par défaut sur cet appareil"
+            }
+          },
+          "resources": {
+            "caption": "Ressources",
+            "types": {
+              "css": "Feuille de style",
+              "html": "HTML (obsolète)",
+              "js": "Fichier JavaScript (obsolète)",
+              "module": "Module JavaScript"
+            },
+            "picker": {
+              "headers": {
+                "url": "Url",
+                "type": "Type"
+              },
+              "no_resources": "Pas de ressources",
+              "add_resource": "Ajouter une ressource"
+            },
+            "confirm_delete": "Voulez-vous vraiment supprimer cette ressource ?",
+            "refresh_header": "Voulez-vous vous rafraîchir ?",
+            "refresh_body": "Vous devez actualiser la page pour terminer la suppression, voulez-vous actualiser maintenant ?",
+            "cant_edit_yaml": "Vous utilisez Lovelace en mode YAML, vous ne pouvez donc pas gérer vos ressources via l'interface utilisateur. Gérez-les dans configuration.yaml.",
+            "detail": {
+              "new_resource": "Ajouter une nouvelle ressource",
+              "dismiss": "Fermer",
+              "warning_header": "Soyez prudents !",
+              "warning_text": "L'ajout de ressources peut être dangereux, assurez-vous de connaître la source de la ressource et faites-lui confiance. De mauvaises ressources peuvent sérieusement endommager votre système.",
+              "url": "Url",
+              "url_error_msg": "L'URL est un champ obligatoire",
+              "type": "Type de ressource",
+              "delete": "Supprimer",
+              "update": "Mise à jour",
+              "create": "Créer"
+            }
+          }
+        },
+        "server_control": {
+          "caption": "Contrôle du serveur",
+          "description": "Redémarrer et arrêter le serveur UNICONTROL",
+          "section": {
+            "validation": {
+              "heading": "Validation de la configuration",
+              "introduction": "Valider votre configuration si vous avez récemment apporté des modifications à votre configuration et que vous souhaitez vous assurer que celle-ci est entièrement valide",
+              "check_config": "Vérifier la configuration",
+              "valid": "Configuration valide !",
+              "invalid": "Configuration invalide"
+            },
+            "reloading": {
+              "heading": "Rechargement de la configuration",
+              "introduction": "Certaines parties de UNICONTROL peuvent être rechargées sans nécessiter de redémarrage. Le fait de cliquer sur recharger déchargera leur configuration actuelle et chargera la nouvelle.",
+              "reload": "Recharger {domain}",
+              "core": "Recharger les emplacements et personnalisations",
+              "group": "Recharger les groupes, les entités de groupe et notifier les services",
+              "automation": "Recharger les automatisations",
+              "script": "Recharger les scripts",
+              "scene": "Recharger les scènes",
+              "person": "Recharger les personnes",
+              "zone": "Recharger les zones",
+              "input_boolean": "Recharger les entrées booléennes (input boolean)",
+              "input_text": "Recharger les entrées de texte (input text)",
+              "input_number": "Recharger les entrées numériques (input number)",
+              "input_datetime": "Recharger les entrées de date et heure (input date time)",
+              "input_select": "Recharger les listes de sélection (input select)",
+              "template": "Recharger les entités modèles",
+              "universal": "Recharger les entités de lecteur média universel",
+              "rest": "Recharger les entités REST et notifier les services",
+              "command_line": "Recharger les entités de ligne de commande",
+              "filter": "Recharger les entités de filtre",
+              "statistics": "Recharger les entités de statistiques",
+              "generic": "Recharger les entités de caméra IP générique",
+              "generic_thermostat": "Recharger les entités de thermostat générique",
+              "homekit": "Recharger HomeKit",
+              "min_max": "Recharger les entités min/max",
+              "history_stats": "Recharger les entités des statistiques historiques",
+              "trend": "Recharger les entités de tendance",
+              "ping": "Recharger les entités de capteur binaire ping",
+              "filesize": "Recharger les entités de taille de fichier",
+              "telegram": "Recharger les services de notification de telegram",
+              "smtp": "Recharger les services de notification smtp",
+              "mqtt": "Recharger les entités mqtt configurées manuellement",
+              "rpi_gpio": "Recharger les entités GPIO du Raspberry Pi"
+            },
+            "server_management": {
+              "heading": "Gestion du serveur",
+              "introduction": "Contrôler votre serveur UNICONTROL… à partir de UNICONTROL.",
+              "restart": "Redémarrer",
+              "confirm_restart": "Êtes-vous sûr de vouloir redémarrer UNICONTROL?",
+              "stop": "Arrêter",
+              "confirm_stop": "Êtes-vous sûr de vouloir arrêter UNICONTROL?"
+            }
+          }
+        },
+        "customize": {
+          "caption": "Personnalisation",
+          "description": "Personnaliser vos entités",
+          "picker": {
+            "header": "Personnalisations",
+            "introduction": "Ajuster les attributs par entité. Les personnalisations ajoutées / modifiées prendront effet immédiatement. Les personnalisations supprimées prendront effet lors de la mise à jour de l'entité.",
+            "documentation": "Documentation sur la personnalisation",
+            "entity": "Entité"
+          },
+          "warning": {
+            "include_sentence": "Il semble que votre configuration.yaml ne fonctionne pas correctement",
+            "include_link": "inclure customize.yaml",
+            "not_applied": "Les modifications apportées ici y sont écrites, mais ne seront pas appliquées après un rechargement de configuration, à moins que l'inclusion ne soit en place."
+          },
+          "attributes_customize": "Les attributs suivants sont déjà configurés dans le fichier customize.yaml",
+          "attributes_outside": "Les attributs suivants sont personnalisés en dehors du fichier customize.yaml",
+          "different_include": "Peut-être via un domaine, un glob ou un autre include.",
+          "attributes_set": "Les attributs suivants de l'entité sont définis par programmation.",
+          "attributes_override": "Vous pouvez les remplacer si vous le souhaitez.",
+          "attributes_not_set": "Les attributs suivants ne sont pas définis. Définissez-les si vous le voulez.",
+          "pick_attribute": "Sélectionnez un attribut à remplacer"
+        },
+        "automation": {
+          "caption": "Automatisations",
+          "description": "Créer et modifier des automatisations",
+          "picker": {
+            "header": "Éditeur d'automatisation",
+            "introduction": "L'éditeur d'automatisation vous permet de créer et éditer des automatisations. Veuillez lire les instructions ci-dessous pour vous assurer d'avoir configuré Home-Assistant correctement.",
+            "learn_more": "En savoir plus sur les automatisations",
+            "pick_automation": "Choisissez l'automatisation à modifier",
+            "no_automations": "Il n'y a aucune automatisation modifiable",
+            "add_automation": "Ajouter une automatisation",
+            "only_editable": "Seules les automatisations définies dans automations.yaml sont modifiables.",
+            "edit_automation": "Modifier l'automatisation",
+            "show_info_automation": "Afficher des informations sur l'automatisation",
+            "delete_automation": "Supprimer l'automatisation",
+            "delete_confirm": "Voulez-vous vraiment supprimer cette automatisation ?",
+            "duplicate_automation": "Dupliquer l'automatisation",
+            "duplicate": "Dupliquer",
+            "headers": {
+              "name": "Nom"
+            }
+          },
+          "editor": {
+            "enable_disable": "Activer/Désactiver l'automatisation",
+            "introduction": "Utiliser les automatisations pour donner vie à votre maison.",
+            "default_name": "Nouvelle automatisation",
+            "load_error_not_editable": "Seules les automatisations dans automations.yaml sont modifiables.",
+            "load_error_unknown": "Erreur lors du chargement de l'automatisation ( {err_no} ).",
+            "save": "Sauvegarder",
+            "unsaved_confirm": "Vous avez des changements non enregistrés. Êtes-vous sûr de vouloir quitter?",
+            "alias": "Nom",
+            "move_up": "Déplacer vers le haut",
+            "move_down": "Déplacer vers le bas",
+            "description": {
+              "label": "Description",
+              "placeholder": "Description optionnelle"
+            },
+            "modes": {
+              "label": "Mode",
+              "description": "Le mode contrôle ce qui se passe lorsque l’automatisation est déclenchée alors que les actions sont toujours en cours d’exécution à partir d’un déclencheur précédent. Consultez le {documentation_link} pour plus d’informations.",
+              "documentation": "documentation d'automatisation",
+              "single": "Unique (par défaut)",
+              "restart": "Redémarrer",
+              "queued": "En attente",
+              "parallel": "Parallèle"
+            },
+            "max": {
+              "queued": "Longueur de la file d'attente",
+              "parallel": "Nombre maximal de parcours parallèles"
+            },
+            "edit_yaml": "Modifier en tant que YAML",
+            "edit_ui": "Modifier avec l'interface utilisateur",
+            "copy_to_clipboard": "Copier dans le presse-papier",
+            "triggers": {
+              "name": "Déclencheur",
+              "header": "Déclencheurs",
+              "introduction": "Les déclencheurs sont ce qui lance le traitement d'une règle d'automatisation. Il est possible de spécifier plusieurs déclencheurs pour une même règle. Dès qu'un déclencheur est activé, UNICONTROL validera les conditions, s'il y en a, et appellera l'action.\n\n[En apprendre plus sur les déclencheurs.](https://home-assistant.io/docs/automation/trigger/)",
+              "learn_more": "En savoir plus sur les déclencheurs",
+              "add": "Ajouter un déclencheur",
+              "duplicate": "Dupliquer",
+              "delete": "Supprimer",
+              "delete_confirm": "Voulez-vous effacer ?",
+              "unsupported_platform": "Pas d'interface utilisateur pour la plateforme : {platform}",
+              "type_select": "Type de déclencheur",
+              "type": {
+                "device": {
+                  "label": "Équipements",
+                  "trigger": "Déclencheur",
+                  "extra_fields": {
+                    "above": "Au-dessus de",
+                    "below": "En dessous de",
+                    "for": "Durée"
+                  }
+                },
+                "event": {
+                  "label": "Événement :",
+                  "event_type": "Type d'événement",
+                  "event_data": "Données de l'événement",
+                  "context_users": "Limiter aux événements déclenchés par",
+                  "context_user_picked": "Événement déclenché par l'utilisateur",
+                  "context_user_pick": "Ajouter un utilisateur"
+                },
+                "geo_location": {
+                  "label": "Géolocalisation",
+                  "source": "Source",
+                  "zone": "Zone",
+                  "event": "Événement :",
+                  "enter": "Entre",
+                  "leave": "Quitte"
+                },
+                "state": {
+                  "label": "État",
+                  "attribute": "Attribut (facultatif)",
+                  "from": "De",
+                  "for": "Pendant",
+                  "to": "À"
+                },
+                "homeassistant": {
+                  "label": "UNICONTROL",
+                  "event": "Événement :",
+                  "start": "Démarrage",
+                  "shutdown": "Arrêt"
+                },
+                "mqtt": {
+                  "label": "MQTT",
+                  "topic": "Sujet",
+                  "payload": "Payload (optionnel)"
+                },
+                "numeric_state": {
+                  "label": "État numérique",
+                  "above": "Au-dessus de",
+                  "below": "En-dessous de",
+                  "value_template": "Contenu du template (optionnel)"
+                },
+                "sun": {
+                  "label": "Soleil",
+                  "event": "Événement :",
+                  "sunrise": "Lever du soleil",
+                  "sunset": "Coucher du soleil",
+                  "offset": "Décalage (optionnel)"
+                },
+                "tag": {
+                  "label": "Balise"
+                },
+                "template": {
+                  "label": "Template",
+                  "value_template": "Contenu du template"
+                },
+                "time": {
+                  "type_value": "Temps fixe",
+                  "type_input": "Valeur d'une entrée de date/heure",
+                  "label": "Heure",
+                  "at": "À"
+                },
+                "time_pattern": {
+                  "label": "Modèle de temps",
+                  "hours": "Heures",
+                  "minutes": "Minutes",
+                  "seconds": "Secondes"
+                },
+                "webhook": {
+                  "label": "Webhook",
+                  "webhook_id": "ID Webhook"
+                },
+                "zone": {
+                  "label": "Zone",
+                  "entity": "Entité avec emplacement",
+                  "zone": "Zone",
+                  "event": "Événement :",
+                  "enter": "Entre",
+                  "leave": "Quitte"
+                }
+              }
+            },
+            "conditions": {
+              "name": "Condition",
+              "header": "Conditions",
+              "introduction": "Les conditions sont facultatives et empêcheront toute exécution ultérieure si toutes les conditions ne sont pas remplies.",
+              "learn_more": "En savoir plus sur les conditions",
+              "add": "Ajouter une condition",
+              "duplicate": "Dupliquer",
+              "delete": "Supprimer",
+              "delete_confirm": "Voulez-vous vraiment supprimer ?",
+              "unsupported_condition": "Pas d'interface utilisateur pour la condition : {condition}",
+              "type_select": "Type de condition",
+              "type": {
+                "and": {
+                  "label": "Et"
+                },
+                "device": {
+                  "label": "Appareil",
+                  "condition": "Condition",
+                  "extra_fields": {
+                    "above": "Au-dessus de",
+                    "below": "Au-dessous de",
+                    "for": "Durée"
+                  }
+                },
+                "not": {
+                  "label": "Pas"
+                },
+                "numeric_state": {
+                  "label": "Valeur numérique",
+                  "above": "Au dessus de",
+                  "below": "En-dessous de",
+                  "value_template": "Contenu du modèle (optionnel)"
+                },
+                "or": {
+                  "label": "Ou"
+                },
+                "state": {
+                  "label": "État",
+                  "state": "État"
+                },
+                "sun": {
+                  "label": "Soleil",
+                  "before": "Avant:",
+                  "after": "Après:",
+                  "before_offset": "Décalage avant (optionnel)",
+                  "after_offset": "Décalage après (optionnel)",
+                  "sunrise": "Lever du soleil",
+                  "sunset": "Coucher du soleil"
+                },
+                "template": {
+                  "label": "Template",
+                  "value_template": "Contenu du template"
+                },
+                "time": {
+                  "type_value": "Temps fixe",
+                  "type_input": "Valeur d'une entrée de date/heure",
+                  "label": "Heure",
+                  "after": "Après",
+                  "before": "Avant",
+                  "weekdays": {
+                    "mon": "Lundi",
+                    "tue": "Mardi",
+                    "wed": "Mercredi",
+                    "thu": "Jeudi",
+                    "fri": "Vendredi",
+                    "sat": "samedi",
+                    "sun": "dimanche"
+                  }
+                },
+                "zone": {
+                  "label": "Zone",
+                  "entity": "Entité avec localisation",
+                  "zone": "Zone"
+                }
+              }
+            },
+            "actions": {
+              "name": "Action",
+              "header": "Actions",
+              "introduction": "Les actions sont ce que UNICONTROL fera quand une automatisation est déclenchée.",
+              "learn_more": "En savoir plus sur les actions",
+              "add": "Ajouter une action",
+              "duplicate": "Dupliquer",
+              "delete": "Supprimer",
+              "delete_confirm": "Voulez-vous vraiment effacer ?",
+              "unsupported_action": "Pas d'interface utilisateur pour l'action : {action}",
+              "type_select": "Type d'action",
+              "type": {
+                "service": {
+                  "label": "Appeler un service",
+                  "service_data": "Données du service"
+                },
+                "delay": {
+                  "label": "Délai",
+                  "delay": "Délai"
+                },
+                "wait_template": {
+                  "label": "Attendre",
+                  "wait_template": "Template d'attente",
+                  "timeout": "Délai d'expiration (optionnel)",
+                  "continue_timeout": "Continuer à l'expiration du délai"
+                },
+                "wait_for_trigger": {
+                  "label": "Attendre le déclencheur",
+                  "timeout": "Délai d'expiration (optionnel)",
+                  "continue_timeout": "Continuer à l'expiration du délai"
+                },
+                "condition": {
+                  "label": "Condition"
+                },
+                "event": {
+                  "label": "Déclencher l'évènement",
+                  "event": "Évènement :",
+                  "service_data": "Données du service"
+                },
+                "device_id": {
+                  "label": "Appareil",
+                  "action": "Action",
+                  "extra_fields": {
+                    "code": "Code"
+                  }
+                },
+                "scene": {
+                  "label": "Activer la scène"
+                },
+                "repeat": {
+                  "label": "Répéter",
+                  "type_select": "Type de répétition",
+                  "type": {
+                    "count": {
+                      "label": "Nombre"
+                    },
+                    "while": {
+                      "label": "Tant que",
+                      "conditions": "Tant que les conditions"
+                    },
+                    "until": {
+                      "label": "Jusqu'à ce que",
+                      "conditions": "Jusqu'à ce que les conditions"
+                    }
+                  },
+                  "sequence": "Actions"
+                },
+                "choose": {
+                  "label": "Choisir",
+                  "default": "Actions par défaut",
+                  "option": "Option {number}",
+                  "add_option": "Ajouter une option",
+                  "remove_option": "Supprimer l'option",
+                  "conditions": "Conditions",
+                  "sequence": "Actions"
+                }
+              }
+            }
+          },
+          "thingtalk": {
+            "create": "Créer l’automatisation",
+            "task_selection": {
+              "header": "Créer une nouvelle automatisation",
+              "introduction": "Tapez ci-dessous ce que cette automatisation devrait faire, et nous allons essayer de la convertir en une automatisation UNICONTROL.",
+              "language_note": "Remarque: pour l'instant, seul l'anglais est pris en charge.",
+              "for_example": "Par exemple : ",
+              "error_empty": "Entrez une commande ou appuyez sur ignorer.",
+              "error_unsupported": "Nous n'avons pas pu créer une automatisation pour cela (pour le moment ?)."
+            },
+            "link_devices": {
+              "header": "Super ! Maintenant nous allons lier quelques appareils",
+              "ambiguous_entities": "Un ou plusieurs appareils ont plus d’une entrée correspondante, veuillez choisir celle que vous souhaitez utiliser.",
+              "unknown_placeholder": "Espace réservé introuvable"
+            }
+          }
+        },
+        "script": {
+          "caption": "Scripts",
+          "description": "Créer et modifier des scripts.",
+          "picker": {
+            "header": "Éditeur de script",
+            "introduction": "L'éditeur de script vous permet de créer et d'éditer des scripts. Suivez le lien ci-dessous pour lire les instructions afin de vous assurer que vous avez correctement configuré UNICONTROL.",
+            "learn_more": "En savoir plus sur les scripts",
+            "no_scripts": "Nous n'avons pas trouvé de scripts modifiables",
+            "add_script": "Créer un nouveau script",
+            "show_info": "Afficher des informations sur le script",
+            "trigger_script": "Script de déclenchement",
+            "run_script": "Exécuter le script",
+            "edit_script": "Éditer le script",
+            "headers": {
+              "name": "Nom"
+            },
+            "duplicate_script": "Duplicate script",
+            "duplicate": "Duplicate"
+          },
+          "editor": {
+            "alias": "Nom",
+            "icon": "Icône",
+            "id": "ID de l'entité",
+            "id_already_exists_save_error": "Vous ne pouvez pas enregistrer ce script car l'ID n'est pas unique, choisissez un autre ID ou laissez-le vide pour en générer automatiquement un.",
+            "id_already_exists": "Cet ID existe déjà",
+            "introduction": "Utiliser des scripts pour exécuter une séquence d'actions.",
+            "header": "Script: {name}",
+            "default_name": "Nouveau script",
+            "modes": {
+              "label": "Mode",
+              "description": "Le mode contrôle ce qui se passe lorsque le script est appelé alors qu’il est toujours en cours d’exécution à partir d’une ou plusieurs invocations précédentes. Consultez le {documentation_link} pour plus d’informations.",
+              "documentation": "documentation script",
+              "single": "Unique (par défaut)",
+              "restart": "Redémarrer",
+              "queued": "En attente",
+              "parallel": "Parallèle"
+            },
+            "max": {
+              "queued": "Longueur de la file d'attente",
+              "parallel": "Nombre maximal de parcours parallèles"
+            },
+            "load_error_not_editable": "Seuls les scripts dans scripts.yaml sont modifiables.",
+            "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce script?",
+            "delete_script": "Supprimer le script",
+            "save_script": "Enregistrer le script",
+            "sequence": "Séquence",
+            "sequence_sentence": "La séquence d'actions de ce script.",
+            "link_available_actions": "En savoir plus sur les actions disponibles."
+          }
+        },
+        "scene": {
+          "caption": "Scènes",
+          "description": "Créer et modifier des scènes",
+          "activated": "Scène activée {name}.",
+          "picker": {
+            "header": "Éditeur de scène",
+            "introduction": "L'éditeur de scène vous permet de créer et d'éditer des scènes. Suivez le lien ci-dessous pour lire les instructions afin de vous assurer que vous avez correctement configuré UNICONTROL.",
+            "learn_more": "En savoir plus sur les scènes",
+            "pick_scene": "Choisir une scène à éditer",
+            "no_scenes": "Nous n'avons pas pu trouver de scènes modifiables",
+            "add_scene": "Ajouter une scène",
+            "only_editable": "Seules les scènes définies dans scenes.yaml sont modifiables.",
+            "edit_scene": "Éditer la scène",
+            "show_info_scene": "Afficher les informations de la scène",
+            "delete_scene": "Supprimer la scène",
+            "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette scène?",
+            "headers": {
+              "name": "Nom"
+            }
+          },
+          "editor": {
+            "introduction": "Utilisez des scènes pour donner vie à votre maison.",
+            "default_name": "Nouvelle scène",
+            "load_error_not_editable": "Seules les scènes de scenes.yaml sont modifiables.",
+            "load_error_unknown": "Erreur de chargement de la scène ({err_no})",
+            "save": "Sauvegarder",
+            "unsaved_confirm": "Vous avez des changements non enregistrés. Êtes-vous sûr de vouloir quitter?",
+            "name": "Nom",
+            "icon": "Icône",
+            "devices": {
+              "header": "Appareils",
+              "introduction": "Ajoutez les périphériques que vous souhaitez inclure dans votre scène. Définissez l'état que vous souhaitez pour tous les périphériques de cette scène.",
+              "add": "Ajouter un appareil",
+              "delete": "Supprimer l'appareil"
+            },
+            "entities": {
+              "header": "Entités",
+              "introduction": "Les entités n'appartenant pas à un périphérique peuvent être définies ici.",
+              "without_device": "Entités sans appareil",
+              "device_entities": "Si vous ajoutez une entité appartenant à un périphérique, ce dernier sera ajouté.",
+              "add": "Ajouter une entité",
+              "delete": "Supprimer l'entité"
+            }
+          }
+        },
+        "cloud": {
+          "description_login": "Connecté en tant que {email}",
+          "description_not_login": "Non connecté",
+          "description_features": "Contrôle hors de la maison, intégration avec Alexa et Google Assistant.",
+          "login": {
+            "title": "Connexion Cloud",
+            "introduction": "UNICONTROL Cloud vous fournit une connexion sécurisée à distance à votre instance lorsque vous êtes loin de chez vous. Il vous permet également de vous connecter à des services cloud uniquement : Amazon Alexa et Google Assistant.",
+            "introduction2": "Ce service est géré par notre partenaire",
+            "introduction2a": ", une entreprise fondée par les fondateurs de UNICONTROL et de Hass.io.",
+            "introduction3": "UNICONTROL Cloud est un service d'abonnement avec un essai gratuit d'un mois. Aucune information de paiement nécessaire.",
+            "learn_more_link": "En savoir plus sur UNICONTROL Cloud",
+            "dismiss": "Rejeter",
+            "sign_in": "Connexion",
+            "email": "Email",
+            "email_error_msg": "Email non valide",
+            "password": "Mot de passe",
+            "password_error_msg": "Les mots de passe doivent comporter au moins 8 caractères.",
+            "forgot_password": "Mot de passe oublié?",
+            "start_trial": "Commencez votre essai gratuit de 1 mois",
+            "trial_info": "Aucune information de paiement nécessaire",
+            "alert_password_change_required": "Vous devez changer votre mot de passe avant de vous connecter.",
+            "alert_email_confirm_necessary": "Vous devez confirmer votre email avant de vous connecter."
+          },
+          "forgot_password": {
+            "title": "Mot de passe oublié",
+            "subtitle": "Mot de passe oublié",
+            "instructions": "Entrez votre adresse email et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+            "email": "Email",
+            "email_error_msg": "Email invalide",
+            "send_reset_email": "Envoyer un email de réinitialisation",
+            "check_your_email": "Consultez votre courrier électronique pour savoir comment réinitialiser votre mot de passe."
+          },
+          "register": {
+            "title": "Créer un compte",
+            "headline": "Commencer votre essai gratuit",
+            "information": "Créer un compte afin de commencer un mois d'essai gratuit avec UNICONTROL Cloud. Aucune information de paiement nécessaires.",
+            "information2": "L'essai vous donnera accès à tous les avantages de UNICONTROL Cloud, y compris:",
+            "feature_remote_control": "Contrôle de UNICONTROL en dehors de la maison",
+            "feature_google_home": "Intégration avec Google Assistant",
+            "feature_amazon_alexa": "Intégration avec Amazon Alexa",
+            "feature_webhook_apps": "Intégration facile avec des applications Webhook telles que OwnTracks",
+            "information3": "Ce service est géré par notre partenaire",
+            "information3a": ", une entreprise fondée par les fondateurs de UNICONTROL et de Hass.io.",
+            "information4": "En créant un compte, vous acceptez les conditions générales suivantes.",
+            "link_terms_conditions": "Conditions générales",
+            "link_privacy_policy": "Politique de confidentialité",
+            "create_account": "Créer un compte",
+            "email_address": "Adresse e-mail",
+            "email_error_msg": "Courriel invalide",
+            "password": "Mot de passe",
+            "password_error_msg": "Les mots de passe doivent comporter au moins 8 caractères.",
+            "start_trial": "Commencer la période d'évaluation",
+            "resend_confirm_email": "Renvoyer l'email de confirmation",
+            "account_created": "Compte créé! Consultez votre courrier électronique pour savoir comment activer votre compte."
+          },
+          "account": {
+            "thank_you_note": "Merci de faire partie de UNICONTROL Cloud. C’est grâce à des personnes comme vous que nous sommes en mesure de proposer une expérience domotique exceptionnelle à tout le monde. Je vous remercie!",
+            "nabu_casa_account": "Compte Nabu Casa",
+            "connection_status": "État de la connexion cloud",
+            "manage_account": "Gérer le compte",
+            "sign_out": "Déconnexion",
+            "integrations": "Intégrations",
+            "integrations_introduction": "Les intégrations pour UNICONTROL Cloud vous permettent de vous connecter à des services dans le cloud sans avoir à exposer publiquement votre instance de UNICONTROL sur Internet.",
+            "integrations_introduction2": "Consultez le site Web pour",
+            "integrations_link_all_features": "Toutes les fonctionnalités disponibles",
+            "connected": "Connecté",
+            "not_connected": "Non connecté",
+            "fetching_subscription": "Récupération de l'abonnement...",
+            "remote": {
+              "title": "Contrôle à distance",
+              "access_is_being_prepared": "L'accès à distance est en préparation. Nous vous informerons quand ce sera prêt.",
+              "info": "UNICONTROL Cloud fournit une connexion à distance sécurisée à votre instance lorsque vous n'êtes pas chez vous.",
+              "instance_is_available": "Votre instance est disponible à l'adresse",
+              "instance_will_be_available": "Votre instance sera disponible sur",
+              "link_learn_how_it_works": "Apprenez comment ça marche",
+              "certificate_info": "Informations sur le certificat"
+            },
+            "alexa": {
+              "title": "Alexa",
+              "info": "Grâce à l'intégration d'Alexa pour UNICONTROL Cloud, vous pourrez contrôler tous vos appareils UNICONTROL via n'importe quel appareil compatible Alexa.",
+              "enable_ha_skill": "Activer le skill UNICONTROL pour Alexa",
+              "config_documentation": "Documentation de configuration",
+              "enable_state_reporting": "Activer le rapport d'état",
+              "info_state_reporting": "Si vous activez le rapport d'état, UNICONTROL envoie tous les changements d'état des entités exposées à Amazon. Cela vous permet de toujours voir les derniers états de l'application Alexa et d'utiliser les changements d'état pour créer des routines.",
+              "sync_entities": "Synchroniser les entités",
+              "manage_entities": "Gérer les entités",
+              "sync_entities_error": "Échec de la synchronisation des entités:",
+              "state_reporting_error": "Impossible de {enable_disable} le rapport d'état.",
+              "enable": "activer",
+              "disable": "désactiver"
+            },
+            "google": {
+              "title": "Google Assistant",
+              "info": "Grâce à l'intégration de Google Assistant pour UNICONTROL Cloud, vous pourrez contrôler tous vos appareils UNICONTROL via n'importe quel appareil compatible avec Google Assistant.",
+              "enable_ha_skill": "Activer le skill UNICONTROL pour Google Assistant",
+              "config_documentation": "Documentation de configuration",
+              "enable_state_reporting": "Activer le rapport d'état",
+              "info_state_reporting": "Si vous activez le rapport d'état, UNICONTROL envoie tous les changements d'état des entités exposées à Google. Cela vous permet de toujours voir les derniers états de l'application Google.",
+              "security_devices": "Dispositif de sécurité",
+              "enter_pin_info": "Veuillez entrer un code PIN pour interagir avec les dispositifs de sécurité. Les dispositifs de sécurité sont les portes, les portes de garage et les serrures. Il vous sera demandé de dire/entrer ce code PIN lorsque vous interagissez avec de tels appareils via Google Assistant.",
+              "devices_pin": "PIN pour les appareils sécurisés",
+              "enter_pin_hint": "Entrer un code PIN pour utiliser les dispositifs de sécurité",
+              "sync_entities": "Synchroniser les entités vers Google",
+              "sync_entities_404_message": "Échec de la synchronisation de vos entités avec Google, demandez à Google \"Hey Google, synchronise mes appareils\" de synchroniser vos entités.",
+              "manage_entities": "Gérer les entités",
+              "enter_pin_error": "Impossible de stocker le PIN:"
+            },
+            "webhooks": {
+              "title": "Webhooks",
+              "info": "Tout ce qui est configuré pour être déclenché par un Webhook peut recevoir une URL accessible publiquement pour vous permettre de renvoyer des données à UNICONTROL de n’importe où, sans exposer votre instance à Internet.",
+              "no_hooks_yet": "Il semble que vous n'ayez pas encore de Webhooks. Commencez en configurer un ",
+              "no_hooks_yet_link_integration": "intégration basée sur un Webhook",
+              "no_hooks_yet2": "ou en créant un",
+              "no_hooks_yet_link_automation": "automation webhook",
+              "link_learn_more": "En savoir plus sur la création d'automatisations basées sur Webhook.",
+              "loading": "Chargement ...",
+              "manage": "Gérer",
+              "disable_hook_error_msg": "Impossible de désactiver le Webhook:"
+            }
+          },
+          "alexa": {
+            "title": "Alexa",
+            "banner": "La modification des entités exposées via cette interface utilisateur est désactivée, car vous avez configuré les filtres d'entité dans configuration.yaml.",
+            "exposed_entities": "Entités exposées",
+            "not_exposed_entities": "Entités non exposées",
+            "manage_domains": "Gérer les domaines",
+            "expose_entity": "Exposer l'entité",
+            "dont_expose_entity": "Ne pas exposer l'entité",
+            "follow_domain": "Suivre le domaine",
+            "exposed": "{selected} exposé",
+            "not_exposed": "{selected} non exposé",
+            "expose": "Exposer à Alexa"
+          },
+          "dialog_certificate": {
+            "certificate_information": "Informations sur le certificat",
+            "certificate_expiration_date": "Date d'expiration du certificat",
+            "will_be_auto_renewed": "Sera automatiquement renouvelé",
+            "fingerprint": "Empreinte du certificat:",
+            "close": "Fermer"
+          },
+          "google": {
+            "title": "Google Assistant",
+            "expose": "Exposer à Google Assistant",
+            "disable_2FA": "Désactiver l'authentification à deux facteurs",
+            "banner": "La modification des entités exposées via cette interface utilisateur est désactivée, car vous avez configuré les filtres d'entité dans configuration.yaml.",
+            "exposed_entities": "Entités exposées",
+            "not_exposed_entities": "Entités non exposées",
+            "manage_domains": "Gérer les domaines",
+            "expose_entity": "Exposer l'entité",
+            "dont_expose_entity": "Ne pas exposer l'entité",
+            "follow_domain": "Suivre le domaine",
+            "exposed": "{selected} exposé",
+            "not_exposed": "{selected} non exposé",
+            "sync_to_google": "Synchroniser les modifications sur Google."
+          },
+          "dialog_cloudhook": {
+            "webhook_for": "Webhook pour {name}",
+            "available_at": "Le Webhook est disponible à l'URL suivante:",
+            "managed_by_integration": "Ce Webhook est géré par une intégration et ne peut pas être désactivé.",
+            "info_disable_webhook": "Si vous ne souhaitez plus utiliser ce Webhook, vous pouvez",
+            "link_disable_webhook": "le désactiver",
+            "view_documentation": "Voir la documentation",
+            "close": "Fermer",
+            "confirm_disable": "Êtes-vous sûr de vouloir désactiver ce Webhook?",
+            "copied_to_clipboard": "Copié dans le presse-papiers"
+          },
+          "caption": "Cloud UNICONTROL"
+        },
+        "devices": {
+          "add_prompt": "Aucun {name} n'a encore été ajouté à l'aide de cet appareil. Vous pouvez en ajouter un en cliquant sur le bouton + ci-dessus.",
+          "caption": "Appareils",
+          "description": "Gérer les appareils connectés",
+          "device_info": "Informations sur l’appareil",
+          "unnamed_device": "Appareil sans nom",
+          "unknown_error": "Erreur inconnue",
+          "name": "Nom",
+          "update": "Mettre à jour",
+          "no_devices": "Aucun appareil",
+          "automation": {
+            "automations": "Automatisations",
+            "no_automations": "Aucune automatisation",
+            "unknown_automation": "Automatisation inconnue",
+            "create": "Créer une automatisation avec l'appareil",
+            "triggers": {
+              "caption": "Faire quelque chose quand ...",
+              "no_triggers": "Pas de déclencheur",
+              "unknown_trigger": "Déclencheur inconnu"
+            },
+            "conditions": {
+              "caption": "Ne faire quelque chose que si ...",
+              "no_conditions": "Aucune condition",
+              "unknown_condition": "Condition inconnue"
+            },
+            "actions": {
+              "caption": "Quand quelque chose est déclenché ...",
+              "no_actions": "Aucune action",
+              "unknown_action": "Action inconnue"
+            },
+            "no_device_automations": "Aucune automatisation n'est disponible pour cet appareil."
+          },
+          "script": {
+            "scripts": "Scripts",
+            "no_scripts": "Pas de scripts",
+            "create": "Créer un script avec l'appareil"
+          },
+          "scene": {
+            "scenes": "Scènes",
+            "no_scenes": "Pas de scènes",
+            "create": "Créer une scène avec l'appareil"
+          },
+          "cant_edit": "Vous ne pouvez modifier que les éléments créés dans l'interface utilisateur.",
+          "device_not_found": "Appareil non trouvé.",
+          "entities": {
+            "entities": "Entités",
+            "add_entities_lovelace": "Ajouter à Lovelace",
+            "none": "Cet appareil n'a pas d'entités",
+            "hide_disabled": "Masquer désactivé",
+            "disabled_entities": "+{count} {count, plural,\none {entité désactivée}\nother {entité désactivée}\n}"
+          },
+          "scripts": "Scripts",
+          "scenes": "Scènes",
+          "confirm_rename_entity_ids": "Voulez-vous aussi renommer les ID de vos entités?",
+          "confirm_rename_entity_ids_warning": "Cela ne changera aucune configuration (comme les automatismes, les scripts, les scènes, Lovelace) qui utilisent actuellement ces entités, vous devrez les mettre à jour vous-même.",
+          "data_table": {
+            "device": "Appareil",
+            "manufacturer": "Fabricant",
+            "model": "Modèle",
+            "area": "Zone",
+            "integration": "Intégration",
+            "battery": "Batterie",
+            "no_devices": "Aucun appareil",
+            "no_area": "Pas de zone"
+          },
+          "delete": "Supprimer",
+          "confirm_delete": "Voulez-vous vraiment supprimer cet appareil ?"
+        },
+        "entities": {
+          "caption": "Entités",
+          "description": "Vue d'ensemble de toutes les entités connues.",
+          "picker": {
+            "header": "Entités",
+            "introduction": "UNICONTROL tient un registre de chaque entité qu'il a déjà vu au moins une fois et qui peut être identifiée de manière unique. Chacune de ces entités se verra attribuer un identifiant qui sera réservé à cette seule entité.",
+            "introduction2": "Utilisé le registre des entités pour remplacer le nom, modifier l'ID de l'entité ou supprimer l'entrée de UNICONTROL.",
+            "search": "Chercher les entités",
+            "filter": {
+              "filter": "Filtre",
+              "show_disabled": "Afficher les entités désactivées",
+              "show_unavailable": "Afficher les entités non disponibles",
+              "show_readonly": "Afficher les entités en lecture seule",
+              "hidden_entities": "{number} caché {number, plural,\n  one {entity}\n  other {entities}\n}",
+              "show_all": "Afficher tout"
+            },
+            "status": {
+              "restored": "Restauré",
+              "unavailable": "Indisponible",
+              "disabled": "Désactivé",
+              "readonly": "Lecture seule",
+              "ok": "Ok"
+            },
+            "headers": {
+              "name": "Nom",
+              "entity_id": "ID de l'entité",
+              "integration": "Intégration",
+              "status": "Statut"
+            },
+            "selected": "{number} sélectionné",
+            "enable_selected": {
+              "button": "Activer la sélection",
+              "confirm_title": "Voulez-vous activer les {number} entités?",
+              "confirm_text": "Cela les rendra à nouveau disponibles dans UNICONTROL s'ils sont maintenant désactivés."
+            },
+            "disable_selected": {
+              "button": "Désactiver la sélection",
+              "confirm_title": "Voulez-vous désactiver les {number} entités?",
+              "confirm_text": "Les entités désactivées ne seront pas ajoutées à UNICONTROL."
+            },
+            "remove_selected": {
+              "button": "Supprimer la sélection",
+              "confirm_title": "Voulez-vous supprimer {number} entités ?",
+              "confirm_partly_title": "Seules {number} entités sélectionnées peuvent être supprimées.",
+              "confirm_text": "Les entités ne peuvent être supprimées que lorsque l'intégration ne fournit plus les entités.",
+              "confirm_partly_text": "Vous ne pouvez supprimer que {removable} des {selected} entités. Les entités ne peuvent être supprimées que lorsque l'intégration ne fournit plus les entités. Parfois, vous devez redémarrer UNICONTROL avant de pouvoir supprimer les entités d'une intégration supprimée. Voulez-vous vraiment supprimer les entités obsolètes?"
+            }
+          }
+        },
+        "person": {
+          "caption": "Personnes",
+          "description": "Gérez les personnes suivies par UNICONTROL",
+          "introduction": "Ici, vous pouvez définir chaque personne d'intérêt dans UNICONTROL.",
+          "note_about_persons_configured_in_yaml": "Remarque: les personnes configurées via configuration.yaml ne peuvent pas être modifiées via l'interface utilisateur.",
+          "learn_more": "En savoir plus sur les personnes",
+          "no_persons_created_yet": "Il semble que vous n’avez encore créé personne.",
+          "create_person": "Créer une personne",
+          "add_person": "Ajouter une personne",
+          "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette personne?",
+          "confirm_delete2": "Tous les appareils appartenant à cette personne ne seront plus affectés.",
+          "person_not_found_title": "Personne introuvable",
+          "person_not_found": "Nous n'avons pas trouvé la personne que vous tentiez de modifier.",
+          "detail": {
+            "new_person": "Nouvelle personne",
+            "name": "Nom",
+            "name_error_msg": "Le nom est requis",
+            "linked_user": "Utilisateur lié",
+            "device_tracker_intro": "Sélectionnez les appareils appartenant à cette personne.",
+            "no_device_tracker_available_intro": "Lorsque vous avez des appareils qui indiquent la présence d'une personne, vous serez en mesure de les affecter à une personne ici. Vous pouvez ajouter votre premier appareil en ajoutant une intégration de détection de présence à partir de la page d'intégration.",
+            "link_presence_detection_integrations": "Intégrations de détection de présence",
+            "link_integrations_page": "Page des intégrations",
+            "device_tracker_picked": "Appareil suivi",
+            "device_tracker_pick": "Choisissez le périphérique à suivre",
+            "delete": "Supprimer",
+            "create": "Créer",
+            "update": "Mettre à jour",
+            "confirm_delete_user": "Êtes-vous sûr de vouloir supprimer le compte utilisateur de {name} ? Vous pouvez toujours suivre l'utilisateur, mais la personne ne pourra plus se connecter.",
+            "admin": "Administrateur",
+            "allow_login": "Autoriser la personne à se connecter"
+          }
+        },
+        "zone": {
+          "caption": "Zones",
+          "description": "Gérez les zones dans lesquelles vous souhaitez suivre les personnes",
+          "introduction": "Les zones vous permettent de spécifier certaines régions sur la terre. Lorsqu'une personne se trouve dans une zone, l'état prend le nom de la zone. Les zones peuvent également être utilisées comme déclencheur ou condition dans les configurations d'automatisation.",
+          "no_zones_created_yet": "Il semble que vous n'ayez pas encore créé de zones.",
+          "create_zone": "Créer une zone",
+          "add_zone": "Ajouter une zone",
+          "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette zone ?",
+          "configured_in_yaml": "Les zones configurées via configuration.yaml ne peuvent pas être modifiées via l'interface utilisateur.",
+          "edit_home_zone": "Le rayon de la zone d'habitation ne peut pas encore être modifié depuis le frontend. Faites glisser le marqueur sur la carte pour déplacer la zone d'habitation.",
+          "edit_home_zone_narrow": "Le rayon de la zone d'habitation ne peut pas encore être modifié depuis le frontend. L'emplacement peut être modifié par rapport à la configuration générale.",
+          "go_to_core_config": "Aller à la configuration générale ?",
+          "home_zone_core_config": "L'emplacement de votre zone d'habitation est modifiable à partir de la page de configuration générale. Le rayon de la zone d'habitation ne peut pas encore être modifié depuis le frontend. Voulez-vous passer à la configuration générale ?",
+          "detail": {
+            "new_zone": "Nouvelle zone",
+            "name": "Nom",
+            "icon": "Icône",
+            "icon_error_msg": "L'icône doit être au format \"préfixe:nom d'icône\", par exemple : \"mdi:home\"",
+            "radius": "Rayon",
+            "latitude": "Latitude",
+            "longitude": "Longitude",
+            "passive": "Passif",
+            "passive_note": "Les zones passives sont cachées dans l'interface utilisateur et ne sont pas utilisées comme emplacement pour les appareils suivis. Elles sont utiles si vous voulez les utiliser pour des automatisations.",
+            "required_error_msg": "Ce champ est requis",
+            "delete": "Effacer",
+            "create": "Créer",
+            "update": "Mettre à jour"
+          }
+        },
+        "integrations": {
+          "caption": "Intégrations",
+          "description": "Gérer les appareils et services connectés",
+          "integration": "intégration",
+          "discovered": "Découvert",
+          "attention": "Attention requise",
+          "configured": "Configuré",
+          "new": "Configurer une nouvelle intégration",
+          "add_integration": "Ajouter l'intégration",
+          "no_integrations": "Il semble que vous n'ayez pas encore configuré d'intégrations. Cliquez sur le bouton ci-dessous pour ajouter votre première intégration!",
+          "note_about_integrations": "Toutes les intégrations ne peuvent pas encore être configurées via l'interface utilisateur.",
+          "note_about_website_reference": "D'autres sont disponibles sur le ",
+          "home_assistant_website": "site web de UNICONTROL",
+          "configure": "Configurer",
+          "reconfigure": "Reconfigurer",
+          "none": "Rien n'est encore configuré",
+          "none_found": "Aucune intégration trouvée",
+          "none_found_detail": "Ajustez vos critères de recherche.",
+          "integration_not_found": "Intégration introuvable.",
+          "details": "Détails de l'intégration",
+          "rename_dialog": "Modifier le nom de cette entrée de configuration",
+          "rename_input_label": "Nom de l'entrée",
+          "search": "Chercher les intégrations",
+          "ignore": {
+            "ignore": "Ignorer",
+            "confirm_ignore_title": "Ignorer la découverte de {name} ?",
+            "confirm_ignore": "Êtes-vous sûr de ne pas vouloir configurer cette intégration? Vous pouvez annuler cela en cliquant sur «Afficher les intégrations ignorées» dans le menu de débordement en haut à droite.",
+            "show_ignored": "Afficher les intégrations ignorées",
+            "hide_ignored": "Masquer les intégrations ignorées",
+            "ignored": "Ignoré",
+            "confirm_delete_ignore_title": "Arrêter d'ignorer {name} ?",
+            "confirm_delete_ignore": "Cela fera réintégrer l'intégration dans vos intégrations découvertes lorsqu'elle sera découverte. Cela peut nécessiter un redémarrage ou prendre un certain temps.",
+            "stop_ignore": "Arrêter d'ignorer"
+          },
+          "config_entry": {
+            "devices": "{count} {count, plural,\n  zero {appareil}\n  one {appareil}\n  other {appareils}\n}",
+            "entities": "{count} {count, plural,\n  zero {entité}\n  one {entité}\n  other {entités}\n}",
+            "services": "{count} {count, plural,\n  one {service}\n  other {services}\n}",
+            "rename": "Renommer",
+            "options": "Options",
+            "system_options": "Options système",
+            "documentation": "Documentation",
+            "delete": "Supprimer",
+            "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette intégration?",
+            "reload": "Recharger",
+            "restart_confirm": "Redémarrer UNICONTROL pour terminer la suppression de cette intégration",
+            "reload_confirm": "L'intégration a été rechargée",
+            "reload_restart_confirm": "Redémarrer UNICONTROL pour finaliser le rechargement de cette intégration",
+            "manuf": "par {manufacturer}",
+            "hub": "Connecté via",
+            "firmware": "Firmware: {version}",
+            "unnamed_entry": "Entrée sans nom",
+            "device_unavailable": "appareil indisponible",
+            "entity_unavailable": "entité indisponible",
+            "area": "Dans {area}",
+            "no_area": "Pas de zone",
+            "delete_button": "Supprimer {integration}",
+            "no_device": "Entités sans appareils",
+            "no_devices": "Cette intégration n'a pas d'appareils.",
+            "settings_button": "Modifier les paramètres pour {integration}",
+            "system_options_button": "Options système pour {integration}"
+          },
+          "config_flow": {
+            "aborted": "Abandonné",
+            "close": "Fermer",
+            "dismiss": "Fermer la boîte de dialogue",
+            "finish": "Terminer",
+            "submit": "Soumettre",
+            "not_all_required_fields": "Tous les champs obligatoires ne sont pas renseignés.",
+            "error_saving_area": "Erreur lors de l'enregistrement de la zone: {error}",
+            "created_config": "Configuration créée pour {name}.",
+            "external_step": {
+              "description": "Cette étape nécessite la visite d'un site Web externe pour être complétée.",
+              "open_site": "Ouvrir le site"
+            },
+            "loading_first_time": "Veuillez patienter pendant que l'intégration est en cours d'installation"
+          }
+        },
+        "users": {
+          "caption": "Utilisateurs",
+          "description": "Gérer les utilisateurs",
+          "users_privileges_note": "La fonctionnalité de groupe d'utilisateurs est en cours de développement. L'utilisateur ne pourra pas gérer l'instance via l'interface. Nous vérifions toujours tous les points terminaisons d'API pour assurer que les accès soient limités aux administrateurs.",
+          "picker": {
+            "headers": {
+              "name": "Nom",
+              "group": "Groupe",
+              "system": "Système"
+            },
+            "add_user": "Add user"
+          },
+          "editor": {
+            "caption": "Voir l'utilisateur",
+            "name": "Nom",
+            "change_password": "Changer le mot de passe",
+            "new_password": "Nouveau mot de passe",
+            "password_changed": "Le mot de passe a été changé avec succès",
+            "activate_user": "Activer l'utilisateur",
+            "deactivate_user": "Désactiver l'utilisateur",
+            "delete_user": "Supprimer l'utilisateur",
+            "update_user": "Mise à jour",
+            "id": "ID",
+            "owner": "Propriétaire",
+            "admin": "Administrateur",
+            "group": "Groupe",
+            "active": "Actif",
+            "system_generated": "Généré par le système",
+            "system_generated_users_not_removable": "Impossible de supprimer les utilisateurs générés par le système.",
+            "system_generated_users_not_editable": "Impossible de mettre à jour les utilisateurs générés par le système.",
+            "unnamed_user": "Utilisateur sans nom",
+            "confirm_user_deletion": "Êtes-vous sûr de vouloir supprimer {name} ?"
+          },
+          "add_user": {
+            "caption": "Ajouter un utilisateur",
+            "name": "Nom",
+            "username": "Nom d'utilisateur",
+            "password": "Mot de passe",
+            "password_confirm": "Confirmer le mot de passe",
+            "password_not_match": "Le mot de passe ne correspond pas",
+            "create": "Créer"
+          }
+        },
+        "mqtt": {
+          "button": "Configurer",
+          "title": "MQTT",
+          "description_publish": "Publier un paquet",
+          "topic": "sujet",
+          "payload": "Payload (modèle autorisé)",
+          "publish": "Publier",
+          "description_listen": "Écouter un sujet",
+          "listening_to": "Écouter",
+          "subscribe_to": "Sujet auquel s'abonner",
+          "start_listening": "Commencer à écouter",
+          "stop_listening": "Arrêter d'écouter",
+          "message_received": "Message {id} reçu sur {topic} à {time} :"
+        },
+        "ozw": {
+          "button": "Configurer",
+          "common": {
+            "zwave": "Z-Wave",
+            "node_id": "ID du nœud",
+            "ozw_instance": "Instance Z-Wave",
+            "instance": "Instance",
+            "controller": "Contrôleur",
+            "network": "Réseau",
+            "wakeup_instructions": "Instructions de réveil",
+            "query_stage": "Étape de requête"
+          },
+          "device_info": {
+            "zwave_info": "Informations Z-Wave",
+            "stage": "Étape",
+            "node_failed": "Nœud Défaillant"
+          },
+          "node_query_stages": {
+            "protocolinfo": "Obtention des capacités Z-Wave de base de ce nœud à partir du contrôleur",
+            "probe": "Vérification si le nœud est éveillé/vivant",
+            "wakeup": "Configuration de la prise en charge des files d'attente et des messages de réveil",
+            "manufacturerspecific1": "Obtention des codes d'identification du fabricant et du produit auprès du nœud",
+            "nodeinfo": "Obtention des classes de commande prises en charge à partir du nœud",
+            "nodeplusinfo": "Obtention d'informations Z-Wave + à partir du nœud",
+            "manufacturerspecific2": "Obtention de codes d’identification supplémentaires du fabricant et du produit à partir du nœud",
+            "versions": "Obtention d'informations sur les versions des microprogrammes et des classes de commande",
+            "instances": "Obtention des détails sur les instances ou les canaux pris en charge par un appareil",
+            "static": "Obtention des valeurs statiques de l'appareil",
+            "cacheload": "Chargement des informations à partir du fichier de cache OpenZWave. Les nœuds de batterie resteront à cette étape jusqu'à ce que le nœud se réveille.",
+            "associations": "Rafraîchissement les associations et les membres",
+            "neighbors": "Obtenir une liste des nœuds voisins",
+            "session": "Obtention de valeurs rarement modifiées du nœud",
+            "dynamic": "Obtention de valeurs fréquemment modifiées du nœud",
+            "configuration": "Obtention la configuration à partir du nœud",
+            "complete": "Le processus d'interrogation est terminé"
+          },
+          "refresh_node": {
+            "button": "Actualiser le nœud",
+            "title": "Actualiser les informations du nœud",
+            "complete": "Actualisation du nœud terminée",
+            "description": "Cela indiquera à OpenZWave de réinterroger le nœud et de le mettre à jour (commandes, possibilités et valeurs).",
+            "battery_note": "Si le nœud est alimenté par batterie, assurez-vous de l'activer avant de continuer",
+            "wakeup_header": "Instructions de réveil pour",
+            "wakeup_instructions_source": "Les instructions de réveil proviennent de la base de données de la communauté OpenZWave.",
+            "start_refresh_button": "Démarrer l'actualisation",
+            "refreshing_description": "Rafraîchissement des informations sur le nœud...",
+            "node_status": "État du nœud",
+            "step": "Étape"
+          },
+          "network_status": {
+            "online": "En ligne",
+            "offline": "Hors ligne",
+            "starting": "Démarrage",
+            "unknown": "Inconnu",
+            "details": {
+              "driverallnodesqueried": "Tous les nœuds ont été interrogés",
+              "driverallnodesqueriedsomedead": "Tous les nœuds ont été interrogés. Certains nœuds ont été trouvés morts",
+              "driverawakenodesqueries": "Tous les nœuds éveillés ont été interrogés",
+              "driverremoved": "Le pilote a été supprimé",
+              "driverreset": "Le pilote a été réinitialisé",
+              "driverfailed": "Échec de la connexion au contrôleur Z-Wave",
+              "driverready": "Initialisation du contrôleur Z-Wave",
+              "ready": "Prêt à se connecter",
+              "stopped": "OpenZWave arrêté",
+              "started": "Connecté à MQTT",
+              "starting": "Connexion à MQTT",
+              "offline": "OZWDaemon hors ligne"
+            }
+          },
+          "navigation": {
+            "select_instance": "Sélectionnez une instance",
+            "network": "Réseau",
+            "nodes": "Nœuds",
+            "node": {
+              "dashboard": "Tableau de bord",
+              "config": "Config"
+            }
+          },
+          "select_instance": {
+            "header": "Sélectionnez une instance OpenZWave",
+            "introduction": "Vous avez plus d'une instance OpenZWave en cours d'exécution. Quelle instance souhaitez-vous gérer ?",
+            "none_found": "Nous n'avons pas trouvé d'instance d'OpenZWave. Si vous pensez c'est incorrect, vérifiez vos configurations OpenZWave et MQTT et assurez-vous que UNICONTROL peut communiquer avec votre serveur MQTT."
+          },
+          "network": {
+            "header": "Gestion du réseau",
+            "introduction": "Gérer les fonctions de niveau réseau.",
+            "node_count": "{count} nœuds"
+          },
+          "nodes_table": {
+            "id": "ID",
+            "manufacturer": "Fabricant",
+            "model": "Modèle",
+            "query_stage": "Étape de requête",
+            "zwave_plus": "Z-Wave Plus",
+            "failed": "Echec"
+          },
+          "node": {
+            "button": "Détails du nœud",
+            "not_found": "Nœud introuvable"
+          },
+          "node_config": {
+            "header": "Configuration du nœud",
+            "introduction": "Gérez les différents paramètres de configuration d'un nœud Z-Wave.",
+            "help_source": "Les descriptions des paramètres de configuration et le texte d'aide sont fournis par le projet OpenZWave.",
+            "wakeup_help": "Les nœuds alimentés par batterie doivent être éveillés pour modifier leur configuration. Si le nœud n'est pas réveillé, OpenZWave tentera de mettre à jour la configuration du nœud la prochaine fois qu'il se réveillera, ce qui pourrait être plusieurs heures (ou jours) plus tard. Suivez ces étapes pour réactiver votre appareil:"
+          },
+          "node_metadata": {
+            "product_manual": "Manuel du produit"
+          },
+          "services": {
+            "add_node": "Ajouter un nœud",
+            "remove_node": "Supprimer le nœud",
+            "cancel_command": "Annuler la commande"
+          }
+        },
+        "zha": {
+          "button": "Configurer",
+          "header": "Configurer Zigbee Home Automation",
+          "introduction": "Ici, il est possible de configurer le composant ZHA. Il n'est pas encore possible de tout configurer à partir de l'interface utilisateur, mais nous y travaillons.",
+          "description": "Gestion de réseau domotique Zigbee",
+          "common": {
+            "add_devices": "Ajouter des appareils",
+            "clusters": "Clusters",
+            "devices": "Appareils",
+            "manufacturer_code_override": "Code de remplacement du fabricant",
+            "value": "Valeur"
+          },
+          "add_device_page": {
+            "spinner": "Recherche de périphériques ZHA Zigbee ...",
+            "pairing_mode": "Assurez-vous que vos appareils sont en mode d'appairage. Consultez les instructions de votre appareil pour savoir comment procéder.",
+            "discovered_text": "Les appareils s'afficheront ici une fois découverts.",
+            "no_devices_found": "Aucun appareil n'a été trouvé, assurez-vous qu'ils sont en mode d'appairage et gardez-les éveillés pendant que la découverte est en cours",
+            "search_again": "Rechercher à nouveau",
+            "discovery_text": "Les appareils découverts apparaîtront ici. Suivez les instructions pour votre / vos appareil(s) et placez-le(s) en mode de couplage.",
+            "header": "Zigbee Home Automation - Ajout de périphériques"
+          },
+          "network_management": {
+            "header": "Gestion du réseau",
+            "introduction": "Commandes qui affectent l'ensemble du réseau"
+          },
+          "add": {
+            "caption": "Ajouter des appareils",
+            "description": "Ajouter des appareils au réseau Zigbee"
+          },
+          "devices": {
+            "header": "Zigbee Home Automation - Appareil"
+          },
+          "node_management": {
+            "header": "Gestion des appareils",
+            "introduction": "Exécutez les commandes ZHA qui affectent un seul périphérique. Choisissez un appareil pour voir une liste des commandes disponibles.",
+            "hint_battery_devices": "Remarque: les appareils en veille (alimentés par batterie) doivent être réveillés lorsqu'ils exécutent des commandes. Vous pouvez généralement réveiller un appareil endormi en le déclenchant.",
+            "hint_wakeup": "Certains appareils, tels que les capteurs Xiaomi, disposent d'un bouton de réveil sur lequel vous pouvez appuyer à environ 5 secondes d'intervalle pour que les appareils restent éveillés lorsque vous interagissez avec eux.",
+            "help_node_dropdown": "Sélectionnez un périphérique pour afficher les options par périphérique."
+          },
+          "clusters": {
+            "header": "Clusters",
+            "help_cluster_dropdown": "Sélectionnez un cluster pour afficher les attributs et les commandes.",
+            "introduction": "Les grappes sont les éléments de construction de la fonctionnalité Zigbee. Ils séparent les fonctionnalités en unités logiques. Il en existe de types client et serveur et sont composés d'attributs et de commandes."
+          },
+          "cluster_attributes": {
+            "header": "Attributs de cluster",
+            "introduction": "Voir et éditer les attributs du cluster.",
+            "attributes_of_cluster": "Attributs du cluster sélectionné",
+            "get_zigbee_attribute": "Obtenir l'attribut Zigbee",
+            "set_zigbee_attribute": "Définir l'attribut Zigbee",
+            "help_attribute_dropdown": "Sélectionnez un attribut à afficher ou définissez sa valeur.",
+            "help_get_zigbee_attribute": "Obtenez la valeur pour l'attribut sélectionné.",
+            "help_set_zigbee_attribute": "Définir la valeur d'attribut pour le cluster spécifié sur l'entité spécifiée."
+          },
+          "cluster_commands": {
+            "header": "Commandes de cluster",
+            "introduction": "Afficher et émettre des commandes de cluster.",
+            "commands_of_cluster": "Commandes du cluster sélectionné",
+            "issue_zigbee_command": "Émettre une commande Zigbee",
+            "help_command_dropdown": "Sélectionnez une commande avec laquelle interagir."
+          },
+          "network": {
+            "caption": "Réseau"
+          },
+          "groups": {
+            "caption": "Groupes",
+            "description": "Créer et modifier des groupes Zigbee",
+            "zha_zigbee_groups": "Groupes ZHA Zigbee",
+            "manage_groups": "Gérer les groupes Zigbee",
+            "groups": "Groupes",
+            "group_id": "ID de groupe",
+            "members": "Membres",
+            "header": "Zigbee Home Automation - Gestion de groupe",
+            "groups-header": "Zigbee Home Automation - Gestion de groupe",
+            "group-header": "Zigbee Home Automation - Détails du groupe",
+            "introduction": "Créer et modifier des groupes zigbee",
+            "remove_groups": "Supprimer des groupes",
+            "removing_groups": "Suppression de groupes",
+            "group_info": "Informations sur le groupe",
+            "group_details": "Voici tous les détails du groupe Zigbee sélectionné.",
+            "group_not_found": "Groupe introuvable !",
+            "add_members": "Ajouter des membres",
+            "remove_members": "Supprimer des membres",
+            "adding_members": "Ajout de membres",
+            "removing_members": "Suppression de membres",
+            "create_group_details": "Entrez les détails requis pour créer un nouveau groupe de zigbee",
+            "group_name_placeholder": "Nom du groupe",
+            "create_group": "Zigbee Home Automation - Créer un groupe",
+            "create": "Créer un groupe",
+            "creating_group": "Création de groupe"
+          },
+          "group_binding": {
+            "header": "Liaison de groupe",
+            "introduction": "Lier et délier les groupes.",
+            "group_picker_label": "Groupes pouvant être liés",
+            "group_picker_help": "Sélectionnez un groupe pour émettre une commande de liaison.",
+            "cluster_selection_help": "Sélectionnez les clusters à lier au groupe sélectionné.",
+            "bind_button_label": "Lier Groupe",
+            "unbind_button_label": "Délier Groupe",
+            "bind_button_help": "Lier le groupe sélectionné aux groupes de dispositifs sélectionnés.",
+            "unbind_button_help": "Délier le groupe sélectionné des groupes de périphériques sélectionnés."
+          },
+          "caption": "ZHA",
+          "title": "Zigbee Home Automation"
+        },
+        "zwave": {
+          "button": "Configurer",
+          "description": "Gérer votre réseau Z-Wave",
+          "learn_more": "En savoir plus sur Z-Wave",
+          "common": {
+            "value": "Valeur",
+            "instance": "Instance",
+            "index": "Index",
+            "unknown": "inconnu",
+            "wakeup_interval": "Intervalle de réveil"
+          },
+          "network_management": {
+            "header": "Gestion de réseau Z-Wave",
+            "introduction": "Exécutez les commandes qui affectent le réseau Z-Wave. Vous ne saurez pas si la plupart des commandes ont réussi, mais vous pouvez consulter le journal OZW pour essayer de le savoir."
+          },
+          "node_management": {
+            "header": "Gestion des nœuds Z-Wave",
+            "introduction": "Exécute des commandes Z-Wave affectant individuellement un nœud. Sélectionnez un nœud pour voir une liste des commandes disponibles.",
+            "nodes": "Nœuds",
+            "nodes_hint": "Sélectionnez le nœud pour afficher les options par nœud",
+            "entities": "Entités du nœud",
+            "entity_info": "Informations sur l'entité",
+            "exclude_entity": "Exclure cette entité de UNICONTROL",
+            "pooling_intensity": "Intensité  polling",
+            "node_protection": "Protection des nœuds",
+            "protection": "Protection",
+            "set_protection": "Définir la protection",
+            "node_group_associations": "Associations aux groupes de nœuds",
+            "group": "Groupe",
+            "node_to_control": "Nœud à contrôler",
+            "nodes_in_group": "Autres nœuds de ce groupe :",
+            "max_associations": "Associations Max:",
+            "add_to_group": "Ajouter au groupe",
+            "remove_from_group": "Supprimer du groupe",
+            "remove_broadcast": "Supprimer la diffusion"
+          },
+          "ozw_log": {
+            "header": "Journal OZW",
+            "introduction": "Afficher le journal. Entrer un nombre de 1 à 1000 lignes pour limiter le nombre de lignes chargées dans le journal, ou entrer 0 pour désactiver la limitation du nombre de lignes affichées (journal complet). \"Charger\" affichera un instantané du journal, alors que \"Suivre\" affichera le journal en l'actualisant au fur et à mesure que de nouvelles entrées apparaissent.",
+            "last_log_lines": "Nombre de dernières lignes de journal",
+            "load": "Charger",
+            "tail": "Suivre"
+          },
+          "network_status": {
+            "network_stopped": "Réseau Z-Wave arrêté",
+            "network_starting": "Démarrage du réseau Z-Wave...",
+            "network_starting_note": "Ceci peut prendre un certain temps en fonction du débit de votre réseau.",
+            "network_started": "Le réseau Z-Wave a été démarré",
+            "network_started_note_some_queried": "Les nœuds éveillés ont été interrogés. Les nœuds en veille seront interrogés à leur réveil.",
+            "network_started_note_all_queried": "Tous les nœuds ont été interrogés."
+          },
+          "node_config": {
+            "header": "Options de configuration du nœud",
+            "seconds": "secondes",
+            "set_wakeup": "Définir l'intervalle de réveil",
+            "config_parameter": "Paramètre de configuration",
+            "config_value": "Valeur de configuration",
+            "true": "Vrai",
+            "false": "Faux",
+            "set_config_parameter": "Définir le paramètre de configuration"
+          },
+          "values": {
+            "header": "Valeurs des nœuds"
+          },
+          "services": {
+            "start_network": "Démarrer le réseau",
+            "stop_network": "Arrêter le réseau",
+            "heal_network": "Soigner le réseau",
+            "test_network": "Tester le réseau",
+            "soft_reset": "Redémarrage",
+            "save_config": "Enregistrer la configuration",
+            "add_node_secure": "Ajouter un nœud sécurisé",
+            "add_node": "Ajouter un nœud",
+            "remove_node": "Supprimer un nœud",
+            "cancel_command": "Annuler la commande",
+            "refresh_node": "Actualiser Nœud",
+            "remove_failed_node": "Supprimer le nœud défaillant",
+            "replace_failed_node": "Remplacer le nœud défaillant",
+            "print_node": "Imprimer le nœud",
+            "heal_node": "Guérir Nœud",
+            "test_node": "Tester Nœud",
+            "node_info": "Informations sur le nœud",
+            "refresh_entity": "Actualiser l'entité"
+          },
+          "caption": "Z-Wave"
+        }
+      },
+      "history": {
+        "ranges": {
+          "today": "Aujourd'hui",
+          "yesterday": "Hier",
+          "this_week": "Cette semaine",
+          "last_week": "La semaine dernière"
+        },
+        "period": "Période",
+        "showing_entries": "Afficher les entrées pour"
+      },
+      "logbook": {
+        "ranges": {
+          "today": "Aujourd'hui",
+          "yesterday": "Hier",
+          "this_week": "Cette semaine",
+          "last_week": "La semaine dernière"
+        },
+        "entries_not_found": "Aucune entrée trouvée dans le journal.",
+        "period": "Période",
+        "showing_entries": "Afficher les entrées pour le"
+      },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette carte?",
+          "empty_state": {
+            "title": "Bienvenue à la maison",
+            "no_devices": "Cette page vous permet de contrôler vos périphériques. Toutefois, il semble que vous n’ayez pas encore configuré de périphériques. Rendez-vous sur la page des intégrations pour commencer.",
+            "go_to_integrations_page": "Aller à la page des intégrations."
+          },
+          "entities": {
+            "never_triggered": "Jamais déclenché"
+          },
+          "shopping-list": {
+            "checked_items": "Éléments cochés",
+            "clear_items": "Effacer les éléments cochés",
+            "add_item": "Ajouter un élément"
+          },
+          "picture-elements": {
+            "hold": "Maintenir:",
+            "tap": "Appuyez sur:",
+            "navigate_to": "Naviguer vers {location}",
+            "url": "Ouvrir la fenêtre vers {url_path}.",
+            "toggle": "Permuter {name}",
+            "call_service": "Appeler le service {name}",
+            "more_info": "Afficher plus d'informations: {name}"
+          },
+          "safe-mode": {
+            "header": "Mode sans échec activé",
+            "description": "UNICONTROL a rencontré des problèmes lors du chargement de votre configuration et fonctionne désormais en mode sans échec. Jetez un œil au journal des erreurs pour voir ce qui ne va pas."
+          },
+          "starting": {
+            "description": "UNICONTROL démarre, veuillez patienter.",
+            "header": "UNICONTROL démarre ..."
+          }
+        },
+        "unused_entities": {
+          "title": "Entités inutilisées",
+          "available_entities": "Ce sont les entités dont vous disposez, mais qui ne figurent pas encore dans votre interface utilisateur Lovelace.",
+          "select_to_add": "Sélectionner les entités que vous souhaitez ajouter à une carte, puis cliquez sur le bouton Ajouter une carte.",
+          "entity": "Entité",
+          "entity_id": "ID de l'entité",
+          "domain": "Domaine",
+          "last_changed": "Dernière modification",
+          "search": "Rechercher des entités",
+          "no_data": "Aucune entité inutilisée trouvée"
+        },
+        "add_entities": {
+          "yaml_unsupported": "Vous ne pouvez pas utiliser cette fonction lorsque vous utilisé Lovelace UI en mode YAML.",
+          "generated_unsupported": "Vous ne pouvez utiliser cette fonction que lorsque vous avez pris le contrôle de Lovelace UI.",
+          "saving_failed": "La sauvegarde de la configuration de Lovelace UI a échoué."
+        },
+        "views": {
+          "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette vue?",
+          "confirm_delete_text": "Voulez-vous vraiment supprimer votre vue ''{name}''?",
+          "confirm_delete_existing_cards": "La suppression de cette vue supprimera également les cartes",
+          "confirm_delete_existing_cards_text": "Voulez-vous vraiment supprimer votre vue ''{name}'' ? La vue contient {number} cartes qui seront supprimées. Cette action ne peut pas être annulée."
+        },
+        "menu": {
+          "configure_ui": "Modifier le tableau de bord",
+          "help": "Aide",
+          "start_conversation": "Démarrer la conversation",
+          "reload_resources": "Recharger les ressources",
+          "exit_edit_mode": "Quitter le mode d'édition de l'interface utilisateur",
+          "close": "Fermer",
+          "refresh": "Actualiser"
+        },
+        "reload_resources": {
+          "refresh_header": "Voulez-vous vous rafraîchir ?",
+          "refresh_body": "Vous devez actualiser la page pour terminer le rechargement, voulez-vous actualiser maintenant?"
+        },
+        "editor": {
+          "header": "Modifier l'interface utilisateur",
+          "menu": {
+            "open": "Ouvrir le menu Lovelace UI",
+            "raw_editor": "Éditeur de configuration"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "Modifier la configuration",
+            "save": "Enregistrer",
+            "unsaved_changes": "Modifications non enregistrées",
+            "saved": "Enregistré",
+            "confirm_remove_config_title": "Êtes-vous sûr de vouloir supprimer votre configuration Lovelace UI ?",
+            "confirm_remove_config_text": "Nous générerons automatiquement vos vues Lovelace UI avec vos zones et appareils si vous supprimez votre configuration Lovelace UI.",
+            "confirm_unsaved_changes": "Vous avez des changements non enregistrés. Êtes-vous sûr de vouloir quitter?",
+            "confirm_unsaved_comments": "Votre configuration contient des commentaires, ceux-ci ne seront pas sauvegardés. Voulez-vous continuer?",
+            "error_parse_yaml": "Impossible d'analyser le YAML : {error}",
+            "error_invalid_config": "Votre configuration n'est pas valide : {error}",
+            "error_save_yaml": "Impossible de sauvegarder le YAML : {error}",
+            "error_remove": "Impossible de supprimer la configuration: {error}",
+            "resources_moved": "Les ressources ne doivent plus être ajoutées à la configuration Lovelace mais peuvent être ajoutées dans le panneau de configuration Lovelace."
+          },
+          "edit_lovelace": {
+            "header": "Titre de votre UI Lovelace",
+            "explanation": "Ce titre est affiché au-dessus de toutes vos vues dans Lovelace UI.",
+            "edit_title": "Éditer le titre",
+            "title": "Titre"
+          },
+          "edit_view": {
+            "header": "Voir la configuration",
+            "header_name": "{name} Voir la configuration",
+            "add": "Ajouter la vue",
+            "edit": "Modifier la vue",
+            "delete": "Supprimer la vue",
+            "move_left": "Déplacer la vue à gauche",
+            "move_right": "Déplacer la vue à droite",
+            "tab_settings": "Paramètres",
+            "tab_badges": "Badges",
+            "tab_visibility": "Visibilité",
+            "visibility": {
+              "select_users": "Sélectionnez les utilisateurs qui devraient voir cette vue dans la navigation"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "Ces badges ne seront pas affichés car cette vue est en \"Mode Panneau\"."
+          },
+          "edit_card": {
+            "header": "Configuration de la carte",
+            "typed_header": "{type} Configuration de la carte",
+            "pick_card": "Quelle carte aimeriez-vous ajouter ?",
+            "pick_card_view_title": "Quelle carte souhaitez-vous ajouter à votre vue {name} ?",
+            "toggle_editor": "Permuter l’éditeur",
+            "unsaved_changes": "Vous avez des changements non enregistrés",
+            "confirm_cancel": "Êtes-vous sûr de vouloir annuler ?",
+            "show_visual_editor": "Afficher l'éditeur visuel",
+            "show_code_editor": "Afficher l'éditeur de code",
+            "add": "Ajouter une action",
+            "edit": "Modifier",
+            "clear": "Clear",
+            "delete": "Supprimer la carte",
+            "duplicate": "Dupliquer la carte",
+            "move": "Déplacer",
+            "move_before": "Déplacer la carte avant",
+            "move_after": "Déplacer la carte après",
+            "options": "Plus d'options",
+            "search_cards": "Rechercher des cartes"
+          },
+          "move_card": {
+            "header": "Choisissez une vue vers laquelle déplacer la carte"
+          },
+          "select_view": {
+            "header": "Choisissez une vue",
+            "dashboard_label": "Tableau de bord"
+          },
+          "suggest_card": {
+            "header": "Nous avons créé une suggestion pour vous",
+            "create_own": "Choisissez une autre carte",
+            "add": "Ajouter à Lovelace UI"
+          },
+          "save_config": {
+            "header": "Prenez le contrôle de votre Interface Lovelace",
+            "para": "Par défaut, UNICONTROL maintient votre interface utilisateur et la met à jour lorsque de nouvelles entités ou de nouveaux composants Lovelace UI sont disponibles. Si vous prenez le contrôle, nous ne ferons plus les changements automatiquement pour vous.",
+            "para_sure": "Êtes-vous sûr de vouloir prendre le contrôle de l'interface utilisateur?",
+            "yaml_mode": "Vous utilisez le mode YAML pour ce tableau de bord, ce qui signifie que vous ne pouvez pas modifier votre configuration Lovelace depuis l'interface utilisateur. Si vous souhaitez gérer votre tableau de bord via l'interface utilisateur, supprimez «mode: yaml» de votre configuration Lovelace dans «configuration.yaml».",
+            "yaml_control": "Pour prendre le contrôle en mode YAML, créez un fichier YAML avec le nom que vous avez spécifié dans votre configuration pour ce tableau de bord, ou le 'ui-lovelace.yaml' par défaut.",
+            "yaml_config": "Pour vous aider à démarrer, voici la configuration actuelle de ce tableau de bord:",
+            "empty_config": "Commencer par un tableau de bord vide",
+            "cancel": "Oublie ce que j'ai dit, c'est pas grave.",
+            "close": "Fermer",
+            "save": "Prenez le contrôle"
+          },
+          "migrate": {
+            "header": "Configuration incompatible",
+            "para_no_id": "Cet élément n'a pas d'identifiant. Veuillez ajouter un identifiant à cet élément dans 'ui-lovelace.yaml'.",
+            "para_migrate": "UNICONTROL peut ajouter automatiquement des identifiants à toutes vos cartes et vues en appuyant sur le bouton «Migrer la configuration».",
+            "migrate": "Migrer la configuration"
+          },
+          "action-editor": {
+            "navigation_path": "Chemin de navigation",
+            "url_path": "Chemin de l'url",
+            "editor_service_data": "Les informations sur les services ne peuvent être saisies que dans l'éditeur de code",
+            "actions": {
+              "default_action": "Actions par défaut",
+              "call-service": "Appeler le service",
+              "more-info": "Plus d’infos",
+              "toggle": "Interrupteur",
+              "navigate": "Naviguer",
+              "url": "Url",
+              "none": "Pas d'action"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Panneau d'alarme",
+              "available_states": "États disponibles",
+              "description": "La carte du panneau d'alarme vous permet d'armer et de désarmer les intégrations de votre panneau de commande d'alarme."
+            },
+            "calendar": {
+              "name": "Calendrier",
+              "description": "La carte Calendrier affiche un calendrier comprenant des vues par jour, par semaine et par liste",
+              "inital_view": "Vue initiale",
+              "calendar_entities": "Calendrier",
+              "views": {
+                "dayGridMonth": "Mois",
+                "dayGridDay": "Jour",
+                "listWeek": "liste"
+              }
+            },
+            "conditional": {
+              "name": "Conditionnel",
+              "description": "La carte conditionnelle affiche une autre carte basée sur les états d'entité.",
+              "conditions": "Conditions",
+              "card": "Carte",
+              "state_equal": "L'État est égal à",
+              "state_not_equal": "L'état n'est pas égal à",
+              "current_state": "actuel",
+              "condition_explanation": "La carte sera affichée lorsque TOUTES les conditions ci-dessous seront remplies.",
+              "change_type": "Changer le type"
+            },
+            "config": {
+              "required": "Requis",
+              "optional": "Optionnel"
+            },
+            "entities": {
+              "name": "Entités",
+              "show_header_toggle": "Afficher le bouton d'en-tête ?",
+              "toggle": "Basculer les entités.",
+              "description": "La carte Entités est le type de carte le plus courant. Il regroupe les éléments dans des listes.",
+              "special_row": "ligne spéciale",
+              "edit_special_row": "Affichez les détails de cette ligne en cliquant sur le bouton Modifier",
+              "entity_row_editor": "Modifier à l'aide de l'éditeur de code",
+              "secondary_info_values": {
+                "none": "Pas d'informations secondaires",
+                "entity-id": "ID de l'entité",
+                "last-changed": "Dernière modification",
+                "last-triggered": "Dernier déclenchement",
+                "position": "Position",
+                "tilt-position": "position d'inclinaison",
+                "brightness": "Luminosité",
+                "last-updated": "Dernière mise à jour"
+              },
+              "entity_row": {
+                "divider": "Diviseur",
+                "call-service": "Appeler un service",
+                "section": "Section",
+                "weblink": "Lien Web",
+                "attribute": "Attribut",
+                "buttons": "Boutons",
+                "conditional": "Conditionnel",
+                "cast": "Cast",
+                "button": "Bouton"
+              }
+            },
+            "entity": {
+              "name": "Entité",
+              "description": "La carte Entité vous donne un aperçu rapide de l'état de votre entité."
+            },
+            "button": {
+              "name": "Bouton",
+              "description": "La carte Bouton vous permet d'ajouter des boutons pour effectuer des tâches.",
+              "default_action_help": "L'action par défaut dépend des capacités de l'entité, elle sera soit activée/désactivée, soit plus d'informations seront affichées."
+            },
+            "entity-filter": {
+              "name": "Filtre d'entité",
+              "description": "La carte Filtre d'entité vous permet de définir une liste d'entités que vous souhaitez suivre uniquement dans un certain état."
+            },
+            "gauge": {
+              "name": "Jauge",
+              "severity": {
+                "define": "Définir la sévérité ?",
+                "green": "Vert",
+                "red": "Rouge",
+                "yellow": "Jaune"
+              },
+              "description": "La carte Jauge est une carte de base qui permet de voir visuellement les données des capteurs."
+            },
+            "glance": {
+              "name": "Coup d'œil",
+              "columns": "Colonnes",
+              "description": "La carte Coup d'œil est utile pour regrouper plusieurs capteurs dans une vue d'ensemble compacte."
+            },
+            "grid": {
+              "name": "Grille",
+              "description": "La carte Grille vous permet d’afficher plusieurs cartes dans une grille."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "Graphique Historique",
+              "description": "La carte Graphique historique vous permet d'afficher un graphique pour chacune des entités répertoriées."
+            },
+            "horizontal-stack": {
+              "name": "Pile horizontale",
+              "description": "La carte de pile horizontale vous permet d'empiler plusieurs cartes, de sorte qu'elles soient toujours côte à côte dans l'espace d'une colonne."
+            },
+            "humidifier": {
+              "name": "Humidificateur",
+              "description": "La carte humidificateur donne le contrôle de votre entité humidificateur. Vous permettant de modifier l'humidité et le mode de l'entité."
+            },
+            "iframe": {
+              "name": "Page Web",
+              "description": "La carte Page Web vous permet d'intégrer votre page Web préférée directement dans UNICONTROL."
+            },
+            "light": {
+              "name": "Lumière",
+              "description": "La carte Lumière vous permet de modifier la luminosité de la lumière."
+            },
+            "generic": {
+              "aspect_ratio": "Ratio d'aspect",
+              "attribute": "Attribut",
+              "camera_image": "Entité caméra",
+              "camera_view": "Vue de la caméra",
+              "double_tap_action": "Double appui",
+              "entities": "Entités",
+              "entity": "Entité",
+              "hold_action": "Appui long",
+              "hours_to_show": "Heures à montrer",
+              "icon": "Icône",
+              "icon_height": "Hauteur de l'icône",
+              "image": "Chemin de l'image",
+              "maximum": "Maximum",
+              "manual": "Manuel",
+              "manual_description": "Besoin d'ajouter une carte personnalisée ou simplement d'écrire manuellement le yaml?",
+              "minimum": "Minimum",
+              "name": "Nom",
+              "refresh_interval": "Intervalle de rafraîchissement",
+              "show_icon": "Afficher l'icône ?",
+              "show_name": "Afficher le nom ?",
+              "show_state": "Afficher l'état ?",
+              "tap_action": "Appui court",
+              "title": "Titre",
+              "theme": "Thème",
+              "no_theme": "Pas de thème",
+              "unit": "Unité",
+              "url": "Url",
+              "state": "État",
+              "secondary_info_attribute": "Attribut d'informations secondaires",
+              "search": "Chercher",
+              "state_color": "Icônes de couleur basées sur l'état ?"
+            },
+            "map": {
+              "name": "Carte",
+              "geo_location_sources": "Sources de géolocalisation",
+              "dark_mode": "Mode sombre ?",
+              "default_zoom": "Zoom par défaut",
+              "hours_to_show": "Heures à montrer",
+              "source": "Source",
+              "description": "La carte Carte vous permet d'afficher des entités sur une carte."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Contenu",
+              "description": "La carte Markdown est utilisée pour le rendu du Markdown."
+            },
+            "media-control": {
+              "name": "Contrôle des médias",
+              "description": "La carte Contrôle des médias est utilisée pour afficher les entités de lecteur multimédia sur une interface avec des commandes faciles à utiliser."
+            },
+            "picture": {
+              "name": "Image",
+              "description": "La carte Image vous permet de définir une image à utiliser pour la navigation vers divers chemins de votre interface ou d'appeler un service."
+            },
+            "picture-elements": {
+              "name": "Éléments d'image",
+              "description": "La carte Éléments d'image est l'un des types de cartes les plus polyvalents. La carte vous permet de positionner des icônes ou du texte et même des services! Sur une image basée sur des coordonnées."
+            },
+            "picture-entity": {
+              "name": "Entité image",
+              "description": "La carte Entité image affiche une entité sous la forme d'une image. Au lieu d'images provenant d'une URL, il peut également afficher l'image des entités de la caméra."
+            },
+            "picture-glance": {
+              "name": "Coup d'œil en image",
+              "description": "La carte Coup d'œil affiche une image et les états d'entité correspondants sous forme d'icône. Les entités sur le côté droit permettent de basculer entre les actions, d'autres affichent la boîte de dialogue plus d'informations."
+            },
+            "plant-status": {
+              "name": "Statut de la plante",
+              "description": "La carte Statut des plantes est destinée à tous nos adorables botanistes."
+            },
+            "sensor": {
+              "name": "Capteur",
+              "show_more_detail": "Afficher plus de détails",
+              "graph_type": "Type de graphique",
+              "description": "La carte Capteur vous donne un aperçu rapide de l'état de vos capteurs avec un graphique en option pour visualiser les changements au fil du temps.",
+              "graph_detail": "Détail du graphique"
+            },
+            "shopping-list": {
+              "name": "Liste de courses",
+              "description": "La carte Liste d'achats vous permet d'ajouter, de modifier, de valider et d'effacer des articles de votre liste d'achats.",
+              "integration_not_loaded": "Cette carte nécessite la mise en place de l'intégration `shopping_list`."
+            },
+            "thermostat": {
+              "name": "Thermostat",
+              "description": "La carte Thermostat permet de contrôler votre entité de chauffage. Permettant de changer la température et le mode de l'entité."
+            },
+            "vertical-stack": {
+              "name": "Pile verticale",
+              "description": "La carte Pile verticale vous permet de regrouper plusieurs cartes afin qu'elles se trouvent toujours dans la même colonne."
+            },
+            "weather-forecast": {
+              "name": "Prévisions Météo",
+              "description": "La carte Prévisions météorologiques affiche la météo. Très utile pour les écrans placés au mur.",
+              "show_forecast": "Afficher les prévisions"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Mode panneau?",
+              "description": "Cela affiche la première carte en pleine largeur; les autres cartes de cette vue ne seront pas affichées.",
+              "warning_multiple_cards": "Cette vue contient plusieurs carte, mais un panneau d'affichage ne peut montrer que 1 carte."
+            }
+          },
+          "cardpicker": {
+            "no_description": "Aucune description disponible.",
+            "custom_card": "Personnalisé",
+            "domain": "Domaine",
+            "entity": "Entité",
+            "by_entity": "Par entité",
+            "by_card": "Par carte"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": {
+                "name": "Graph"
+              },
+              "picture": {
+                "name": "Picture"
+              },
+              "buttons": {
+                "name": "Buttons"
+              }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Attribut {attribute} non disponible dans: {entity}",
+          "entity_not_found": "Entité non disponible: {entity}",
+          "entity_non_numeric": "L'entité est non numérique: {entity}",
+          "entity_unavailable": "{entity} n'est pas disponible actuellement",
+          "starting": "UNICONTROL démarre, tout n'est peut-être pas encore disponible"
+        },
+        "changed_toast": {
+          "message": "La configuration de l'interface utilisateur de Lovelace a été mise à jour, réactualisée pour voir les changements ?",
+          "refresh": "Rafraîchir"
+        },
+        "reload_lovelace": "Recharger UI"
+      },
+      "mailbox": {
+        "empty": "Vous n'avez aucun message",
+        "playback_title": "Lecture de messages",
+        "delete_prompt": "Supprimer ce message ?",
+        "delete_button": "Effacer"
+      },
+      "profile": {
+        "current_user": "Vous êtes actuellement connecté en tant que {fullName}.",
+        "is_owner": "Vous êtes propriétaire",
+        "logout": "Déconnexion",
+        "logout_title": "Se déconnecter ?",
+        "logout_text": "Êtes-vous sûr de vouloir vous déconnecter ?",
+        "force_narrow": {
+          "header": "Toujours cacher la barre latérale",
+          "description": "Cela masquera la barre latérale par défaut, semblable à l'expérience mobile."
+        },
+        "customize_sidebar": {
+          "header": "Modifier l'ordre et masquer les éléments de la barre latérale",
+          "description": "Vous pouvez également appuyer et maintenir l'en-tête de la barre latérale pour activer le mode d'édition.",
+          "button": "Modifier"
+        },
+        "vibrate": {
+          "header": "Vibrer",
+          "description": "Activer ou désactiver les vibrations sur cet appareil lors du contrôle des périphériques."
+        },
+        "enable_shortcuts": {
+          "header": "Raccourcis clavier",
+          "description": "Activez ou désactivez les raccourcis clavier pour effectuer diverses actions dans l'interface utilisateur."
+        },
+        "suspend": {
+          "header": "Fermer automatiquement la connexion",
+          "description": "Faut-il fermer la connexion au serveur après avoir été caché pendant 5 minutes ?"
+        },
+        "push_notifications": {
+          "header": "Notifications push",
+          "description": "Envoyer des notifications à cet appareil.",
+          "error_load_platform": "Configurer notify.html5.",
+          "error_use_https": "Nécessite l'activation SSL pour l'interface utilisateur.",
+          "push_notifications": "Notifications push",
+          "link_promo": "En savoir plus",
+          "add_device_prompt": {
+            "title": "Comment doit-on appeler cet appareil?",
+            "input_label": "Nom de l'appareil"
+          }
+        },
+        "language": {
+          "header": "Langue",
+          "link_promo": "Aider à traduire",
+          "dropdown_label": "Langue"
+        },
+        "themes": {
+          "header": "Thème",
+          "error_no_theme": "Aucun thème disponible.",
+          "link_promo": "En savoir plus sur les thèmes",
+          "dropdown_label": "Thème",
+          "dark_mode": {
+            "auto": "Auto",
+            "light": "Clair",
+            "dark": "Sombre"
+          },
+          "primary_color": "Couleur primaire",
+          "accent_color": "Couleur d'accentuation",
+          "reset": "Réinitialiser"
+        },
+        "dashboard": {
+          "header": "Tableau de bord",
+          "description": "Choisissez un tableau de bord par défaut pour cet appareil.",
+          "dropdown_label": "Tableau de bord"
+        },
+        "change_password": {
+          "header": "Changer le mot de passe",
+          "current_password": "Mot de passe actuel",
+          "new_password": "nouveau mot de passe",
+          "confirm_new_password": "Confirmer le nouveau mot de passe",
+          "error_required": "Requis",
+          "submit": "Envoyer"
+        },
+        "mfa": {
+          "header": "Modules d'authentification multi-facteurs",
+          "disable": "Désactiver",
+          "enable": "Activer",
+          "confirm_disable": "Êtes-vous sûr de vouloir désactiver {name} ?"
+        },
+        "mfa_setup": {
+          "title_aborted": "Abandonné",
+          "title_success": "Succès !",
+          "step_done": "Configuration terminée pour {step}",
+          "close": "Fermer",
+          "submit": "Envoyer"
+        },
+        "advanced_mode": {
+          "title": "Mode avancé",
+          "description": "UNICONTROL cache les fonctionnalités et options avancées par défaut. Vous pouvez rendre ces fonctionnalités accessibles en cochant cette case. Il s'agit d'un paramètre spécifique à l'utilisateur et n'a pas d'impact sur les autres utilisateurs utilisant UNICONTROL.",
+          "link_promo": "Apprendre encore plus"
+        },
+        "refresh_tokens": {
+          "header": "Actualiser les jetons",
+          "description": "Chaque jeton d'actualisation représente une session de connexion. Les jetons d'actualisation seront automatiquement supprimés lorsque vous cliquez sur Déconnexion. Les jetons d'actualisation suivants sont actuellement actifs pour votre compte.",
+          "token_title": "Actualiser le jeton de {clientId}",
+          "created_at": "Créé le {date}",
+          "last_used": "Dernière utilisation le {date} à partir de {location}",
+          "not_used": "N'a jamais été utilisé",
+          "confirm_delete": "Êtes-vous sûr de vouloir supprimer le jeton d'actualisation de {name} ?",
+          "delete_failed": "Impossible de supprimer le jeton d'actualisation",
+          "current_token_tooltip": "Impossible de supprimer le jeton d'actualisation actuel"
+        },
+        "long_lived_access_tokens": {
+          "header": "Jetons d'accès de longue durée",
+          "description": "Créez des jetons d'accès de longue durée pour permettre à vos scripts d'interagir avec votre instance de UNICONTROL. Chaque jeton sera valable 10 ans à compter de sa création. Les jetons d'accès longue durée suivants sont actuellement actifs.",
+          "learn_auth_requests": "Apprenez comment faire des demandes authentifiées.",
+          "created": "Créé le {date}",
+          "confirm_delete": "Êtes-vous sûr de vouloir supprimer le jeton d'accès de {name} ?",
+          "delete_failed": "Impossible de supprimer le jeton d'accès.",
+          "create": "Créer un jeton",
+          "create_failed": "Impossible de créer le jeton d'accès.",
+          "name": "Nom",
+          "prompt_name": "Donnez un nom au jeton",
+          "prompt_copy_token": "Copiez votre jeton d'accès. Il ne sera plus affiché à nouveau.",
+          "empty_state": "Vous n'avez pas encore de jetons d'accès longue durée.",
+          "created_at": "Créé le {date}",
+          "last_used": "Dernière utilisation le {date} à partir de {location}",
+          "not_used": "N'a jamais été utilisé"
+        }
+      },
+      "shopping_list": {
+        "start_conversation": "Démarrer la conversation"
+      },
+      "page-authorize": {
+        "initializing": "Initialisation",
+        "authorizing_client": "Vous êtes sur le point de donner accès à {clientId} à votre instance de UNICONTROL.",
+        "logging_in_with": "Se connecter avec **{authProviderName}**.",
+        "pick_auth_provider": "Ou connectez-vous avec",
+        "abort_intro": "Connexion interrompue",
+        "form": {
+          "working": "Veuillez patienter",
+          "unknown_error": "Un problème est survenu",
+          "next": "Suivant",
+          "start_over": "Recommencer",
+          "error": "Erreur: {error}",
+          "providers": {
+            "command_line": {
+              "step": {
+                "init": {
+                  "data": {
+                    "username": "Nom d'utilisateur",
+                    "password": "Mot de passe"
+                  }
+                },
+                "mfa": {
+                  "data": {
+                    "code": "Code d'authentification à deux facteurs"
+                  },
+                  "description": "Ouvrez le **{mfa_module_name}** sur votre appareil pour afficher votre code d'authentification à deux facteurs et vérifier votre identité:"
+                }
+              },
+              "error": {
+                "invalid_auth": "Nom d'utilisateur ou mot de passe invalide",
+                "invalid_code": "Code d'authentification invalide"
+              },
+              "abort": {
+                "login_expired": "Session expirée, veuillez vous connecter à nouveau."
+              }
+            },
+            "homeassistant": {
+              "step": {
+                "init": {
+                  "data": {
+                    "username": "Nom d'utilisateur",
+                    "password": "Mot de passe"
+                  }
+                },
+                "mfa": {
+                  "data": {
+                    "code": "Code d'authentification à deux facteurs"
+                  },
+                  "description": "Ouvrez le **{mfa_module_name}** sur votre appareil pour afficher votre code d'authentification à deux facteurs et vérifier votre identité:"
+                }
+              },
+              "error": {
+                "invalid_auth": "Nom d'utilisateur ou mot de passe invalide",
+                "invalid_code": "Code d'authentification invalide"
+              },
+              "abort": {
+                "login_expired": "Session expirée, veuillez vous connecter à nouveau."
+              }
+            },
+            "legacy_api_password": {
+              "step": {
+                "init": {
+                  "data": {
+                    "password": "Mot de passe API"
+                  },
+                  "description": "Veuillez saisir le mot de passe API dans votre configuration http:"
+                },
+                "mfa": {
+                  "data": {
+                    "code": "Code d'authentification à deux facteurs"
+                  },
+                  "description": "Ouvrez le ** {mfa_module_name} ** sur votre appareil pour afficher votre code d'authentification à deux facteurs et confirmer votre identité:"
+                }
+              },
+              "error": {
+                "invalid_auth": "Mot de passe API invalide",
+                "invalid_code": "Code d'authentification invalide"
+              },
+              "abort": {
+                "no_api_password_set": "Vous n'avez pas de mot de passe API configuré.",
+                "login_expired": "Session expirée, veuillez vous connecter à nouveau."
+              }
+            },
+            "trusted_networks": {
+              "step": {
+                "init": {
+                  "data": {
+                    "user": "Utilisateur"
+                  },
+                  "description": "Sélectionnez l'utilisateur avec lequel vous souhaitez vous connecter :"
+                }
+              },
+              "abort": {
+                "not_allowed": "Votre ordinateur n'est pas autorisé.",
+                "not_whitelisted": "Votre ordinateur n'est pas en liste blanche."
+              }
+            }
+          }
+        }
+      },
+      "page-demo": {
+        "cards": {
+          "demo": {
+            "demo_by": "par {name}",
+            "next_demo": "Prochaine démo",
+            "introduction": "Bienvenue à la maison ! Vous êtes sur la démo de UNICONTROL, où nous présentons les meilleures interfaces utilisateur créées par notre communauté.",
+            "learn_more": "En savoir plus sur UNICONTROL"
+          }
+        },
+        "config": {
+          "arsaboo": {
+            "names": {
+              "upstairs": "Étage",
+              "family_room": "Pièce Familiale",
+              "kitchen": "Cuisine",
+              "patio": "Patio",
+              "hallway": "Couloir",
+              "master_bedroom": "Chambre principale",
+              "left": "Gauche",
+              "right": "Droite",
+              "mirror": "Miroir",
+              "temperature_study": "Étude de température"
+            },
+            "labels": {
+              "lights": "Lumières",
+              "information": "Information",
+              "morning_commute": "Trajet du matin",
+              "commute_home": "Se rendre à la maison",
+              "entertainment": "Divertissement",
+              "activity": "Activité",
+              "hdmi_input": "Entrée HDMI",
+              "hdmi_switcher": "Sélecteur HDMI",
+              "volume": "Volume",
+              "total_tv_time": "Temps total de télévision",
+              "turn_tv_off": "Éteindre la télévision",
+              "air": "Air"
+            },
+            "unit": {
+              "watching": "en train de regarder",
+              "minutes_abbr": "min"
+            }
+          }
+        }
+      },
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Événements",
+            "description": "Déclencher un événement dans le bus événement.",
+            "documentation": "Documentation sur les événements.",
+            "type": "Type d'événement",
+            "data": "Données d'événement (YAML, facultatif)",
+            "fire_event": "Déclencher l'événement",
+            "event_fired": "Événement {name} déclenché",
+            "available_events": "Événements disponibles",
+            "count_listeners": " ({count} récepteurs)",
+            "listen_to_events": "Écouter les événements",
+            "listening_to": "Écouter",
+            "subscribe_to": "Évènement auquel s'abonner",
+            "start_listening": "Commence à écouter",
+            "stop_listening": "Arrêter d'écouter",
+            "alert_event_type": "Le type d'événement est un champ obligatoire",
+            "notification_event_fired": "Événement {type} déclenché avec succès!"
+          },
+          "services": {
+            "title": "Services",
+            "description": "L'outil de développement 'services' vous permet d'appeler n'importe quel service disponible dans UNICONTROL.",
+            "data": "Données de service (YAML, facultatif)",
+            "call_service": "Appeler le service",
+            "select_service": "Sélectionnez un service pour voir la description",
+            "no_description": "Aucune description n'est disponible",
+            "no_parameters": "Ce service ne prend aucun paramètre.",
+            "column_parameter": "Paramètre",
+            "column_description": "Description",
+            "column_example": "Exemple",
+            "fill_example_data": "Remplir des exemples de données",
+            "alert_parsing_yaml": "Erreur d'analyse de YAML : {data}"
+          },
+          "states": {
+            "title": "États",
+            "description1": "Définir la représentation d'un périphérique dans UNICONTROL.",
+            "description2": "Cela ne communiquera pas avec le périphérique réel.",
+            "entity": "Entité",
+            "state": "État",
+            "attributes": "Attributs",
+            "state_attributes": "Attributs d'état (YAML, facultatif)",
+            "set_state": "Définir l'état",
+            "current_entities": "Entités actuelles",
+            "filter_entities": "Filtrer les entités",
+            "filter_states": "Filtrer les états",
+            "filter_attributes": "Filtrer les attributs",
+            "no_entities": "Aucune entité",
+            "more_info": "Plus d’infos",
+            "alert_entity_field": "L'entité est un champ obligatoire",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "Modèle",
+            "description": "Les modèles sont rendus à l'aide du moteur de modèles Jinja2 avec certaines extensions spécifiques de UNICONTROL.",
+            "editor": "Éditeur de modèles",
+            "reset": "Réinitialiser au modèle de démonstration",
+            "result_type": "Type de résultat",
+            "jinja_documentation": "Documentation de modèle Jinja2",
+            "template_extensions": "Extensions de modèles de UNICONTROL",
+            "unknown_error_template": "Erreur inconnue lors du rendu du modèle",
+            "time": "Ce modèle est mis à jour au début de chaque minute.",
+            "all_listeners": "Ce modèle écoute tous les événements de changement d'état.",
+            "no_listeners": "Ce modèle n'écoute aucun événement de changement d'état et ne sera pas mis à jour automatiquement.",
+            "listeners": "Ce modèle écoute les événements de changement d'état suivants:",
+            "entity": "Entité",
+            "domain": "Domaine"
+          }
+        }
+      },
+      "page-onboarding": {
+        "intro": "Êtes-vous prêt à réveiller votre maison, à récupérer votre vie privée et à rejoindre une communauté mondiale de bricoleurs?",
+        "user": {
+          "intro": "Commençons par créer un compte utilisateur.",
+          "required_field": "Requis",
+          "data": {
+            "name": "Nom",
+            "username": "Nom d'utilisateur",
+            "password": "Mot de passe",
+            "password_confirm": "Confirmez le mot de passe"
+          },
+          "create_account": "Créer un compte",
+          "error": {
+            "required_fields": "Remplissez tous les champs requis",
+            "password_not_match": "Les mots de passe ne correspondent pas"
+          }
+        },
+        "core-config": {
+          "intro": "Bonjour {name}, bienvenue dans UNICONTROL. Comment voudriez-vous nommer votre maison?",
+          "intro_location": "Nous aimerions savoir où vous habitez. Ces informations vous aideront à afficher des informations et à configurer des automatismes basés sur le soleil. Ces données ne sont jamais partagées en dehors de votre réseau.",
+          "intro_location_detect": "Nous pouvons vous aider à renseigner ces informations en adressant une demande unique à un service externe.",
+          "location_name": "Nom de votre installation UNICONTROL",
+          "location_name_default": "Maison",
+          "button_detect": "Détecter",
+          "finish": "Suivant"
+        },
+        "integration": {
+          "intro": "Les appareils et les services sont représentés dans UNICONTROL sous forme d’intégrations. Vous pouvez les configurer maintenant ou le faire plus tard à partir de l'écran de configuration.",
+          "more_integrations": "Plus",
+          "finish": "Terminer"
+        },
+        "restore": {
+          "description": "Vous pouvez également restaurer à partir d'un snapshot précédent.",
+          "in_progress": "Restauration en cours",
+          "show_log": "Afficher le journal",
+          "hide_log": "Masquer le journal"
+        }
+      },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Faites-vous confiance au panneau externe {name} sur {link} ?",
+          "complete_access": "Il aura accès à toutes les données de UNICONTROL",
+          "hide_message": "Vérifiez la documentation du composant panel_custom pour masquer ce message"
+        }
+      },
+      "shopping-list": {
+        "add_item": "Ajouter un élément",
+        "clear_completed": "Supprimer les éléments complétés",
+        "microphone_tip": "Cliquez sur le microphone en haut à droite et dites “Ajouter des bonbons à ma liste d'achat”"
+      }
+    }
+  }
+}

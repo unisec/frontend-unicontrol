@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "I dag",
+          "yesterday": "I går",
+          "this_week": "Denne uken",
+          "last_week": "Forrige uke"
+        },
+        "entries_not_found": "Finner ingen loggbokoppføringer.",
+        "period": "Periode",
+        "showing_entries": "Viser oppføringer for"
+      }
+    }
+  }
+}

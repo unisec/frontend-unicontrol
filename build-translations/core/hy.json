@@ -1,0 +1,1298 @@
+{
+  "panel": {
+    "calendar": "Օրացույց",
+    "config": "Կարգավորում",
+    "states": "Գլխավոր",
+    "map": "Քարտեզ",
+    "logbook": "Մատյան",
+    "history": "Պատմություն",
+    "mailbox": "Փոստարկղ",
+    "shopping_list": "Գնումների ցուցակ",
+    "developer_tools": "Մշակողի գործիքներ",
+    "media_browser": "Media Browser",
+    "profile": "Անձնագիր"
+  },
+  "state": {
+    "default": {
+      "on": "On",
+      "off": "Off",
+      "unknown": "հայտնի չէ",
+      "unavailable": "Անհասանելի"
+    },
+    "alarm_control_panel": {
+      "armed": "Զինված",
+      "armed_away": "Զինված",
+      "armed_custom_bypass": "Զինման անհատական կոդ",
+      "armed_home": "Զինված տուն",
+      "armed_night": "Զինված գիշեր",
+      "arming": "Զինել",
+      "disarmed": "Զինաթափված",
+      "disarming": "Զինաթափող",
+      "pending": "Սպասում",
+      "triggered": "պատճառը"
+    },
+    "automation": { "off": "Անջատած", "on": "Միացած" },
+    "binary_sensor": {
+      "battery": { "off": "Նորմալ է", "on": "Ցածր" },
+      "cold": { "off": "Նորմալ", "on": "Սառը" },
+      "connectivity": { "off": "Անջատված է", "on": "Կապված" },
+      "default": { "off": "Անջատված", "on": "Միացված" },
+      "door": { "off": "Փակված է", "on": "Բացել" },
+      "garage_door": { "off": "Փակված է", "on": "Բացել" },
+      "gas": { "off": "Մաքրել", "on": "Հայտնաբերվել է" },
+      "heat": { "off": "Նորմալ", "on": "Թեժ" },
+      "lock": { "off": "կողպված", "on": "բացել է" },
+      "moisture": { "off": "Չոր", "on": "Խոնավ" },
+      "motion": { "off": "Մաքրել", "on": "Հայտնաբերվել է" },
+      "occupancy": { "off": "Մաքրել", "on": "Հայտնաբերվել է" },
+      "opening": { "off": "Փակված", "on": "Բաց" },
+      "presence": { "off": "Հեռու", "on": "Տուն" },
+      "problem": { "off": "OK", "on": "Խնդիր" },
+      "safety": { "off": "Ապահով", "on": "Անվտանգ" },
+      "smoke": { "off": "Մաքրել", "on": "Հայտնաբերվել է" },
+      "sound": { "off": "Մաքրել", "on": "Հայտնաբերվել է" },
+      "vibration": { "off": "Մաքրել", "on": "Հայտնաբերվել է" },
+      "window": { "off": "Փակված է", "on": "Բացել" }
+    },
+    "calendar": { "off": "Անջատված", "on": "Միացված" },
+    "camera": {
+      "idle": "պարապ",
+      "recording": "Ձայնագրությունը",
+      "streaming": "Հոսք"
+    },
+    "climate": {
+      "cool": "Հովացում",
+      "dry": "Չոր",
+      "fan_only": "Օդափոխիչ",
+      "heat": "Ջերմություն",
+      "heat_cool": "Ջեռուցում/Հովացում",
+      "off": "Անջատված"
+    },
+    "configurator": { "configure": "Կարգավորել", "configured": "Կարգավորված" },
+    "cover": {
+      "closed": "Փակված",
+      "closing": "Փակում",
+      "open": "Բաց",
+      "opening": "Բացում",
+      "stopped": "Դադարեց"
+    },
+    "device_tracker": { "not_home": "Հեռու" },
+    "fan": { "off": "Անջատված", "on": "Միացած" },
+    "group": {
+      "closed": "Փակված",
+      "closing": "Փակում",
+      "home": "Տուն",
+      "locked": "կողպված է",
+      "not_home": "Հեռու",
+      "off": "Անջատած",
+      "ok": "Լավ",
+      "on": "Միացված",
+      "open": "Բացեք",
+      "opening": "Բացում",
+      "problem": "Խնդիր",
+      "stopped": "Դադարեց",
+      "unlocked": "Բացել է"
+    },
+    "input_boolean": { "off": "Անջատված", "on": "Միացված" },
+    "light": { "off": "Անջատած", "on": "Միացված" },
+    "lock": { "locked": "Կողպված է", "unlocked": "Բաց է" },
+    "media_player": {
+      "idle": "Պարապ",
+      "off": "Անջատած",
+      "on": "Միացած",
+      "paused": "Դադար է",
+      "playing": "Խաղում",
+      "standby": "Սպասում"
+    },
+    "person": { "home": "տուն" },
+    "plant": { "ok": "Լավ", "problem": "Խնդիր" },
+    "remote": { "off": "Անջատված", "on": "Միացած" },
+    "scene": { "scening": "Փորագրություն" },
+    "script": { "off": "Անջատած", "on": "Միացած" },
+    "sensor": { "off": "Անջատած", "on": "միացած" },
+    "sun": {
+      "above_horizon": "Հորիզոնի վերևում",
+      "below_horizon": "Հորիզոնի ներքևում"
+    },
+    "switch": { "off": "անջատված", "on": "Միացված" },
+    "timer": { "active": "ակտիվ", "idle": "պարապ", "paused": "դադար " },
+    "vacuum": {
+      "cleaning": "Մաքրում",
+      "docked": "Ծածկված",
+      "error": "Սխալ",
+      "idle": "Պարապ",
+      "off": "անջատված",
+      "on": "վրա",
+      "paused": "Դադար է",
+      "returning": "Վերադառնալով նավահանգիստ"
+    },
+    "weather": {
+      "clear-night": "Մաքրել ստուգված իրերը",
+      "cloudy": "Ամպամած",
+      "exceptional": "Բացառիկ",
+      "fog": "Մառախուղ",
+      "hail": "Կարկուտ",
+      "lightning": "Կայծակ",
+      "lightning-rainy": "Կայծակ, անձրև",
+      "partlycloudy": "Մասամբ ամպամած",
+      "pouring": "Լցնել",
+      "rainy": "Անձրևոտ",
+      "snowy": "Ձյունոտ է",
+      "snowy-rainy": "Ձյունառատ, անձրևոտ",
+      "sunny": "Արևոտ",
+      "windy": "Կամ",
+      "windy-variant": "Քամոտ"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Մեռած",
+        "initializing": "Նախաձեռնող",
+        "ready": "Պատրաստ է",
+        "sleeping": "Քնել"
+      },
+      "query_stage": {
+        "dead": "Մահացած{query_stage})",
+        "initializing": "Նախաձեռնություն({query_stage})"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "Անջատած", "on": "Միացված", "auto": "Ավտոմատ" },
+      "preset_mode": {
+        "none": "Ոչ ոք",
+        "eco": "Էկո",
+        "away": "Հեռու",
+        "boost": "Խթանել",
+        "comfort": "Կոմֆորտ",
+        "home": "Տուն",
+        "sleep": "Քնել",
+        "activity": "Գործունեություն"
+      },
+      "hvac_action": {
+        "off": "Անջատած",
+        "heating": "Տաքացում",
+        "cooling": "հովացում",
+        "drying": "Չորացում",
+        "idle": "Պարապ",
+        "fan": "Երկրպագու"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normal",
+        "eco": "Eco",
+        "away": "Away",
+        "boost": "Boost",
+        "comfort": "Comfort",
+        "home": "Home",
+        "sleep": "Sleep",
+        "auto": "Auto",
+        "baby": "Baby"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Անհայտ",
+      "unavailable": "Անհասանելի",
+      "error": "Սխալ",
+      "entity_not_found": "Անունը չի գտնվել"
+    },
+    "alarm_control_panel": {
+      "armed": "Զինված",
+      "disarmed": "Զինաթափել",
+      "armed_home": "Զինված",
+      "armed_away": "Զինված",
+      "armed_night": "Զինված",
+      "armed_custom_bypass": "Զինված",
+      "pending": "Պենդ",
+      "arming": "Զինել",
+      "disarming": "Անջատել տագնապը",
+      "triggered": "թրիգ"
+    },
+    "device_tracker": { "home": "Տուն", "not_home": "Հեռու" },
+    "person": { "home": "Տուն", "not_home": "Հեռու" }
+  },
+  "groups": {
+    "system-admin": "Ադմինիստրատորներ",
+    "system-users": "Օգտվողներ",
+    "system-read-only": "Միայն  օգտվողները ընթերցեն"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Օգտագործող",
+      "integration": "Ինտեգրում",
+      "config_entry": "Կարգավորման սկզբնական կետ"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Դուք ցանկանում եք պահպանել այդ անունը?",
+      "decline": "Ոչ, շնորհակալություն",
+      "confirm": "Պահպանել մուտք"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Կոդ",
+        "clear_code": "Մաքրել",
+        "disarm": "Զինաթափել",
+        "arm_home": "Arm տուն",
+        "arm_away": "Ձեռք բերեք",
+        "arm_night": "Զինել - Գիշերային ռեժիմ",
+        "arm_custom_bypass": "Պատվերով շրջանցիկ"
+      },
+      "automation": {
+        "last_triggered": "Վերջին ակտիվացումը",
+        "trigger": "Զարգացնել"
+      },
+      "camera": { "not_available": "Պատկերը հասանելի չէ" },
+      "climate": {
+        "currently": "Ներկայումս",
+        "on_off": "Միացում անջատում",
+        "target_temperature": "Նպատակային ջերմաստիճանը",
+        "target_temperature_entity": "{name} target temperature",
+        "target_temperature_mode": "{name} target temperature {mode}",
+        "current_temperature": "{name} current temperature",
+        "heating": "{name} heating",
+        "cooling": "{name} cooling",
+        "high": "high",
+        "low": "low",
+        "target_humidity": "Թիրախային խոնավություն",
+        "operation": "Գործողություն",
+        "fan_mode": "Երկրպագուների ռեժիմ",
+        "swing_mode": "Ռիթմ ռեժիմ",
+        "preset_mode": "Նախադրված",
+        "away_mode": "հեռու ռեժիմ",
+        "aux_heat": "Aux ջերմությունը"
+      },
+      "counter": {
+        "actions": {
+          "increment": "increment",
+          "decrement": "decrement",
+          "reset": "reset"
+        }
+      },
+      "cover": { "position": "Դիրք", "tilt_position": "Դիրքի թեքությունը" },
+      "fan": {
+        "speed": "Արագություն",
+        "oscillate": "Տատանվել",
+        "direction": "Ուղղությունը",
+        "forward": "Առաջ",
+        "reverse": "Հակադարձել"
+      },
+      "humidifier": {
+        "humidity": "Target humidity",
+        "mode": "Mode",
+        "target_humidity_entity": "{name} target humidity",
+        "on_entity": "{name} on"
+      },
+      "light": {
+        "brightness": "Պայծառություն",
+        "color_temperature": "Գունային ջերմաստիճան",
+        "white_value": "Սպիտակ արժեք",
+        "effect": "Էֆեկտ"
+      },
+      "lock": { "code": "կոդ", "lock": "Կողպեք", "unlock": "Բացել" },
+      "media_player": {
+        "source": "Աղբյուր",
+        "sound_mode": "Ձայնի ռեժիմ",
+        "browse_media": "Browse media",
+        "turn_on": "Turn on",
+        "turn_off": "Turn off",
+        "media_play": "Play",
+        "media_play_pause": "Play/pause",
+        "media_next_track": "Next",
+        "media_previous_track": "Previous",
+        "text_to_speak": "Խոսելու տեքստ"
+      },
+      "persistent_notification": { "dismiss": "Հեռացնել" },
+      "scene": { "activate": "Ակտիվացնել" },
+      "script": {
+        "execute": "Կատարել",
+        "cancel": "Cancel",
+        "cancel_multiple": "Cancel {number}"
+      },
+      "service": { "run": "Run" },
+      "timer": {
+        "actions": {
+          "start": "սկսել",
+          "pause": "ընդհատել",
+          "cancel": "չեղարկել",
+          "finish": "ավարտել"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Վերսկսել մաքրումը",
+          "return_to_base": "Վերադառնալ նավահանգիստ",
+          "start_cleaning": "Սկսել մաքրում ",
+          "turn_on": "Միացնել",
+          "turn_off": "Անջատել"
+        }
+      },
+      "water_heater": {
+        "currently": "Ներկայումս",
+        "on_off": "Միացում անջատում",
+        "target_temperature": "Նպատակային ջերմաստիճանը",
+        "operation": "Գործողություն",
+        "away_mode": "հեռու ռեժիմ"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Օդի ճնշում",
+          "humidity": "Խոնավություն",
+          "temperature": "Ջերմաստիճանը",
+          "visibility": "Տեսանելիություն",
+          "wind_speed": "Քամու արագություն",
+          "precipitation": "Precipitation"
+        },
+        "cardinal_direction": {
+          "e": "Ե",
+          "ene": "ENE",
+          "ese": "ESE",
+          "n": "N",
+          "ne": "NE",
+          "nne": "NNE",
+          "nw": "NW",
+          "nnw": "NNW",
+          "s": "S",
+          "se": "SE",
+          "sse": "SSE",
+          "ssw": "SSW",
+          "sw": "SW",
+          "w": "W",
+          "wnw": "WNW",
+          "wsw": "WSW"
+        },
+        "day": "Day",
+        "night": "Night",
+        "forecast": "Կանխատեսում",
+        "high": "High",
+        "low": "Low"
+      }
+    },
+    "common": {
+      "and": "and",
+      "continue": "Continue",
+      "previous": "Previous",
+      "loading": "Բեռնում",
+      "refresh": "Refresh",
+      "cancel": "Չեղարկել",
+      "delete": "Delete",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "Close",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "Next",
+      "back": "Back",
+      "undo": "Undo",
+      "save": "Պահպանել",
+      "rename": "Rename",
+      "yes": "Yes",
+      "no": "No",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "Menu",
+      "overflow_menu": "Overflow menu",
+      "successfully_saved": "Պահմանվեց հաջողությամբ",
+      "successfully_deleted": "Successfully deleted",
+      "error_required": "Required",
+      "copied": "Copied"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "No logbook entries found.",
+        "by": "by",
+        "by_service": "by service",
+        "messages": {
+          "was_away": "was away",
+          "was_at_state": "was at {state}",
+          "rose": "rose",
+          "set": "set",
+          "was_low": "was low",
+          "was_normal": "was normal",
+          "was_connected": "was connected",
+          "was_disconnected": "was disconnected",
+          "was_opened": "was opened",
+          "was_closed": "was closed",
+          "was_unlocked": "was unlocked",
+          "was_locked": "was locked",
+          "was_plugged_in": "was plugged in",
+          "was_unplugged": "was unplugged",
+          "was_at_home": "was at home",
+          "was_unsafe": "was unsafe",
+          "was_safe": "was safe",
+          "detected_device_class": "detected {device_class}",
+          "cleared_device_class": "cleared (no {device_class} detected)",
+          "turned_off": "turned off",
+          "turned_on": "turned on",
+          "changed_to_state": "changed to {state}",
+          "became_unavailable": "became unavailable"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "օբյեկտ",
+          "clear": "Clear",
+          "show_entities": "Show entities"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Attribute",
+          "show_attributes": "Show attributes"
+        }
+      },
+      "user-picker": {
+        "no_user": "No user",
+        "add_user": "Add user",
+        "remove_user": "Remove user"
+      },
+      "device-picker": {
+        "clear": "Clear",
+        "toggle": "Toggle",
+        "show_devices": "Show devices",
+        "device": "Device",
+        "no_area": "No area"
+      },
+      "area-picker": {
+        "clear": "Clear",
+        "show_areas": "Show areas",
+        "area": "Area",
+        "add_new": "Add new area…",
+        "add_dialog": {
+          "title": "Add new area",
+          "text": "Enter the name of the new area.",
+          "name": "Name",
+          "add": "Add",
+          "failed_create_area": "Failed to create area."
+        }
+      },
+      "picture-upload": {
+        "label": "Picture",
+        "unsupported_format": "Unsupported format, please choose a JPEG, PNG or GIF image."
+      },
+      "date-range-picker": {
+        "start_date": "Start date",
+        "end_date": "End date",
+        "select": "Select"
+      },
+      "relative_time": {
+        "never": "Երբեք",
+        "just_now": "Just now",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "past_duration": {
+          "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n} ago",
+          "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n} ago",
+          "hour": "{count} {count, plural,\n  one {hour}\n  other {hours}\n} ago",
+          "day": "{count} {count, plural,\n  one {day}\n  other {days}\n} ago",
+          "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n} ago"
+        },
+        "future_duration": {
+          "second": "In {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "In {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "In {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "In {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "In {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future": "{time} ընթացքում",
+        "past": "{time} առաջ"
+      },
+      "history_charts": {
+        "loading_history": "Պետական պատմությունը բեռնում",
+        "no_history_found": "Ոչ մի պետական պատմություն չի գտնվել:"
+      },
+      "service-picker": { "service": "Ծառայություն" },
+      "related-items": {
+        "no_related_found": "No related items found.",
+        "integration": "Integration",
+        "device": "Device",
+        "area": "Area",
+        "entity": "Related entities",
+        "group": "Part of the following groups",
+        "scene": "Part of the following scenes",
+        "script": "Part of the following scripts",
+        "automation": "Part of the following automations"
+      },
+      "data-table": { "search": "Search", "no-data": "No data" },
+      "media-browser": {
+        "pick": "Pick",
+        "play": "Play",
+        "play-media": "Play Media",
+        "pick-media": "Pick Media",
+        "no_items": "No items",
+        "choose_player": "Choose Player",
+        "media-player-browser": "Media Player Browser",
+        "web-browser": "Web Browser",
+        "media_player": "Media Player",
+        "audio_not_supported": "Your browser does not support the audio element.",
+        "video_not_supported": "Your browser does not support the video element.",
+        "media_not_supported": "The Browser Media Player does not support this type of media",
+        "media_browsing_error": "Media Browsing Error",
+        "learn_adding_local_media": "Learn more about adding media in the {documentation}.",
+        "local_media_files": "Place your video, audio and image files in the media directory to be able to browse and play them in the browser or on supported media players.",
+        "documentation": "documentation",
+        "no_local_media_found": "No local media found",
+        "no_media_folder": "It looks like you have not yet created a media directory.",
+        "setup_local_help": "Check the {documentation} on how to setup local media.",
+        "class": {
+          "album": "Album",
+          "app": "App",
+          "artist": "Artist",
+          "channel": "Channel",
+          "composer": "Composer",
+          "contributing_artist": "Contributing Artist",
+          "directory": "Library",
+          "episode": "Episode",
+          "game": "Game",
+          "genre": "Genre",
+          "image": "Image",
+          "movie": "Movie",
+          "music": "Music",
+          "playlist": "Playlist",
+          "podcast": "Podcast",
+          "season": "Season",
+          "track": "Track",
+          "tv_show": "TV Show",
+          "url": "URL",
+          "video": "Video"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Reload {domain}",
+            "core": "Reload location & customizations",
+            "group": "Reload groups, group entities, and notify services",
+            "automation": "Reload automations",
+            "script": "Reload scripts",
+            "scene": "Reload scenes",
+            "person": "Reload people",
+            "zone": "Reload zones",
+            "input_boolean": "Reload input booleans",
+            "input_text": "Reload input texts",
+            "input_number": "Reload input numbers",
+            "input_datetime": "Reload input date times",
+            "input_select": "Reload input selects",
+            "template": "Reload template entities",
+            "universal": "Reload universal media player entities",
+            "rest": "Reload rest entities and notify services",
+            "command_line": "Reload command line entities",
+            "filter": "Reload filter entities",
+            "statistics": "Reload statistics entities",
+            "generic": "Reload generic IP camera entities",
+            "generic_thermostat": "Reload generic thermostat entities",
+            "homekit": "Reload HomeKit",
+            "min_max": "Reload min/max entities",
+            "history_stats": "Reload history stats entities",
+            "trend": "Reload trend entities",
+            "ping": "Reload ping binary sensor entities",
+            "filesize": "Reload file size entities",
+            "telegram": "Reload telegram notify services",
+            "smtp": "Reload SMTP notify services",
+            "mqtt": "Reload manually configured MQTT entities",
+            "rpi_gpio": "Reload Raspberry Pi GPIO entities"
+          },
+          "server_control": {
+            "perform_action": "{action} Server",
+            "restart": "Restart",
+            "stop": "Stop"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Entity Filter"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant did not hear anything",
+        "found": "I found the following for you:",
+        "error": "Oops, an error has occurred",
+        "how_can_i_help": "How can I help?",
+        "label": "Type a question and press 'Enter'",
+        "label_voice": "Type and press 'Enter' or tap the microphone to speak"
+      },
+      "generic": {
+        "cancel": "Cancel",
+        "ok": "OK",
+        "default_confirmation_title": "Are you sure?",
+        "close": "close"
+      },
+      "image_cropper": { "crop": "Crop" },
+      "more_info_control": {
+        "dismiss": "Dismiss dialog",
+        "settings": "Entity settings",
+        "edit": "Edit entity",
+        "details": "Details",
+        "history": "History",
+        "last_changed": "Last changed",
+        "last_updated": "Last updated",
+        "script": {
+          "last_action": "Վերջին գործողությունը",
+          "last_triggered": "Last Triggered"
+        },
+        "sun": {
+          "elevation": "Բարձունք",
+          "rising": "Բարձրանում",
+          "setting": "Կարգավորում"
+        },
+        "updater": { "title": "Թարմացնել հրահանգները" },
+        "restored": {
+          "not_provided": "This entity is currently unavailable and is an orphan to a removed, changed or dysfunctional integration or device.",
+          "remove_intro": "If the entity is no longer in use, you can clean it up by removing it.",
+          "remove_action": "Remove entity",
+          "confirm_remove_title": "Remove entity?",
+          "confirm_remove_text": "Are you sure you want to remove this entity?"
+        },
+        "vacuum": {
+          "status": "Status",
+          "commands": "Vacuum cleaner commands:",
+          "fan_speed": "Fan speed",
+          "start": "Start",
+          "pause": "Pause",
+          "stop": "Stop",
+          "clean_spot": "Clean spot",
+          "locate": "Locate",
+          "return_home": "Return home",
+          "start_pause": "Start/Pause"
+        },
+        "person": { "create_zone": "Create zone from current location" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        }
+      },
+      "entity_registry": {
+        "settings": "Settings",
+        "control": "Control",
+        "related": "Related",
+        "dismiss": "Dismiss",
+        "no_unique_id": "This entity does not have a unique ID, therefore its settings cannot be managed from the UI. See the {faq_link} for more detail.",
+        "faq": "documentation",
+        "editor": {
+          "name": "Name",
+          "icon": "Icon",
+          "icon_error": "Icons should be in the format 'prefix:iconname', e.g. 'mdi:home'",
+          "entity_id": "Entity ID",
+          "unavailable": "This entity is not currently available.",
+          "enabled_label": "Enable entity",
+          "enabled_cause": "Disabled by {cause}.",
+          "enabled_description": "Disabled entities will not be added to Home Assistant.",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "Delete",
+          "confirm_delete": "Are you sure you want to delete this entry?",
+          "update": "Update",
+          "note": "Note: This might not work yet with all integrations."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "The {platform} integration is not loaded. Please add it to your configuration either by adding 'default_config:' or ''{platform}:''.",
+        "yaml_not_editable": "The settings of this entity cannot be edited from the UI. Only entities set up from the UI are configurable from the UI.",
+        "required_error_msg": "This field is required",
+        "generic": { "name": "Name", "icon": "Icon" },
+        "input_datetime": {
+          "date": "Date",
+          "time": "Time",
+          "datetime": "Date and time",
+          "mode": "What do you want to input"
+        },
+        "input_text": {
+          "min": "Minimum length",
+          "max": "Maximum length",
+          "mode": "Display mode",
+          "text": "Text",
+          "password": "Password",
+          "pattern": "Regex pattern for client-side validation"
+        },
+        "input_number": {
+          "min": "Minimum value",
+          "max": "Maximum value",
+          "mode": "Display mode",
+          "box": "Input field",
+          "slider": "Slider",
+          "step": "Step size",
+          "unit_of_measurement": "Unit of measurement"
+        },
+        "input_select": {
+          "options": "Options",
+          "add_option": "Add option",
+          "no_options": "There are no options yet.",
+          "add": "Add"
+        },
+        "counter": {
+          "minimum": "Minimum value",
+          "maximum": "Maximum value",
+          "initial": "Initial value",
+          "restore": "Restore the last known value when Home Assistant starts",
+          "step": "Step size"
+        },
+        "timer": { "duration": "Duration" }
+      },
+      "options_flow": {
+        "form": { "header": "Տարբերակներ" },
+        "success": { "description": "Տարբերակները պահմանվեցին հաջողությամբ" }
+      },
+      "config_entry_system_options": {
+        "title": "Համակարգի Պարամետրերը",
+        "enable_new_entities_label": "Միացնել նոր ավելացված օբյեկտները:",
+        "enable_new_entities_description": "Եթե անջատված է, նոր հայտնաբերված օբյեկտները ավտոմատ կերպով չեն ավելացվի UNICONTROL-ին:",
+        "update": "Update"
+      },
+      "zha_device_info": {
+        "manuf": "{manufacturer}ի կողմից",
+        "no_area": "Ոչ մի տարածք",
+        "device_signature": "Zigbee device signature",
+        "buttons": {
+          "add": "Add Devices via this device",
+          "remove": "Remove Device",
+          "clusters": "Manage Clusters",
+          "reconfigure": "Reconfigure Device",
+          "zigbee_information": "Zigbee device signature"
+        },
+        "services": {
+          "reconfigure": "Նորից կարգավորեք  ZHA սարքը: Օգտագործեք սա, եթե սարքի հետ խնդիրներ ունեք: Եթե տվյալ սարքը մարտկոցով աշխատող սարք է, ապա այս ծառայությունն օգտագործելիս համոզվեք, որ արթուն է և հրամաններ է ընդունում:",
+          "updateDeviceName": "Անվանել սարքը  սարգեքի ռեգիսթրիում",
+          "remove": "Հեռացնել սարքը ZigBee ցանցից.",
+          "zigbee_information": "View the Zigbee information for the device."
+        },
+        "confirmations": {
+          "remove": "Are you sure that you want to remove the device?"
+        },
+        "quirk": "Quirk",
+        "last_seen": "Last Seen",
+        "power_source": "Power Source",
+        "unknown": "Unknown",
+        "zha_device_card": {
+          "device_name_placeholder": "Օգտագործողի կողմից տրված անուն",
+          "area_picker_label": "Տարածք",
+          "update_name_button": "Թարմացնել անունը"
+        }
+      },
+      "domain_toggler": {
+        "title": "Toggle Domains",
+        "reset_entities": "Reset Entities"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} debug info",
+        "deserialize": "Attempt to parse MQTT messages as JSON",
+        "entities": "Entities",
+        "no_entities": "No entities",
+        "no_triggers": "No triggers",
+        "payload_display": "Payload display",
+        "recent_messages": "{n} most recently received message(s)",
+        "show_as_yaml": "Show as YAML",
+        "triggers": "Triggers"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+      "minute": "{count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+      "hour": "{count} {count, plural,\n  one {ժամ}\n  other {ժամ}\n}",
+      "day": "{count} {count, plural,\n  one {day}\n  other {days}\n}",
+      "week": "{count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+    },
+    "login-form": {
+      "password": "Գաղտնաբառ",
+      "remember": "Հիշել",
+      "log_in": "Մուտք գործեք"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Սեղմեք ստեղծել {entity}",
+      "empty": "Ոչ մի ծանուցում",
+      "title": "Ծանուցումներ",
+      "close": "Close",
+      "dismiss_all": "Dismiss all"
+    },
+    "notification_toast": {
+      "service_call_failed": "Չի հաջողվել կապվել սպասարկման {ծառայության}.",
+      "connection_lost": "Կապը կորցվեց: Վերամիավորվում է…",
+      "started": "Home Assistant has started!",
+      "starting": "Home Assistant is starting, not everything will be available until it is finished.",
+      "triggered": "Triggered {name}",
+      "dismiss": "Dismiss"
+    },
+    "sidebar": {
+      "external_app_configuration": "Ծրագրի կարգավորում",
+      "sidebar_toggle": "Sidebar Toggle",
+      "done": "Done"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "My Calendars", "today": "Today" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Are you sure you want to delete this card?",
+          "empty_state": {
+            "title": "Բարի գալուստ տուն",
+            "no_devices": "Այս էջը թույլ է տալիս վերահսկել ձեր սարքերը։ սակայն, կարծես, դեռ տեղադրված չեք: Սկսեք ինտեգրման էջը `սկսելու համար:",
+            "go_to_integrations_page": "Անցնել ինտեգրման էջ"
+          },
+          "entities": { "never_triggered": "Never triggered" },
+          "shopping-list": {
+            "checked_items": "Ստուգված իրեր",
+            "clear_items": "Մաքրել ստուգված իրերը",
+            "add_item": "Ավելացնել իրը"
+          },
+          "picture-elements": {
+            "hold": "Պահել",
+            "tap": "սեղմեք",
+            "navigate_to": "Գնալ  դեպի {location}",
+            "url": "Open window to {url_path}",
+            "toggle": "Փոխարկել {name}",
+            "call_service": "Զանգի ծառայություն {name}",
+            "more_info": "Ցույց տալ-ինֆո\": {անուն}"
+          },
+          "safe-mode": {
+            "header": "Safe Mode Activated",
+            "description": "Home Assistant ran into trouble while loading your configuration and is now running in safe mode. Take a look at the error log to see what went wrong."
+          },
+          "starting": {
+            "description": "Home Assistant is starting, please wait..."
+          }
+        },
+        "unused_entities": {
+          "title": "Unused entities",
+          "available_entities": "These are the entities that you have available, but are not in your Lovelace UI yet.",
+          "select_to_add": "Select the entities you want to add to a card and then click the add card button.",
+          "entity": "Entity",
+          "entity_id": "Entity ID",
+          "domain": "Domain",
+          "last_changed": "Last Changed",
+          "search": "Search entities",
+          "no_data": "No unused entities found"
+        },
+        "add_entities": {
+          "yaml_unsupported": "You cannot use this function when using Lovelace UI in YAML mode.",
+          "generated_unsupported": "You can only use this function when you have taken control of the Lovelace UI.",
+          "saving_failed": "Saving Lovelace UI configuration failed."
+        },
+        "views": {
+          "confirm_delete": "Delete view?",
+          "confirm_delete_text": "Are you sure you want to delete your ''{name}'' view?",
+          "confirm_delete_existing_cards": "Deleting this view will also remove the cards",
+          "confirm_delete_existing_cards_text": "Are you sure you want to delete your ''{name}'' view? The view contains {number} cards that will be deleted. This action cannot be undone."
+        },
+        "menu": {
+          "configure_ui": "Կարգավորել UI- ն",
+          "help": "Օգնություն",
+          "start_conversation": "Start conversation",
+          "reload_resources": "Reload resources",
+          "exit_edit_mode": "Exit UI edit mode",
+          "close": "Close",
+          "refresh": "Թարմացրեք"
+        },
+        "reload_resources": {
+          "refresh_header": "Do you want to refresh?",
+          "refresh_body": "You have to refresh the page to complete the reload. Do you want to refresh now?"
+        },
+        "editor": {
+          "header": "Խմբագրել UI",
+          "menu": {
+            "open": "Open Lovelace UI menu",
+            "raw_editor": "Հում կազմաձևման խմբագիր"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "Խմբագրել կարգավորումը",
+            "save": "Պահպանել",
+            "unsaved_changes": "Չփրկված փոփոխություններ",
+            "saved": "Պահպանված",
+            "confirm_remove_config_title": "Are you sure you want to remove your Lovelace UI configuration?",
+            "confirm_remove_config_text": "We will automatically generate your Lovelace UI views with your areas and devices if you remove your Lovelace UI configuration.",
+            "confirm_unsaved_changes": "You have unsaved changes, are you sure you want to exit?",
+            "confirm_unsaved_comments": "Your configuration contains comment(s), these will not be saved. Do you want to continue?",
+            "error_parse_yaml": "Unable to parse YAML: {error}",
+            "error_invalid_config": "Your configuration is not valid: {error}",
+            "error_save_yaml": "Unable to save YAML: {error}",
+            "error_remove": "Unable to remove configuration: {error}",
+            "resources_moved": "Resources should no longer be added to the Lovelace configuration but can be added in the Lovelace config panel."
+          },
+          "edit_lovelace": {
+            "header": "Ձեր Lovelace UI- ի վերնագիր",
+            "explanation": "Այս վերնագիրը ցույց է տրված Lovelace-ի ձեր բոլոր view-երում",
+            "edit_title": "Edit title",
+            "title": "Title"
+          },
+          "edit_view": {
+            "header": "Դիտեք կարգավուրումը",
+            "header_name": "{name} View Configuration",
+            "add": "Ավելացնել տեսք",
+            "edit": "Խմբագրել տեսքը",
+            "delete": "Հեռացնել դիտումը",
+            "move_left": "Move view left",
+            "move_right": "Move view right",
+            "tab_settings": "Settings",
+            "tab_badges": "Badges",
+            "tab_visibility": "Visibility",
+            "visibility": {
+              "select_users": "Select which users should see this view in the navigation"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "These badges will not be displayed because this view is in \"Panel Mode\"."
+          },
+          "edit_card": {
+            "header": "Քարտի կարգավորում",
+            "typed_header": "{type} Card Configuration",
+            "pick_card": "Ընտրեք այն քարտը, որը ցանկանում եք ավելացնել:",
+            "pick_card_view_title": "Which card would you like to add to your {name} view?",
+            "toggle_editor": "Միացրեք խմբագրելը",
+            "unsaved_changes": "You have unsaved changes",
+            "confirm_cancel": "Are you sure you want to cancel?",
+            "show_visual_editor": "Show Visual Editor",
+            "show_code_editor": "Show Code Editor",
+            "add": "Ավելացնել քարտ",
+            "edit": "Խմբագրել",
+            "clear": "Clear",
+            "delete": "Հեռացնել",
+            "duplicate": "Duplicate card",
+            "move": "Տեղափոխել",
+            "move_before": "Move card before",
+            "move_after": "Move card after",
+            "options": "More options",
+            "search_cards": "Search cards"
+          },
+          "move_card": { "header": "Choose a view to move the card to" },
+          "select_view": {
+            "header": "Choose a view",
+            "dashboard_label": "Dashboard"
+          },
+          "suggest_card": {
+            "header": "We created a suggestion for you",
+            "create_own": "Pick different card",
+            "add": "Add to Lovelace UI"
+          },
+          "save_config": {
+            "header": "Վերցրեք ձեր Lovelace UI- ն",
+            "para": "Տնային օգնականը կպահպանի ձեր ինտերֆեյսը ՝ այն թարմացնելով, երբ հասանելի լինեն նոր սուբյեկտները կամ Lovelace բաղադրիչները: Եթե դուք ստանձնեք վերահսկողություն, մենք այլևս ինքնաբերաբար փոփոխություններ չենք անի ձեզ համար:",
+            "para_sure": "Համոզվա՞ծ եք, որ ցանկանում եք ստանձնել ձեր UI-ի թարմացման պարտավորությունը:",
+            "yaml_mode": "You are using YAML mode for this dashboard, which means you cannot change your Lovelace config from the UI. If you want to manage this dashboard from the UI, remove 'mode: yaml' from your Lovelace configuration in 'configuration.yaml.'.",
+            "yaml_control": "To take control in YAML mode, create a YAML file with the name you specified in your config for this dashboard, or the default 'ui-lovelace.yaml'.",
+            "yaml_config": "To help you start here is the current config of this dashboard:",
+            "empty_config": "Start with an empty dashboard",
+            "cancel": "Երբեք դեմ չեք",
+            "close": "Close",
+            "save": "Վերահսկել"
+          },
+          "migrate": {
+            "header": "Կարգավուրումը անհամատեղելի է",
+            "para_no_id": "Այս տարրը ID չունի: Խնդրում ենք ID- ին ավելացնել 'ui-lovelace.yaml' մեջ:",
+            "para_migrate": "Տնային օգնականը կարող է ինքնուրույն ավելացնել ID- ի բոլոր քարտերը և դիտումները `սեղմելով« Միգրացիայի կազմաձևման »կոճակը:",
+            "migrate": "Տեղափոխել կարգավորումը"
+          },
+          "action-editor": {
+            "navigation_path": "Navigation Path",
+            "url_path": "URL Path",
+            "editor_service_data": "Service data can only be entered in the code editor",
+            "actions": {
+              "default_action": "Default Action",
+              "call-service": "Call Service",
+              "more-info": "More Info",
+              "toggle": "Toggle",
+              "navigate": "Navigate",
+              "url": "URL",
+              "none": "No Action"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Alarm Panel",
+              "available_states": "Available States",
+              "description": "The Alarm Panel card allows you to Arm and Disarm your alarm control panel integrations."
+            },
+            "calendar": {
+              "name": "Calendar",
+              "description": "The Calendar card displays a calendar including day, week and list views",
+              "inital_view": "Initial View",
+              "calendar_entities": "Calendar Entities",
+              "views": {
+                "dayGridMonth": "Month",
+                "dayGridDay": "Day",
+                "listWeek": "List"
+              }
+            },
+            "conditional": {
+              "name": "Conditional",
+              "description": "The Conditional card displays another card based on entity states.",
+              "conditions": "Conditions",
+              "card": "Card",
+              "state_equal": "State is equal to",
+              "state_not_equal": "State is not equal to",
+              "current_state": "current",
+              "condition_explanation": "The card will be shown when ALL conditions below are fulfilled.",
+              "change_type": "Change type"
+            },
+            "config": { "required": "Required", "optional": "Optional" },
+            "entities": {
+              "name": "Entities",
+              "show_header_toggle": "Show Header Toggle?",
+              "toggle": "Toggle entities.",
+              "description": "The Entities card is the most common type of card. It groups items together into lists.",
+              "special_row": "special row",
+              "edit_special_row": "View the details of this row by clicking the edit button",
+              "entity_row_editor": "Entity Row Editor",
+              "secondary_info_values": {
+                "none": "No Secondary Info",
+                "entity-id": "Entity ID",
+                "last-changed": "Last Changed",
+                "last-triggered": "Last Triggered",
+                "position": "Position",
+                "tilt-position": "Tilt Position",
+                "brightness": "Brightness",
+                "last-updated": "Last Updated"
+              },
+              "entity_row": {
+                "divider": "Divider",
+                "call-service": "Call Service",
+                "section": "Section",
+                "weblink": "Web Link",
+                "attribute": "Attribute",
+                "buttons": "Buttons",
+                "conditional": "Conditional",
+                "cast": "Cast",
+                "button": "Button"
+              }
+            },
+            "entity": {
+              "name": "Entity",
+              "description": "The Entity card gives you a quick overview of your entity’s state."
+            },
+            "button": {
+              "name": "Button",
+              "description": "The Button card allows you to add buttons to perform tasks.",
+              "default_action_help": "The default action depends on the entity's capabilities, it will either be toggled or the more info will be shown."
+            },
+            "entity-filter": {
+              "name": "Entity Filter",
+              "description": "The Entity Filter card allows you to define a list of entities that you want to track only when in a certain state."
+            },
+            "gauge": {
+              "name": "Gauge",
+              "severity": {
+                "define": "Define Severity?",
+                "green": "Green",
+                "red": "Red",
+                "yellow": "Yellow"
+              },
+              "description": "The Gauge card is a basic card that allows visually seeing sensor data."
+            },
+            "glance": {
+              "name": "Glance",
+              "columns": "Columns",
+              "description": "The Glance card is useful to group multiple sensors in a compact overview."
+            },
+            "grid": {
+              "name": "Grid",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "History Graph",
+              "description": "The History Graph card allows you to display a graph for each of the entities listed."
+            },
+            "horizontal-stack": {
+              "name": "Horizontal Stack",
+              "description": "The Horizontal Stack card allows you to stack together multiple cards, so they always sit next to each other in the space of one column."
+            },
+            "humidifier": {
+              "name": "Humidifier",
+              "description": "The Humidifier card gives control of your humidifier entity. Allowing you to change the humidity and mode of the entity."
+            },
+            "iframe": {
+              "name": "Webpage",
+              "description": "The Webpage card allows you to embed your favorite webpage right into Home Assistant."
+            },
+            "light": {
+              "name": "Light",
+              "description": "The Light card allows you to change the brightness of the light."
+            },
+            "generic": {
+              "aspect_ratio": "Aspect Ratio",
+              "attribute": "Attribute",
+              "camera_image": "Camera Entity",
+              "camera_view": "Camera View",
+              "double_tap_action": "Double Tap Action",
+              "entities": "Entities",
+              "entity": "Entity",
+              "hold_action": "Hold Action",
+              "hours_to_show": "Hours to Show",
+              "icon": "Icon",
+              "icon_height": "Icon Height",
+              "image": "Image Path",
+              "maximum": "Maximum",
+              "manual": "Manual",
+              "manual_description": "Need to add a custom card or just want to manually write the yaml?",
+              "minimum": "Minimum",
+              "name": "Name",
+              "refresh_interval": "Refresh Interval",
+              "show_icon": "Show Icon?",
+              "show_name": "Show Name?",
+              "show_state": "Show State?",
+              "tap_action": "Tap Action",
+              "title": "Title",
+              "theme": "Theme",
+              "no_theme": "No theme",
+              "unit": "Unit",
+              "url": "URL",
+              "state": "State",
+              "secondary_info_attribute": "Secondary Info Attribute",
+              "search": "Search",
+              "state_color": "Color icons based on state?"
+            },
+            "map": {
+              "name": "Map",
+              "geo_location_sources": "Geolocation Sources",
+              "dark_mode": "Dark Mode?",
+              "default_zoom": "Default Zoom",
+              "hours_to_show": "Hours to Show",
+              "source": "Source",
+              "description": "The Map card that allows you to display entities on a map."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Content",
+              "description": "The Markdown card is used to render Markdown."
+            },
+            "media-control": {
+              "name": "Media Control",
+              "description": "The Media Control card is used to display media player entities on an interface with easy to use controls."
+            },
+            "picture": {
+              "name": "Picture",
+              "description": "The Picture card allows you to set an image to use for navigation to various paths in your interface or to call a service."
+            },
+            "picture-elements": {
+              "name": "Picture Elements",
+              "description": "The Picture Elements card is one of the most versatile types of cards. The cards allow you to position icons or text and even services! On an image based on coordinates."
+            },
+            "picture-entity": {
+              "name": "Picture Entity",
+              "description": "The Picture Entity card displays an entity in the form of an image. Instead of images from URL, it can also show the picture of camera entities."
+            },
+            "picture-glance": {
+              "name": "Picture Glance",
+              "description": "The Picture Glance card shows an image and corresponding entity states as an icon. The entities on the right side allow toggle actions, others show the more information dialog."
+            },
+            "plant-status": {
+              "name": "Plant Status",
+              "description": "The Plant Status card is for all the lovely botanists out there."
+            },
+            "sensor": {
+              "name": "Sensor",
+              "show_more_detail": "Show more detail",
+              "graph_type": "Graph Type",
+              "description": "The Sensor card gives you a quick overview of your sensors state with an optional graph to visualize change over time."
+            },
+            "shopping-list": {
+              "name": "Shopping List",
+              "description": "The Shopping List card allows you to add, edit, check-off, and clear items from your shopping list.",
+              "integration_not_loaded": "This card requires the `shopping_list` integration to be set up."
+            },
+            "thermostat": {
+              "name": "Thermostat",
+              "description": "The Thermostat card gives control of your climate entity. Allowing you to change the temperature and mode of the entity."
+            },
+            "vertical-stack": {
+              "name": "Vertical Stack",
+              "description": "The Vertical Stack card allows you to group multiple cards so they always sit in the same column."
+            },
+            "weather-forecast": {
+              "name": "Weather Forecast",
+              "description": "The Weather Forecast card displays the weather. Very useful to include on interfaces that people display on the wall.",
+              "show_forecast": "Show Forecast"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Panel Mode?",
+              "description": "This renders the first card at full width. Other cards in this view as well as badges will not be rendered.",
+              "warning_multiple_cards": "This view contains more than one card, but a panel view can only show 1 card."
+            }
+          },
+          "cardpicker": {
+            "no_description": "No description available.",
+            "custom_card": "Custom",
+            "domain": "Domain",
+            "entity": "Entity",
+            "by_entity": "By Entity",
+            "by_card": "By Card"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Attribute {attribute} not available in: {entity}",
+          "entity_not_found": "Անունը  հասանելի  չէ. {entity}",
+          "entity_non_numeric": "Կազմակերպությունը ոչ թվային է. {entity} Անձ {entity}",
+          "entity_unavailable": "{entity} is currently unavailable",
+          "starting": "Home Assistant is starting, not everything may be available yet"
+        },
+        "changed_toast": {
+          "message": "Lovelace կարգավորումը թարմացվել է, կցանկանայի՞ք թարմացնել UI-ը:",
+          "refresh": "Թարմացնել"
+        },
+        "reload_lovelace": "Վերաբեռնել Lovelace-ն"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Do you trust the external panel {name} at {link}?",
+          "complete_access": "It will have access to all data in Home Assistant.",
+          "hide_message": "Check docs for the panel_custom component to hide this message"
+        }
+      }
+    }
+  }
+}

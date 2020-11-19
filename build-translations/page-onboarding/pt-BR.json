@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Você está pronto para despertar sua casa, recuperar sua privacidade e se juntar a uma comunidade mundial de consertadores?",
+        "user": {
+          "intro": "Vamos começar criando uma conta de usuário.",
+          "required_field": "Obrigatório",
+          "data": {
+            "name": "Nome",
+            "username": "Usuário",
+            "password": "Senha",
+            "password_confirm": "Confirme a Senha"
+          },
+          "create_account": "Criar Conta",
+          "error": {
+            "required_fields": "Preencha todos os campos obrigatórios",
+            "password_not_match": "As senhas não coincidem"
+          }
+        },
+        "core-config": {
+          "intro": "Olá {name}, seja bem-vindo ao Home Assistant. Como você gostaria de nomear sua casa?",
+          "intro_location": "Nós gostaríamos de saber onde você mora. Essa informação ajudará na exibição de informações e na configuração de automações baseadas no sol. Esses dados nunca são compartilhados fora da sua rede.",
+          "intro_location_detect": "Podemos ajudá-lo a preencher essas informações fazendo uma solicitação única para um serviço externo.",
+          "location_name": "Nome da instalação do Home Assistant",
+          "location_name_default": "Casa",
+          "button_detect": "Detectar",
+          "finish": "Próximo"
+        },
+        "integration": {
+          "intro": "Dispositivos e serviços são representados no Home Assistant como integrações. Você pode configurá-los agora ou fazê-lo mais tarde na tela de configuração.",
+          "more_integrations": "Mais",
+          "finish": "Terminar"
+        },
+        "restore": {
+          "description": "Em alternativa, pode restaurar a partir de um snapshot anterior.",
+          "in_progress": "Restauração em andamento",
+          "show_log": "Mostrar registo completo",
+          "hide_log": "Ocultar registo completo"
+        }
+      }
+    }
+  }
+}

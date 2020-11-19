@@ -1,0 +1,77 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Події",
+            "description": "Викликати подію через шину подій",
+            "documentation": "Документація подій",
+            "type": "Тип події",
+            "data": "Дані події (YAML, необов'язково)",
+            "fire_event": "Викликати подію",
+            "event_fired": "Подія {type} викликана",
+            "available_events": "Доступні події",
+            "count_listeners": " ({count} слухачів)",
+            "listen_to_events": "Прослуховування подій",
+            "listening_to": "Прослухувати",
+            "subscribe_to": "Подія, на яку підписатися",
+            "start_listening": "Почати прослуховування",
+            "stop_listening": "Припинити прослуховування",
+            "alert_event_type": "Тип події — обов'язкове поле",
+            "notification_event_fired": "Подія {type} успішно викликана!"
+          },
+          "services": {
+            "title": "Сервіси",
+            "description": "Сервіс dev Tool дозволяє викликати будь-яку доступну службу в Home Assistant.",
+            "data": "Дані служби (YAML, необов'язково)",
+            "call_service": "Викликати службу",
+            "select_service": "Виберіть службу, щоб переглянути опис",
+            "no_description": "Опис відсутній",
+            "no_parameters": "Ця служба не приймає ніяких параметрів.",
+            "column_parameter": "Параметр",
+            "column_description": "Опис",
+            "column_example": "Приклад",
+            "fill_example_data": "Заповнити дані прикладом",
+            "alert_parsing_yaml": "Помилка під час розбору YAML: {data}"
+          },
+          "states": {
+            "title": "Стан",
+            "description1": "Встановіть представлення пристрою в Home Assistant.",
+            "description2": "Це не буде взаємодіяти з реальним пристроєм.",
+            "entity": "Об'єкт",
+            "state": "Статус",
+            "attributes": "Атрибути",
+            "state_attributes": "Атрибути стану (YAML, необов'язково)",
+            "set_state": "Встановити стан",
+            "current_entities": "Поточні сутності",
+            "filter_entities": "Фільтрувати об'єкти",
+            "filter_states": "Фільтрувати стани",
+            "filter_attributes": "Фільтрувати атрибути",
+            "no_entities": "Немає об'єктів",
+            "more_info": "Більше інформації",
+            "alert_entity_field": "Об'єкт є обов'язковим полем",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "Шаблон",
+            "description": "Шаблони відтворюються за допомогою механізму шаблонів Jinja2 з деякими розширеннями Home Assistant.",
+            "editor": "Редактор шаблонів",
+            "reset": "Reset to demo template",
+            "result_type": "Result type",
+            "jinja_documentation": "Документація щодо шаблону Jinja2",
+            "template_extensions": "Розширення шаблонів Home Assistant",
+            "unknown_error_template": "Невідома помилка відтворення шаблону",
+            "time": "This template updates at the start of each minute.",
+            "all_listeners": "Цей шаблон прослуховує всі події, що змінилися.",
+            "no_listeners": "Цей шаблон не прослуховує будь-які події, що змінилися, і не оновлюватиметься автоматично.",
+            "listeners": "Цей шаблон прослуховує такі події, що змінилися:",
+            "entity": "Об'єкт",
+            "domain": "Домен"
+          }
+        }
+      }
+    }
+  }
+}

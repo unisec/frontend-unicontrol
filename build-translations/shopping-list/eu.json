@@ -1,0 +1,10 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Artikulua gehitu",
+        "clear_completed": "Osatutakoak ezabatu"
+      }
+    }
+  }
+}

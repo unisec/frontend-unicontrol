@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Sei pronto per risvegliare la tua casa, reclamare la tua privacy e far parte di una comunità mondiale di smanettoni?",
+        "user": {
+          "intro": "Cominciamo con la creazione di un account utente.",
+          "required_field": "Necessario",
+          "data": {
+            "name": "Nome",
+            "username": "Nome utente",
+            "password": "Password",
+            "password_confirm": "Conferma la nuova password"
+          },
+          "create_account": "Crea un Account",
+          "error": {
+            "required_fields": "Compila tutti i campi richiesti",
+            "password_not_match": "Le password non corrispondono"
+          }
+        },
+        "core-config": {
+          "intro": "Salve {name}, benvenuto su Home Assistant. Come vorresti nominare la tua casa?",
+          "intro_location": "Vorremmo sapere dove vivete. Queste informazioni aiuteranno a visualizzare informazioni e automazioni basate sul sole. Questi dati non vengono mai condivisi al di fuori della vostra rete.",
+          "intro_location_detect": "Possiamo aiutarti a compilare queste informazioni effettuando una richiesta una volta a un servizio esterno.",
+          "location_name": "Nome della tua installazione di Home Assistant",
+          "location_name_default": "Casa",
+          "button_detect": "Rileva",
+          "finish": "Prossimo"
+        },
+        "integration": {
+          "intro": "Dispositivi e servizi sono rappresentati in Home Assistant come integrazioni. È possibile impostarli ora, o farlo in seguito dalla schermata di configurazione.",
+          "more_integrations": "Di Più",
+          "finish": "Finito"
+        },
+        "restore": {
+          "description": "In alternativa è possibile ripristinare da un'istantanea precedente.",
+          "in_progress": "Ripristino in corso",
+          "show_log": "Mostra il registro completo",
+          "hide_log": "Nascondi il registro completo"
+        }
+      }
+    }
+  }
+}

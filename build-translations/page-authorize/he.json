@@ -1,0 +1,86 @@
+{
+  "ui": {
+    "panel": {
+      "page-authorize": {
+        "initializing": "מאתחל",
+        "authorizing_client": "אתה עומד לתת גישה ל{clientId} עבור הHome Assistant שלך.",
+        "logging_in_with": "מתחבר עם **{authProviderName}**.",
+        "pick_auth_provider": "או התחבר עם",
+        "abort_intro": "הכניסה בוטלה",
+        "form": {
+          "working": "אנא המתן",
+          "unknown_error": "משהו השתבש",
+          "next": "הבא",
+          "start_over": "התחל מחדש",
+          "error": "שגיאה: {error}",
+          "providers": {
+            "command_line": {
+              "step": {
+                "init": {
+                  "data": { "username": "שם משתמש", "password": "סיסמא" }
+                },
+                "mfa": {
+                  "data": { "code": "קוד אימות דו-שלבי" },
+                  "description": "פתח את **{mfa_module_name}** במכשיר שלך כדי להציג את קוד האימות הדו שלבי ולאמת את הזהות שלך:"
+                }
+              },
+              "error": {
+                "invalid_auth": "שם משתמש או סיסמא לא נכונים",
+                "invalid_code": "קוד אימות לא חוקי"
+              },
+              "abort": { "login_expired": "פג תוקף הפעילות באתר, היכנס שוב." }
+            },
+            "homeassistant": {
+              "step": {
+                "init": {
+                  "data": { "username": "שם משתמש", "password": "סיסמה" }
+                },
+                "mfa": {
+                  "data": { "code": "קוד אימות דו" },
+                  "description": "פתח את **{mfa_module_name}** במכשיר שלך כדי להציג את קוד האימות הדו שלבי ולאמת את הזהות שלך:"
+                }
+              },
+              "error": {
+                "invalid_auth": "שם משתמש או סיסמה לא חוקיים",
+                "invalid_code": "קוד אימות לא חוקי"
+              },
+              "abort": { "login_expired": "פג תוקף הפעילות באתר, היכנס שוב." }
+            },
+            "legacy_api_password": {
+              "step": {
+                "init": {
+                  "data": { "password": "סיסמת הAPI." },
+                  "description": "הזן את סיסמת הAPI שלך תחת http בקונפיגורציה:"
+                },
+                "mfa": {
+                  "data": { "code": "קוד אימות דו" },
+                  "description": "פתח את **{mfa_module_name}** במכשיר שלך כדי להציג את קוד האימות הדו שלבי ולאמת את הזהות שלך:"
+                }
+              },
+              "error": {
+                "invalid_auth": "סיסמת API לא חוקית",
+                "invalid_code": "קוד אימות לא חוקי"
+              },
+              "abort": {
+                "no_api_password_set": "לא הגדרת את סיסמת הAPI.",
+                "login_expired": "פג תוקף הפעילות, היכנס שוב."
+              }
+            },
+            "trusted_networks": {
+              "step": {
+                "init": {
+                  "data": { "user": "מִשׁתַמֵשׁ" },
+                  "description": "בחר משתמש שאליו ברצונך להתחבר:"
+                }
+              },
+              "abort": {
+                "not_allowed": "המחשב שלך אינו מורשה.",
+                "not_whitelisted": "המחשב שלך אינו רשום ברשימת ההיתרים."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

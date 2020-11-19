@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Today",
+          "yesterday": "Yesterday",
+          "this_week": "This week",
+          "last_week": "Last week"
+        },
+        "entries_not_found": "Nu s-au gasit intrari in logbook",
+        "period": "دوره",
+        "showing_entries": "نمایش نامه برای"
+      }
+    }
+  }
+}

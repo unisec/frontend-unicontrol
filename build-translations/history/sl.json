@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Danes",
+          "yesterday": "Včeraj",
+          "this_week": "Ta teden",
+          "last_week": "Prejšnji teden"
+        },
+        "period": "Obdobje",
+        "showing_entries": "Prikaz vnosov za"
+      }
+    }
+  }
+}

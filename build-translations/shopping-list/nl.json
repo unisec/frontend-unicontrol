@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Item toevoegen",
+        "clear_completed": "Wissen voltooid",
+        "microphone_tip": "Tik op de microfoon rechtsboven en zeg \"Add candy to my shopping list\""
+      }
+    }
+  }
+}

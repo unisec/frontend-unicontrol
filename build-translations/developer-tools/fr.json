@@ -1,0 +1,77 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Événements",
+            "description": "Déclencher un événement dans le bus événement.",
+            "documentation": "Documentation sur les événements.",
+            "type": "Type d'événement",
+            "data": "Données d'événement (YAML, facultatif)",
+            "fire_event": "Déclencher l'événement",
+            "event_fired": "Événement {name} déclenché",
+            "available_events": "Événements disponibles",
+            "count_listeners": " ({count} récepteurs)",
+            "listen_to_events": "Écouter les événements",
+            "listening_to": "Écouter",
+            "subscribe_to": "Évènement auquel s'abonner",
+            "start_listening": "Commence à écouter",
+            "stop_listening": "Arrêter d'écouter",
+            "alert_event_type": "Le type d'événement est un champ obligatoire",
+            "notification_event_fired": "Événement {type} déclenché avec succès!"
+          },
+          "services": {
+            "title": "Services",
+            "description": "L'outil de développement 'services' vous permet d'appeler n'importe quel service disponible dans UNICONTROL.",
+            "data": "Données de service (YAML, facultatif)",
+            "call_service": "Appeler le service",
+            "select_service": "Sélectionnez un service pour voir la description",
+            "no_description": "Aucune description n'est disponible",
+            "no_parameters": "Ce service ne prend aucun paramètre.",
+            "column_parameter": "Paramètre",
+            "column_description": "Description",
+            "column_example": "Exemple",
+            "fill_example_data": "Remplir des exemples de données",
+            "alert_parsing_yaml": "Erreur d'analyse de YAML : {data}"
+          },
+          "states": {
+            "title": "États",
+            "description1": "Définir la représentation d'un périphérique dans UNICONTROL.",
+            "description2": "Cela ne communiquera pas avec le périphérique réel.",
+            "entity": "Entité",
+            "state": "État",
+            "attributes": "Attributs",
+            "state_attributes": "Attributs d'état (YAML, facultatif)",
+            "set_state": "Définir l'état",
+            "current_entities": "Entités actuelles",
+            "filter_entities": "Filtrer les entités",
+            "filter_states": "Filtrer les états",
+            "filter_attributes": "Filtrer les attributs",
+            "no_entities": "Aucune entité",
+            "more_info": "Plus d’infos",
+            "alert_entity_field": "L'entité est un champ obligatoire",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "Modèle",
+            "description": "Les modèles sont rendus à l'aide du moteur de modèles Jinja2 avec certaines extensions spécifiques de UNICONTROL.",
+            "editor": "Éditeur de modèles",
+            "reset": "Réinitialiser au modèle de démonstration",
+            "result_type": "Type de résultat",
+            "jinja_documentation": "Documentation de modèle Jinja2",
+            "template_extensions": "Extensions de modèles de UNICONTROL",
+            "unknown_error_template": "Erreur inconnue lors du rendu du modèle",
+            "time": "Ce modèle est mis à jour au début de chaque minute.",
+            "all_listeners": "Ce modèle écoute tous les événements de changement d'état.",
+            "no_listeners": "Ce modèle n'écoute aucun événement de changement d'état et ne sera pas mis à jour automatiquement.",
+            "listeners": "Ce modèle écoute les événements de changement d'état suivants:",
+            "entity": "Entité",
+            "domain": "Domaine"
+          }
+        }
+      }
+    }
+  }
+}

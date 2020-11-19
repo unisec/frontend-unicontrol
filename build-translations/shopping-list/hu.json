@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Tétel hozzáadása",
+        "clear_completed": "Bejelöltek törlése",
+        "microphone_tip": "Koppints a jobb felső sarokban található mikrofonra, és mondd ki vagy írd be: \"Add candy to my shopping list\""
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Добавить элемент",
+        "clear_completed": "Очистить завершенные",
+        "microphone_tip": "Нажмите на микрофон в правом верхнем углу и скажите или напечатайте “Add candy to my shopping list”"
+      }
+    }
+  }
+}

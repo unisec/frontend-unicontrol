@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Vai esat gatavs pamodināt savu māju, atgūt savu konfidencialitāti un pievienoties pasaules mēroga kopienai?",
+        "user": {
+          "intro": "Sāksim ar lietotāja konta izveidi.",
+          "required_field": "Obligāts",
+          "data": {
+            "name": "Vārds",
+            "username": "Lietotājvārds",
+            "password": "Parole",
+            "password_confirm": "Apstipriniet paroli"
+          },
+          "create_account": "Izveidot kontu",
+          "error": {
+            "required_fields": "Aizpildiet visus obligātos laukus",
+            "password_not_match": "Paroles nesakrīt"
+          }
+        },
+        "core-config": {
+          "intro": "Sveiki {name}! Laipni lūdzam Home Assistant. Kā jūs vēlētos nosaukt savas mājas?",
+          "intro_location": "Mēs gribētu zināt, kur tu dzīvo. Šī informācija palīdzēs parādīt informāciju un iestatīt uz saules bāzes balstītas automātikas. Šie dati nekad netiek koplietoti ārpus jūsu tīkla.",
+          "intro_location_detect": "Mēs varam palīdzēt jums aizpildīt šo informāciju, iesniedzot vienreizēju pieprasījumu ārējam pakalpojumam.",
+          "location_name": "Name of your Home Assistant installation",
+          "location_name_default": "Mājas",
+          "button_detect": "Noteikt",
+          "finish": "Nākamais"
+        },
+        "integration": {
+          "intro": "Home Assistant ierīces un pakalpojumi tiek parādītas kā integrācijas. Tos var iestatīt tūlīt vai izdarīt vēlāk konfigurācijas ekrānā.",
+          "more_integrations": "Vairāk",
+          "finish": "Pabeigt"
+        },
+        "restore": {
+          "description": "Alternatively you can restore from a previous snapshot.",
+          "in_progress": "Restore in progress",
+          "show_log": "Show full log",
+          "hide_log": "Hide full log"
+        }
+      }
+    }
+  }
+}

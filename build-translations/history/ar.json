@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "اليوم",
+          "yesterday": "أمس",
+          "this_week": "هذا الأسبوع",
+          "last_week": "الأسبوع الماضي"
+        },
+        "period": "المدة",
+        "showing_entries": "عرض الأحداث لـ"
+      }
+    }
+  }
+}

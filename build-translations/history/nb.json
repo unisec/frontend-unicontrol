@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "I dag",
+          "yesterday": "I går",
+          "this_week": "Denne uken",
+          "last_week": "Forrige uke"
+        },
+        "period": "Periode",
+        "showing_entries": "Viser oppføringer for"
+      }
+    }
+  }
+}

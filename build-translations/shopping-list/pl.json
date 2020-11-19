@@ -1,0 +1,11 @@
+{
+  "ui": {
+    "panel": {
+      "shopping-list": {
+        "add_item": "Dodaj element",
+        "clear_completed": "Wyczyść ukończone",
+        "microphone_tip": "Dotknij ikonę mikrofonu w prawym górnym rogu i powiedz “Dodaj słodycze do mojej listy zakupów”"
+      }
+    }
+  }
+}

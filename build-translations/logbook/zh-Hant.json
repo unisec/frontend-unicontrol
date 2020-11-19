@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "今天",
+          "yesterday": "昨天",
+          "this_week": "本週",
+          "last_week": "上週"
+        },
+        "entries_not_found": "找不到實體日誌。",
+        "period": "選擇週期",
+        "showing_entries": "選擇要查看的時間"
+      }
+    }
+  }
+}

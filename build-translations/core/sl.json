@@ -1,0 +1,1319 @@
+{
+  "panel": {
+    "calendar": "Koledar",
+    "config": "Nastavitve",
+    "states": "Pregled",
+    "map": "Zemljevid",
+    "logbook": "Dnevnik",
+    "history": "Zgodovina",
+    "mailbox": "Nabiralnik",
+    "shopping_list": "Nakupovalni seznam",
+    "developer_tools": "Orodja za razvijalce",
+    "media_browser": "Medijski brskalnik",
+    "profile": "Profil"
+  },
+  "state": {
+    "default": {
+      "on": "Vključen",
+      "off": "Izključen",
+      "unknown": "Neznano",
+      "unavailable": "Ni na voljo"
+    },
+    "alarm_control_panel": {
+      "armed": "Omogočen",
+      "armed_away": "Omogočen-zunaj",
+      "armed_custom_bypass": "Vklopljen izjeme po meri",
+      "armed_home": "Omogočen-doma",
+      "armed_night": "Omogočen-noč",
+      "arming": "Omogočanje",
+      "disarmed": "Onemogočen",
+      "disarming": "Onemogočanje",
+      "pending": "V teku",
+      "triggered": "Sprožen"
+    },
+    "automation": { "off": "Izključen", "on": "Vklopljen" },
+    "binary_sensor": {
+      "battery": { "off": "Normalno", "on": "Nizko" },
+      "cold": { "off": "Normalno", "on": "Hladno" },
+      "connectivity": { "off": "Povezava prekinjena", "on": "Povezan" },
+      "default": { "off": "Izključen", "on": "Vklopljen" },
+      "door": { "off": "Zaprto", "on": "Odprto" },
+      "garage_door": { "off": "Zaprto", "on": "Odprto" },
+      "gas": { "off": "Čisto", "on": "Zaznano" },
+      "heat": { "off": "Normalno", "on": "Vroče" },
+      "lock": { "off": "Zaklenjeno", "on": "Odklenjeno" },
+      "moisture": { "off": "Suho", "on": "Mokro" },
+      "motion": { "off": "Čisto", "on": "Zaznano" },
+      "occupancy": { "off": "Čisto", "on": "Zaznano" },
+      "opening": { "off": "Zaprto", "on": "Odprto" },
+      "presence": { "off": "Odsoten", "on": "Doma" },
+      "problem": { "off": "OK", "on": "Težava" },
+      "safety": { "off": "Varno", "on": "Nevarno" },
+      "smoke": { "off": "Čisto", "on": "Zaznano" },
+      "sound": { "off": "Čisto", "on": "Zaznano" },
+      "vibration": { "off": "Čisto", "on": "Zaznano" },
+      "window": { "off": "Zaprto", "on": "Odprto" }
+    },
+    "calendar": { "off": "Izključen", "on": "Vklopljen" },
+    "camera": {
+      "idle": "V pripravljenosti",
+      "recording": "Snemanje",
+      "streaming": "Pretakanje"
+    },
+    "climate": {
+      "cool": "Mrzlo",
+      "dry": "Suho",
+      "fan_only": "Samo ventilator",
+      "heat": "Toplo",
+      "heat_cool": "Gretje/Hlajenje",
+      "off": "Izključen"
+    },
+    "configurator": {
+      "configure": "Konfiguriraj",
+      "configured": "Konfigurirano"
+    },
+    "cover": {
+      "closed": "Zaprto",
+      "closing": "Zapiranje",
+      "open": "Odprto",
+      "opening": "Odpiranje",
+      "stopped": "Ustavljeno"
+    },
+    "device_tracker": { "not_home": "Odsoten" },
+    "fan": { "off": "Izključen", "on": "Vklopljen" },
+    "group": {
+      "closed": "Zaprto",
+      "closing": "Zapiranje",
+      "home": "Doma",
+      "locked": "Zaklenjeno",
+      "not_home": "Odsoten",
+      "off": "Izključen",
+      "ok": "OK",
+      "on": "Vklopljen",
+      "open": "Odprto",
+      "opening": "Odpiranje",
+      "problem": "Težava",
+      "stopped": "Ustavljeno",
+      "unlocked": "Odklenjeno"
+    },
+    "input_boolean": { "off": "Izključen", "on": "Vklopljen" },
+    "light": { "off": "Izključen", "on": "Vklopljen" },
+    "lock": { "locked": "Zaklenjeno", "unlocked": "Odklenjeno" },
+    "media_player": {
+      "idle": "V pripravljenosti",
+      "off": "Izključen",
+      "on": "Vklopljen",
+      "paused": "Na pavzi",
+      "playing": "Predvaja",
+      "standby": "V pripravljenosti"
+    },
+    "person": { "home": "Doma" },
+    "plant": { "ok": "OK", "problem": "Težava" },
+    "remote": { "off": "Izključen", "on": "Vklopljen" },
+    "scene": { "scening": "Nastavitev scene" },
+    "script": { "off": "Izključen", "on": "Vklopljen" },
+    "sensor": { "off": "Izključen", "on": "Vklopljen" },
+    "sun": { "above_horizon": "Nad obzorjem", "below_horizon": "Pod obzorjem" },
+    "switch": { "off": "Izključen", "on": "Vklopljen" },
+    "timer": {
+      "active": "aktiven",
+      "idle": "V pripravljenosti",
+      "paused": "Na pavzi"
+    },
+    "vacuum": {
+      "cleaning": "Čistim",
+      "docked": "Priključen",
+      "error": "Napaka",
+      "idle": "V pripravljenosti",
+      "off": "Izključen",
+      "on": "Vklopljen",
+      "paused": "Zaustavljeno",
+      "returning": "Vračam se na postajo"
+    },
+    "weather": {
+      "clear-night": "Jasna, noč",
+      "cloudy": "Oblačno",
+      "exceptional": "Izjemno",
+      "fog": "Megla",
+      "hail": "Toča",
+      "lightning": "Grmenje",
+      "lightning-rainy": "Grmenje, deževno",
+      "partlycloudy": "Delno oblačno",
+      "pouring": "Močan dež",
+      "rainy": "Deževno",
+      "snowy": "Snežno",
+      "snowy-rainy": "Snežno, deževno",
+      "sunny": "Sončno",
+      "windy": "Vetrovno",
+      "windy-variant": "Vetrovno"
+    },
+    "zwave": {
+      "default": {
+        "dead": "Mrtev",
+        "initializing": "Inicializacija",
+        "ready": "Pripravljen",
+        "sleeping": "Spanje"
+      },
+      "query_stage": {
+        "dead": "Mrtev ({query_stage})",
+        "initializing": "Inicializacija ({query_stage})"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": {
+        "off": "Izključen",
+        "on": "Vklopljen",
+        "auto": "Samodejno"
+      },
+      "preset_mode": {
+        "none": "Noben",
+        "eco": "Eko",
+        "away": "Odsoten",
+        "boost": "Povečanje",
+        "comfort": "Udobje",
+        "home": "Doma",
+        "sleep": "Spanje",
+        "activity": "Dejavnost"
+      },
+      "hvac_action": {
+        "off": "Izključen",
+        "heating": "Ogrevanje",
+        "cooling": "Hlajenje",
+        "drying": "Sušenje",
+        "idle": "V pripravljenosti",
+        "fan": "Ventilator"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "Normalno",
+        "eco": "Eko",
+        "away": "Odsoten",
+        "boost": "Povečanje",
+        "comfort": "Udobje",
+        "home": "Doma",
+        "sleep": "Spanje",
+        "auto": "Samodejno",
+        "baby": "Otrok"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "Neznano",
+      "unavailable": "N/A",
+      "error": "Napaka",
+      "entity_not_found": "Entiteta ni bila najdena"
+    },
+    "alarm_control_panel": {
+      "armed": "Aktiven",
+      "disarmed": "Off",
+      "armed_home": "Aktiven",
+      "armed_away": "Aktiven",
+      "armed_night": "Aktiven",
+      "armed_custom_bypass": "Aktiven",
+      "pending": "V teku",
+      "arming": "Vklapljam",
+      "disarming": "Izklopi",
+      "triggered": "Sprožen"
+    },
+    "device_tracker": { "home": "Doma", "not_home": "Odsoten" },
+    "person": { "home": "Doma", "not_home": "Odsoten" }
+  },
+  "groups": {
+    "system-admin": "Skrbniki",
+    "system-users": "Uporabniki",
+    "system-read-only": "Uporabniki \"samo za branje\""
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "Uporabnik",
+      "integration": "Integracija",
+      "config_entry": "Vnos konfiguracije"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "Ali želite ostati prijavljeni?",
+      "decline": "Ne",
+      "confirm": "Da"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "Koda",
+        "clear_code": "Počisti",
+        "disarm": "Izklopi",
+        "arm_home": "Vklopi doma",
+        "arm_away": "Vklopi odsoten",
+        "arm_night": "Vklopi nočni način",
+        "arm_custom_bypass": "Izjeme po meri"
+      },
+      "automation": {
+        "last_triggered": "Nazadnje sprožen",
+        "trigger": "Zaženi"
+      },
+      "camera": { "not_available": "Slika ni na voljo" },
+      "climate": {
+        "currently": "Trenutno",
+        "on_off": "Vključen / izključen",
+        "target_temperature": "Ciljna temperatura",
+        "target_temperature_entity": "{name} ciljna temperatura",
+        "target_temperature_mode": "{name} ciljna temperatura {mode}",
+        "current_temperature": "{name} trenutna temperatura",
+        "heating": "{name} ogrevanje",
+        "cooling": "{name} hlajenje",
+        "high": "visoka",
+        "low": "nizka",
+        "target_humidity": "Ciljna vlažnost",
+        "operation": "Delovanje",
+        "fan_mode": "Način ventilatorja",
+        "swing_mode": "Način Swing",
+        "preset_mode": "Prednastavitev",
+        "away_mode": "Način odsotnosti",
+        "aux_heat": "Dodatna toplota"
+      },
+      "counter": {
+        "actions": {
+          "increment": "prirastek",
+          "decrement": "pojemek",
+          "reset": "ponastavi"
+        }
+      },
+      "cover": { "position": "Položaj", "tilt_position": "Položaj nagiba" },
+      "fan": {
+        "speed": "Hitrost",
+        "oscillate": "Nihanje",
+        "direction": "Smer",
+        "forward": "Naprej",
+        "reverse": "Obratno"
+      },
+      "humidifier": {
+        "humidity": "Ciljna vlažnost",
+        "mode": "Način",
+        "target_humidity_entity": "{name} ciljna vlažnost",
+        "on_entity": "{name} vklopljeno"
+      },
+      "light": {
+        "brightness": "Svetlost",
+        "color_temperature": "Temperatura barve",
+        "white_value": "Bela vrednost",
+        "effect": "Učinek"
+      },
+      "lock": { "code": "Koda", "lock": "Zakleni", "unlock": "Odkleni" },
+      "media_player": {
+        "source": "Vir",
+        "sound_mode": "Zvočni način",
+        "browse_media": "Brskaj po vsebini",
+        "turn_on": "Vklopi",
+        "turn_off": "Izklopi",
+        "media_play": "Predvajaj",
+        "media_play_pause": "Predvajanje / premor",
+        "media_next_track": "Naslednji",
+        "media_previous_track": "Prejšnji",
+        "text_to_speak": "Besedilo v govor"
+      },
+      "persistent_notification": { "dismiss": "Opusti" },
+      "scene": { "activate": "Aktiviraj" },
+      "script": {
+        "execute": "Zaženi",
+        "cancel": "Prekliči",
+        "cancel_multiple": "Prekliči {number}"
+      },
+      "service": { "run": "Poženi" },
+      "timer": {
+        "actions": {
+          "start": "Zagon",
+          "pause": "pavza",
+          "cancel": "Prekliči",
+          "finish": "Dokončaj"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "Nadaljuj s čiščenjem",
+          "return_to_base": "Vrni se na postajo",
+          "start_cleaning": "Začni čiščenje",
+          "turn_on": "Vklopite",
+          "turn_off": "Izklopite"
+        }
+      },
+      "water_heater": {
+        "currently": "Trenutno",
+        "on_off": "Vključen / izključen",
+        "target_temperature": "Ciljna temperatura",
+        "operation": "Delovanje",
+        "away_mode": "Način odsotnosti"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "Zračni tlak",
+          "humidity": "Vlažnost",
+          "temperature": "Temperatura",
+          "visibility": "Vidljivost",
+          "wind_speed": "Hitrost vetra",
+          "precipitation": "Padavine"
+        },
+        "cardinal_direction": {
+          "e": "Vzhod",
+          "ene": "Vzhodno-severovzhod",
+          "ese": "Vzhodno-jugovzhod",
+          "n": "Sever",
+          "ne": "Severovzhod",
+          "nne": "Severo-severovzhod",
+          "nw": "Severozahod",
+          "nnw": "Severo-severozahod",
+          "s": "Jug",
+          "se": "Jugovzhod",
+          "sse": "Jugo-juhovzhod",
+          "ssw": "Jugo-jugozahod",
+          "sw": "Jugozahod",
+          "w": "Zahod",
+          "wnw": "Zahod-severozahod",
+          "wsw": "Zahod-jugozahod"
+        },
+        "day": "Dan",
+        "night": "Noč",
+        "forecast": "Napoved",
+        "high": "Visoko",
+        "low": "Nizko"
+      }
+    },
+    "common": {
+      "and": "in",
+      "continue": "Nadaljuj",
+      "previous": "Prejšnji",
+      "loading": "Nalaganje",
+      "refresh": "Osveži",
+      "cancel": "Prekliči",
+      "delete": "Izbriši",
+      "remove": "Odstraniti",
+      "enable": "Omogoči",
+      "disable": "Onemogoči",
+      "close": "Zapri",
+      "leave": "Odidi",
+      "stay": "Ostani",
+      "next": "Naslednji",
+      "back": "Nazaj",
+      "undo": "Razveljavi",
+      "save": "Shrani",
+      "rename": "Preimenuj",
+      "yes": "Da",
+      "no": "Ne",
+      "not_now": "Ne zdaj",
+      "skip": "Preskoči",
+      "menu": "Meni",
+      "overflow_menu": "Prelivni meni",
+      "successfully_saved": "Shranjeno",
+      "successfully_deleted": "Uspešno odstranjeno",
+      "error_required": "Zahtevano",
+      "copied": "Kopirano"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "Ni bilo najdenih vnosov v dnevnik.",
+        "by": "od",
+        "by_service": "od storitve",
+        "messages": {
+          "was_away": "je bil odsoten",
+          "was_at_state": "je bil {state}",
+          "rose": "zrasel",
+          "set": "nastavljen",
+          "was_low": "je bila nizek",
+          "was_normal": "je bil normalen",
+          "was_connected": "je bil povezan",
+          "was_disconnected": "je bil odklopljen",
+          "was_opened": "je bil odprt",
+          "was_closed": "je bil zaprt",
+          "was_unlocked": "je bil odklenjen",
+          "was_locked": "je bil zaklenjen",
+          "was_plugged_in": "je bil priključen",
+          "was_unplugged": "je bil izključen",
+          "was_at_home": "je bil/a doma",
+          "was_unsafe": "je bil ogrožen/a",
+          "was_safe": "je bil varen/a",
+          "detected_device_class": "zaznan {device_class}",
+          "cleared_device_class": "počiščeno (no {device_class} detected)",
+          "turned_off": "ugasnjen",
+          "turned_on": "vključen",
+          "changed_to_state": "je spremenil stanje v {state}",
+          "became_unavailable": "postal nedosegljiv"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "Entiteta",
+          "clear": "Počisti",
+          "show_entities": "Pokaži entitete"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Atribut",
+          "show_attributes": "Pokaži atribute"
+        }
+      },
+      "user-picker": {
+        "no_user": "Brez uporabnika",
+        "add_user": "Dodaj uporabnika",
+        "remove_user": "Odstrani uporabnika"
+      },
+      "device-picker": {
+        "clear": "Počisti",
+        "toggle": "Preklopite",
+        "show_devices": "Pokažite naprave",
+        "device": "Naprava",
+        "no_area": "Brez območja"
+      },
+      "area-picker": {
+        "clear": "Počisti",
+        "show_areas": "Pokaži cone",
+        "area": "Območje",
+        "add_new": "Dodaj novo območje …",
+        "add_dialog": {
+          "title": "Dodajte novo območje",
+          "text": "Vnesite ime novega območja.",
+          "name": "Ime",
+          "add": "Dodaj",
+          "failed_create_area": "Ni bilo mogoče ustvariti območja."
+        }
+      },
+      "picture-upload": {
+        "label": "Slika",
+        "unsupported_format": "Nepodprta oblika, izberite sliko JPEG, PNG ali GIF."
+      },
+      "date-range-picker": {
+        "start_date": "Začetni datum",
+        "end_date": "Končni datum",
+        "select": "Izberite"
+      },
+      "relative_time": {
+        "never": "Nikoli",
+        "just_now": "Pravkar",
+        "duration": {
+          "second": "{count} {count, plural,\none {sekunda}\nother {sekund}\n}",
+          "minute": "{count} {count, plural,\n  one {minuta}\n  other {minut}\n}",
+          "hour": "{count} {count, plural,\n  one {Ura}\n  other {Ur}\n}",
+          "day": "{count} {count, plural,\none {Dan}\nother {Dni}\n}",
+          "week": "{count} {count, plural,\none {Teden}\nother {Tednov}\n}"
+        },
+        "past_duration": {
+          "second": "Pred {count} {count, plural,\n  one {sekundo}\n  two {sekundama}\n  other {sekundami}\n}",
+          "minute": "Pred {count} {count, plural,\n  one {minuto}\n  two {minutama}\n  other {minutami}\n}",
+          "hour": "Pred {count} {count, plural,\n  one {uro}\n  two {urama}\n  other {urami}\n}",
+          "day": "Pred {count} {count, plural,\n  one {dnevom}\n  two {dnevoma}\n  other {dnevi}\n}",
+          "week": "Pred {count} {count, plural,\n  one {tednom}\n  two {tednoma}\n  other {tedni}\n}"
+        },
+        "future_duration": {
+          "second": "V {count} {count, plural,\n  one {sekundi}\n  other {sekundah}\n}",
+          "minute": "V {count} {count, plural,\n  one {minuti}\n  other {minutah}\n}",
+          "hour": "V {count} {count, plural,\n  one {uri}\n  other {urah}\n}",
+          "day": "V {count} {count, plural,\n  one {dnevu}\n  other {dnevih}\n}",
+          "week": "V {count} {count, plural,\n  one {tednu}\n  other {tednih}\n}"
+        },
+        "future": "Čez {time}",
+        "past": "Pred {time}"
+      },
+      "history_charts": {
+        "loading_history": "Nalagam zgodovino stanj...",
+        "no_history_found": "Ni najdene zgodovine stanj."
+      },
+      "service-picker": { "service": "Storitev" },
+      "related-items": {
+        "no_related_found": "Najden ni bil noben povezan element.",
+        "integration": "Integracija",
+        "device": "Naprava",
+        "area": "Območje",
+        "entity": "Sorodne entitete",
+        "group": "Del naslednjih skupin",
+        "scene": "Del naslednjih prizorov",
+        "script": "Del naslednjih skript",
+        "automation": "Del naslednjih avtomatizacij"
+      },
+      "data-table": { "search": "Iskanje", "no-data": "Ni podatkov" },
+      "media-browser": {
+        "pick": "Izberi",
+        "play": "Predvajaj",
+        "play-media": "Predvajaj vsebino",
+        "pick-media": "Izberi vsebino",
+        "no_items": "Ni elementov",
+        "choose_player": "Izberi predvajalnik",
+        "media-player-browser": "Brskalnik za medijski predvajalnik",
+        "web-browser": "Spletni brskalnik",
+        "media_player": "Medijski predvajalnik",
+        "audio_not_supported": "Vaš brskalnik ne podpira zvočnega elementa.",
+        "video_not_supported": "Vaš brskalnik ne podpira video elementa.",
+        "media_not_supported": "Predvajalnik ne podpira te vrste",
+        "media_browsing_error": "Napaka pri brskanju po medijih",
+        "learn_adding_local_media": "Več o dodajanju medijev preberite v {documentation}.",
+        "local_media_files": "V imenik predstavnosti postavite video, zvočne in slikovne datoteke, da lahko brskate in jih predvajate v brskalniku ali podprtih predvajalnikih.",
+        "documentation": "dokumentacija",
+        "no_local_media_found": "Ni bilo najdenega lokalnega medija",
+        "no_media_folder": "Videti je, da še niste ustvarili medijskega imenika.",
+        "setup_local_help": "Preverite {documentation} o tem, kako nastaviti lokalni medij.",
+        "class": {
+          "album": "Album",
+          "app": "Aplikacija",
+          "artist": "Ustvarjalec",
+          "channel": "Kanal",
+          "composer": "Skladatelj",
+          "contributing_artist": "Ustvarjalec, ki prispeva",
+          "directory": "Knjižnica",
+          "episode": "Epizoda",
+          "game": "Igra",
+          "genre": "Žanr",
+          "image": "Slika",
+          "movie": "Film",
+          "music": "Glasba",
+          "playlist": "Seznam predvajanja",
+          "podcast": "Poddaja",
+          "season": "Sezona",
+          "track": "Skladba",
+          "tv_show": "Televizijska oddaja",
+          "url": "URL",
+          "video": "Video"
+        },
+        "choose-source": "Izberite vir",
+        "content-type": {
+          "album": "Album",
+          "artist": "Ustvarjalec",
+          "library": "Knjižnica",
+          "playlist": "Seznam predvajanja",
+          "server": "Strežnik"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Znova naloži {domain}",
+            "core": "Znova naloži lokacijo in prilagoditve",
+            "group": "Znova naloži skupine, skupine entitete in storitve obveščanja",
+            "automation": "Znova naloži avtomatizacije",
+            "script": "Znova naloži skripte",
+            "scene": "Znova naloži scene",
+            "person": "Znova naloži osebe",
+            "zone": "Znova naloži območja",
+            "input_boolean": "Znova naloži vhode boolean",
+            "input_text": "Znova naloži tekstovne vhode",
+            "input_number": "Znova naloži števične vhode",
+            "input_datetime": "Znova naloži datumske vhode",
+            "input_select": "Znova naloži izbirne vhode",
+            "template": "Znova naloži entitete predlog",
+            "universal": "Znova naloži entitete univerzalnega predvajalnika",
+            "rest": "Znova naloži entitete REST in storitve obveščanja",
+            "command_line": "Znova naloži entitete ukazne vrstice",
+            "filter": "Znova naloži entitete entitete filtra",
+            "statistics": "Znova naloži statistične entitete",
+            "generic": "Znova naloži entitete generičnih IP kamer",
+            "generic_thermostat": "Znova naloži entitete generičnih termostatov",
+            "homekit": "Znova naloži HomeKit",
+            "min_max": "Znova naloži entitete min/max",
+            "history_stats": "Znova naloži entitete statistike zgodovine",
+            "trend": "Znova naloži entitete trendov",
+            "ping": "Znova naloži entitete binarnega senzorja PING",
+            "filesize": "Znova naloži entitete velikosti datoteke",
+            "telegram": "Znova naloži telegram strežnike za obvestila.",
+            "smtp": "Znova naloži smtp strežnike za obvestila.",
+            "mqtt": "Znova naloži ročno nastavljene entitete MQTT",
+            "rpi_gpio": "Znova naloži Raspberry Pi GPIO entitete"
+          },
+          "server_control": {
+            "perform_action": "{action} strežnik",
+            "restart": "Znova zaženi",
+            "stop": "Zaustavi"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "Filter entitet"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant ni slišal ničesar",
+        "found": "Za vas sem našel naslednje:",
+        "error": "Ups, prišlo je do napake",
+        "how_can_i_help": "Kako lahko pomagam?",
+        "label": "Vnesite vprašanje in pritisnite »Enter«",
+        "label_voice": "Vnesite in pritisnite »Enter« ali tapnite mikrofon in spregovorite"
+      },
+      "generic": {
+        "cancel": "Prekliči",
+        "ok": "OK",
+        "default_confirmation_title": "Ste prepričani?",
+        "close": "Zapri"
+      },
+      "image_cropper": { "crop": "Izreži" },
+      "more_info_control": {
+        "dismiss": "Opusti pogovorno okno",
+        "settings": "Nastavitve entitete",
+        "edit": "Uredi entiteto",
+        "details": "Podrobnosti",
+        "history": "Zgodovina",
+        "last_changed": "Zadnja sprememba",
+        "last_updated": "Zadnja posodobitev",
+        "script": {
+          "last_action": "Zadnje Dejanje",
+          "last_triggered": "Nazadnje sproženo"
+        },
+        "sun": {
+          "elevation": "Nadmorska višina",
+          "rising": "Naraščajoče",
+          "setting": "Nastavitve"
+        },
+        "updater": { "title": "Navodila za posodabitev" },
+        "restored": {
+          "not_provided": "Ta entiteta trenutno ni na voljo in je osirotelo odstranjene, spremenjene ali nefunkcionalne integracije ali naprave.",
+          "remove_intro": "Če entiteta ni več v uporabi, jo lahko očistite tako, da jo odstranite.",
+          "remove_action": "Odstranite entiteto",
+          "confirm_remove_title": "Ali želite odstraniti entiteto?",
+          "confirm_remove_text": "Ali ste prepričani, da želite odstraniti to entiteto?"
+        },
+        "vacuum": {
+          "status": "Stanje",
+          "commands": "Ukazi sesalnika:",
+          "fan_speed": "Hitrost ventilatorja",
+          "start": "Zagon",
+          "pause": "Premor",
+          "stop": "Ustavi",
+          "clean_spot": "Očisti točko",
+          "locate": "Poiščite",
+          "return_home": "Vrni se domov",
+          "start_pause": "Začetek/Premor"
+        },
+        "person": { "create_zone": "Ustvari območje iz trenutne lokacije" },
+        "cover": {
+          "open_tilt_cover": "Odpri nagib pokrova",
+          "close_tile_cover": "Zapri nagib pokrova",
+          "stop_cover": "Zaustavite premikanje pokrova"
+        },
+        "controls": "Kontrolniki"
+      },
+      "entity_registry": {
+        "settings": "Nastavitve",
+        "control": "Nadzor",
+        "related": "Povezano",
+        "dismiss": "Opusti",
+        "no_unique_id": "Ta entiteta nima enoličnega ID-ja, zato njenih nastavitev ni mogoče upravljati iz uporabniškega vmesnika. Za več podrobnosti glejte {faq_link} .",
+        "faq": "dokumentacija",
+        "editor": {
+          "name": "Ime",
+          "icon": "Ikona",
+          "icon_error": "Ikone morajo biti v obliki 'prefix:iconname', npr. 'mid:home'",
+          "entity_id": "ID entitete",
+          "unavailable": "Ta entiteta trenutno ni na voljo.",
+          "enabled_label": "Omogoči entiteto",
+          "enabled_cause": "Onemogočeno zaradi {cause}.",
+          "enabled_description": "Onemogočene entitete ne bodo dodane v Home Assistant.",
+          "enabled_delay_confirm": "Omogočene entitete bodo v Home Assistant dodane v {delay} sekundah",
+          "enabled_restart_confirm": "Znova zaženi Home Assistant, da dokončaš omogočanje entitet",
+          "delete": "Izbriši",
+          "confirm_delete": "Ali ste prepričani, da želite izbrisati ta vnos?",
+          "update": "Posodobi",
+          "note": "Opomba: to morda še ne deluje z vsemi integracijami."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "Integracija {platform} ni naložena. Prosimo, dodajte ga v svojo konfiguracijo tako, da dodate 'default_config: 'ali' ' {platform} :' '.",
+        "yaml_not_editable": "Nastavitev te entitete ni mogoče urejati iz uporabniškega vmesnika. Od tam se lahko konfigurirajo samo entitete, nastavljene iz uporabniškega vmesnika.",
+        "required_error_msg": "To polje je obvezno",
+        "generic": { "name": "Ime", "icon": "Ikona" },
+        "input_datetime": {
+          "date": "Datum",
+          "time": "Čas",
+          "datetime": "Datum in čas",
+          "mode": "Kaj želite vnesti?"
+        },
+        "input_text": {
+          "min": "Najkrajša dolžina",
+          "max": "Najdaljša dolžina",
+          "mode": "Način prikaza",
+          "text": "Besedilo",
+          "password": "Geslo",
+          "pattern": "Regex vzorec za preverjanje veljavnosti na strani odjemalca"
+        },
+        "input_number": {
+          "min": "Najmanjša vrednost",
+          "max": "Najvišja vrednost",
+          "mode": "Način prikaza",
+          "box": "Vnosno polje",
+          "slider": "Drsnik",
+          "step": "Velikost koraka",
+          "unit_of_measurement": "Merska enota"
+        },
+        "input_select": {
+          "options": "Možnosti",
+          "add_option": "Dodaj možnost",
+          "no_options": "Še ni možnosti.",
+          "add": "Dodaj"
+        },
+        "counter": {
+          "minimum": "Najnižja vrednost",
+          "maximum": "Najvišja vrednost",
+          "initial": "Začetna vrednost",
+          "restore": "Obnovi zadnjo znano vrednost ob naslednjem zagonu Home Assistant",
+          "step": "Velikost koraka"
+        },
+        "timer": { "duration": "Trajanje" }
+      },
+      "options_flow": {
+        "form": { "header": "Možnosti" },
+        "success": { "description": "Možnosti so uspešno shranjene." }
+      },
+      "config_entry_system_options": {
+        "title": "Sistemske možnosti za {integration}",
+        "enable_new_entities_label": "Omogoči novo dodane entitete.",
+        "enable_new_entities_description": "Če je onemogočeno, novo odkrite entitete za {integration} ne bodo samodejno dodane v Home Assistant.",
+        "update": "Posodobite"
+      },
+      "zha_device_info": {
+        "manuf": "naredil: {manufacturer}",
+        "no_area": "Brez območja",
+        "device_signature": "Podpis naprave Zigbee",
+        "buttons": {
+          "add": "Dodajte naprave prek te naprave",
+          "remove": "Odstranite napravo",
+          "clusters": "Upravljanje gruč",
+          "reconfigure": "Znova konfiguriraj napravo",
+          "zigbee_information": "Podpis naprave Zigbee"
+        },
+        "services": {
+          "reconfigure": "Znova konfiguriraj napravo ZHA (\"pozdravite\" napravo). To uporabite, če imate z njo težave. Če ta naprava deluje na baterije, se prepričajte, da je budna in sprejema ukaze pri uporabi te storitve.",
+          "updateDeviceName": "Nastavite ime po meri za to napravo v registru naprav.",
+          "remove": "Odstranite napravo iz omrežja Zigbee.",
+          "zigbee_information": "Oglejte si informacije Zigbee za to napravo."
+        },
+        "confirmations": {
+          "remove": "Ali ste prepričani, da želite odstraniti napravo?"
+        },
+        "quirk": "Posebnost",
+        "last_seen": "Nazadnje viden",
+        "power_source": "Vir napajanja",
+        "unknown": "Neznano",
+        "zha_device_card": {
+          "device_name_placeholder": "Spremenite ime naprave",
+          "area_picker_label": "Območje",
+          "update_name_button": "Posodobi ime"
+        }
+      },
+      "domain_toggler": {
+        "title": "Preklopi domene",
+        "reset_entities": "Ponastavi entitete"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{Device} debug info",
+        "deserialize": "Poskus razčlenitve sporočil MQTT kot JSON",
+        "entities": "Entitete",
+        "no_entities": "Brez entitet",
+        "no_triggers": "Brez sprožilcev",
+        "payload_display": "Prikaz koristnega tovora",
+        "recent_messages": "{n} zadnjih prejetih sporočil",
+        "show_as_yaml": "Pokaži kot YAML",
+        "triggers": "Sprožilci"
+      }
+    },
+    "duration": {
+      "second": "{count} {count, plural,\none {Sekunda}\nother {Sekund}\n}",
+      "minute": "{count} {count, plural,\n  one {Minuta}\n  other {Minut}\n}",
+      "hour": "{count} {count, plural,\n  one {Ura}\n  other {Ur}\n}",
+      "day": "{count} {count, plural,\none {Dan}\nother {Dni}\n}",
+      "week": "{count} {count, plural,\none {Teden}\nother {Tednov}\n}"
+    },
+    "login-form": {
+      "password": "Geslo",
+      "remember": "Zapomni si",
+      "log_in": "Prijavi se"
+    },
+    "notification_drawer": {
+      "click_to_configure": "Kliknite gumb, da konfigurirate {entity}",
+      "empty": "Ni obvestil",
+      "title": "Obvestila",
+      "close": "Zapri",
+      "dismiss_all": "Zavrzi vse"
+    },
+    "notification_toast": {
+      "service_call_failed": "Storitve ni bilo mogoče poklicati {service}.",
+      "connection_lost": "Povezava prekinjena. Vnovično vzpostavljanje povezave...",
+      "started": "Home Assistant se je zagnal!",
+      "starting": "Home Assistant se zaganja, vse ne bo na voljo, dokler se zagon ne konča.",
+      "triggered": "Sproženo {name}",
+      "dismiss": "Opusti"
+    },
+    "sidebar": {
+      "external_app_configuration": "Nastavitve aplikacije",
+      "sidebar_toggle": "Preklop stranske vrstice",
+      "done": "Končano"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "Moji koledarji", "today": "Danes" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "Ali ste prepričani, da želite izbrisati to kartico?",
+          "empty_state": {
+            "title": "Dobrodošli Doma",
+            "no_devices": "Ta stran vam omogoča nadzor nad napravami, vendar je videti, da še niste nastavili nobenih naprav. Pojdite na stran za integracije, da začnete.",
+            "go_to_integrations_page": "Pojdite na stran za integracije."
+          },
+          "entities": { "never_triggered": "Nikoli sprožen" },
+          "shopping-list": {
+            "checked_items": "Označeni predmeti",
+            "clear_items": "Počisti označene elemente",
+            "add_item": "Dodaj element"
+          },
+          "picture-elements": {
+            "hold": "Pridržite:",
+            "tap": "Tapnite:",
+            "navigate_to": "Pojdite na {location}",
+            "url": "Odprite okno za {url_path}",
+            "toggle": "Preklopi {name}",
+            "call_service": "Kličite storitev {name}",
+            "more_info": "Pokaži več informacij: {name}"
+          },
+          "safe-mode": {
+            "header": "Aktiviran varni način",
+            "description": "Home Assistant je med nalaganjem konfiguracije naletel na težave in zdaj deluje v varnem načinu. Oglejte si dnevnik napak in preverite kaj je šlo narobe."
+          },
+          "starting": {
+            "description": "Home Assistant se zaganja, prosimo počakajte ...",
+            "header": "Home Assistant se zaganja ..."
+          }
+        },
+        "unused_entities": {
+          "title": "Neuporabljene entitete",
+          "available_entities": "To so entitete, ki so vam na voljo, vendar še niso v uporabniškem vmesniku Lovelace.",
+          "select_to_add": "Izberite entitete, ki jih želite dodati na kartico, in nato kliknite gumb Dodaj kartico.",
+          "entity": "Subjekt",
+          "entity_id": "ID entitete",
+          "domain": "Domena",
+          "last_changed": "Zadnja sprememba",
+          "search": "Iskanje entitet",
+          "no_data": "Najdenih ni bilo neuporabljenih entitet"
+        },
+        "add_entities": {
+          "yaml_unsupported": "Te funkcije ne morete uporabljati, če uporabniški vmesnik Lovelace uporabljate v načinu YAML.",
+          "generated_unsupported": "To funkcijo lahko uporabite le, ko ste prevzeli nadzor nad uporabniškim vmesnikom Lovelace.",
+          "saving_failed": "Shranjevanje konfiguracije uporabniškega vmesnika Lovelace ni uspelo."
+        },
+        "views": {
+          "confirm_delete": "Želite izbrisati pogled?",
+          "confirm_delete_text": "Ali ste prepričani, da želite izbrisati pogled ''{name}'' ?",
+          "confirm_delete_existing_cards": "Če izbrišete ta pogled, boste odstranili tudi kartice",
+          "confirm_delete_existing_cards_text": "Ali ste prepričani, da želite izbrisati svoj ''{name}'' pogled? Pogled vsebuje {number} kartice, ki bodo izbrisane. Tega ukrepa ni mogoče razveljaviti."
+        },
+        "menu": {
+          "configure_ui": "Uredi nadzorno ploščo",
+          "help": "Pomoč",
+          "start_conversation": "Začni pogovor",
+          "reload_resources": "Ponovno naloži vire",
+          "exit_edit_mode": "Zapustite način urejanja iz uporabniškega vmesnika",
+          "close": "Zapri",
+          "refresh": "Osveži"
+        },
+        "reload_resources": {
+          "refresh_header": "Ali želite osvežiti?",
+          "refresh_body": "Če želite dokončati ponovno nalaganje, morate osvežiti stran, ali jo želite zdaj osvežiti?"
+        },
+        "editor": {
+          "header": "Uredi UI",
+          "menu": {
+            "open": "Odprite meni uporabniškega vmesnika Lovelace",
+            "raw_editor": "\"Surovi\" urejevalnik konfiguracije"
+          },
+          "common": {
+            "edit": "Uredi",
+            "clear": "Počisti",
+            "add": "Dodaj",
+            "none": "Noben"
+          },
+          "raw_editor": {
+            "header": "Uredi konfiguracijo",
+            "save": "Shrani",
+            "unsaved_changes": "Neshranjene spremembe",
+            "saved": "Shranjeno",
+            "confirm_remove_config_title": "Ali ste prepričani, da želite odstraniti konfiguracijo uporabniškega vmesnika Lovelace?",
+            "confirm_remove_config_text": "Samodejno bomo ustvarili vaše poglede uporabniškega vmesnika Lovelace z vašimi območji in napravami, če odstranite konfiguracijo uporabniškega vmesnika Lovelace.",
+            "confirm_unsaved_changes": "Imate neshranjene spremembe, ali ste prepričani, da želite zapreti?",
+            "confirm_unsaved_comments": "Vaša konfiguracija vsebuje komentarje, ki ne bodo shranjeni. Ali želite nadaljevati?",
+            "error_parse_yaml": "Ni mogoče razčleniti YAML: {error}",
+            "error_invalid_config": "Vaša konfiguracija ni veljavna: {error}",
+            "error_save_yaml": "YAML-a ni mogoče shraniti: {error}",
+            "error_remove": "Konfiguracije ni mogoče odstraniti: {error}",
+            "resources_moved": "Virov ne bi smeli več dodajati v konfiguracijo Lovelace, lahko pa jih dodate na konfiguracijski plošči Lovelace."
+          },
+          "edit_lovelace": {
+            "header": "Naslov vašega uporabniškega vmesnika Lovelace",
+            "explanation": "Ta naslov je prikazan predvsem nad vašimi pogledi v uporabniškem vmesniku Lovelace.",
+            "edit_title": "Uredi naslov",
+            "title": "Naslov"
+          },
+          "edit_view": {
+            "header": "Prikaži konfiguracijo",
+            "header_name": "{name} Prikaži konfiguracijo",
+            "add": "Dodaj pogled",
+            "edit": "Uredi pogled",
+            "delete": "Izbriši pogled",
+            "move_left": "Premakni pogled levo",
+            "move_right": "Premakni pogled desno",
+            "tab_settings": "Nastavitve",
+            "tab_badges": "Značke",
+            "tab_visibility": "Vidljivost",
+            "visibility": {
+              "select_users": "Izberite, kateri uporabniki bi morali videti ta pogled v navigaciji"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "Te značke ne bodo prikazane, ker je ta pogled v načinu \"Panel Mode\"."
+          },
+          "edit_card": {
+            "header": "Nastavitve kartice",
+            "typed_header": "{type} Konfiguracija kartice",
+            "pick_card": "Katero kartico želite dodati?",
+            "pick_card_view_title": "Katero kartico želite dodati v pogled {name}?",
+            "toggle_editor": "Preklop na urejevalnik",
+            "unsaved_changes": "Imate neshranjene spremembe",
+            "confirm_cancel": "Ali ste prepričani, da želite preklicati?",
+            "show_visual_editor": "Pokaži vizualni urejevalnik",
+            "show_code_editor": "Pokaži urejevalnik kode",
+            "add": "Dodaj kartico",
+            "edit": "Uredi",
+            "clear": "Počisti",
+            "delete": "Izbriši kartico",
+            "duplicate": "Podvoji kartico",
+            "move": "Premakni v pogled",
+            "move_before": "Premakni kartico pred",
+            "move_after": "Premakni kartico po",
+            "options": "Več možnosti",
+            "search_cards": "Poišči kartice"
+          },
+          "move_card": {
+            "header": "Izberite pogled, na katerega želite premakniti kartico"
+          },
+          "select_view": {
+            "header": "Izberite pogled",
+            "dashboard_label": "Nadzorna plošča"
+          },
+          "suggest_card": {
+            "header": "Za vas smo ustvarili predlog",
+            "create_own": "Izberite drugačno karto",
+            "add": "Dodaj v uporabniški vmesnik Lovelace"
+          },
+          "save_config": {
+            "header": "Prevzemite nadzor nad lovelace vmesnikom",
+            "para": "To nadzorno ploščo trenutno vzdržuje Home Assistant. Samodejno se posodobi, ko bodo na voljo nove entitete ali komponente Lovelace UI. Če prevzamete nadzor, se ta nadzorna plošča ne bo več samodejno posodabljala. Vedno lahko ustvarite novo nadzorno ploščo v konfiguraciji, s katero se lahko igrate.",
+            "para_sure": "Ali ste prepričani, da želite prevzeti nadzor nad vašim vmesnikom?",
+            "yaml_mode": "Za to nadzorno ploščo uporabljate način YAML, kar pomeni, da ne morete spremeniti konfiguracije Lovelace iz uporabniškega vmesnika. Če želite upravljati to nadzorno ploščo iz uporabniškega vmesnika, iz konfiguracije Lovelace v 'config.yaml.' Odstranite 'mode: yaml'.",
+            "yaml_control": "Če želite prevzeti nadzor v načinu YAML, ustvarite datoteko YAML z imenom, ki ste ga določili v konfiguraciji za to nadzorno ploščo, ali privzeto 'ui-lovelace.yaml'.",
+            "yaml_config": "Za začetek vam lahko pomaga trenutne nastavitve te nadzorne plošče:",
+            "empty_config": "Začnite s prazno nadzorno ploščo",
+            "cancel": "Pozabi",
+            "close": "Zapri",
+            "save": "Prevzemite nadzor"
+          },
+          "migrate": {
+            "header": "Nastavitve so nezdružljiva",
+            "para_no_id": "Ta element nima ID-ja. Prosimo, dodajte ID tega elementa v 'ui-lovelace.yaml'.",
+            "para_migrate": "Home Assistant lahko samodejno doda ID na vse vaše kartice in poglede s pritiskom na gumb »Preseli konfiguracijo«.",
+            "migrate": "Selitev konfiguracije"
+          },
+          "action-editor": {
+            "navigation_path": "Navigacijska pot",
+            "url_path": "Url pot",
+            "editor_service_data": "Podatke o storitvah lahko vnesete samo v urejevalniku kode",
+            "actions": {
+              "default_action": "Privzeto dejanje",
+              "call-service": "Kliči Storitev",
+              "more-info": "Več informacij",
+              "toggle": "Preklopi",
+              "navigate": "Krmari",
+              "url": "URL",
+              "none": "Brez akcije"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "Alarmna plošča",
+              "available_states": "Stanja na voljo",
+              "description": "Kartica alarm panel vam omogoča, da vklopite in razorožite vaše integracije alarmov."
+            },
+            "calendar": {
+              "name": "Koledar",
+              "description": "Kartica Koledar prikazuje koledar, ki vključuje poglede dneva, tedna in seznama",
+              "inital_view": "Začetni pogled",
+              "calendar_entities": "Entitete koledarja",
+              "views": {
+                "dayGridMonth": "Mesec",
+                "dayGridDay": "Dan",
+                "listWeek": "Seznam"
+              }
+            },
+            "conditional": {
+              "name": "Pogojno",
+              "description": "Pogojna kartica prikazuje drugo kartico, ki temelji na stanjih entitet.",
+              "conditions": "Pogoji",
+              "card": "Kartica",
+              "state_equal": "Stanje je enako",
+              "state_not_equal": "Stanje ni enako",
+              "current_state": "trenutno",
+              "condition_explanation": "Kartica bo prikazana, ko so izpolnjeni VSI pogoji spodaj.",
+              "change_type": "Spremeni tip"
+            },
+            "config": { "required": "Obvezno", "optional": "Neobvezno" },
+            "entities": {
+              "name": "Subjekti",
+              "show_header_toggle": "Pokaži preklop glave?",
+              "toggle": "Preklopi entitete.",
+              "description": "Kartica entitet je najpogostejša vrsta kartice. Predmete združuje v sezname.",
+              "special_row": "posebna vrstica",
+              "edit_special_row": "Podrobnosti te vrstice si oglejte s klikom na gumb za urejanje",
+              "entity_row_editor": "Urejevalnik vrstic entitete",
+              "secondary_info_values": {
+                "none": "Brez sekundarnih informacij",
+                "entity-id": "ID entitete",
+                "last-changed": "Zadnja sprememba",
+                "last-triggered": "Zadnjič sproženo",
+                "position": "Položaj",
+                "tilt-position": "Položaj nagiba",
+                "brightness": "Svetlost",
+                "last-updated": "Zadnja posodobitev"
+              },
+              "entity_row": {
+                "divider": "Razdelilnik",
+                "call-service": "Kliči Storitev",
+                "section": "Sekcija",
+                "weblink": "Spletna povezava",
+                "attribute": "Atribut",
+                "buttons": "Gumbi",
+                "conditional": "Pogojno",
+                "cast": "Zasedba",
+                "button": "Gumb"
+              }
+            },
+            "entity": {
+              "name": "Entiteta",
+              "description": "Kartica vam omogoča hiter pregled stanja vaše entitete."
+            },
+            "button": {
+              "name": "Gumb",
+              "description": "Gumbna kartica vam omogoča, da dodate gumbe za opravljanje nalog.",
+              "default_action_help": "Privzeto dejanje je odvisno od zmožnosti entitete, bodisi se preklopi ali pa se prikaže več informacij."
+            },
+            "entity-filter": {
+              "name": "Filter entitet",
+              "description": "Kartica filter entitet vam omogoča, da določite seznam entitet, ki jih želite slediti samo, če so v določenem stanju."
+            },
+            "gauge": {
+              "name": "Merilnik",
+              "severity": {
+                "define": "Določi resnost?",
+                "green": "Zelena",
+                "red": "Rdeča",
+                "yellow": "Rumena"
+              },
+              "description": "Gauge kartica je osnovna kartica, ki omogoča vizualno videnje podatkov senzorjev."
+            },
+            "glance": {
+              "name": "Pregled",
+              "columns": "Stolpci",
+              "description": "Kartica Glance je uporabna za združevanje več senzorjev v kompaktnem pregledu."
+            },
+            "grid": {
+              "name": "Mreža",
+              "description": "Kartica Mreža omogoča prikaz več kartic v mreži."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "Graf zgodovine",
+              "description": "Kartica Zgodovinski grafikon omogoča prikaz grafa za vsako od naštetih entitet."
+            },
+            "horizontal-stack": {
+              "name": "Vodoravni sklad",
+              "description": "Kartica Horizontal stack vam omogoča, da skupaj zložite več kart, tako da vedno stojijo drug poleg drugega v razmaku enega stolpca."
+            },
+            "humidifier": {
+              "name": "Vlažilec",
+              "description": "Kartica \"humidifier\" omogoča nadzor nad vašo vlažilno enoto. Omogoča vam, da spremenite vlažnost in način dela entitete."
+            },
+            "iframe": {
+              "name": "Spletna stran",
+              "description": "Kartica webpage vam omogoča, da svojo najljubšo spletno stran vdelate Home Assistant."
+            },
+            "light": {
+              "name": "Luči",
+              "description": "Kartica Light omogoča spreminjanje svetlosti luči."
+            },
+            "generic": {
+              "aspect_ratio": "Razmerje Med Širino In Višino",
+              "attribute": "Atribut",
+              "camera_image": "Subjekt kamere",
+              "camera_view": "Pogled kamere",
+              "double_tap_action": "Dejanje dvojnega dotika",
+              "entities": "Subjekti",
+              "entity": "Subjekt",
+              "hold_action": "dejanje pridržanja",
+              "hours_to_show": "število ur za prikaz",
+              "icon": "Ikona",
+              "icon_height": "Višina ikone",
+              "image": "Pot slike",
+              "maximum": "Največ",
+              "manual": "Ročno",
+              "manual_description": "Morate dodati kartico po meri ali samo želite ročno napisati yaml?",
+              "minimum": "Najmanj",
+              "name": "Ime",
+              "refresh_interval": "Interval osveževanja",
+              "show_icon": "Prikaži ikono?",
+              "show_name": "Prikaži ime?",
+              "show_state": "Prikaži stanje?",
+              "tap_action": "Dejanje dotika",
+              "title": "Naslov",
+              "theme": "Tema",
+              "no_theme": "Brez teme",
+              "unit": "Enota",
+              "url": "URL",
+              "state": "Stanje",
+              "secondary_info_attribute": "Atributi sekundarnih informacij",
+              "search": "Iskanje",
+              "state_color": "Barvne ikone glede na stanje?"
+            },
+            "map": {
+              "name": "Zemljevid",
+              "geo_location_sources": "Geolokacijski viri",
+              "dark_mode": "Temni način?",
+              "default_zoom": "Privzeta povečava",
+              "hours_to_show": "število ur za prikaz",
+              "source": "Vir",
+              "description": "Kartica Map omogoča prikazovanje entitet na zemljevidu."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "Vsebina",
+              "description": "Kartica Markdown se uporablja za upodabljanje označb."
+            },
+            "media-control": {
+              "name": "Nadzor predvajalnika",
+              "description": "Kartica Media Control se uporablja za prikaz entitet predvajalnika na vmesniku s preprostimi kontrolniki."
+            },
+            "picture": {
+              "name": "Slika",
+              "description": "Picture card omogoča nastavitev slike za navigacijo do različnih poti v vašem vmesniku ali za klicanje storitve."
+            },
+            "picture-elements": {
+              "name": "Slikovni elementi",
+              "description": "Kartica Picture Elements je ena najbolj vsestranskih vrst kartic. Kartica omogoča pozicioniranje ikon ali besedila in celo storitev! Na sliki, ki temelji na koordinatah."
+            },
+            "picture-entity": {
+              "name": "Slika",
+              "description": "Kartica Slika prikazuje entiteto v obliki slike. Namesto slik z URL-ja lahko prikaže tudi sliko kamer."
+            },
+            "picture-glance": {
+              "name": "Pogled slike",
+              "description": "Kartica Picture Glance prikazuje sliko in ustrezna stanja entitete kot ikono. Subjekti na desni strani omogočajo preklopna dejanja, drugi pa prikazujejo pogovorno okno z več informacijami."
+            },
+            "plant-status": {
+              "name": "Stanje rastline",
+              "description": "Kartica stanje rastlin je za vse botanike tam zunaj."
+            },
+            "sensor": {
+              "name": "Senzor",
+              "show_more_detail": "Pokaži več podrobnosti",
+              "graph_type": "Vrsta grafikona",
+              "description": "Kartica Sensor vam omogoča hiter pregled stanja vaših senzorjev z izbirnim grafom, s katerim lahko prikažete spremembe skozi čas.",
+              "graph_detail": "Podrobnosti grafa"
+            },
+            "shopping-list": {
+              "name": "Nakupovalni seznam",
+              "description": "Kartica nakupovalni seznam omogoča dodajanje, urejanje in brisanje elementov s seznama nakupov.",
+              "integration_not_loaded": "Ta kartica zahteva nastavitev integracije `shopping_list`."
+            },
+            "thermostat": {
+              "name": "Termostat",
+              "description": "Kartica Termostat omogoča nadzor nad vašo klimatsko enoto. Omogoča spreminjanje temperature in načina dela."
+            },
+            "vertical-stack": {
+              "name": "Navpični sklad",
+              "description": "Kartica Vertical Stack vam omogoča, da združite več kartic, tako da vedno sedijo v istem stolpcu."
+            },
+            "weather-forecast": {
+              "name": "Vremenska napoved",
+              "description": "Kartica Weather Forecast prikazuje vreme. Zelo koristno za vključiti na vmesnike, ki jih ljudje prikažejo na steni.",
+              "show_forecast": "Pokaži napoved"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "Način panel?",
+              "description": "To prikaže prvo kartico v polni širini. Ostale kartice v tem pogledu in značke ne bodo prikazane.",
+              "warning_multiple_cards": "Ta pogled vsebuje več kartic, na plošči je lahko prikazana največ ena kartica."
+            }
+          },
+          "cardpicker": {
+            "no_description": "Opis ni na voljo.",
+            "custom_card": "Po meri",
+            "domain": "Domena",
+            "entity": "Entiteta",
+            "by_entity": "Po entiteti",
+            "by_card": "Po kartici"
+          },
+          "header-footer": {
+            "header": "Glava",
+            "footer": "Noga",
+            "choose_header_footer": "Izberite {type}",
+            "types": {
+              "graph": { "name": "Graf" },
+              "picture": { "name": "Slika" },
+              "buttons": { "name": "Gumbi" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Urejevalnik glave",
+              "footer": "Urejevalnik noge",
+              "row": "Urejevalnik vrstic entitete"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "Atribut {attribute} ni na voljo v: {entity}",
+          "entity_not_found": "Entiteta ni na voljo: {entity}",
+          "entity_non_numeric": "Entiteta je neštevilska: {entity}",
+          "entity_unavailable": "{entity} trenutno ni na voljo",
+          "starting": "Home Assistant se zaganja, morda še ni vse na voljo"
+        },
+        "changed_toast": {
+          "message": "Nastavitve uporabniškega vmesnika Lovelace za to nadzorno ploščo so bile posodobljene, če želite videti spremembe jo morate osvežiti.",
+          "refresh": "Osveži"
+        },
+        "reload_lovelace": "Ponovno naloži uporabniški vmesnik"
+      },
+      "shopping_list": { "start_conversation": "Začni pogovor" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "Ali zaupate zunanji plošči {name} na {link} ?",
+          "complete_access": "Imela bo dostop do vseh podatkov v Home Assistant-u.",
+          "hide_message": "Preverite dokumente za komponento panel_custom, da skrijete to sporočilo"
+        }
+      }
+    }
+  }
+}

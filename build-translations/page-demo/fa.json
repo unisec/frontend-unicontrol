@@ -1,0 +1,47 @@
+{
+  "ui": {
+    "panel": {
+      "page-demo": {
+        "cards": {
+          "demo": {
+            "demo_by": "by {name}",
+            "next_demo": "Next demo",
+            "introduction": "Welcome home! You've reached the Home Assistant demo where we showcase the best UIs created by our community.",
+            "learn_more": "Afla mai multe despre Home Assistant "
+          }
+        },
+        "config": {
+          "arsaboo": {
+            "names": {
+              "upstairs": "Etaj",
+              "family_room": "Living",
+              "kitchen": "Bucatarie",
+              "patio": "Patio",
+              "hallway": "Hol",
+              "master_bedroom": "Dormitor Principal",
+              "left": "Left",
+              "right": "Right",
+              "mirror": "Mirror",
+              "temperature_study": "Temperature Study"
+            },
+            "labels": {
+              "lights": "Lights",
+              "information": "Information",
+              "morning_commute": "Morning Commute",
+              "commute_home": "Commute to Home",
+              "entertainment": "Entertainment",
+              "activity": "Activity",
+              "hdmi_input": "HDMI Input",
+              "hdmi_switcher": "HDMI Switcher",
+              "volume": "Volume",
+              "total_tv_time": "Total TV Time",
+              "turn_tv_off": "Turn Television off",
+              "air": "Air"
+            },
+            "unit": { "watching": "watching", "minutes_abbr": "min" }
+          }
+        }
+      }
+    }
+  }
+}

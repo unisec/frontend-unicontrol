@@ -1,0 +1,1285 @@
+{
+  "panel": {
+    "calendar": "לוח שנה",
+    "config": "הגדרות",
+    "states": "ראשי",
+    "map": "מפה",
+    "logbook": "יומן אירועים",
+    "history": "היסטוריה",
+    "mailbox": "תיבת דואר",
+    "shopping_list": "רשימת קניות",
+    "developer_tools": "כלים למפתחים",
+    "media_browser": "Media Browser",
+    "profile": "פרופיל"
+  },
+  "state": {
+    "default": {
+      "on": "מופעל",
+      "off": "מופסק",
+      "unknown": "לא ידוע",
+      "unavailable": "לא זמין"
+    },
+    "alarm_control_panel": {
+      "armed": "דרוך",
+      "armed_away": "דרוך לא בבית",
+      "armed_custom_bypass": "מעקף מותאם אישית דרוך",
+      "armed_home": "הבית דרוך",
+      "armed_night": "דרוך לילה",
+      "arming": "מפעיל",
+      "disarmed": "מנוטרל",
+      "disarming": "מנטרל",
+      "pending": "ממתין",
+      "triggered": "הופעל"
+    },
+    "automation": { "off": "כבוי", "on": "דלוק" },
+    "binary_sensor": {
+      "battery": { "off": "נורמלי", "on": "נמוך" },
+      "cold": { "off": "רגיל", "on": "קַר" },
+      "connectivity": { "off": "מנותק", "on": "מחובר" },
+      "default": { "off": "כבוי", "on": "מופעל" },
+      "door": { "off": "סגורה", "on": "פתוחה" },
+      "garage_door": { "off": "סגורה", "on": "פתוחה" },
+      "gas": { "off": "נקי", "on": "אותר" },
+      "heat": { "off": "רגיל", "on": "חם" },
+      "lock": { "off": "נעול", "on": "לא נעול" },
+      "moisture": { "off": "יבש", "on": "רטוב" },
+      "motion": { "off": "נקי", "on": "זוהה" },
+      "occupancy": { "off": "נקי", "on": "זוהה" },
+      "opening": { "off": "סגור", "on": "פתוח" },
+      "presence": { "off": "לא נמצא", "on": "בבית" },
+      "problem": { "off": "אוקיי", "on": "בעייה" },
+      "safety": { "off": "בטוח", "on": "לא בטוח" },
+      "smoke": { "off": "נקי", "on": "אותר" },
+      "sound": { "off": "נקי", "on": "אותר" },
+      "vibration": { "off": "נקי", "on": "אותר" },
+      "window": { "off": "סגור", "on": "פתוח" }
+    },
+    "calendar": { "off": "כבוי", "on": "מופעל" },
+    "camera": { "idle": "מחכה", "recording": "מקליט", "streaming": "מזרים" },
+    "climate": {
+      "cool": "קרור",
+      "dry": "יבש",
+      "fan_only": "מאוורר בלבד",
+      "heat": "חימום",
+      "heat_cool": "חימום/קירור",
+      "off": "כבוי"
+    },
+    "configurator": { "configure": "הגדר", "configured": "הוגדר" },
+    "cover": {
+      "closed": "נסגר",
+      "closing": "סוגר",
+      "open": "פתוח",
+      "opening": "פותח",
+      "stopped": "עצור"
+    },
+    "device_tracker": { "not_home": "לא בבית" },
+    "fan": { "off": "כבוי", "on": "דלוק" },
+    "group": {
+      "closed": "סגור",
+      "closing": "סוגר",
+      "home": "בבית",
+      "locked": "נעול",
+      "not_home": "לא נמצא",
+      "off": "כבוי",
+      "ok": "תקין",
+      "on": "מופעל",
+      "open": "פתוח",
+      "opening": "פותח",
+      "problem": "בעיה",
+      "stopped": "נעצר",
+      "unlocked": "פתוח"
+    },
+    "input_boolean": { "off": "כבוי", "on": "מופעל" },
+    "light": { "off": "כבוי", "on": "מופעל" },
+    "lock": { "locked": "נעול", "unlocked": "פתוח" },
+    "media_player": {
+      "idle": "ממתין",
+      "off": "כבוי",
+      "on": "דלוק",
+      "paused": "מושהה",
+      "playing": "מנגן",
+      "standby": "מצב המתנה"
+    },
+    "person": { "home": "בבית" },
+    "plant": { "ok": "תקין", "problem": "בעיה" },
+    "remote": { "off": "כבוי", "on": "דלוק" },
+    "scene": { "scening": "מפעיל סצנה" },
+    "script": { "off": "כבוי", "on": "דלוק" },
+    "sensor": { "off": "כבוי", "on": "דלוק" },
+    "sun": { "above_horizon": "מעל האופק", "below_horizon": "מתחת לאופק" },
+    "switch": { "off": "כבוי", "on": "מופעל" },
+    "timer": { "active": "פעיל", "idle": "לא פעיל", "paused": "מושהה" },
+    "vacuum": {
+      "cleaning": "מנקה",
+      "docked": "בעגינה",
+      "error": "שגיאה",
+      "idle": "ממתין",
+      "off": "כבוי",
+      "on": "מופעל",
+      "paused": "מושהה",
+      "returning": "חזור לעגינה"
+    },
+    "weather": {
+      "clear-night": "לילה בהיר",
+      "cloudy": "מעונן",
+      "exceptional": "יוצא דופן",
+      "fog": "ערפל",
+      "hail": "ברד",
+      "lightning": "ברק",
+      "lightning-rainy": "ברק, גשום",
+      "partlycloudy": "מעונן חלקית",
+      "pouring": "גשום",
+      "rainy": "גשום",
+      "snowy": "מושלג",
+      "snowy-rainy": "מושלג, גשום",
+      "sunny": "שמשי",
+      "windy": "סוער",
+      "windy-variant": "סוער"
+    },
+    "zwave": {
+      "default": {
+        "dead": "מת",
+        "initializing": "מאתחל",
+        "ready": "מוכן",
+        "sleeping": "ישן"
+      },
+      "query_stage": {
+        "dead": "מת ({query_stage})",
+        "initializing": "מאתחל ({query_stage})"
+      }
+    }
+  },
+  "state_attributes": {
+    "climate": {
+      "fan_mode": { "off": "כבוי", "on": "מופעל", "auto": "אוטומטי" },
+      "preset_mode": {
+        "none": "לא נבחר",
+        "eco": "חסכון",
+        "away": "לא בבית",
+        "boost": "מוגבר",
+        "comfort": "נוחות",
+        "home": "בבית",
+        "sleep": "שינה",
+        "activity": "פעילות"
+      },
+      "hvac_action": {
+        "off": "כבוי",
+        "heating": "חימום",
+        "cooling": "קירור",
+        "drying": "מייבש",
+        "idle": "כבוי",
+        "fan": "מאוורר"
+      }
+    },
+    "humidifier": {
+      "mode": {
+        "normal": "רגיל",
+        "eco": "חסכוני",
+        "away": "לא בבית",
+        "boost": "גבוה",
+        "comfort": "נוחות",
+        "home": "בבית",
+        "sleep": "שינה",
+        "auto": "אוטומטי",
+        "baby": "תִינוֹק"
+      }
+    }
+  },
+  "state_badge": {
+    "default": {
+      "unknown": "לא ידוע",
+      "unavailable": "לא זמין",
+      "error": "שגיאה",
+      "entity_not_found": "ישות לא נמצאה"
+    },
+    "alarm_control_panel": {
+      "armed": "מופעל",
+      "disarmed": "לא דרוך",
+      "armed_home": "מופעל",
+      "armed_away": "מופעל",
+      "armed_night": "מופעל",
+      "armed_custom_bypass": "מופעל",
+      "pending": "ממתין",
+      "arming": "דורך",
+      "disarming": "מבטל",
+      "triggered": "מופעל"
+    },
+    "device_tracker": { "home": "בבית", "not_home": "לא נמצא" },
+    "person": { "home": "בבית", "not_home": "לא נמצא" }
+  },
+  "groups": {
+    "system-admin": "מנהלים",
+    "system-users": "משתמשים",
+    "system-read-only": "משתמשים לקריאה בלבד"
+  },
+  "config_entry": {
+    "disabled_by": {
+      "user": "משתמש",
+      "integration": "אינטגרציה",
+      "config_entry": "ערך תצורה"
+    }
+  },
+  "ui": {
+    "auth_store": {
+      "ask": "האם ברצונך לשמור את ההתחברות הזו?",
+      "decline": "לא תודה",
+      "confirm": "כן"
+    },
+    "card": {
+      "alarm_control_panel": {
+        "code": "קוד",
+        "clear_code": "נקה",
+        "disarm": "לא דרוך",
+        "arm_home": "דרוך בבית",
+        "arm_away": "דרוך לא בבית",
+        "arm_night": "דריכה לילית",
+        "arm_custom_bypass": "מעקף מותאם אישית"
+      },
+      "automation": { "last_triggered": "הפעלה אחרונה", "trigger": "הרץ" },
+      "camera": { "not_available": "התמונה אינה זמינה" },
+      "climate": {
+        "currently": "כעת",
+        "on_off": "הפעלה / כיבוי",
+        "target_temperature": "טמפרטורת היעד",
+        "target_temperature_entity": "{name} טמפרטורת יעד",
+        "target_temperature_mode": "{name} טמפרטורת יעד {mode}",
+        "current_temperature": "{שם} טמפרטורה נוכחית",
+        "heating": "{שם} חימום",
+        "cooling": "{שם} קירור",
+        "high": "גבוה",
+        "low": "נמוך",
+        "target_humidity": "לחות היעד",
+        "operation": "סוג",
+        "fan_mode": "מצב מאורר",
+        "swing_mode": "מצב נדנוד",
+        "preset_mode": "מצב מוגדר",
+        "away_mode": "מצב מחוץ לבית",
+        "aux_heat": "מסייע חום"
+      },
+      "counter": {
+        "actions": {
+          "increment": "הוסף",
+          "decrement": "הורד",
+          "reset": "איפוס"
+        }
+      },
+      "cover": { "position": "מיקום", "tilt_position": "הטיה" },
+      "fan": {
+        "speed": "מהירות",
+        "oscillate": "נעים",
+        "direction": "כיוון",
+        "forward": "קדימה",
+        "reverse": "אחורה"
+      },
+      "humidifier": {
+        "humidity": "יעד לחות",
+        "mode": "מצב",
+        "target_humidity_entity": "{שם} לחות יעד",
+        "on_entity": "{name} דולק"
+      },
+      "light": {
+        "brightness": "בהירות",
+        "color_temperature": "טמפרטורת הצבע",
+        "white_value": "לבן",
+        "effect": "אפקט"
+      },
+      "lock": { "code": "קוד", "lock": "נעילה", "unlock": "ביטול נעילה" },
+      "media_player": {
+        "source": "מקור",
+        "sound_mode": "מצב קול",
+        "browse_media": "Browse media",
+        "turn_on": "Turn on",
+        "turn_off": "Turn off",
+        "media_play": "Play",
+        "media_play_pause": "Play/pause",
+        "media_next_track": "Next",
+        "media_previous_track": "Previous",
+        "text_to_speak": "טקסט לדיבור"
+      },
+      "persistent_notification": { "dismiss": "נקה" },
+      "scene": { "activate": "הפעל" },
+      "script": {
+        "execute": "הפעל",
+        "cancel": "בטל",
+        "cancel_multiple": "בטל {number}"
+      },
+      "service": { "run": "הפעל" },
+      "timer": {
+        "actions": {
+          "start": "התחלה",
+          "pause": "השהיה",
+          "cancel": "ביטול",
+          "finish": "סיום"
+        }
+      },
+      "vacuum": {
+        "actions": {
+          "resume_cleaning": "לחדש את הניקוי",
+          "return_to_base": "חזור לעגינה",
+          "start_cleaning": "התחל לנקות",
+          "turn_on": "הדלק",
+          "turn_off": "כבה"
+        }
+      },
+      "water_heater": {
+        "currently": "כעת",
+        "on_off": "הפעלה / כיבוי",
+        "target_temperature": "טמפרטורת היעד",
+        "operation": "פעולה",
+        "away_mode": "מצב מחוץ לבית"
+      },
+      "weather": {
+        "attributes": {
+          "air_pressure": "לחץ אוויר",
+          "humidity": "לחות",
+          "temperature": "טמפרטורה",
+          "visibility": "ראות",
+          "wind_speed": "מהירות הרוח",
+          "precipitation": "משקעים"
+        },
+        "cardinal_direction": {
+          "e": "מזרח",
+          "ene": "צפון מזרח",
+          "ese": " דרום מזרח",
+          "n": "צפון",
+          "ne": "צפון מזרח",
+          "nne": "צפון מזרח",
+          "nw": "צפון מערב",
+          "nnw": "צפון מערב",
+          "s": "דרום",
+          "se": "דרום מזרח",
+          "sse": "דרום מזרח",
+          "ssw": "דרום מערב",
+          "sw": "דרום מערב",
+          "w": "מערב",
+          "wnw": "צפון מערב",
+          "wsw": "דרום מערב"
+        },
+        "day": "Day",
+        "night": "Night",
+        "forecast": "תחזית",
+        "high": "גבוה",
+        "low": "נמוך"
+      }
+    },
+    "common": {
+      "and": "וגם",
+      "continue": "המשך",
+      "previous": "הקודם",
+      "loading": "טוען",
+      "refresh": "רענן",
+      "cancel": "ביטול",
+      "delete": "מחיקה",
+      "remove": "Remove",
+      "enable": "Enable",
+      "disable": "Disable",
+      "close": "סגור",
+      "leave": "Leave",
+      "stay": "Stay",
+      "next": "הבא",
+      "back": "חזור",
+      "undo": "בטל",
+      "save": "שמור",
+      "rename": "Rename",
+      "yes": "כן",
+      "no": "לא",
+      "not_now": "Not now",
+      "skip": "Skip",
+      "menu": "תפריט",
+      "overflow_menu": "תפריט גולש",
+      "successfully_saved": "נשמר בהצלחה",
+      "successfully_deleted": "נמחק בהצלחה",
+      "error_required": "חובה",
+      "copied": "מועתק"
+    },
+    "components": {
+      "logbook": {
+        "entries_not_found": "No logbook entries found.",
+        "by": "על ידי",
+        "by_service": "באמצעות שרות",
+        "messages": {
+          "was_away": "לא היה נמצא",
+          "was_at_state": "היה ב {state}",
+          "rose": "עלה",
+          "set": "הגדר",
+          "was_low": "היה נמוך",
+          "was_normal": "היה נורמלי",
+          "was_connected": "היה מחובר",
+          "was_disconnected": "היה מנותק",
+          "was_opened": "היה פתוח",
+          "was_closed": "היה סגור",
+          "was_unlocked": "לא היה נעול",
+          "was_locked": "היה נעול",
+          "was_plugged_in": "היה מחובר",
+          "was_unplugged": "היה מנותק",
+          "was_at_home": "היה בבית",
+          "was_unsafe": "היה לא בטוח",
+          "was_safe": "היה בטוח",
+          "detected_device_class": "זוהה {device_class}",
+          "cleared_device_class": "נוקה (לא זוהה {device_class} )",
+          "turned_off": "נכבה",
+          "turned_on": "הופעל",
+          "changed_to_state": "שונה ל- {state}",
+          "became_unavailable": "הפך ללא זמין"
+        }
+      },
+      "entity": {
+        "entity-picker": {
+          "entity": "ישות",
+          "clear": "נקה",
+          "show_entities": "הצג ישויות"
+        },
+        "entity-attribute-picker": {
+          "attribute": "Attribute",
+          "show_attributes": "Show attributes"
+        }
+      },
+      "user-picker": {
+        "no_user": "No user",
+        "add_user": "Add user",
+        "remove_user": "Remove user"
+      },
+      "device-picker": {
+        "clear": "נקה",
+        "toggle": "בורר מצבים",
+        "show_devices": "הצג התקנים",
+        "device": "מכשיר",
+        "no_area": "אין אזור"
+      },
+      "area-picker": {
+        "clear": "נקה",
+        "show_areas": "הצג אזורים",
+        "area": "אזור",
+        "add_new": "הוסף אזור חדש...",
+        "add_dialog": {
+          "title": "הוסף אזור חדש",
+          "text": "הזן את שם האזור החדש.",
+          "name": "שם",
+          "add": "הוסף",
+          "failed_create_area": "יצירת אזור נכשלה."
+        }
+      },
+      "picture-upload": {
+        "label": "תמונה",
+        "unsupported_format": "פורמט לא נתמך, בחר תמונת JPEG, PNG או GIF."
+      },
+      "date-range-picker": {
+        "start_date": "תאריך התחלה",
+        "end_date": "תאריך סיום",
+        "select": "בחר"
+      },
+      "relative_time": {
+        "never": "אף פעם לא",
+        "just_now": "Just now",
+        "duration": {
+          "second": "{count} {count, plural,\n  one {שנייה}\n  other {שניות}\n}",
+          "minute": "{count} {count, plural,\n  one {דקה}\n  other {דקות}\n}",
+          "hour": "{count} {count, plural,\n  one {שעה}\n  other {שעות}\n}",
+          "day": "{count} {count, plural,\n  one {יום}\n  other {ימים}\n}",
+          "week": "{count} {count, plural,\n  one {שבוע}\n  other {שבועות}\n}"
+        },
+        "past_duration": {
+          "second": "לפני {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "לפני {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "לפני {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "לפני {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "לפני {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future_duration": {
+          "second": "In {count} {count, plural,\n  one {second}\n  other {seconds}\n}",
+          "minute": "In {count} {count, plural,\n  one {minute}\n  other {minutes}\n}",
+          "hour": "In {count} {count, plural,\n  one {hour}\n  other {hours}\n}",
+          "day": "In {count} {count, plural,\n  one {day}\n  other {days}\n}",
+          "week": "In {count} {count, plural,\n  one {week}\n  other {weeks}\n}"
+        },
+        "future": "בעוד {time}",
+        "past": "לפני {time}"
+      },
+      "history_charts": {
+        "loading_history": "טוען היסטוריה...",
+        "no_history_found": "לא נמצאה היסטוריה"
+      },
+      "service-picker": { "service": "שירות" },
+      "related-items": {
+        "no_related_found": "לא נמצאו פריטים קשורים.",
+        "integration": "אינטגרציה",
+        "device": "מכשיר",
+        "area": "אֵזוֹר",
+        "entity": "ישויות קשורות",
+        "group": "חלק מהקבוצות הבאות",
+        "scene": "חלק מהסצינות הבאות",
+        "script": "חלק מהסקריפטים הבאים",
+        "automation": "חלק מהאוטומציות הבאות"
+      },
+      "data-table": { "search": "חיפוש", "no-data": "אין נתונים" },
+      "media-browser": {
+        "pick": "Pick",
+        "play": "Play",
+        "play-media": "Play Media",
+        "pick-media": "Pick Media",
+        "no_items": "No items",
+        "choose_player": "Choose Player",
+        "media-player-browser": "Media Player Browser",
+        "web-browser": "Web Browser",
+        "media_player": "Media Player",
+        "audio_not_supported": "Your browser does not support the audio element.",
+        "video_not_supported": "Your browser does not support the video element.",
+        "media_not_supported": "The Browser Media Player does not support this type of media",
+        "media_browsing_error": "Media Browsing Error",
+        "learn_adding_local_media": "למד עוד אודות הוספת מדיה ב-{documentation}.",
+        "local_media_files": "Place your video, audio and image files in the media directory to be able to browse and play them in the browser or on supported media players.",
+        "documentation": "תיעוד",
+        "no_local_media_found": "No local media found",
+        "no_media_folder": "It looks like you have not yet created a media directory.",
+        "setup_local_help": "Check the {documentation} on how to setup local media.",
+        "class": {
+          "album": "Album",
+          "app": "App",
+          "artist": "Artist",
+          "channel": "Channel",
+          "composer": "Composer",
+          "contributing_artist": "Contributing Artist",
+          "directory": "Library",
+          "episode": "Episode",
+          "game": "Game",
+          "genre": "Genre",
+          "image": "Image",
+          "movie": "Movie",
+          "music": "Music",
+          "playlist": "Playlist",
+          "podcast": "Podcast",
+          "season": "Season",
+          "track": "Track",
+          "tv_show": "TV Show",
+          "url": "URL",
+          "video": "וידאו"
+        }
+      }
+    },
+    "dialogs": {
+      "quick-bar": {
+        "commands": {
+          "reload": {
+            "reload": "Reload {domain}",
+            "core": "Reload location & customizations",
+            "group": "Reload groups, group entities, and notify services",
+            "automation": "Reload automations",
+            "script": "Reload scripts",
+            "scene": "Reload scenes",
+            "person": "Reload people",
+            "zone": "Reload zones",
+            "input_boolean": "Reload input booleans",
+            "input_text": "Reload input texts",
+            "input_number": "Reload input numbers",
+            "input_datetime": "Reload input date times",
+            "input_select": "Reload input selects",
+            "template": "Reload template entities",
+            "universal": "Reload universal media player entities",
+            "rest": "Reload rest entities and notify services",
+            "command_line": "Reload command line entities",
+            "filter": "Reload filter entities",
+            "statistics": "Reload statistics entities",
+            "generic": "Reload generic IP camera entities",
+            "generic_thermostat": "Reload generic thermostat entities",
+            "homekit": "Reload HomeKit",
+            "min_max": "Reload min/max entities",
+            "history_stats": "Reload history stats entities",
+            "trend": "Reload trend entities",
+            "ping": "Reload ping binary sensor entities",
+            "filesize": "Reload file size entities",
+            "telegram": "Reload telegram notify services",
+            "smtp": "Reload SMTP notify services",
+            "mqtt": "Reload manually configured MQTT entities",
+            "rpi_gpio": "Reload Raspberry Pi GPIO entities"
+          },
+          "server_control": {
+            "perform_action": "{action} שרת",
+            "restart": "הפעל מחדש",
+            "stop": "עצור"
+          },
+          "navigation": {
+            "navigate_to": "Navigate to {panel}",
+            "navigate_to_config": "Navigate to {panel} configuration",
+            "logs": "Logs",
+            "automation": "Automations",
+            "script": "Scripts",
+            "integrations": "Integrations",
+            "areas": "Areas",
+            "scene": "Scenes",
+            "helpers": "Helpers",
+            "tags": "Tags",
+            "person": "People",
+            "devices": "Devices",
+            "entities": "Entities",
+            "lovelace": "Lovelace Dashboards",
+            "core": "General",
+            "zone": "Zones",
+            "users": "Users",
+            "info": "Info",
+            "customize": "Customizations",
+            "server_control": "Server Controls"
+          }
+        },
+        "filter_placeholder": "מסנן ישויות"
+      },
+      "voice_command": {
+        "did_not_hear": "Home Assistant לא שמע כלום",
+        "found": "מצאתי עבורך את הדברים הבאים:",
+        "error": "אופס, אירעה שגיאה",
+        "how_can_i_help": "איך אני יכול לעזור?",
+        "label": "הקלד שאלה ולחץ על 'Enter'",
+        "label_voice": "הקלד ולחץ על 'Enter' או הקש על המיקרופון כדי לדבר"
+      },
+      "generic": {
+        "cancel": "ביטול",
+        "ok": "אישור",
+        "default_confirmation_title": "האם אתה בטוח?",
+        "close": "סגור"
+      },
+      "image_cropper": { "crop": "חתוך" },
+      "more_info_control": {
+        "dismiss": "סגור",
+        "settings": "הגדרות ישות",
+        "edit": "ערוך יישות",
+        "details": "Details",
+        "history": "היסטוריה",
+        "last_changed": "שונה לאחרונה",
+        "last_updated": "Last updated",
+        "script": {
+          "last_action": "פעולה אחרונה",
+          "last_triggered": "הופעל לאחרונה"
+        },
+        "sun": { "elevation": "גובה", "rising": "זורחת", "setting": "שוקעת" },
+        "updater": { "title": "הוראות עדכון" },
+        "restored": {
+          "not_provided": "ישות זו אינה זמינה כרגע והיא בת לאינטגרציה או מכשיר שהוסרו, השתנו או לא מתפקדים.",
+          "remove_intro": "אם הישות כבר אינה בשימוש, תוכלו לנקות אותה על ידי הסרתה.",
+          "remove_action": "הסר יישות",
+          "confirm_remove_title": "להסיר את הישות?",
+          "confirm_remove_text": "האם אתה בטוח שברצונך להסיר ישות זו?"
+        },
+        "vacuum": {
+          "status": "סטטוס",
+          "commands": "פקודות שואב אבק:",
+          "fan_speed": "מהירות מאוורר",
+          "start": "התחל",
+          "pause": "השהיה",
+          "stop": "עצור",
+          "clean_spot": "נקה נקודה",
+          "locate": "איתור",
+          "return_home": "חזור הביתה",
+          "start_pause": "התחל/השהה"
+        },
+        "person": { "create_zone": "צור אזור מהמיקום הנוכחי" },
+        "cover": {
+          "open_tilt_cover": "Open cover tilt",
+          "close_tile_cover": "Close cover tilt",
+          "stop_cover": "Stop cover from moving"
+        },
+        "controls": "פקדים"
+      },
+      "entity_registry": {
+        "settings": "הגדרות",
+        "control": "בקרה",
+        "related": "קשורים",
+        "dismiss": "בטל",
+        "no_unique_id": "לישות זו אין מזהה ייחודי, ולכן לא ניתן לנהל את ההגדרות שלה מממשק המשתמש.",
+        "faq": "תיעוד",
+        "editor": {
+          "name": "שם חלופי",
+          "icon": "סמל חלופי",
+          "icon_error": "סמלים צריכים להיות בפורמט: prefix:iconname, למשל: mdi:home",
+          "entity_id": "מזהה ישות",
+          "unavailable": "ישות זו אינה זמינה כרגע.",
+          "enabled_label": "הפוך ישות לזמינה",
+          "enabled_cause": "מושבת עקב {סיבה}.",
+          "enabled_description": "ישויות מושבתות לא יתווספו ל Home Assistant.",
+          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
+          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "delete": "מחק",
+          "confirm_delete": "האם אתה בטוח שברצונך למחוק רשומה זו?",
+          "update": "עדכון",
+          "note": "הערה: יתכן וזה עדיין לא עובד עם כל האינטגרציות."
+        }
+      },
+      "helper_settings": {
+        "platform_not_loaded": "האינטגרציה {platform} אינה טעונה. אנא הוסף אותה לקונפיגורציה שלך על ידי הוספת 'default_config:' או '' {platform} : ''.",
+        "yaml_not_editable": "אין אפשרות לערוך את ההגדרות של ישות זו מממשק המשתמש. רק ישויות שהוגדרו מממשק המשתמש ניתנות להגדרה מתוך ממשק המשתמש.",
+        "required_error_msg": "שדה זה הוא חובה",
+        "generic": { "name": "שם", "icon": "סמל" },
+        "input_datetime": {
+          "date": "תאריך",
+          "time": "זמן",
+          "datetime": "תאריך ושעה",
+          "mode": "מה ברצונך להזין?"
+        },
+        "input_text": {
+          "min": "אורך מינימלי",
+          "max": "אורך מקסימאלי",
+          "mode": "מצב תצוגה",
+          "text": "טקסט",
+          "password": "סיסמה",
+          "pattern": "דפוס Regex לצורך אימות בצד הלקוח"
+        },
+        "input_number": {
+          "min": "ערך מינימלי",
+          "max": "ערך מקסימאלי",
+          "mode": "מצב תצוגה",
+          "box": "שדה קלט",
+          "slider": "סליידר",
+          "step": "גודל צעד",
+          "unit_of_measurement": "יחידת מידה"
+        },
+        "input_select": {
+          "options": "אפשרויות",
+          "add_option": "הוסף אפשרות",
+          "no_options": "אין עדיין אפשרויות.",
+          "add": "הוסף"
+        },
+        "counter": {
+          "minimum": "Minimum value",
+          "maximum": "Maximum value",
+          "initial": "Initial value",
+          "restore": "Restore the last known value when Home Assistant starts",
+          "step": "Step size"
+        },
+        "timer": { "duration": "Duration" }
+      },
+      "options_flow": {
+        "form": { "header": "אפשרויות" },
+        "success": { "description": "האפשרויות נשמרו בהצלחה." }
+      },
+      "config_entry_system_options": {
+        "title": "אפשרויות מערכת",
+        "enable_new_entities_label": "הפוך ישויות חדשות שנוספו לזמינות.",
+        "enable_new_entities_description": "אם הן מושבתות, ישויות שהתגלו לאחרונה עבור {integration} לא יתווספו אוטומטית ל Home Assistant.",
+        "update": "עדכון"
+      },
+      "zha_device_info": {
+        "manuf": "לפי {manufacturer}",
+        "no_area": "ללא אזור",
+        "device_signature": "חתימת התקן Zigbee",
+        "buttons": {
+          "add": "הוסף מכשירים",
+          "remove": "הסר מכשיר",
+          "clusters": "ניהול אשכולות",
+          "reconfigure": "הגדר מחדש את המכשיר",
+          "zigbee_information": "מידע על Zigbee"
+        },
+        "services": {
+          "reconfigure": "הגדר מחדש את המכשיר ה- ZHA (ריפוי מכשיר). השתמש בזה אם אתה נתקל בבעיות במכשיר. אם המכשיר המדובר הוא מכשיר המונע על ידי סוללה, אנא וודא שהוא דלוק ומקבל פקודות בעת השימוש בשירות זה.",
+          "updateDeviceName": "הגדר שם מותאם אישית עבור מכשיר זה במאגר ההתקנים.",
+          "remove": "הסר מכשיר מרשת ה-Zigbee",
+          "zigbee_information": "הצגת מידע Zigbee עבור ההתקן."
+        },
+        "confirmations": { "remove": "האם אתה בטוח שברצונך למחוק מכשיר זה?" },
+        "quirk": "מוזרות",
+        "last_seen": "נראה לאחרונה",
+        "power_source": "מקור כוח",
+        "unknown": "לא ידוע",
+        "zha_device_card": {
+          "device_name_placeholder": "שנה שם התקן",
+          "area_picker_label": "אזור",
+          "update_name_button": "עדכן שם"
+        }
+      },
+      "domain_toggler": {
+        "title": "החלף דומיינים",
+        "reset_entities": "Reset Entities"
+      },
+      "mqtt_device_debug_info": {
+        "title": "{device} פרטי איתור באגים",
+        "deserialize": "נסה לנתח הודעות MQTT כ- JSON",
+        "entities": "ישויות",
+        "no_entities": "אין ישויות",
+        "no_triggers": "אין טריגרים",
+        "payload_display": "הצג Payload",
+        "recent_messages": "{n} ההודעות שהתקבלו לאחרונה",
+        "show_as_yaml": "הצג כ־YAML",
+        "triggers": "טריגרים"
+      }
+    },
+    "duration": {
+      "second": "שניה שניות",
+      "minute": "{count} {count, plural,\n  one {דקה}\n  other {דקות}\n}",
+      "hour": "{count} {count, plural,\n  one {שעה}\n  other {שעות}\n}",
+      "day": "יום ימים",
+      "week": "שבוע שבועות"
+    },
+    "login-form": {
+      "password": "סיסמה",
+      "remember": "זכור",
+      "log_in": "התחבר"
+    },
+    "notification_drawer": {
+      "click_to_configure": "לחץ על הלחצן כדי להגדיר {entity}",
+      "empty": "אין התראות",
+      "title": "התראות",
+      "close": "סגור",
+      "dismiss_all": "Dismiss all"
+    },
+    "notification_toast": {
+      "service_call_failed": "נכשלה הקריאה לשירות {service} .",
+      "connection_lost": "החיבור אבד. מתחבר מחדש...",
+      "started": "Home Assistant עלה!",
+      "starting": "Home Assistant בעלייה, ייתכן שלא הכל יהיה זמין עד שהעליה תסתיים",
+      "triggered": "הופעל {שם}",
+      "dismiss": "Dismiss"
+    },
+    "sidebar": {
+      "external_app_configuration": "הגדרות היישום",
+      "sidebar_toggle": "שנה מצב סרגל צידי",
+      "done": "Done"
+    },
+    "panel": {
+      "calendar": { "my_calendars": "לוחות השנה שלי", "today": "היום" },
+      "lovelace": {
+        "cards": {
+          "confirm_delete": "האם אתה בטוח שברצונך למחוק את הכרטיס הזה?",
+          "empty_state": {
+            "title": "ברוך הבא הביתה",
+            "no_devices": "דף זה מאפשר לך לשלוט במכשירים שלך, אך נראה שעדיין לא הוגדרו מכשירים. עבור אל דף האינטגרציות כדי להתחיל.",
+            "go_to_integrations_page": "עבור אל דף האינטגרציות."
+          },
+          "entities": { "never_triggered": "מעולם לא הופעל" },
+          "shopping-list": {
+            "checked_items": "פריטים מסומנים",
+            "clear_items": "נקה פריטים מסומנים",
+            "add_item": "הוסף פריט"
+          },
+          "picture-elements": {
+            "hold": "החזק:",
+            "tap": "הקש:",
+            "navigate_to": "נווט אל {location}",
+            "url": "פתח חלון ל- {url_path}",
+            "toggle": "החלף מצב {name}",
+            "call_service": "קריאה לשירות {name}",
+            "more_info": "הצג מידע נוסף: {name}"
+          },
+          "safe-mode": {
+            "header": "מצב בטוח מופעל",
+            "description": "Home Assistant נתקל בבעיות בעת טעינת התצורה שלך וכעת הוא פועל במצב בטוח. עיין ביומן השגיאות כדי לראות מה השתבש."
+          },
+          "starting": {
+            "description": "Home Assistant בעלייה. אנא המתן...",
+            "header": "Home Assistant בעלייה..."
+          }
+        },
+        "unused_entities": {
+          "title": "ישויות שאינן בשימוש",
+          "available_entities": "אלה הן הישויות הזמינות, אך עדיין אינן בממשק המשתמש של Lovelace.",
+          "select_to_add": "בחר את הישויות שברצונך להוסיף לכרטיס ולחץ על כפתור הוסף כרטיס.",
+          "entity": "ישות",
+          "entity_id": "מזהה ישות",
+          "domain": "תחום",
+          "last_changed": "שונה לאחרונה",
+          "search": "חיפוש ישויות",
+          "no_data": "לא נמצאו ישויות שאינן בשימוש"
+        },
+        "add_entities": {
+          "yaml_unsupported": "אינך יכול להשתמש בפונקציה זו כשמשתמשים בממשק המשתמש של Lovelace במצב YAML.",
+          "generated_unsupported": "אתה יכול להשתמש בפונקציה זו רק לאחר שהשתלטת על ממשק המשתמש של Lovelace.",
+          "saving_failed": "שמירת תצורת ממשק המשתמש של Lovelace נכשלה."
+        },
+        "views": {
+          "confirm_delete": "האם אתה בטוח שברצונך למחוק תצוגה זו?",
+          "confirm_delete_text": "האם את/ה בטוח שברצונך למחוק את התצוגה \"{name}\"?",
+          "confirm_delete_existing_cards": "מחיקת תצוגה זו תסיר גם את הכרטיסים",
+          "confirm_delete_existing_cards_text": "האם אתה בטוח שברצונך למחוק את התצוגה '' {name} '' שלך? התצוגה כוללת {number} כרטיסים שיימחקו. לא ניתן לבטל פעולה זו."
+        },
+        "menu": {
+          "configure_ui": "הגדר UI",
+          "help": "עזרה",
+          "start_conversation": "Start conversation",
+          "reload_resources": "רענן משאבים",
+          "exit_edit_mode": "צא ממצב עריכה של ממשק המשתמש",
+          "close": "סגור",
+          "refresh": "רענן"
+        },
+        "reload_resources": {
+          "refresh_header": "האם אתה רוצה לרענן?",
+          "refresh_body": "אתה צריך לרענן כדי להשלים את הטעינה מחדש, האם אתה רוצה לרענן עכשיו?"
+        },
+        "editor": {
+          "header": "ערוך UI",
+          "menu": {
+            "open": "פתח את תפריט Lovelace",
+            "raw_editor": "עורך הקונפיגורציה"
+          },
+          "common": {
+            "edit": "Edit",
+            "clear": "Clear",
+            "add": "Add",
+            "none": "None"
+          },
+          "raw_editor": {
+            "header": "עריכת קונפיגורציה",
+            "save": "שמור",
+            "unsaved_changes": "שינויים שלא נשמרו",
+            "saved": "נשמר",
+            "confirm_remove_config_title": "האם אתה בטוח שברצונך להסיר את תצורת ממשק המשתמש של Lovelace? אנו נייצר אוטומטית את תצוגות ממשק המשתמש שלך ב- Lovelace עם האזורים והמכשירים שלך.",
+            "confirm_remove_config_text": "אנו ניצור אוטומטית את תצוגות ממשק המשתמש של Lovelace עם האזורים והמכשירים שלך אם תסיר את קונפיגורציית ממשק המשתמש שלך ב- Lovelace.",
+            "confirm_unsaved_changes": "יש לך שינויים שלא נשמרו, אתה בטוח שברצונך לצאת?",
+            "confirm_unsaved_comments": "התצורה שלך מכילה הערות, אלה לא יישמרו. האם אתה רוצה להמשיך?",
+            "error_parse_yaml": "לא ניתן לנתח את ה-YAML: {error}",
+            "error_invalid_config": "התצורה שלך אינה תקפה: {error}",
+            "error_save_yaml": "אין אפשרות לשמור את ה-YAML: {error}",
+            "error_remove": "לא ניתן להסיר את הקונפיגורציה: {error}",
+            "resources_moved": "אין להוסיף עוד משאבים לתצורת Lovelace אך ניתן להוסיף אותם בלוח התצורה של Lovelace."
+          },
+          "edit_lovelace": {
+            "header": "כותרת ממשק ה- Lovelace שלך",
+            "explanation": "כותרת זו מוצגת מעל לכל התצוגות שלך ב- Lovelace.",
+            "edit_title": "ערוך כותרת",
+            "title": "כותרת"
+          },
+          "edit_view": {
+            "header": "הצג הגדרות",
+            "header_name": "{name} הצג את תצורת",
+            "add": "הוסף תצוגה",
+            "edit": "ערוך תצוגה",
+            "delete": "מחק תצוגה",
+            "move_left": "הזז את התצוגה שמאלה",
+            "move_right": "הזז את התצוגה ימינה",
+            "tab_settings": "הגדרות",
+            "tab_badges": "תגים",
+            "tab_visibility": "ניראות",
+            "visibility": {
+              "select_users": "בחר אילו משתמשים צריכים לראות תצוגה זו בתפריט"
+            }
+          },
+          "edit_badges": {
+            "panel_mode": "תגים אלה לא יוצגו מאחר שתצוגה זו נמצאת במצב \"לוח\"."
+          },
+          "edit_card": {
+            "header": "הגדרות כרטיסייה",
+            "typed_header": "תצורת כרטיס {type}",
+            "pick_card": "בחר את הכרטיסייה שברצונך להוסיף.",
+            "pick_card_view_title": "איזה כרטיס ברצונך להוסיף לתצוגת {name}?",
+            "toggle_editor": "עורך בורר מצבים",
+            "unsaved_changes": "יש לך שינויים שלא נשמרו",
+            "confirm_cancel": "האם אתה בטוח שברצונך לבטל?",
+            "show_visual_editor": "הצג עורך ויזואלי",
+            "show_code_editor": "הצג עורך קוד",
+            "add": "הוסף כרטיסייה",
+            "edit": "ערוך",
+            "clear": "Clear",
+            "delete": "מחק",
+            "duplicate": "שכפל כרטיס",
+            "move": "הזז",
+            "move_before": "העבר כרטיס לפני",
+            "move_after": "העבר כרטיס אחרי",
+            "options": "אפשרויות נוספות",
+            "search_cards": "Search cards"
+          },
+          "move_card": { "header": "בחר תצוגה שאליה להעביר את הכרטיס" },
+          "select_view": {
+            "header": "בחר תצוגה",
+            "dashboard_label": "לוח בקרה"
+          },
+          "suggest_card": {
+            "header": "יצרנו הצעה עבורך",
+            "create_own": "בחר כרטיס אחר",
+            "add": "הוסף לממשק המשתמש של Lovelace"
+          },
+          "save_config": {
+            "header": "קח שליטה על Lovelace ממשק המשתמש שלך",
+            "para": "כברירת מחדל Home Assistant יתחזק את ממשק המשתמש שלך , יעדכן אותו כאשר קומפוננטות או ישויות חדשות יהפכו לזמינות. אם תקח שליטה אנו לא נוכל לבצע שינויים בצורה אוטומטית בשבילך.",
+            "para_sure": "האם אתה בטוח שאתה רוצה לקחת שליטה על ממשק המשתמש?",
+            "yaml_mode": "אתה משתמש במצב YAML עבור לוח מחוונים זה ולכן אין באפשרותך לשנות את קונפיגורצית Lovelace מממשק המשתמש. אם ברצונך לנהל לוח מחוונים זה מממשק המשתמש, הסר 'mode: yaml' מתצורת Loverlace ב 'configuration.yaml.'.",
+            "yaml_control": "כדי לקבל שליטה במצב YAML, צור קובץ YAML עם השם שציינת ב-config עבור לוח מחוונים זה, או ברירת המחדל  'ui-lovelace.yaml'.",
+            "yaml_config": "כדי לעזור לך להתחיל הנה התצורה הנוכחית של לוח מחוונים זה:",
+            "empty_config": "התחל עם לוח בקרה ריק",
+            "cancel": "לא משנה",
+            "close": "סגור",
+            "save": "קח שליטה"
+          },
+          "migrate": {
+            "header": "ההגדרה לא מתאימה",
+            "para_no_id": "האלמנט הנוכחי לא מכיל מזהה יחודיי. בבקשה הוסף מזהה יחודי לאלמט זה בקובץ 'ui-lovelace.yaml'.",
+            "para_migrate": "Home Assistant יכול להוסיף מזהה יחודי לכל הכרטיסיות והתצוגות שלך בצורה אוטומטית בכך שתלחץ על לחצן ״הגר הגדרה״.",
+            "migrate": "הגר הגדרה"
+          },
+          "action-editor": {
+            "navigation_path": "Navigation Path",
+            "url_path": "URL Path",
+            "editor_service_data": "Service data can only be entered in the code editor",
+            "actions": {
+              "default_action": "פעולת ברירת מחדל",
+              "call-service": "הפעל שירות",
+              "more-info": "מידע נוסף",
+              "toggle": "החלף מצב",
+              "navigate": "נווט",
+              "url": "Url",
+              "none": "אין פעולה"
+            }
+          },
+          "card": {
+            "alarm-panel": {
+              "name": "לוח אזעקה",
+              "available_states": "מצבים זמינים",
+              "description": "הכרטיס של לוח האזעקה מאפשר לך לדרוך ולנטרל את שילובי לוח הבקרה של האזעקה."
+            },
+            "calendar": {
+              "name": "לוח שנה",
+              "description": "The Calendar card displays a calendar including day, week and list views",
+              "inital_view": "תצוגה ראשונית",
+              "calendar_entities": "ישויות לוח שנה",
+              "views": {
+                "dayGridMonth": "חודש",
+                "dayGridDay": "יום",
+                "listWeek": "רשימה"
+              }
+            },
+            "conditional": {
+              "name": "מותנה",
+              "description": "הכרטיס ה־Conditional מציג כרטיס אחר המבוסס על מצבי ישוית (States).",
+              "conditions": "תנאים",
+              "card": "כרטיס",
+              "state_equal": "כאשר המצב (State)שווה ל",
+              "state_not_equal": "כאשר המצב (State) אינו שווה ל",
+              "current_state": "נוכחי",
+              "condition_explanation": "הכרטיס יוצג כאשר מתקיימים *כל* התנאים להלן.",
+              "change_type": "שנה סוג"
+            },
+            "config": { "required": "חובה", "optional": "אופציונאלי" },
+            "entities": {
+              "name": "ישויות",
+              "show_header_toggle": "הצג שינוי מצב כותרת?",
+              "toggle": "החלף מצב ישויות.",
+              "description": "כרטיס היישויות הוא סוג הכרטיס הנפוץ ביותר. הוא מקבץ ישויות יחד לרשימות.",
+              "special_row": "special row",
+              "edit_special_row": "View the details of this row by clicking the edit button",
+              "entity_row_editor": "עורך שורת ישות",
+              "secondary_info_values": {
+                "none": "אין מידע משני",
+                "entity-id": "מזהה ישות",
+                "last-changed": "שונה לאחרונה",
+                "last-triggered": "הופעל לאחרונה",
+                "position": "מיקום",
+                "tilt-position": "הטה מיקום",
+                "brightness": "בהירות",
+                "last-updated": "Last Updated"
+              },
+              "entity_row": {
+                "divider": "Divider",
+                "call-service": "Call Service",
+                "section": "Section",
+                "weblink": "Web Link",
+                "attribute": "שדה",
+                "buttons": "כפתורים",
+                "conditional": "מותנה",
+                "cast": "Cast",
+                "button": "כפתור"
+              }
+            },
+            "entity": {
+              "name": "ישות",
+              "description": "כרטיס היישות מעניק לך סקירה מהירה של מצב היישות שלך."
+            },
+            "button": {
+              "name": "כפתור",
+              "description": "כרטיס ה־Button מאפשר להוסיף כפתורים לביצוע משימות.",
+              "default_action_help": "פעולת ברירת המחדל תלויה ביכולות הישות, היא תופעל או שמידע נוסף יוצג."
+            },
+            "entity-filter": {
+              "name": "Entity Filter",
+              "description": "כרטיס ה־Entity Filter מאפשר לך להגדיר רשימה של ישויות שאתה רוצה לעקוב אחריהן רק במצב מסוים."
+            },
+            "gauge": {
+              "name": "Gauge",
+              "severity": {
+                "define": "הגדר חומרה?",
+                "green": "ירוק",
+                "red": "אדום",
+                "yellow": "צהוב"
+              },
+              "description": "כרטיס ה Gauge הוא כרטיס בסיסי המאפשר לראות חזותית נתוני חיישן."
+            },
+            "glance": {
+              "name": "Glance",
+              "columns": "עמודות",
+              "description": "כרטיס ה־Glance שימושי עבור קיבוץ מספר חיישנים לסקירה קומפקטית."
+            },
+            "grid": {
+              "name": "רשת",
+              "description": "The Grid card allows you to show multiple cards in a grid."
+            },
+            "logbook": {
+              "name": "Logbook",
+              "description": "The Logbook card shows a list of events for entities."
+            },
+            "history-graph": {
+              "name": "גרף ההיסטוריה",
+              "description": "הכרטיס History Graph מאפשר לך להציג גרף עבור כל אחת מהישויות המפורטות."
+            },
+            "horizontal-stack": {
+              "name": "עימוד אופקי",
+              "description": "כרטיס הערימה האופקית מאפשר לכם לערום יחד מספר כרטיסים, כך שהם תמיד יושבים אחד ליד השני במרחב של טור אחד."
+            },
+            "humidifier": {
+              "name": "מכשיר אדים",
+              "description": "כרטיס מכשיר אדים מעניק שליטה על ישות מכשיר האדים שלך ומאפשר לך לשנות את הלחות והמצב של הישות."
+            },
+            "iframe": {
+              "name": "iFrame",
+              "description": "כרטיס דף האינטרנט מאפשר לך להטביע את דף האינטרנט המועדף עליך ישירות לתוך Home Assistant."
+            },
+            "light": {
+              "name": "תאורה",
+              "description": "כרטיס האור מאפשר לך לשנות את בהירות האור."
+            },
+            "generic": {
+              "aspect_ratio": "יחס תצוגה",
+              "attribute": "שדה",
+              "camera_image": "ישות מצלמה",
+              "camera_view": "תצוגת מצלמה",
+              "double_tap_action": "פעולת הקשה כפולה",
+              "entities": "ישויות",
+              "entity": "ישות",
+              "hold_action": "פעולת החזקה",
+              "hours_to_show": "שעות להצגה",
+              "icon": "סמל",
+              "icon_height": "גובה אייקון",
+              "image": "נתיב תמונה",
+              "maximum": "מקסימום",
+              "manual": "ידני",
+              "manual_description": "צריך להוסיף כרטיס מותאם אישית או פשוט רוצה לכתוב באופן ידני את ה-yaml?",
+              "minimum": "מינימום",
+              "name": "שם",
+              "refresh_interval": "מרווח זמן לרענון",
+              "show_icon": "הצג סמל?",
+              "show_name": "להציג שם?",
+              "show_state": "הצג מצב?",
+              "tap_action": "פעולת הקשה",
+              "title": "כותרת",
+              "theme": "ערכת נושא",
+              "no_theme": "אין ערכת נושא",
+              "unit": "יחידה",
+              "url": "Url",
+              "state": "מצב",
+              "secondary_info_attribute": "שדה מידע משני",
+              "search": "חיפוש",
+              "state_color": "Color icons based on state?"
+            },
+            "map": {
+              "name": "מפה",
+              "geo_location_sources": "מקורות מיקום גאוגרפי",
+              "dark_mode": "מצב כהה?",
+              "default_zoom": "זום התחלתי",
+              "hours_to_show": "שעות להצגה",
+              "source": "מקור",
+              "description": "כרטיס המפה המאפשר להציג ישויות במפה."
+            },
+            "markdown": {
+              "name": "Markdown",
+              "content": "תוכן",
+              "description": "כרטיס ה- Markdown משמש להצגת ה- Markdown."
+            },
+            "media-control": {
+              "name": "שליטה במדיה",
+              "description": "כרטיס בקרת המדיה משמש להצגת ישויות נגני מדיה בממשק עם פקדים קלים לשימוש."
+            },
+            "picture": {
+              "name": "תמונה",
+              "description": "כרטיס התמונה מאפשר לך להגדיר תמונה שתשמש לניווט ליעדים שונים בממשק שלך או לקריאה לשירות."
+            },
+            "picture-elements": {
+              "name": "Picture Elements",
+              "description": "כרטיס Picture Elements הוא אחד מסוגי הכרטיסים המגוונים ביותר. הכרטיסים מאפשרים למקם סמלים או טקסט ואפילו שירותים! על תמונה המבוססת על קואורדינטות."
+            },
+            "picture-entity": {
+              "name": "Picture Entity",
+              "description": "כרטיס Picture Entity מציג יישות בצורה של תמונה. במקום תמונות מכתובת URL, זה יכול גם להציג את התמונה של ישויות מצלמה."
+            },
+            "picture-glance": {
+              "name": "Picture Glance",
+              "description": "כרטיס ה- Picture Glance מציג תמונה ומצבי ישות תואמים כסמל. הישויות בצד שמאל מאפשרות לבצע פעולות, אחרות מציגות דיאלוג מידע נוסף."
+            },
+            "plant-status": {
+              "name": "מצב הצמח",
+              "description": "כרטיס סטטוס הצמח מיועד לכל הבוטנאים המקסימים שיש שם."
+            },
+            "sensor": {
+              "name": "חיישן",
+              "show_more_detail": "Show more detail",
+              "graph_type": "סוג גרף",
+              "description": "כרטיס החיישן מעניק לך סקירה מהירה של מצב החיישנים שלך באמצעות גרף אופציונלי להמחשת שינוי לאורך זמן.",
+              "graph_detail": "פרטי הגרף"
+            },
+            "shopping-list": {
+              "name": "רשימת קניות",
+              "description": "כרטיס רשימת הקניות מאפשר לך להוסיף, לערוך, לבצע הוצאה ולנקות פריטים מרשימת הקניות שלך.",
+              "integration_not_loaded": "כרטיס זה דורש את הגדרת האינטגרציה 'shopping_list'."
+            },
+            "thermostat": {
+              "name": "וסת חום",
+              "description": "כרטיס התרמוסטט נותן שליטה על ישות האקלים שלך. מאפשר לך לשנות את הטמפרטורה ואת המצב של הישות."
+            },
+            "vertical-stack": {
+              "name": "עימוד אנכי",
+              "description": "כרטיס המחסנית האנכית מאפשר לך לקבץ כרטיסים מרובים כך שהם תמיד יושבים באותה עמודה."
+            },
+            "weather-forecast": {
+              "name": "תחזית מזג האוויר",
+              "description": "כרטיס תחזית מזג האוויר מציג את מזג האוויר. מאוד שימושי לכלול בממשקים שאנשים מציגים על הקיר.",
+              "show_forecast": "הצג תחזית"
+            }
+          },
+          "view": {
+            "panel_mode": {
+              "title": "מצב לוח?",
+              "description": "מציג את הכרטיס הראשון ברוחב המלא; כרטיסים אחרים בתצוגה זו לא יוצגו.",
+              "warning_multiple_cards": "תצוגה זו מכילה יותר מכרטיס אחד, אך בתצוגת פאנל ניתן להציג כרטיס אחד בלבד."
+            }
+          },
+          "cardpicker": {
+            "no_description": "אין תיאור זמין",
+            "custom_card": "מותאם אישית",
+            "domain": "Domain",
+            "entity": "Entity",
+            "by_entity": "By Entity",
+            "by_card": "By Card"
+          },
+          "header-footer": {
+            "header": "Header",
+            "footer": "Footer",
+            "choose_header_footer": "Choose a {type}",
+            "types": {
+              "graph": { "name": "Graph" },
+              "picture": { "name": "Picture" },
+              "buttons": { "name": "Buttons" }
+            }
+          },
+          "sub-element-editor": {
+            "types": {
+              "header": "Header Editor",
+              "footer": "Footer Editor",
+              "row": "Entity Row Editor"
+            }
+          }
+        },
+        "warning": {
+          "attribute_not_found": "השדה {attribute} אינו זמין ב־{entity}",
+          "entity_not_found": "הישות אינה זמינה: {entity}",
+          "entity_non_numeric": "הישות אינה מספרית: {entity}",
+          "entity_unavailable": "כרגע {entity} אינו זמין",
+          "starting": "Home Assistant בעלייה, ייתכן שלא הכל יהיה זמין"
+        },
+        "changed_toast": {
+          "message": "תצורת Lovelace עודכנה, האם ברצונך לרענן?",
+          "refresh": "רענן"
+        },
+        "reload_lovelace": "טען מחדש את Lovelace"
+      },
+      "shopping_list": { "start_conversation": "Start conversation" },
+      "custom": {
+        "external_panel": {
+          "question_trust": "האם אתה סומך על הפאנל החיצוני {name} ב {link} ?",
+          "complete_access": "תהיה לו גישה לכל הנתונים ב- Assistant Home.",
+          "hide_message": "בדוק במסמכים את הרכיב panel_custom כדי להסתיר הודעה זו"
+        }
+      }
+    }
+  }
+}

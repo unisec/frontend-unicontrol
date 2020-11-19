@@ -1,0 +1,77 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Gertaerak",
+            "description": "Fire an event on the event bus.",
+            "documentation": "Events Documentation.",
+            "type": "Event Type",
+            "data": "Event Data (YAML, optional)",
+            "fire_event": "Fire Event",
+            "event_fired": "Event {name} fired",
+            "available_events": "Available Events",
+            "count_listeners": " ({count}  listeners)",
+            "listen_to_events": "Listen to events",
+            "listening_to": "Listening to",
+            "subscribe_to": "Event to subscribe to",
+            "start_listening": "Start listening",
+            "stop_listening": "Stop listening",
+            "alert_event_type": "Event type is a mandatory field",
+            "notification_event_fired": "Event {type} successful fired!"
+          },
+          "services": {
+            "title": "Zerbitzuak",
+            "description": "The service dev tool allows you to call any available service in Home Assistant.",
+            "data": "Service Data (YAML, optional)",
+            "call_service": "Call Service",
+            "select_service": "Select a service to see the description",
+            "no_description": "No description is available",
+            "no_parameters": "This service takes no parameters.",
+            "column_parameter": "Parameter",
+            "column_description": "Description",
+            "column_example": "Example",
+            "fill_example_data": "Fill Example Data",
+            "alert_parsing_yaml": "Error parsing YAML: {data}"
+          },
+          "states": {
+            "title": "Egoerak",
+            "description1": "Set the representation of a device within Home Assistant.",
+            "description2": "This will not communicate with the actual device.",
+            "entity": "Entity",
+            "state": "State",
+            "attributes": "Attributes",
+            "state_attributes": "State attributes (YAML, optional)",
+            "set_state": "Set State",
+            "current_entities": "Current entities",
+            "filter_entities": "Filter entities",
+            "filter_states": "Filter states",
+            "filter_attributes": "Filter attributes",
+            "no_entities": "No entities",
+            "more_info": "More Info",
+            "alert_entity_field": "Entity is a mandatory field",
+            "last_updated": "Last updated",
+            "last_changed": "Last changed"
+          },
+          "templates": {
+            "title": "Txantiloiak",
+            "description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+            "editor": "Template editor",
+            "reset": "Reset to demo template",
+            "result_type": "Result type",
+            "jinja_documentation": "Jinja2 template documentation",
+            "template_extensions": "Home Assistant template extensions",
+            "unknown_error_template": "Unknown error rendering template",
+            "time": "This template updates at the start of each minute.",
+            "all_listeners": "This template listens for all state changed events.",
+            "no_listeners": "This template does not listen for any events and will not update automatically.",
+            "listeners": "This template listens for the following state changed events:",
+            "entity": "Entity",
+            "domain": "Domain"
+          }
+        }
+      }
+    }
+  }
+}

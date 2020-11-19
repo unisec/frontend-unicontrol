@@ -1,0 +1,44 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "あなたはあなたの家を目覚めさせ、あなたのプライバシーを取り戻し、ティンカーの世界的なコミュニティに参加する準備ができていますか?",
+        "user": {
+          "intro": "ユーザー アカウントを作成します。",
+          "required_field": "必須",
+          "data": {
+            "name": "名前",
+            "username": "ユーザー名",
+            "password": "パスワード",
+            "password_confirm": "パスワードの確認"
+          },
+          "create_account": "アカウントの作成",
+          "error": {
+            "required_fields": "すべての必須フィールドに入力してください",
+            "password_not_match": "パスワードが一致しません"
+          }
+        },
+        "core-config": {
+          "intro": "こんにちは {name}, ホーム アシスタントへようこそ.あなたの家に名前を付けますか?",
+          "intro_location": "どこに住んでいるか知りたいです。 この情報は、他の情報の表示および太陽の位置に関する自動化の設定に役立ちます。 これらの情報がインターネットで外部と共有されることがありません。",
+          "intro_location_detect": "外部サービスに対してワンタイムリクエストを行うことで、この情報を入力することができます。",
+          "location_name": "ホーム アシスタントの名前",
+          "location_name_default": "自宅",
+          "button_detect": "検出",
+          "finish": "次"
+        },
+        "integration": {
+          "intro": "デバイスとサービスは、統合としてHome Assistantに表示されます。今すぐ設定することも、後で設定画面から設定することもできます。",
+          "more_integrations": "もっと見る",
+          "finish": "完了"
+        },
+        "restore": {
+          "description": "以前のスナップショットから復元することもできます。",
+          "in_progress": "復元中",
+          "show_log": "ログ全体を表示",
+          "hide_log": "ログ全体を非表示"
+        }
+      }
+    }
+  }
+}

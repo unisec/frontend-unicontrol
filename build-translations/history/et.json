@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "Täna",
+          "yesterday": "Eile",
+          "this_week": "See nädal",
+          "last_week": "Eelmine nädal"
+        },
+        "period": "Periood",
+        "showing_entries": "Näitan kuupäeva"
+      }
+    }
+  }
+}

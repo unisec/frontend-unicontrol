@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Šodien",
+          "yesterday": "Vakardien",
+          "this_week": "Šonedēļ",
+          "last_week": "Iepriekšējā nedēļā"
+        },
+        "entries_not_found": "Neviens žurnāla ieraksts nav atrasts.",
+        "period": "Periods",
+        "showing_entries": "Ieraksti par"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Hoje",
+          "yesterday": "Ontem",
+          "this_week": "Esta semana",
+          "last_week": "Semana passada"
+        },
+        "entries_not_found": "Sem registos no diário de bordo",
+        "period": "Período",
+        "showing_entries": "Mostrar valores para"
+      }
+    }
+  }
+}

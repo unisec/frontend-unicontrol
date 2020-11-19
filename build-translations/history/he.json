@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "panel": {
+      "history": {
+        "ranges": {
+          "today": "היום",
+          "yesterday": "אתמול",
+          "this_week": "השבוע",
+          "last_week": "שבוע שעבר"
+        },
+        "period": "תקופה",
+        "showing_entries": "מציג רשומות עבור"
+      }
+    }
+  }
+}

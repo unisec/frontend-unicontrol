@@ -1,0 +1,15 @@
+{
+  "ui": {
+    "panel": {
+      "logbook": {
+        "ranges": {
+          "today": "Today",
+          "yesterday": "Yesterday",
+          "this_week": "This week",
+          "last_week": "Last week"
+        },
+        "entries_not_found": "Neniu taglibroj eniroj trovis."
+      }
+    }
+  }
+}
